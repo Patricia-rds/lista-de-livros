@@ -1,8 +1,9 @@
 export const autores = [
   {
     nome: "Agatha Christie",
+    bandeira: "assets/images/bandeiras/gb.png",
     imagens: [
-      { url:"https://m.media-amazon.com/images/I/81Zp6MFxIDL.    _SY466_.jpg",
+      { url:"https://m.media-amazon.com/images/I/81Zp6MFxIDL._SY466_.jpg",
         nome: "Assassinato no Expresso do Oriente",
         sinopse: "Em meio a uma viagem, Hercule Poirot é surpreendido por um telegrama solicitando seu retorno a Londres. Logo o famoso detetive belga embarca no Expresso do Oriente, que está inesperadamente cheio para aquela época do ano. Pouco após a meia-noite, o excesso de neve nos trilhos obriga o trem a parar, e na manhã seguinte, o corpo de um dos passageiros é encontrado, golpeado por múltiplas facadas. Isolados e com um assassino entre eles, a única solução de Poirot é iniciar uma investigação, reunindo todas as pistas e os suspeitos para chegar à conclusão de quem é o criminoso ― antes que ele faça mais uma vítima." },
 
@@ -13,6 +14,7 @@ export const autores = [
   },
   {
     nome: "Alexandre Dumas",
+    bandeira: "assets/images/bandeiras/fr.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81LEwlpMx3L._SY425_.jpg",
         nome: "As aventuras de Robin Hood",
@@ -21,6 +23,7 @@ export const autores = [
   },
   {
     nome: "Alexandre Dumas Filho",
+    bandeira: "assets/images/bandeiras/fr.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/41EWkotM8yL._SY445_SX342_.jpg",
         nome: "A dama das Camélias",

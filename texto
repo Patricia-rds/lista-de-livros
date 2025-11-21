@@ -1,219 +1,211 @@
+import { autores } from './autores.js';
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Livros</title>
+function criarAccordion() {
+  const accordionContainer = document.getElementById("accordionFlushExample");
+  accordionContainer.innerHTML = ""; // Limpa o conteúdo antes de recriar
+  let totalLivrosGeral = 0;
 
-    <!-- Favicon -->
-     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  autores.forEach((autor, i) => {
+    const item = document.createElement("div");
+    item.classList.add("accordion-item");
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    const h2 = document.createElement("h2");
+    h2.classList.add("autores");
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/style/global.css">
-    <link rel="stylesheet" href="assets/style/style.css">
-</head>
-<body>
-    <main id="cabecalho">
-        <h1>Lista de Livros</h1>
-        <p id="livro-contagem" class="text-center mt-2 fs-5"></p>
-    </main>
+    const button = document.createElement("button");
+    button.classList.add("accordion-button", "collapsed");
+    button.type = "button";
+    button.setAttribute("data-bs-toggle", "collapse");
+    button.setAttribute("data-bs-target", `#flush-collapse${i + 1}`);
+    button.setAttribute("aria-expanded", "false");
+    button.setAttribute("aria-controls", `flush-collapse${i + 1}`);
+    button.textContent = autor.nome;
 
-    <div class="container my-4">
-        <div class="row align-items-center g-2">
-          <div class="col-md-8">
-            <input type="text" id="searchInput" class="form-control" placeholder="Buscar autor ou livro...">
-          </div>
-          <div class="col-md-4 text-end position-relative">
-            <div class="letra-dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button">
-                Filtrar autor
-              </button>
-              <div class="letras-menu dropdown-menu">
-                <!-- Letras serão inseridas aqui via JS -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    h2.appendChild(button);
 
-    <div class="accordion" id="accordionFlushExample">
-        <!-- O conteúdo dinâmico será inserido aqui -->
-    </div>
+    const divCollapse = document.createElement("div");
+    divCollapse.id = `flush-collapse${i + 1}`;
+    divCollapse.classList.add("accordion-collapse", "collapse");
+    divCollapse.setAttribute("data-bs-parent", "#accordionFlushExample");
 
-    <div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="bookModalLabel">Sinopse</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p id="modal-sinopse"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="assets/js/script.js"></script>
-</body>
-</html>
+    const divBody = document.createElement("div");
+    divBody.classList.add("accordion-body");
 
-main > h1 {
-    font-family: 'Gochi Hand', sans-serif;
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 1.5rem;
+    const divImages = document.createElement("div");
+    divImages.classList.add("image-gallery");
+
+    let colecoes = {};
+    let totalLivros = 0;
+
+    autor.imagens.forEach(imagem => {
+      if (imagem.colecao) {
+        if (!colecoes[imagem.colecao]) {
+          colecoes[imagem.colecao] = [];
+        }
+        colecoes[imagem.colecao].push(imagem);
+      } else {
+        const imgContainer = document.createElement("div");
+        imgContainer.classList.add("image-container");
+
+        const img = document.createElement("img");
+        img.src = imagem.url;
+        img.alt = "Livro sem coleção";
+        img.addEventListener("click", () => abrirModal(imagem.sinopse, imagem.nome));
+
+        const imgName = document.createElement("div");
+        imgName.classList.add("image-name");
+        imgName.textContent = imagem.nome;
+
+        imgContainer.appendChild(img);
+        imgContainer.appendChild(imgName);
+        divImages.appendChild(imgContainer);
+        totalLivros++;
+      }
+    });
+
+    for (let colecao in colecoes) {
+      const colecaoContainer = document.createElement("div");
+      colecaoContainer.classList.add("colecao");
+
+      const carrosselContainer = document.createElement("div");
+      carrosselContainer.classList.add("carrossel-container");
+
+      colecoes[colecao].forEach(imagem => {
+        const imgContainer = document.createElement("div");
+        imgContainer.classList.add("image-container");
+
+        const img = document.createElement("img");
+        img.src = imagem.url;
+        img.alt = colecao;
+        img.addEventListener("click", () => abrirModal(imagem.sinopse, imagem.nome));
+
+        const imgName = document.createElement("div");
+        imgName.classList.add("image-name");
+        imgName.textContent = imagem.nome;
+
+        imgContainer.appendChild(img);
+        imgContainer.appendChild(imgName);
+        carrosselContainer.appendChild(imgContainer);
+        totalLivros++;
+      });
+
+      colecaoContainer.appendChild(carrosselContainer);
+      divImages.appendChild(colecaoContainer);
+    }
+
+    if (totalLivros > 5) {
+      divImages.classList.add("carrossel-container");
+    }
+
+    divBody.appendChild(divImages);
+    divCollapse.appendChild(divBody);
+    item.appendChild(h2);
+    item.appendChild(divCollapse);
+    accordionContainer.appendChild(item);
+
+    totalLivrosGeral += totalLivros;
+  });
+
+  // Atualiza a contagem total no topo
+  document.getElementById("livro-contagem").textContent = `Total de livros na lista: ${totalLivrosGeral}`;
 }
 
-h2 {
-    font-family: 'Iansui', sans-serif;
-    text-align: center;
+function abrirModal(sinopse, nomeLivro) {
+  document.getElementById("modal-sinopse").textContent = sinopse;
+  document.getElementById("bookModalLabel").textContent = `Sinopse: ${nomeLivro}`;
+  const modal = new bootstrap.Modal(document.getElementById('bookModal'));
+  modal.show();
 }
 
-.accordion-body {
-    background-color: #0b0225;
+function adicionarCampoDeBusca() {
+  const searchInput = document.getElementById("searchInput");
+
+  searchInput.addEventListener("input", function () {
+    const termo = this.value.toLowerCase().trim();
+    const accordionItems = document.querySelectorAll("#accordionFlushExample .accordion-item");
+
+    accordionItems.forEach(item => {
+      const nomeAutor = item.querySelector("button.accordion-button").textContent.toLowerCase();
+      const nomesLivros = Array.from(item.querySelectorAll(".image-name")).map(el => el.textContent.toLowerCase());
+
+      const encontrouAutor = nomeAutor.includes(termo);
+      const encontrouLivro = nomesLivros.some(nome => nome.includes(termo));
+
+      if (termo === "" || encontrouAutor || encontrouLivro) {
+        item.style.display = "";
+      } else {
+        item.style.display = "none";
+      }
+    });
+  });
 }
 
-.image-gallery {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
+function adicionarFiltroPorLetra() {
+  const letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  const letraMenu = document.querySelector(".letras-menu");
+
+  letras.forEach(letra => {
+    const btn = document.createElement("button");
+    btn.textContent = letra;
+    btn.classList.add("dropdown-item");
+    btn.addEventListener("click", () => {
+      filtrarPorLetra(letra);
+    });
+    letraMenu.appendChild(btn);
+  });
 }
 
-.image-gallery img {
-  width: 150px;
-  height: 225px;
-  object-fit: cover;
-  border: 2px solid #ffffff50;
-  position: relative;
+function filtrarPorLetra(letra) {
+  const accordionItems = document.querySelectorAll("#accordionFlushExample .accordion-item");
+
+  accordionItems.forEach(item => {
+    const nomeAutor = item.querySelector("button.accordion-button").textContent.trim();
+    if (nomeAutor.toUpperCase().startsWith(letra)) {
+      item.style.display = "";
+    } else {
+      item.style.display = "none";
+    }
+  });
+
+  // Limpa o campo de busca
+  document.getElementById("searchInput").value = "";
 }
 
-.image-container {
-  position: relative;
-}
+// Atualize o onload
+window.onload = () => {
+  criarAccordion();
+  adicionarCampoDeBusca();
+  adicionarFiltroPorLetra();
+};
 
-.image-name {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para destacar o nome */
-  color: white;
-  text-align: center;
-  padding: 5px 0;
-  opacity: 0; /* Inicialmente invisível */
-  transition: opacity 0.3s ease; /* Suaviza a transição de visibilidade */
-}
+export const autores = [
+  {
+    nome: "Agatha Christie",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81Zp6MFxIDL.    _SY466_.jpg",
+        nome: "Assassinato no Expresso do Oriente",
+        sinopse: "Em meio a uma viagem, Hercule Poirot é surpreendido por um telegrama solicitando seu retorno a Londres. Logo o famoso detetive belga embarca no Expresso do Oriente, que está inesperadamente cheio para aquela época do ano. Pouco após a meia-noite, o excesso de neve nos trilhos obriga o trem a parar, e na manhã seguinte, o corpo de um dos passageiros é encontrado, golpeado por múltiplas facadas. Isolados e com um assassino entre eles, a única solução de Poirot é iniciar uma investigação, reunindo todas as pistas e os suspeitos para chegar à conclusão de quem é o criminoso ― antes que ele faça mais uma vítima." },
 
-.image-container .image-name {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para destacar o nome */
-  color: white;
-  text-align: center;
-  padding: 5px 0;
-  opacity: 0; /* Inicialmente invisível */
-  transition: opacity 0.3s ease; /* Suaviza a transição */
-}
+      { url:"https://m.media-amazon.com/images/I/71I0J9T8zqL._SY466_.jpg",
+        nome: "Punição para a inocência",
+        sinopse: "Jacko Argyle é detido sob alegação de que teria assassinado sua mãe em um surto de loucura, sendo condenado à prisão perpétua. Dois anos depois, surge uma prova, encontrada pelo doutor Arthur Calgary, de que o preso é inocente, mas a descoberta chega tarde demais: Jacko morre atrás das grades. Os achados do doutor reabrem as feridas dos membros da família, que passam a encarar uns aos outros com desconfiança e suspeita, assombrados com a possibilidade de que o verdadeiro assassino ainda esteja entre eles." }
+    ]
+  },
+  {
+    nome: "Alexandre Dumas",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81LEwlpMx3L._SY425_.jpg",
+        nome: "As aventuras de Robin Hood",
+        sinopse: "Ambientado na Inglaterra nos séculos XII e XIII, o livro traz as aventuras de Robin Hood e seu bando em busca de justiça, igualdade e também diversão. Nas matas de Sherwood e Barnsdale, acompanhamos os embates de Robin com o xerife de Nottingham, sua história de amor com lady Marian e sua parceria com o leal João Pequeno e frei Tuck." }
+    ]
+  },
+  {
+    nome: "Alexandre Dumas Filho",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/41EWkotM8yL._SY445_SX342_.jpg",
+        nome: "A dama das Camélias",
+        sinopse: "Alexandre Dumas Filho escreveu, a partir de uma experiência pessoal, a mais famosa história de amor de uma cortesã, A dama das camélias. Utilizando uma descrição detalhada e realista o autor narra a bela e proibida história de amor de Marguerite Gautier e Armand Duval, jovem estudante burguês. O casal lutará entre o amor verdadeiro e os deveres sociais. Este romance de tese é e sempre será um clássico da literatura mundial, tendo inúmeras adaptações para cinema e teatro. A obra é um documento social, mas sobretudo um belo hino ao Amor." }
+    ]
+  }
 
-.image-container:hover .image-name {
-  opacity: 1; /* Torna o nome visível quando o mouse passa sobre a imagem */
-}
-
-.colecao {
-  border: 2px solid #fff;
-}
-
-.carrossel-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 5px;
-  margin: 0 15px 0 0;
-}
-
-.carrossel-container img {
-  width: 150px;
-  height: 225px;
-  object-fit: cover;
-  border: 2px solid #ffffff50;
-}
-
-.accordion-button {
-  width: 100%;
-}
-
-.form-control {
-  max-width: 500px;
-  margin-left: 200px;
-}
-
-#accordionFlushExample {
-  max-width: 1000px;
-  margin: 0 auto; /* Centraliza na tela */
-  background-color: #f8f9fa; /* Opcional: fundo mais claro */
-}
-
-.letra-dropdown {
-  display: inline-block;
-  position: relative;
-  margin-right: 200px;
-}
-
-.letra-dropdown:hover .dropdown-menu {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  max-height: 200px;
-  overflow-y: auto;
-}
-
-.letras-menu {
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  z-index: 999;
-  min-width: 100px;
-  box-shadow: 0 2px px #1201224f;
-  text-align: center;
-}
-
-.letras-menu button {
-  margin: 1px;
-  background-color: #e9ecef;
-  border: none;
-  border-radius: 4px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background-color 01s;
-}
-
-.letras-menu button:hover {
-  background-color: #0b0225;
-  color: #fff;
-}
-
-.modal-content {
-  background-color: #d8d9da;
-  color: #000000ea;
-}
-
-.modal-header {
-  background-color: #0b0225;
-  color: white;
-}
-
-.btn-close {
-  background-color: #d8d9da;
-}
+  Esse é meu código JavaScript como posso adicionar o emoji de banteira ao lado do nome do autor? Me mostre essa mudança dentro do meu código para que eu entenda.

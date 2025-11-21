@@ -19,7 +19,9 @@ function criarAccordion() {
     button.setAttribute("data-bs-target", `#flush-collapse${i + 1}`);
     button.setAttribute("aria-expanded", "false");
     button.setAttribute("aria-controls", `flush-collapse${i + 1}`);
-    button.textContent = autor.nome;
+    button.innerHTML = autor.bandeira
+      ? `<img src="${autor.bandeira}" class="flag-icon"> ${autor.nome}`
+      : autor.nome;
 
     h2.appendChild(button);
 

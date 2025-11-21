@@ -47,6 +47,14 @@ h2 {
   transition: opacity 0.3s ease; /* Suaviza a transição de visibilidade */
 }
 
+.flag-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
 .image-container .image-name {
   position: absolute;
   bottom: 0;
