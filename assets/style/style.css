@@ -152,3 +152,56 @@ h2 {
 .btn-close {
   background-color: #d8d9da;
 }
+
+/*========================/*
+
+@media (max-width: 768px) {
+
+  /* Título menor */
+  main > h1 {
+    font-size: 32px;
+  }
+
+  /* Input ocupa a tela */
+  .form-control {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  /* Dropdown encosta à direita sem jogar tudo pra fora */
+  .letra-dropdown {
+    margin-right: 0;
+    width: 100%;
+    text-align: right;
+  }
+
+  /* Garante que o menu abra no lugar certo */
+  .letras-menu {
+    right: 0;
+    left: auto;
+  }
+
+  /* Accordion ocupa a largura da tela */
+  #accordionFlushExample {
+    max-width: 100%;
+    margin: 0 10px;
+  }
+
+  /* Imagens menores */
+  .image-gallery img,
+  .carrossel-container img {
+    width: 110px;
+    height: 165px;
+  }
+
+  /* Galeria vira carrossel natural */
+  .image-gallery {
+    overflow-x: auto;
+    gap: 8px;
+  }
+
+  /* Ajusta padding nas laterais */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
