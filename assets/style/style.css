@@ -153,7 +153,6 @@ h2 {
   background-color: #d8d9da;
 }
 
-/*========================/*
 
 @media (max-width: 768px) {
 
@@ -190,8 +189,9 @@ h2 {
   /* Imagens menores */
   .image-gallery img,
   .carrossel-container img {
-    width: 110px;
-    height: 165px;
+    max-width: 250px;
+    display: block;
+    margin: auto;
   }
 
   /* Galeria vira carrossel natural */
@@ -205,3 +205,4 @@ h2 {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
