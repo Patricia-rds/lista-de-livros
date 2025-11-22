@@ -1,758 +1,1398 @@
 export const autores = [
   {
-    nome: "Agatha Christie",
-    bandeira: "assets/images/bandeiras/gb.png",
+    nome:"Abby Jimenez",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
-      { url:"https://m.media-amazon.com/images/I/81Zp6MFxIDL._SY466_.jpg",
-        nome: "Assassinato no Expresso do Oriente",
-        sinopse: "Em meio a uma viagem, Hercule Poirot é surpreendido por um telegrama solicitando seu retorno a Londres. Logo o famoso detetive belga embarca no Expresso do Oriente, que está inesperadamente cheio para aquela época do ano. Pouco após a meia-noite, o excesso de neve nos trilhos obriga o trem a parar, e na manhã seguinte, o corpo de um dos passageiros é encontrado, golpeado por múltiplas facadas. Isolados e com um assassino entre eles, a única solução de Poirot é iniciar uma investigação, reunindo todas as pistas e os suspeitos para chegar à conclusão de quem é o criminoso ― antes que ele faça mais uma vítima." },
-
-      { url:"https://m.media-amazon.com/images/I/71I0J9T8zqL._SY466_.jpg",
-        nome: "Punição para a inocência",
-        sinopse: "Jacko Argyle é detido sob alegação de que teria assassinado sua mãe em um surto de loucura, sendo condenado à prisão perpétua. Dois anos depois, surge uma prova, encontrada pelo doutor Arthur Calgary, de que o preso é inocente, mas a descoberta chega tarde demais: Jacko morre atrás das grades. Os achados do doutor reabrem as feridas dos membros da família, que passam a encarar uns aos outros com desconfiança e suspeita, assombrados com a possibilidade de que o verdadeiro assassino ainda esteja entre eles." }
+      { url:"https://m.media-amazon.com/images/I/71XkuUMEq5L._SY425_.jpg",
+        nome:"Para sempre seu",
+        sinopse:"A Dra. Briana Ortiz é uma mulher forte, mas está muito cansada. Ela acabou de se divorciar, seu irmão precisa de um transplante de rim... e sabe a promoção no trabalho que ela estava esperando? Pelo jeito, é o novato intrometido quem vai conseguir o cargo. Jacob Maddox sabe que já ganhou a antipatia de Briana. Por isso, decide se explicar de forma incomum: numa carta escrita com caneta-tinteiro e papel especial. Bem, parece que, no fim das contas, ele não é tão ruim assim. Briana começa a trocar cartas com Jacob e passa a conhecer melhor o médico caladão que prefere uma vida sossegada a grandes eventos sociais. De repente, eles estão almoçando juntos e debatendo as vantagens de se ganhar um pônei e percebem que têm muito em comum, desde o encanto pela natureza até o gosto por histórias bizarras de hospital. Quando Jacob decide dar a Briana o melhor presente imaginável, ela se pergunta como poderá resistir a esse simpático médico… especialmente quando ele pede um favor que ela não pode recusar." }
     ]
   },
   {
-    nome: "Alexandre Dumas",
-    bandeira: "assets/images/bandeiras/fr.png",
+    nome:"Adalyn Grace",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81JN8rOPReL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Belladonna: O gosto da morte",
+        sinopse: "Órfã quando ainda era bebê, por dezenove anos Signa foi criada por uma sequência de tutores mais interessados em sua fortuna do que em seu bem-estar, e todos tiveram mortes prematuras. Os únicos parentes que lhe restaram foram os ardilosos Hawthorne, uma excêntrica família que mora na Quinta dos Espinhos, uma propriedade tão glamorosa quanto sombria. O patriarca dos Hawthorne tenta esquecer a morte da esposa promovendo grandes festas, enquanto a filha sofre de uma misteriosa doença e o filho se esforça para recuperar a reputação da família. Mas, quando o espírito atormentado da Sra. Hawthorne aparece afirmando que foi envenenada, Signa percebe que a família da qual depende pode estar em grave perigo. A jovem, então, conta com a ajuda de um simples cavalariço para encontrar o assassino. Entretanto, Signa sabe que para descobrir quem é o criminoso deve fazer uma aliança com a Morte – uma fascinante, porém perigosa sombra que nunca sai do lado da garota. Embora faça da vida de Signa um inferno, a Morte mostra a ela que esta crescente conexão pode ser mais poderosa – e mais irresistível – do que a jovem ousava imaginar." },
+
+      { url:"https://m.media-amazon.com/images/I/81aWDqT8C+L._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Purpurea: A trama do destino",
+        sinopse: "Um duque foi assassinado. O lorde da Quinta dos Espinhos foi incriminado. E o Destino, o esquivo irmão da Morte, fixou residência em um suntuoso palácio próximo. Ele deseja se vingar da Morte, que ceifara a vida da mulher que o Destino amava... e sua vingança será ter Signa para si, custe o que custar. Signa e sua prima Blythe estão certas de que o Destino pode salvar Elijah Hawthorne da prisão injusta se aceitarem sua presença. Mas, quanto mais tempo passam com ele, Signa exibe novos poderes admiráveis que a ligam ao passado do Destino, e mais assustadora se torna a realidade. Com mistérios e perigos a cada esquina, as primas devem decidir em quem confiar enquanto navegam na alta sociedade, desvendam os assassinatos que assombram sua família e participam dos jogos inesperados do Destino – tudo com suas vidas em jogo." },
+
+      { url:"https://m.media-amazon.com/images/I/91jQJhULQbL._SY425_.jpg",
+        colecao: "Coleção 1",
+        nome:"Wisteria: A persistência da vida",
+        sinopse:"Depois de dançar com a Morte e flertar com o Destino, agora é hora de ansiar pela Vida… Blythe Hawthorne nunca deixou que ninguém dissesse o que ela deveria fazer – nem a sociedade ou seu pai superprotetor, muito menos o homem ao qual está ligada – não importa quão grosseiro e insuportável ele seja. Na verdade, Blythe está determinada a atormentá-lo pelo resto de seus dias, enquanto ele deixa evidente que a vida no palácio não é um conto de fadas. Entretanto, conforme Blythe descobre mais detalhes sobre si que se conectam ao enigmático passado de seu marido, ela precisará decidir se vai deixar que uma inesperada faísca se alastre… e assim acabar descobrindo a verdade sobre quem realmente é." },
+
+      { url:"https://m.media-amazon.com/images/I/81uMSZVHcgL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Não lançado no Brasil",
+        sinopse:"",
+        mostrarNome: true }
+    ]
+  },
+  {
+    nome:"Adam Sass",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81qvm58E2nL._SY466_.jpg", 
+        nome:"Os 99 namorados de Micah Summers",
+        sinopse:"Micah Summers é o “Príncipe de Chicago”, com uma vida cheia de sonhos e regada a luxos. Mas, ainda assim, ele é um cara bastante tímido e tem uma coleção de paixões platônicas, já que fica nervoso demais para chamar algum garoto para sair. Em vez disso, ele prefere desenhar seus crushes e os postar em sua conta anônima no Instagram. Noventa e nove Namorados Inventados depois, o perfil é bastante popular na plataforma, e todos os seguidores estão ansiosos para conhecer o Garoto 100. Micah também. E agora ele está determinado a fazer diferente e conquistar esse que parece ser o cara dos seus sonhos. Mas, quando um desencontro no trem quase faz tudo ir pelos ares, Micah embarca em uma missão digna de príncipe encantado para encontrar o amor ― dessa vez, de verdade." }
+    ]
+  },
+  {
+    nome:"Adrienne Young",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81q4xeae67L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Albatroz",
+        sinopse:"Seja muito bem-vindo aos Estreitos, onde o mar reina e aqueles que desejam lucrar com ele o tornaram perigoso. Em meio à mergulhos, navegações e muita ação, Fable terá que lutar para sobreviver neste lugar dominado por homens indecentes enquanto busca seu lugar no mundo e uma família para chamar de sua. Sendo a filha de um dos mais poderosos mercadores em Estreitos, o mar foi o único lar que Fable conheceu. Abandonada pelo pai em uma ilha miserável, no dia seguinte à morte de sua mãe e do naufrágio do navio que fora sua casa, a garota teve que aprender a se virar sozinha: nunca chamar atenção para si mesma, não confiar em ninguém e depender somente das habilidades que sua mãe lhe ensinou para sobreviver. Quatro anos depois, a única coisa que mantém Fable em movimento é o desejo de sair daquela ilha, encontrar o pai e exigir seu lugar de direito ao lado dele e de sua tripulação. Mas, para isso, ela terá que se unir ao duvidoso grupo de West, um jovem mercador que pode não ser quem parece, e atravessar um oceano inundado de inimigos perigosos." },
+
+      { url:"https://m.media-amazon.com/images/I/81b36NoXJBL._SY385_.jpg",
+        colecao:"Coleção 1",
+        nome:"Legado",
+        sinopse:"Com o Marigold  finalmente livre das garras de seu pai, Fable e o restante da tripulação traçam rota para uma nova vida, mas a liberdade dura pouco quando ela é raptada e se torna a peça-chave de um esquema criminoso. Cercada de inimigos em um navio, cujo timoneiro é um fantasma que ela jurava estar enterrado no fundo do mar, Fable não tem escolha senão cooperar. Para sobreviver e conseguir retomar seu caminho para casa, a garota terá que participar de um acordo com Holland, uma poderosa mercadora de pedras preciosas que é bem mais do que parece ser. Conforme Fable mergulha cada vez mais fundo neste mundo de traição e mentiras, descobre que os segredos que sua mãe levou consigo para o túmulo talvez estejam colocando aqueles que ela ama em perigo. E, se Fable quiser salvá-los, terá que arriscar tudo, incluindo o homem por quem se apaixonou e a família que construiu." }
+    ]
+  },
+  {
+    nome:"Agatha Christie",
+    bandeira:"assets/images/bandeiras/gb.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81Zp6MFxIDL._SY466_.jpg",
+        nome:"Assassinato no Expresso do Oriente",
+        sinopse: "Em meio a uma viagem, Hercule Poirot é surpreendido por um telegrama solicitando seu retorno a Londres. Logo o famoso detetive belga embarca no Expresso do Oriente, que está inesperadamente cheio para aquela época do ano. Pouco após a meia-noite, o excesso de neve nos trilhos obriga o trem a parar, e na manhã seguinte, o corpo de um dos passageiros é encontrado, golpeado por múltiplas facadas. Isolados e com um assassino entre eles, a única solução de Poirot é iniciar uma investigação, reunindo todas as pistas e os suspeitos para chegar à conclusão de quem é o criminoso ― antes que ele faça mais uma vítima." },
+
+      { url:"https://m.media-amazon.com/images/I/71I0J9T8zqL._SY466_.jpg",
+        nome:"Punição para a inocência",
+        sinopse:"Jacko Argyle é detido sob alegação de que teria assassinado sua mãe em um surto de loucura, sendo condenado à prisão perpétua. Dois anos depois, surge uma prova, encontrada pelo doutor Arthur Calgary, de que o preso é inocente, mas a descoberta chega tarde demais: Jacko morre atrás das grades. Os achados do doutor reabrem as feridas dos membros da família, que passam a encarar uns aos outros com desconfiança e suspeita, assombrados com a possibilidade de que o verdadeiro assassino ainda esteja entre eles." }
+    ]
+  },
+  {
+    nome:"Alex Aster",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81rLC8sS7HL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Lightlark",
+        sinopse:"A cada cem anos, a ilha mágica de Lightlark aparece por apenas cem dias para sediar um jogo mortal em que os governantes de seis reinos lutam para quebrar as maldições que assolam suas terras e ganhar poder inigualável. Todos os governantes têm um segredo a esconder. Cada maldição é especialmente perversa. Para acabar com elas e salvar seus reinos, um dos governantes precisa morrer. Para sobreviver, Isla Crown terá que MENTIR. ENGANAR. TRAIR. Mesmo que o amor surja para complicar tudo..." },
+
+      { url:"https://m.media-amazon.com/images/I/81XzQ3JH-iL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Nightbane",
+        sinopse:"Isla Crown conquistou o amor de dois dos governantes mais poderosos de Lightlark e pôs fim às maldições que atormentaram os reinos por séculos, mas ainda assim poucas pessoas conhecem a origem de seus poderes. Agora, após uma traição devastadora, Isla se vê ávida por distrações, preferindo se embrenhar pelos mistérios da ilha de Lightlark a encarar seus deveres como líder de dois reinos distintos. Para piorar, os outros governantes não pretendem conceder sua vitória de bom grado, e muitos acreditam que sua ascensão ao poder não foi merecida. Enquanto uma guerra se arma no horizonte e profecias fatais assombram o destino de Isla, ela precisa pesar suas responsabilidades para com seu povo contra os desejos mais profundos do próprio coração. Pois a escolha está em suas mãos: o sol ou a sombra, o passado ou o presente. E o preço pode ser o futuro de todos." },
+
+      { url:"https://m.media-amazon.com/images/I/818bDqAiwdL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Não lançado no Brasil",
+        sinopse:"",
+        mostrarNome: true },
+
+      { url:"https://m.media-amazon.com/images/I/81UNsXIv6+L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Não lançado no Brasil",
+        sinopse:"",
+        mostrarNome: true }
+    ]
+  },
+  {
+    nome:"Alexandra Bracken",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81Crq3vWi7L._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"A maldição de prata",
+        sinopse:"Nascida sem qualquer tipo de magia, Tamsin Lark nunca quis fazer parte do submundo mágico de Boston, que é repleto de feiticeiras ardilosas e esvaziadores — pessoas que passam a vida inteira à procura de poderosas relíquias perdidas. Porém, quando seu pai adotivo desaparece sem nem dizer adeus, Tamsin e o irmão ficam sem alternativa a não ser saírem em jornadas perigosas em busca de tesouros desaparecidos para se manterem vivos. Sete anos depois, os irmãos continuam a tentar sobreviver fazendo trabalhos por aí. No entanto, rumores indicam que o pai deles, logo antes de sumir, teria encontrado um importante anel da lenda do Rei Arthur. A fim de ter o artefato em mãos, uma das feiticeiras anciãs mais poderosas do mundo lança uma competição: quem trouxer o anel primeiro ganhará uma recompensa fantástica. Com todos os esvaziadores sedentos para encontrar o tesouro, Tamsin sabe que muitos podem até mesmo matar para conquistá-lo. A caçada se torna implacável, e ela precisará de toda ajuda que estiver à disposição, sendo obrigada a juntar forças com seu arqui-inimigo, Emrys Dye, que ela não gostaria de ver nem pintado de ouro. Rico, bonito, contemplado com magia e charmoso até demais, Emrys é tudo o que Tamsin não é... como pode ela confiar nele? Juntos, eles vão mergulhar em uma aventura repleta de magia sombria, amor e vingança, em uma jornada até as ruínas de Avalon, que guardam um segredo letal tão poderoso que pode despertar fantasmas do passado e destruir tudo o que Tamsin mais ama." },
+
+      { url:"https://m.media-amazon.com/images/I/51ce-xbPLIL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"O espelho dos monstros",
+        sinopse:"De volta ao mundo mortal após testemunhar a ruína de Avalon, Tamsin carrega um coração partido e a certeza de que sua jornada está apenas começando. Ela e as amigas, sobreviventes das terras lendárias, são as únicas que podem derrotar o Lorde Morte e a Caçada Selvagem, que deixam um rastro de sangue por onde passam. Para detê-los, Tamsin precisa reunir aliados e partir em busca de artefatos antigos, como o Espelho dos Monstros, uma relíquia poderosa o bastante para aprisionar em seu reflexo amaldiçoado até mesmo o Lorde Morte. Porém, ela logo descobre que o espelho está longe de ser o que parece. Para ter acesso à magia do espelho e derrotar seus inimigos, Tamsin precisará enfrentar os próprios segredos sombrios e aceitar a ajuda de Emrys, seu rival arrogante, irritante… e aquele por quem seu coração ainda insiste em bater mais forte apesar de tudo. À medida que se aproxima da verdade, fantasmas do passado ressurgem, e Tamsin descortina um segredo ainda mais assustador do que enfrentar o Lorde Morte: a verdade sobre quem ela realmente é." }
+    ]
+  },
+  {
+    nome:"Alexandra Christo",
+    bandeira:"assets/images/bandeiras/gb.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81g5tx3XP1L._SY466_.jpg",
+        nome:"A ruína de um reino",
+        sinopse:"UMA PRINCESA PRECISA DE UM PRÍNCIPE. Princesa Lira é uma das ninfas mais letais de todas. Com dezessete corações de príncipes humanos em sua coleção, ela é admirada em todo o oceano até que uma reviravolta do destino a obriga a matar uma sereia. Enfurecida, a Rainha do Mar transforma Lira na pior criatura possível: uma humana. Agora, sem sua Canção, Lira tem até o solstício de inverno para entregar o coração do Príncipe Elian à Rainha ou permanecerá humana para sempre. Príncipe Elian é o herdeiro do reino mais poderoso do mundo, mas o oceano é o seu verdadeiro lar e caçar ninfas é sua vocação. Quando ele resgata uma mulher misteriosa de um afogamento em alto-mar, ela promete ajudá-lo a encontrar um objeto capaz de destruir as ninfas de uma vez por todas... Mas será que ele deve confiar nela?" }
+    ]
+  },
+  {
+    nome:"Alexandre Dumas",
+    bandeira:"assets/images/bandeiras/fr.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81LEwlpMx3L._SY425_.jpg",
-        nome: "As aventuras de Robin Hood",
+        nome:"As aventuras de Robin Hood",
         sinopse: "Ambientado na Inglaterra nos séculos XII e XIII, o livro traz as aventuras de Robin Hood e seu bando em busca de justiça, igualdade e também diversão. Nas matas de Sherwood e Barnsdale, acompanhamos os embates de Robin com o xerife de Nottingham, sua história de amor com lady Marian e sua parceria com o leal João Pequeno e frei Tuck." }
     ]
   },
   {
-    nome: "Alexandre Dumas Filho",
-    bandeira: "assets/images/bandeiras/fr.png",
+    nome:"Alexandre Dumas Filho",
+    bandeira:"assets/images/bandeiras/fr.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/41EWkotM8yL._SY445_SX342_.jpg",
-        nome: "A dama das Camélias",
-        sinopse: "Alexandre Dumas Filho escreveu, a partir de uma experiência pessoal, a mais famosa história de amor de uma cortesã, A dama das camélias. Utilizando uma descrição detalhada e realista o autor narra a bela e proibida história de amor de Marguerite Gautier e Armand Duval, jovem estudante burguês. O casal lutará entre o amor verdadeiro e os deveres sociais. Este romance de tese é e sempre será um clássico da literatura mundial, tendo inúmeras adaptações para cinema e teatro. A obra é um documento social, mas sobretudo um belo hino ao Amor." }
+        nome:"A dama das Camélias",
+        sinopse:"Alexandre Dumas Filho escreveu, a partir de uma experiência pessoal, a mais famosa história de amor de uma cortesã, A dama das camélias. Utilizando uma descrição detalhada e realista o autor narra a bela e proibida história de amor de Marguerite Gautier e Armand Duval, jovem estudante burguês. O casal lutará entre o amor verdadeiro e os deveres sociais. Este romance de tese é e sempre será um clássico da literatura mundial, tendo inúmeras adaptações para cinema e teatro. A obra é um documento social, mas sobretudo um belo hino ao Amor." }
     ]
   },
   {
-    nome: "Alice Oseman",
+    nome:"Alexene Farol Follmuth",
+    bandeira: "assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71DPuiRWNqL._SY466_.jpg",
+        nome:"A mecânica do amor",
+        sinopse:"Bel não sabe o que fazer quando se formar no colégio e nem quer pensar no assunto. Mas quando revela um talento especial para engenharia, é incentivada por uma professora a entrar para o clube de robótica da escola. O problema é que o clube é comandado por Teo, que além de gato e popular, ainda é mega inteligente e já tem cada passo do seu brilhante futuro bem planejado. Quando os dois se conhecem, o choque é instantâneo: eles se odeiam. Mas conforme trabalham juntos em robôs de combate, Teo logo reconhece o talento de Bel e percebe que não consegue parar de pensar na constelação de sardas no rosto da garota. E, pior ainda, se vê dedicado a aprender a discografia de Taylor Swift, de quem ela é fã." }
+    ]
+  },
+  {
+    nome:"Alexis Daria",
+    bandeira: "assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81fFMfd6T+L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Você me ganhou no olá",
+        sinopse:"Após um término complicado (e muito público), a atriz Jasmine Lin Rodriguez volta a Nova York para assumir o papel principal numa série romântica no maior serviço de streaming do país, determinada a se concentrar apenas em seu trabalho... até que uma mudança no elenco traz o rei das novelas latinas, Ashton Suarez ― ¡El León Dorado!, ¡El Hombre Seductor! ―, como seu par romântico. Depois que seu último personagem foi morto subitamente, Ashton anda preocupado com a possibilidade de que sua carreira também esteja nas últimas. Então, quando a chance de protagonizar um seriado norte-americano aparece, o ator sabe que não pode desperdiçá-la, a fim de atrair o olhar de Hollywood. E tudo vai depender de sua química em frente às câmeras com Jasmine. Mais fácil falar do que fazer, aparentemente, porque Ashton não consegue parar de passar vergonha na frente de sua linda colega de trabalho. Com suas carreiras em jogo, Jasmine e Ashton sabem que devem dar tudo de si, nem que para isso precisem ensaiar sozinhos e inventar maneiras de ficar confortáveis um com o outro. O problema é quando a química não acontece apenas nas gravações, e o foco da mídia em Jasmine passa a ameaçar o segredo mais importante de Ashton." },
+
+      { url:"https://m.media-amazon.com/images/I/51+4dT-b44L._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Acho que é um adeus",
+        sinopse:"Depois de se livrar do desgastante ambiente do marketing corporativo, Michelle Amato construiu uma rede de clientes fiel como designer freelancer. E daí que sua vida amorosa não existe? Ela não vê problema em ser a exceção na sua família italiano-porto-riquenha obcecada por casamentos. Afinal, o único cara que a fez sonhar com um final feliz foi embora há treze anos, sem sequer olhar para trás. Gabriel Aguilar deixou Nova York aos 18 anos para escapar dos planos e das expectativas que os pais tinham para ele, mas isso também significou dizer adeus a Michelle. Agora, ele é o sócio bem-sucedido de uma academia para celebridades em Los Angeles e vai abrir uma unidade em Nova York. Gabriel está determinado a viajar e voltar sem reatar qualquer laço, mas, quando Michelle é trazida a bordo para liderar a campanha de marketing do projeto, todas as coisas das quais ele fugia finalmente o alcançam. À medida que trabalham juntos, antigos sentimentos voltam à tona, e o reencontro fica carregado com mais de um tipo de tensão. Com a pressão de suas famílias — que acham que eles estão namorando — e a incerteza sobre o futuro cada vez maiores, talvez seja apenas uma questão de tempo até Gabe dizer adiós novamente." }
+    ]
+  },
+  {
+    nome:"Ali Hazelwood",
+    bandeira: "assets/images/bandeiras/it.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81mBAOFbqKL._SY466_.jpg",
+        nome:"Amor, teoricamente",
+        sinopse:"Elsie Hannaway é uma física teórica que passou anos de sua vida moldando diferentes versões de si mesma. Em alguns dias, ela trabalha como professora adjunta, na esperança de conseguir um emprego melhor. Em outros, compensa seu ridículo salário oferecendo serviços de namorada de mentira, aproveitando sua habilidade de se adaptar exatamente ao que os outros querem dela. Apesar das dificuldades, ela consegue equilibrar bem seu cuidadoso “Elsie-verso”... até que ele começa a desabar. E o culpado é Jack Smith, o irritante e atraente irmão mais velho de seu cliente favorito, que acaba se revelando um importante físico experimental e um possível obstáculo para o emprego dos sonhos de Elsie. Ela está pronta para uma guerra declarada de sabotagens acadêmicas, mas não está nem um pouco preparada para aqueles olhares demorados e penetrantes. E logo ela percebe que não precisa fingir ser outra pessoa quando está com Jack. Será que ser atraída pela órbita de um cientista vai enfim fazê-la colocar em prática suas mais secretas teorias sobre o amor?" },
+
+      { url:"https://m.media-amazon.com/images/I/81WIouSP08L._SY425_.jpg",
+        nome:"Um amor problemático de verão",
+        sinopse:"Maya Killgore tem 23 anos e ainda está descobrindo o que quer da vida. Conor Harkness tem 38, e Maya não consegue parar de pensar nele. É um clichê tão grande que o coração dela quase não aguenta: homem mais velho e mulher mais nova, empresário rico e estudante falida, melhor amigo do irmão e a garota na qual ele nunca reparou. Como Conor adora relembrar, a dinâmica de poder entre eles é totalmente desequilibrada. Qualquer relação entre os dois seria muito problemática e Maya precisa superá-lo. Afinal, Conor já deixou claro que não a quer em sua vida. Mas nem tudo é o que parece... e clichês às vezes sofrem reviravoltas. Quando o irmão de Maya decide se casar na Itália, ela e Conor são forçados a passar uma semana juntos em uma charmosa villa siciliana. À beira da praia, em meio a antigas ruínas, comidas maravilhosas e cavernas naturais, Maya percebe que talvez Conor esteja escondendo alguma coisa. Em meio aos caóticos preparativos para o casamento, ela decide que um romance de verão pode ser justamente o que precisa... mesmo que seja problemático." },
+
+      { url:"https://m.media-amazon.com/images/I/81Hr3TYhA0L._SY425_.jpg",
+        nome:"Noiva",
+        sinopse:"Misery Lark, filha do vampiro mais poderoso do sudoeste, nunca foi bem-vista pelos seres de sua espécie. Ela passa seus dias anonimamente em meio aos humanos, isolada, até que é chamada para firmar um acordo de paz entre vampiros e licanos, seus inimigos mortais. Para isso, será obrigada a se casar com Lowe Moreland. Licanos são lobisomens cruéis e imprevisíveis, e o alfa do bando, Lowe, não é exceção. Ele governa o grupo com autoridade absoluta, mas também com justiça. Pela forma como acompanha cada passo de Misery, fica claro que não confia nela. E ele não poderia estar mais certo... A vampira tem as próprias razões para concordar com o casamento arranjado, razões que nada têm a ver com política ou alianças, mas tudo a ver com a coisa que ela mais preza no mundo. Misery está disposta a fazer o que for necessário para recuperar o que é seu, mesmo que precise viver sozinha em território licano. Ela só não esperava se sentir atraída por seu inimigo... e ainda ser correspondida." },
+
+      { url:"https://m.media-amazon.com/images/I/71MGcmhfReL._SY425_.jpg",
+        nome:"Parceira",
+        sinopse:"Serena Paris é órfã e não tem um bando para chamar de seu. Ela também é a primeira híbrida de humano e licano a vir a público. A jovem se expôs com a intenção de curar uma ruptura de séculos entre as espécies, mas admitir a verdade a transformou em alvo. Quando se vê no centro das maquinações políticas entre licanos, vampiros e humanos, resta a Serena uma única opção: obter a proteção de Koen Alexander. Como alfa do bando do noroeste, Koen exige obediência. Sua autoridade é tão inquestionável que apenas um tolo ameaçaria sua parceira. Não importa que Serena não o deseje; nada vai impedi-lo de mantê-la a salvo. Mas os vampiros e licanos com sede de poder não são os únicos perigos. Uma hora ou outra o passado vai alcançar Serena..." },
+
+      { url:"https://m.media-amazon.com/images/I/71dsFCsDGYL._SY425_.jpg",
+        nome:"A hipótese do amor",
+        sinopse:"Olive Smith, aluna do doutorado em Biologia da Universidade Stanford, acredita na ciência – não em algo incontrolável como o amor. Depois de sair algumas vezes com Jeremy, ela percebe que sua melhor amiga gosta dele e decide juntá-los. Para mostrar que está feliz com essa escolha, Olive precisa ser convincente: afinal, cientistas exigem provas. Sem muitas opções, ela resolve inventar um namoro de mentira e, num momento de pânico, beija o primeiro homem que vê pela frente. O problema é que esse homem é Adam Carlsen, um jovem professor de prestígio – conhecido por levar os alunos às lágrimas. Por isso, Olive fica chocada quando o tirano dos laboratórios concorda em levar adiante a farsa e fingir ser seu namorado. De repente, seu pequeno experimento parece perigosamente próximo da combustão e aquela pequena possibilidade científica, que era apenas uma hipótese sobre o amor, transforma-se em algo totalmente inesperado." },
+
+      { url:"https://m.media-amazon.com/images/I/81erjSq2hVL._SY425_.jpg",
+        nome:"A razão do amor",
+        sinopse:"A carreira de Bee Königswasser está indo de mal a pior. Quando surge um processo seletivo para liderar um projeto de neuroengenharia da Nasa, ela se faz a pergunta que sempre guiou sua vida: o que Marie Curie faria? Participaria, é claro. Depois de conquistar a vaga, Bee descobre que precisará trabalhar com Levi Ward – um desafio que a mãe da física moderna nunca precisou enfrentar. Tudo bem, Levi é alto e lindo, com olhos verdes incríveis. E, aparentemente, está sempre pronto para salvá-la quando ela mais precisa. Mas ele também deixou bastante claro o que pensa de Bee quando os dois estavam no doutorado: rivais trabalham melhor quando estão cada um em sua própria galáxia, muito, muito distantes. Quando o projeto começa a ficar conturbado, Bee não sabe se é seu córtex cerebral lhe pregando peças, mas pode jurar que Levi está apoiando suas decisões, endossando suas ideias... e devorando-a com aqueles olhos. Só de pensar nas possibilidades, ela já fica com os neurônios em polvorosa. Quando chega a hora de se decidir e arriscar seu coração, só há uma pergunta que realmente importa: o que Bee Königswasser fará?" },
+
+      { url:"https://m.media-amazon.com/images/I/81SInhBwayL._SY425_.jpg",
+        nome:"No fundo é amor",
+        sinopse:"Scarlett Vandermeer está nadando contra a corrente, tentando equilibrar os estudos com a rotina de atleta. Concentrada em passar para a faculdade de medicina e se recuperar da lesão que quase deu fim à sua carreira nos saltos ornamentais, ela prefere levar uma vida discreta. Não tem tempo para relacionamentos. Ou pelo menos é o que diz para si mesma. Garoto de ouro da natação, Lukas Blomqvist é capitão da equipe da universidade e campeão mundial, e conquistou tudo isso com muita disciplina. É assim que ele consegue medalhas e quebra recordes: com foco total a cada braçada. Na superfície, Lukas e Scarlett não têm nada em comum. Até que um segredo vem à tona, e tudo muda. Então eles fazem um acordo: ter um casinho temporário, que satisfaça as necessidades de ambos e alivie um pouco o estresse pré-Olimpíadas. No entanto, quando se torna cada vez mais difícil ficar longe de Lukas, Scarlett percebe que seu coração talvez esteja adentrando águas perigosas." },
+
+      { url:"https://m.media-amazon.com/images/I/81ZpqIJJAzL._SY425_.jpg",
+        nome:"Odeio te amar",
+        sinopse:"Mara, Sadie e Hannah são três grandes amigas e cientistas tentando equilibrar razão e emoção. Embora seus campos de estudo as tenham levado para diferentes partes do mundo, todas elas concordam com uma verdade universal: quando se trata de amor e ciência, os opostos se atraem e algumas misturas podem ser perigosas… Engenheira ambiental, Mara descobre que a casa que recebeu de herança é um presente de grego quando se vê obrigada a compartilhar o mesmo teto com o outro herdeiro – Liam, um detestável advogado de uma empresa petroleira que faz de tudo para atormentá-la. Sadie é uma engenheira civil que se interessa por Erik depois de um encontro inesperado, mas ele acaba traindo sua confiança e os dois se afastam. Um dia, eles ficam presos juntos em um elevador de Nova York, e a rivalidade e o amor vão alcançar um novo patamar. Hannah está trabalhando em uma remota estação de pesquisa do Ártico quando sofre um acidente. A engenheira aeroespacial da Nasa precisa ser resgatada antes que morra de frio... só não esperava que a única pessoa disposta a realizar a perigosa missão seja Ian, o sujeito que tentou arruinar sua carreira." },
+      
+      { url:"https://m.media-amazon.com/images/I/71Ec-mBlH4L._SY425_.jpg",
+        nome:"Não é amor",
+        sinopse:"A vida de Rue Siebert não é perfeita, mas ela tem alguns poucos amigos leais e uma carreira de sucesso como engenheira de biotecnologia na Kline, uma das mais promissoras startups no campo da ciência dos alimentos. Ela lutou muito para construir esse mundinho seguro e agradável, que ameaça desmoronar quando um homem terrivelmente atraente lidera uma aquisição hostil da Kline. Eli Killgore, sócio da Harkness, tem os próprios motivos para querer tomar a empresa em que Rue trabalha. Acostumado a conseguir o que quer, ele se vê diante de uma angustiante exceção: Rue. A mulher em quem não consegue parar de pensar. A mulher que não pode ter. Divididos entre a lealdade e uma atração inegável, Rue e Eli têm um caso secreto, casual e com prazo de validade: o dia em que uma das duas empresas vencer o embate. Mas o coração faz negócios arriscados... e joga para ganhar." },
+
+      { url:"https://m.media-amazon.com/images/I/813brkblx2L._SY425_.jpg",
+        nome:"Xeque-mate",
+        sinopse:"Mallory Greenleaf não quer mais saber de xadrez. Desde que abandonou o esporte há quatro anos, se preocupa apenas em manter o emprego medíocre numa oficina mecânica para conseguir cuidar da mãe doente e das irmãs mais novas. Tudo muda quando ela se obriga a participar de um torneio beneficente e, sem querer, derrota o atual campeão mundial, Nolan Sawyer. A notícia de que Nolan perdeu para uma novata desconhecida deixa o mundo do xadrez em choque. E o pior: ele mal pode esperar para enfrentá-la de novo. Mas Mallory não está nem um pouco interessada nisso. Só que o sucesso inesperado também representa a chance de ganhar prêmios. E, apesar de tudo, ela não consegue evitar a atração pelo enigmático enxadrista... Quando o amor pelo esporte que ela tanto quer odiar começa a dominá-la de novo, Mallory logo percebe que nem toda disputa acontece no tabuleiro, que a fama é mais difícil do que parece e que às vezes o xeque-mate é só o começo." },
+    ]
+  },
+  {
+    nome:"Alice Jamieson",
+    bandeira: "assets/images/bandeiras/gb.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61nQBDAsZXL._SY342_.jpg",
+        nome:"Hoje eu sou Alice",
+        sinopse:"As vozes surgiram de repente. Elas estavam acima do som da música e seguiram Alice onde quer que fosse. De repente, algumas horas de sua vida desapareciam: elas não conseguia se lembrar do que se passara. Os pesadelos que sempre a perseguiram agora eram mais detalhados e pareciam ainda mais reais. Diante do reflexo no espelho, via sua expressão se transformar, como se outra pessoa a observasse através dos seus próprios olhos. Em Hoje eu sou Alice a autora relata a extraordinária jornada de uma vítima de transtorno de múltipla personalidade, que precisou lutar contra a anorexia, o álcool, mas, mais do que tudo, contra nove personalidades alternativas que emergiram após ficarem adormecidas diante de uma infância perturbadoramente cruel. Sem controle, Alice entregou-se a elas - e sua vida passou a ser um caleidoscópio de acontecimentos e revelações. Emocionante e incrivelmente inspirador, este é o relato cativante sobre uma doença rara e sobre a história de uma mulher que decidiu lutar contra a realidade e a imaginação" }
+    ]
+  },
+  {
+    nome:"Alice Oseman",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/41BiGnzfDLL._SY445_SX342_.jpg",
-        nome: "Rádio silêncio",
-        sinopse: "Frances sempre foi uma máquina de estudos com um único objetivo: uma faculdade de elite. Nada irá ficar em seu caminho: nem amigos, nem um grande segredo e nem mesmo a pessoa que ela é de verdade. Mas quando Frances encontra Aled, o garoto tímido e inteligente por trás de seu podcast favorito, ela descobre uma nova liberdade. Ele destranca a porta para a real Frances e pela primeira vez a garota tem a experiência de uma amizade verdadeira em que ela pode ser ela mesma. E então confiança entre os dois é quebrada. Presa entre quem ela era e quem deseja ser, os sonhos de Frances parecem estar sendo destruídos aos poucos. Sufocando com a culpa, ela sabe que tem que confrontar seu passado... Ela sabe que precisa confessar por que Carys desapareceu... Frances descobre que precisa ser ela mesma para encontrar a felicidade. E precisará de cada gota de coragem que tem." },
+        nome:"Rádio silêncio",
+        sinopse:"Frances sempre foi uma máquina de estudos com um único objetivo: uma faculdade de elite. Nada irá ficar em seu caminho: nem amigos, nem um grande segredo e nem mesmo a pessoa que ela é de verdade. Mas quando Frances encontra Aled, o garoto tímido e inteligente por trás de seu podcast favorito, ela descobre uma nova liberdade. Ele destranca a porta para a real Frances e pela primeira vez a garota tem a experiência de uma amizade verdadeira em que ela pode ser ela mesma. E então confiança entre os dois é quebrada. Presa entre quem ela era e quem deseja ser, os sonhos de Frances parecem estar sendo destruídos aos poucos. Sufocando com a culpa, ela sabe que tem que confrontar seu passado... Ela sabe que precisa confessar por que Carys desapareceu... Frances descobre que precisa ser ela mesma para encontrar a felicidade. E precisará de cada gota de coragem que tem." },
 
       { url:"https://m.media-amazon.com/images/I/71QS9Pi32YL._SY466_.jpg",
-        nome: "Um ano solitário",
-        sinopse: "Tori Spring não aguenta mais o colégio; na lista de coisas que ela também não suporta estão sua melhor amiga, garotos, filmes, livros, seus pais e basicamente tudo que consegue imaginar. As únicas coisas que a motivam a se levantar da cama são seu blog e seu irmão Charlie, que está se recuperando de um distúrbio alimentar. Quando um site misterioso chamado Solitaire começa a pregar peças em sua escola, Tori não parece muito interessada, mesmo que Michael Holden, o garoto novo esquisito, tente convencê-la a investigar o esquema. Tori está tão presa em sua própria cabeça, tão convencida de que o mundo é horrível, que não consegue perceber os esforços que Michael e um antigo amigo de infância, Lucas, fazem para se aproximar dela. Mas quando as brincadeiras do Solitaire ficam sérias demais e pessoas começam a se machucar, Tori é obrigada a sair de sua zona de conforto para descobrir o que o site tem a ver com ela." },
+        nome:"Um ano solitário",
+        sinopse:"Tori Spring não aguenta mais o colégio; na lista de coisas que ela também não suporta estão sua melhor amiga, garotos, filmes, livros, seus pais e basicamente tudo que consegue imaginar. As únicas coisas que a motivam a se levantar da cama são seu blog e seu irmão Charlie, que está se recuperando de um distúrbio alimentar. Quando um site misterioso chamado Solitaire começa a pregar peças em sua escola, Tori não parece muito interessada, mesmo que Michael Holden, o garoto novo esquisito, tente convencê-la a investigar o esquema. Tori está tão presa em sua própria cabeça, tão convencida de que o mundo é horrível, que não consegue perceber os esforços que Michael e um antigo amigo de infância, Lucas, fazem para se aproximar dela. Mas quando as brincadeiras do Solitaire ficam sérias demais e pessoas começam a se machucar, Tori é obrigada a sair de sua zona de conforto para descobrir o que o site tem a ver com ela." },
         
       { url:"https://m.media-amazon.com/images/I/413kDBFfmcL._SY445_SX342_.jpg",
-        nome: "Sem amor",
-        sinopse: "Georgia nunca se apaixonou, nunca beijou ninguém, nunca nem teve um crush. Mas, como uma eterna romântica obcecada por fanfics, ela tem certeza de que vai encontrar sua pessoa um dia. É isso que uma sociedade obcecada por paixão e sexo lhe ensinou. Quando começa a universidade com seus melhores amigos, Pip e Jason, em uma cidade diferente e bem longe de casa, Georgia está pronta para encontrar um grande amor. Com a ajuda de Rooney – sua colega de quarto extrovertida que vive tendo relações casuais e parece não ter problema nenhum com isso – e uma vaga para atuar no grupo de teatro, seu sonho adolescente nunca pareceu tão próximo. O problema é que, quando seu plano romântico causa uma enorme rixa entre seus amigos, Georgia acaba em uma comédia de erros digna de Shakespeare e começa a questionar como o amor pode parecer tão fácil para outras pessoas, mas tão impossível para ela. É aí que um novo amigo lhe apresenta alguns termos e conceitos – assexualidade, arromanticidade – dos quais ela nunca ouviu falar, mas que parecem representá-la como Georgia jamais imaginou. De repente, ela se sente mais insegura do que nunca sobre seus sentimentos. Será que está mesmo destinada a permanecer sem amor? Ou será que só estava procurando a coisa errada esse tempo todo? Quanto mais ela vai ter que esperar pelo seu felizes para sempre?" },
+        nome:"Sem amor",
+        sinopse:"Georgia nunca se apaixonou, nunca beijou ninguém, nunca nem teve um crush. Mas, como uma eterna romântica obcecada por fanfics, ela tem certeza de que vai encontrar sua pessoa um dia. É isso que uma sociedade obcecada por paixão e sexo lhe ensinou. Quando começa a universidade com seus melhores amigos, Pip e Jason, em uma cidade diferente e bem longe de casa, Georgia está pronta para encontrar um grande amor. Com a ajuda de Rooney – sua colega de quarto extrovertida que vive tendo relações casuais e parece não ter problema nenhum com isso – e uma vaga para atuar no grupo de teatro, seu sonho adolescente nunca pareceu tão próximo. O problema é que, quando seu plano romântico causa uma enorme rixa entre seus amigos, Georgia acaba em uma comédia de erros digna de Shakespeare e começa a questionar como o amor pode parecer tão fácil para outras pessoas, mas tão impossível para ela. É aí que um novo amigo lhe apresenta alguns termos e conceitos – assexualidade, arromanticidade – dos quais ela nunca ouviu falar, mas que parecem representá-la como Georgia jamais imaginou. De repente, ela se sente mais insegura do que nunca sobre seus sentimentos. Será que está mesmo destinada a permanecer sem amor? Ou será que só estava procurando a coisa errada esse tempo todo? Quanto mais ela vai ter que esperar pelo seu felizes para sempre?" },
 
       { url:"https://m.media-amazon.com/images/I/8129HX+5JGL._SY425_.jpg",
-        colecao: "Coleção 1",
-        nome: "Heartstopper: Dois garotos, um encontro (vol. 1)",
+        colecao:"Coleção 1",
+        nome:"Heartstopper: Dois garotos, um encontro (vol. 1)",
         sinopse: "Charlie Spring e Nick Nelson não têm quase nada em comum. Charlie é um aluno dedicado e bastante inseguro por conta do bullying que sofre no colégio desde que se assumiu gay. Já Nick é superpopular, especialmente querido por ser um ótimo jogador de rúgbi. Quando os dois passam a sentar um ao lado do outro toda manhã, uma amizade intensa se desenvolve, e eles ficam cada vez mais próximos. Charlie logo começa a se sentir diferente a respeito do novo amigo, apesar de saber que se apaixonar por um garoto hétero só vai gerar frustrações. Mas o próprio Nick está em dúvida sobre o que sente ― e talvez os garotos estejam prestes a descobrir que, quando menos se espera, o amor pode funcionar das formas mais incríveis e surpreendentes." },
 
       { url:"https://m.media-amazon.com/images/I/91Moizx+nCL._SY425_.jpg",
-        colecao: "Coleção 1",
-        nome: "Heartstopper: Minha pessoa favorita (vol. 2)",
+        colecao:"Coleção 1",
+        nome:"Heartstopper: Minha pessoa favorita (vol. 2)",
         sinopse: "No segundo volume da série Heartstopper, Charlie e Nick precisam entender o que um beijo significa para a relação dos dois — e, principalmente, para eles mesmos. Charlie e Nick são melhores amigos, mas tudo muda depois que eles se beijam em uma festa. Charlie acredita que cometeu um grande erro e arruinou a amizade dos dois para sempre, e Nick está mais confuso do que nunca. Mas aos poucos Nick começa a enxergar o mundo sob uma nova perspectiva e, com a ajuda de Charlie, descobre muitas coisas sobre o mundo que o cerca, sobre seus amigos — e, principalmente, sobre ele mesmo." },
 
       { url:"https://m.media-amazon.com/images/I/51SUDnygEUL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Heartstopper: Um passo adiante (vol. 3)",
+        colecao:"Coleção 1",
+        nome:"Heartstopper: Um passo adiante (vol. 3)",
         sinopse: "Depois de entenderem o que sentiam um pelo outro, Charlie e Nick se tornaram oficialmente namorados, e cada dia é uma nova oportunidade para se conhecerem um pouco mais. Mas nem tudo é fácil, principalmente quando se trata de se assumir enquanto casal para o mundo. Mesmo com medo da reação das pessoas, os garotos sabem que em breve terão de contar a verdade, pelo menos para os amigos mais próximos ― ainda mais quando a turma toda viaja a Paris. Enquanto decidem como dar este próximo passo, os dois vão descobrir que, não importa qual seja o desafio, eles podem sempre contar um com o outro." },
 
       { url:"https://m.media-amazon.com/images/I/81dqqxkgMuL._SY425_.jpg",
-        colecao: "Coleção 1",
-        nome: "Heartstopper: De mãos dadas (vol. 4)",
+        colecao:"Coleção 1",
+        nome:"Heartstopper: De mãos dadas (vol. 4)",
         sinopse: "Charlie e Nick já não precisam esconder de ninguém no colégio que estão namorando, e agora, mais do que nunca, Charlie quer finalmente dizer “Eu te amo”. O que parece um gesto simples se torna bem complicado quando sua ansiedade o faz questionar se Nick se sente da mesma forma… Nick, por sua vez, está com a cabeça cheia. Afinal, ele ainda não teve a oportunidade de se assumir para o pai, e se preocupa constantemente com Charlie, que dá sinais claros de ter um transtorno alimentar. Conforme o relacionamento dos dois amadurece, os desafios que vêm pela frente ficam cada vez mais difíceis ― mas os garotos logo vão aprender que amar alguém nada mais é do que estar ao seu lado, juntos, de mãos dadas." },
 
       { url:"https://m.media-amazon.com/images/I/51MuG5ZAFPL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Heartstopper: Mais fortes juntos (vol. 5)",
+        colecao:"Coleção 1",
+        nome:"Heartstopper: Mais fortes juntos (vol. 5)",
         sinopse: "Nick e Charlie estão mais apaixonados do que nunca. Eles já se declararam um para o outro, começaram a namorar, e Charlie está quase convencendo sua mãe a deixá-lo dormir na casa de Nick… Mas com a partida de Nick para a universidade no próximo ano, será que tudo está prestes a mudar? Escrita e ilustrada por Alice Oseman, a série Heartstopper acompanha todos os pequenos momentos da vida de Nick e Charlie ― construindo uma história que ressoa em todos nós." }
     ]
   },
   {
-    nome: "Alice Walker",
+    nome:"Alice Walker",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/41y7JA3FN9L._SY445_SX342_.jpg",
-        nome: "A cor púrpura",
-        sinopse: "A cor púrpura, ambientado no Sul dos Estados Unidos, entre os anos 1900 e 1940, conta a história de Celie, mulher negra, pobre e semianalfabeta. Brutalizada desde a infância, a jovem foi estuprada pelo padrasto e forçada a se casar com Albert, um viúvo violento, pai de quatro filhos, que enxergava a esposa como uma serviçal e fazia dos sofrimentos físicos e morais sua rotina. Durante trinta anos, Celie escreve cartas para Deus e para a irmã Nettie, missionária na África. Os textos têm uma linguagem peculiar, que assume cadência e ritmo próprios à medida que Celie cresce e passa a reunir experiências, amores e amigos. Entre eles está a inesquecível Shug Avery, cantora de jazz e amante de Albert. Apesar da dramaticidade do enredo, A cor púrpura é uma história sobre mudanças, redenção e amor. A partir da vida de Celie, a aclamada escritora Alice Walker tece críticas ao poder dado aos homens em uma sociedade que ainda hoje luta por igualdade entre gêneros, raças e classes sociais. Eleito pela BBC um dos 100 romances que definem o mundo, A cor púrpura é um retrato da vivência da mulher negra na época da segregação racial, cujos reflexos ainda estão presentes na nossa sociedade." }
+        nome:"A cor púrpura",
+        sinopse:"A cor púrpura, ambientado no Sul dos Estados Unidos, entre os anos 1900 e 1940, conta a história de Celie, mulher negra, pobre e semianalfabeta. Brutalizada desde a infância, a jovem foi estuprada pelo padrasto e forçada a se casar com Albert, um viúvo violento, pai de quatro filhos, que enxergava a esposa como uma serviçal e fazia dos sofrimentos físicos e morais sua rotina. Durante trinta anos, Celie escreve cartas para Deus e para a irmã Nettie, missionária na África. Os textos têm uma linguagem peculiar, que assume cadência e ritmo próprios à medida que Celie cresce e passa a reunir experiências, amores e amigos. Entre eles está a inesquecível Shug Avery, cantora de jazz e amante de Albert. Apesar da dramaticidade do enredo, A cor púrpura é uma história sobre mudanças, redenção e amor. A partir da vida de Celie, a aclamada escritora Alice Walker tece críticas ao poder dado aos homens em uma sociedade que ainda hoje luta por igualdade entre gêneros, raças e classes sociais. Eleito pela BBC um dos 100 romances que definem o mundo, A cor púrpura é um retrato da vivência da mulher negra na época da segregação racial, cujos reflexos ainda estão presentes na nossa sociedade." }
     ]
   },
   {
-    nome: "Aluísio de Azevedo",
+    nome:"Aluísio de Azevedo",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61KSQiD6CsL._SY466_.jpg",
-        nome: "O cortiço",
-        sinopse: "Pobreza, corrupção, injustiça, traição são elementos integram O cortiço, principal obra do Naturalismo brasileiro. Nela, Aluísio Azevedo denuncia as mazelas sociais enfrentadas pelos moradores de um cortiço no Rio de Janeiro no século XIX. É um romance que convida a analisar por meio da observação crítica do cotidiano das personagens a animalização do ser humano, questão que se mostra, mais do que nunca, atual." }
+        nome:"O cortiço",
+        sinopse:"Pobreza, corrupção, injustiça, traição são elementos integram O cortiço, principal obra do Naturalismo brasileiro. Nela, Aluísio Azevedo denuncia as mazelas sociais enfrentadas pelos moradores de um cortiço no Rio de Janeiro no século XIX. É um romance que convida a analisar por meio da observação crítica do cotidiano das personagens a animalização do ser humano, questão que se mostra, mais do que nunca, atual." }
     ]
   },
   {
-    nome: "Alwyn Hamilton",
+    nome:"Alwyn Hamilton",
+    bandeira:"assets/images/bandeiras/ca.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/A1uQ5HDKJgS._SY425_.jpg",
-        colecao: "Coleção 1", 
+        colecao:"Coleção 1", 
         nome:"A rebelde do deserto",
-        sinopse: "O destino do deserto está nas mãos de Amani Al’Hiza ― uma garota feita de fogo e pólvora, com o dedo sempre no gatilho. O deserto de Miraji é governado por mortais, mas criaturas míticas rondam as áreas mais selvagens e remotas, e há boatos de que, em algum lugar, os djinnis ainda praticam magia. De toda maneira, para os humanos o deserto é um lugar impiedoso, principalmente se você é pobre, órfão ou mulher. Amani Al’Hiza é as três coisas. Apesar de ser uma atiradora talentosa, dona de uma mira perfeita, ela não consegue escapar da Vila da Poeira, uma cidadezinha isolada que lhe oferece como futuro um casamento forçado e a vida submissa que virá depois dele. Para Amani, ir embora dali é mais do que um desejo ― é uma necessidade. Mas ela nunca imaginou que fugiria galopando num cavalo mágico com o exército do sultão na sua cola, nem que um forasteiro misterioso seria responsável por lhe revelar o deserto que ela achava que conhecia e uma força que ela nem imaginava possuir." },
+        sinopse:"O destino do deserto está nas mãos de Amani Al’Hiza ― uma garota feita de fogo e pólvora, com o dedo sempre no gatilho. O deserto de Miraji é governado por mortais, mas criaturas míticas rondam as áreas mais selvagens e remotas, e há boatos de que, em algum lugar, os djinnis ainda praticam magia. De toda maneira, para os humanos o deserto é um lugar impiedoso, principalmente se você é pobre, órfão ou mulher. Amani Al’Hiza é as três coisas. Apesar de ser uma atiradora talentosa, dona de uma mira perfeita, ela não consegue escapar da Vila da Poeira, uma cidadezinha isolada que lhe oferece como futuro um casamento forçado e a vida submissa que virá depois dele. Para Amani, ir embora dali é mais do que um desejo ― é uma necessidade. Mas ela nunca imaginou que fugiria galopando num cavalo mágico com o exército do sultão na sua cola, nem que um forasteiro misterioso seria responsável por lhe revelar o deserto que ela achava que conhecia e uma força que ela nem imaginava possuir." },
 
       { url:"https://m.media-amazon.com/images/I/51YK6V+EETL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
+        colecao:"Coleção 1",
         nome:"A traidora do trono",
-        sinopse: "Amani Al'Hiza mal acreditou quando finalmente conseguiu fugir de sua cidade natal nos confins do deserto, montada num cavalo de areia com Jin, um forasteiro misterioso. Em pouco tempo, porém, sua maior preocupação deixou de ser sua própria liberdade: a garota descobriu ter muito mais poder do que imaginava e acabou se juntando à rebelião, que luta para livrar o país inteiro do domínio de um sultão sanguinário. Em meio às perigosas batalhas, Amani é traída quando menos espera e acaba se tornando prisioneira no palácio. Enquanto pensa em um jeito de escapar, ela tenta se aproximar do sultão para descobrir informações úteis para a causa rebelde. Contudo, quanto mais tempo passa ali, mais ela questiona se o governante é de fato o vilão que todos acreditam, e quem são os verdadeiros traidores do país." },
+        sinopse:"Amani Al'Hiza mal acreditou quando finalmente conseguiu fugir de sua cidade natal nos confins do deserto, montada num cavalo de areia com Jin, um forasteiro misterioso. Em pouco tempo, porém, sua maior preocupação deixou de ser sua própria liberdade: a garota descobriu ter muito mais poder do que imaginava e acabou se juntando à rebelião, que luta para livrar o país inteiro do domínio de um sultão sanguinário. Em meio às perigosas batalhas, Amani é traída quando menos espera e acaba se tornando prisioneira no palácio. Enquanto pensa em um jeito de escapar, ela tenta se aproximar do sultão para descobrir informações úteis para a causa rebelde. Contudo, quanto mais tempo passa ali, mais ela questiona se o governante é de fato o vilão que todos acreditam, e quem são os verdadeiros traidores do país." },
 
       { url:"https://m.media-amazon.com/images/I/61JK3pysIpL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
+        colecao:"Coleção 1",
         nome:"A heroína da alvorada",
-        sinopse: "No último volume da trilogia A Rebelde do Deserto, Amani vai se deparar com a escolha mais difícil que já teve que fazer: entre si mesma e seu país. Quando a atiradora Amani Al-Hiza escapou da cidadezinha em que morava, jamais imaginava se envolver numa rebelião, muito menos ter de comandá-la. Depois que o cruel sultão de Miraji capturou as principais lideranças da revolta, a garota se vê obrigada a tomar as rédeas da situação e seguir até Eremot, uma cidade que não existe em nenhum mapa, apenas nas lendas ― e onde seus amigos estariam aprisionados. Armada com sua pistola, sua inteligência e seus poderes, ela vai atravessar as areias impiedosas para concluir essa missão de resgate, acompanhada do que restou da rebelião. Enquanto assiste àqueles que ama perderem a vida para soldados inimigos e criaturas do deserto, Amani se pergunta se pode ser a líder de que precisam ou se está conduzindo todos para a morte certa." }
+        sinopse:"No último volume da trilogia A Rebelde do Deserto, Amani vai se deparar com a escolha mais difícil que já teve que fazer: entre si mesma e seu país. Quando a atiradora Amani Al-Hiza escapou da cidadezinha em que morava, jamais imaginava se envolver numa rebelião, muito menos ter de comandá-la. Depois que o cruel sultão de Miraji capturou as principais lideranças da revolta, a garota se vê obrigada a tomar as rédeas da situação e seguir até Eremot, uma cidade que não existe em nenhum mapa, apenas nas lendas ― e onde seus amigos estariam aprisionados. Armada com sua pistola, sua inteligência e seus poderes, ela vai atravessar as areias impiedosas para concluir essa missão de resgate, acompanhada do que restou da rebelião. Enquanto assiste àqueles que ama perderem a vida para soldados inimigos e criaturas do deserto, Amani se pergunta se pode ser a líder de que precisam ou se está conduzindo todos para a morte certa." }
     ]
   },
   {
-    nome: "Alyson Noël",
+    nome:"Alyson Noël",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81DtKsxLaJL._SY425_.jpg",
-        colecao: "Coleção 1",
-        nome: "Para sempre",
-        sinopse: "Ever Bloom tinha uma vida perfeita: era uma garota popular, acabara de se tornar líder de torcida do principal time da escola e morava numa casa maravilhosa, com o pai, a mãe, uma irmãzinha e a cadela Buttercup. Nada no mundo parecia capaz de interferir em sua felicidade, o céu era o limite! Até que um desastre de automóvel transformou tudo em um pesadelo angustiante. Ever perdeu toda a sua família. Mudou de cidade, de escola, de amigos, e agora, além de todas essas transformações, precisa aprender a conviver com uma realidade insuportável: após o acidente, ela adquiriu dons especiais. Ever enxerga a aura das outras pessoas, pode ouvir seus pensamentos e, com um simples toque, é capaz de conhecer a vida inteira de alguém. É doloroso. Ela foge do contato humano, esconde-se sob um capuz e não tira dos ouvidos os fones do i-pod, cujo som alto encobre o barulho das mentes a seu redor. Até que surge Damen. Tudo parece cessar quando ele se aproxima. Só ele consegue calar as vozes que a perturbam tão intensamente. Ever não entende o porquê disso, mas é incapaz de resistir à paz que ele lhe proporciona, à sensação de, novamente, ser uma pessoa normal. Ela não faz ideia de quem ou o quê Damen realmente é. Sua única certeza é estar cada vez mais envolvida... e apaixonada." },
+        colecao:"Coleção 1",
+        nome:"Para sempre",
+        sinopse:"Ever Bloom tinha uma vida perfeita: era uma garota popular, acabara de se tornar líder de torcida do principal time da escola e morava numa casa maravilhosa, com o pai, a mãe, uma irmãzinha e a cadela Buttercup. Nada no mundo parecia capaz de interferir em sua felicidade, o céu era o limite! Até que um desastre de automóvel transformou tudo em um pesadelo angustiante. Ever perdeu toda a sua família. Mudou de cidade, de escola, de amigos, e agora, além de todas essas transformações, precisa aprender a conviver com uma realidade insuportável: após o acidente, ela adquiriu dons especiais. Ever enxerga a aura das outras pessoas, pode ouvir seus pensamentos e, com um simples toque, é capaz de conhecer a vida inteira de alguém. É doloroso. Ela foge do contato humano, esconde-se sob um capuz e não tira dos ouvidos os fones do i-pod, cujo som alto encobre o barulho das mentes a seu redor. Até que surge Damen. Tudo parece cessar quando ele se aproxima. Só ele consegue calar as vozes que a perturbam tão intensamente. Ever não entende o porquê disso, mas é incapaz de resistir à paz que ele lhe proporciona, à sensação de, novamente, ser uma pessoa normal. Ela não faz ideia de quem ou o quê Damen realmente é. Sua única certeza é estar cada vez mais envolvida... e apaixonada." },
 
       { url:"https://m.media-amazon.com/images/I/416CnUDmHHL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Lua azul",
-        sinopse: "Ever é agora uma imortal. Iniciada nesse mundo desconhecido e sedutor por seu eterno amado, Damen, está empenhada em conhecer e dominar suas novas habilidades, mas algo terrível começa a acontecer. Acometido por uma doença misteriosa que ameaça, inclusive, sua memória, Damen não percebe que seus poderes se estão esvaindo – enquanto Ever se sente cada vez mais forte. Desesperada para salvá-lo, ela viaja até a dimensão mística de Summerland, onde não apenas toma conhecimento da misteriosa história de Damen, brutal e torturante, mas também tem acesso aos segredos que regem o Tempo. Com a lua azul que se aproxima, anunciando uma oportunidade única de se projetar para o passado ou para o futuro, Ever é forçada a decidir entre voltar no tempo e impedir o acidente que tirou a vida de toda a sua família ou ficar no presente e salvar Damen, que parece definhar a cada dia." },
+        colecao:"Coleção 1",
+        nome:"Lua azul",
+        sinopse:"Ever é agora uma imortal. Iniciada nesse mundo desconhecido e sedutor por seu eterno amado, Damen, está empenhada em conhecer e dominar suas novas habilidades, mas algo terrível começa a acontecer. Acometido por uma doença misteriosa que ameaça, inclusive, sua memória, Damen não percebe que seus poderes se estão esvaindo – enquanto Ever se sente cada vez mais forte. Desesperada para salvá-lo, ela viaja até a dimensão mística de Summerland, onde não apenas toma conhecimento da misteriosa história de Damen, brutal e torturante, mas também tem acesso aos segredos que regem o Tempo. Com a lua azul que se aproxima, anunciando uma oportunidade única de se projetar para o passado ou para o futuro, Ever é forçada a decidir entre voltar no tempo e impedir o acidente que tirou a vida de toda a sua família ou ficar no presente e salvar Damen, que parece definhar a cada dia." },
 
       { url:"https://m.media-amazon.com/images/I/41D4Vvd+opL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Terra de sombras",
-        sinopse: "Ever e Damen atravessaram diversas vidas e enfrentaram os mais terríveis inimigos com um só objetivo: ficar eternamente juntos. E quando esse sonho está ao alcance de suas mãos, um poderoso feitiço cai sobre Damen. Agora, para ele, simplesmente tocá-la ou encostar os lábios nos dela significaria a morte, o exílio definitivo em uma terra de sombras, o lar das almas perdidas. Desesperada por livrá-lo da maldição, Ever mergulha de corpo e alma na magia e encontra uma ajuda inesperada: um surfista chamado Jude. Apesar da profunda lealdade a Damen, é inevitável que ela se sinta atraída por esse garoto estranhamente familiar, de olhos verdes, pele bronzeada, braços definidos, dons mágicos e passado misterioso. Ainda mais quando Damen decide se afastar dela. Ever sempre acreditou que Damen fosse seu destino – mas e se o futuro tiver reservado outros planos? Com Jude cada vez próximo, pela primeira vez em séculos esse amor é posto à prova." },
+        colecao:"Coleção 1",
+        nome:"Terra de sombras",
+        sinopse:"Ever e Damen atravessaram diversas vidas e enfrentaram os mais terríveis inimigos com um só objetivo: ficar eternamente juntos. E quando esse sonho está ao alcance de suas mãos, um poderoso feitiço cai sobre Damen. Agora, para ele, simplesmente tocá-la ou encostar os lábios nos dela significaria a morte, o exílio definitivo em uma terra de sombras, o lar das almas perdidas. Desesperada por livrá-lo da maldição, Ever mergulha de corpo e alma na magia e encontra uma ajuda inesperada: um surfista chamado Jude. Apesar da profunda lealdade a Damen, é inevitável que ela se sinta atraída por esse garoto estranhamente familiar, de olhos verdes, pele bronzeada, braços definidos, dons mágicos e passado misterioso. Ainda mais quando Damen decide se afastar dela. Ever sempre acreditou que Damen fosse seu destino – mas e se o futuro tiver reservado outros planos? Com Jude cada vez próximo, pela primeira vez em séculos esse amor é posto à prova." },
 
       { url:"https://m.media-amazon.com/images/I/31JXqo0Hf-L._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Chama negra",
-        sinopse: "Enquanto tenta ajudar Haven na transição para a vida imortal e libertar Damen do feitiço que não a permite tocar nele, Ever se aprofunda mais e mais nos mistérios da magia negra. O feitiço, porém, vira contra a feiticeira, e ela se vê presa a seu maior inimigo: Roman. A força estranha e poderosa que toma conta de seu corpo impede que Ever consiga parar de pensar nele, parar de desejá-lo. Ela quer resistir à atração incontrolável que a está consumindo. Ele quer se aproveitar desse momento de fraqueza. A ponto de se render, Ever procura a ajuda de Jude, arriscando tudo e todos para salvar a própria vida e seu futuro com Damen..." },
+        colecao:"Coleção 1",
+        nome:"Chama negra",
+        sinopse:"Enquanto tenta ajudar Haven na transição para a vida imortal e libertar Damen do feitiço que não a permite tocar nele, Ever se aprofunda mais e mais nos mistérios da magia negra. O feitiço, porém, vira contra a feiticeira, e ela se vê presa a seu maior inimigo: Roman. A força estranha e poderosa que toma conta de seu corpo impede que Ever consiga parar de pensar nele, parar de desejá-lo. Ela quer resistir à atração incontrolável que a está consumindo. Ele quer se aproveitar desse momento de fraqueza. A ponto de se render, Ever procura a ajuda de Jude, arriscando tudo e todos para salvar a própria vida e seu futuro com Damen..." },
 
       { url:"https://m.media-amazon.com/images/I/71ununM3mVL._SY425_.jpg",
-        colecao: "Coleção 1",
-        nome: "Estrela da noite",
-        sinopse: "No quinto volume da série, Haven está certa de que Ever é responsável pela morte de Roman, e está determinada a destruí-la. Seu primeiro passo é separá-la de Damen, e para isso, conta com a arma ideal: um segredo terrível sobre suas vidas passadas, que lançará uma nova luz sobre o relacionamento de Ever e Jude. Obrigada a enfrentar seus maiores medos com relação ao companheiro que escolheu para a eternidade, Ever é lançada em um combate mortal contra Haven, que poderá significar a destruição de todos. É chegado o momento de se questionar: para sobreviver, ela seria mesmo capaz de condenar Haven à escuridão de Shadowland? E será que todo o seu futuro com Damen poderia mesmo depender de uma revelação do passado?" },
+        colecao:"Coleção 1",
+        nome:"Estrela da noite",
+        sinopse:"No quinto volume da série, Haven está certa de que Ever é responsável pela morte de Roman, e está determinada a destruí-la. Seu primeiro passo é separá-la de Damen, e para isso, conta com a arma ideal: um segredo terrível sobre suas vidas passadas, que lançará uma nova luz sobre o relacionamento de Ever e Jude. Obrigada a enfrentar seus maiores medos com relação ao companheiro que escolheu para a eternidade, Ever é lançada em um combate mortal contra Haven, que poderá significar a destruição de todos. É chegado o momento de se questionar: para sobreviver, ela seria mesmo capaz de condenar Haven à escuridão de Shadowland? E será que todo o seu futuro com Damen poderia mesmo depender de uma revelação do passado?" },
 
       { url:"https://m.media-amazon.com/images/I/71+2bEsLM9L._SY425_.jpg",
-        colecao: "Coleção 1",
-        nome: "Infinito",
-        sinopse: "Em Infinito, o sexto e último livro da série, após derrotarem seus inimigos mais temidos, Ever e Damen começam uma nova jornada para que ele se livre do veneno que está em seu corpo. Se encontrarem o antídoto, finalmente serão capazes de viver a paixão pela qual anseiam há séculos. A busca, porém, leva-os a um terreno desconhecido e pavoroso - as profundezas de Summerland. Lá, eles descobrirão a origem obscura e inimaginável de seu relacionamento e serão obrigados a encarar uma dolorosa verdade: o destino tem motivos para mantê-los separados. Agora, o futuro irá depender de uma única decisão, que poderá pôr em risco tudo o que eles têm. Inclusive a eternidade." },
+        colecao:"Coleção 1",
+        nome:"Infinito",
+        sinopse:"Em Infinito, o sexto e último livro da série, após derrotarem seus inimigos mais temidos, Ever e Damen começam uma nova jornada para que ele se livre do veneno que está em seu corpo. Se encontrarem o antídoto, finalmente serão capazes de viver a paixão pela qual anseiam há séculos. A busca, porém, leva-os a um terreno desconhecido e pavoroso - as profundezas de Summerland. Lá, eles descobrirão a origem obscura e inimaginável de seu relacionamento e serão obrigados a encarar uma dolorosa verdade: o destino tem motivos para mantê-los separados. Agora, o futuro irá depender de uma única decisão, que poderá pôr em risco tudo o que eles têm. Inclusive a eternidade." },
 
       { url:"https://m.media-amazon.com/images/I/61ZIVC6FrtL._SY425_.jpg",
-        colecao: "Coleção 2",
-        nome: "Sonhos",
-        sinopse: "Daire Santos é uma adolescente de 16 anos, filha de uma maquiadora de Hollywood, que namora estrelas de cinema e viaja com a mãe por todo o mundo. Até que coisas estranhas começam a acontecer com ela - visões com corvos e pessoas brilhantes, o tempo que para de andar, sonhos com um belo menino de olhos azuis-gelo. Os médicos acham que se trata de um caso psiquiátrico. Sua avó, curandeira respeitada na pequena cidade de Encantamento, Novo México, afirma que pode curá-la com suas ervas e poções. Sem alternativa, Daire vai para uma cidade perdida no meio do nada, longe da mãe, e com a avó que até então não conhecia. O que parecia ser o fim, no entanto, revela-se o início de uma aventura - guiada pela avó, Daire descobre ser uma Buscadora de Almas, descendente de uma linhagem poderosa que, através dos tempos, vem garantindo o equilíbrio entre o bem e o mal tanto neste mundo quanto em outros mundos e outras dimensões." },
+        colecao:"Coleção 2",
+        nome:"Sonhos",
+        sinopse:"Daire Santos é uma adolescente de 16 anos, filha de uma maquiadora de Hollywood, que namora estrelas de cinema e viaja com a mãe por todo o mundo. Até que coisas estranhas começam a acontecer com ela - visões com corvos e pessoas brilhantes, o tempo que para de andar, sonhos com um belo menino de olhos azuis-gelo. Os médicos acham que se trata de um caso psiquiátrico. Sua avó, curandeira respeitada na pequena cidade de Encantamento, Novo México, afirma que pode curá-la com suas ervas e poções. Sem alternativa, Daire vai para uma cidade perdida no meio do nada, longe da mãe, e com a avó que até então não conhecia. O que parecia ser o fim, no entanto, revela-se o início de uma aventura - guiada pela avó, Daire descobre ser uma Buscadora de Almas, descendente de uma linhagem poderosa que, através dos tempos, vem garantindo o equilíbrio entre o bem e o mal tanto neste mundo quanto em outros mundos e outras dimensões." },
 
       { url:"https://m.media-amazon.com/images/I/513z0L2sBQL._SY466_.jpg",
-        colecao: "Coleção 2",
-        nome: "Eco",
-        sinopse: "No segundo volume da série The Soulseekers, Daire Santos está de volta para continuar com sua missão de Buscadora. A garota acaba de salvar a vida de sua avó, mas há um custo. Os Richter, perversa família de feiticeiros, foram soltos no Mundo Inferior. Daire e seu namorado, Dace, devem voltar a trabalhar juntos para encontrá-los antes que eles perturbem o equilíbrio entre o bem e o mal, e destruam não só a sua pequena cidade no Novo México, mas o mundo inteiro." },
+        colecao:"Coleção 2",
+        nome:"Eco",
+        sinopse:"No segundo volume da série The Soulseekers, Daire Santos está de volta para continuar com sua missão de Buscadora. A garota acaba de salvar a vida de sua avó, mas há um custo. Os Richter, perversa família de feiticeiros, foram soltos no Mundo Inferior. Daire e seu namorado, Dace, devem voltar a trabalhar juntos para encontrá-los antes que eles perturbem o equilíbrio entre o bem e o mal, e destruam não só a sua pequena cidade no Novo México, mas o mundo inteiro." },
 
       { url:"https://m.media-amazon.com/images/I/61K6LNKyMDL._SY466_.jpg",
-        colecao: "Coleção 2",
-        nome: "Místico",
-        sinopse: "A saga de Daire Santos como Buscadora de Almas está longe do fim. Conseguirá nossa heroína livrar Dace das garras de sua poderosa e maligna família? Depois de ser derrotada e esfaqueada por Cade Richter, seu arqui-inimigo, e quase morrer, Daire Santos volta à vida de uma maneira que jamais poderia imaginar. Ao se recuperar dos ferimentos sofridos, e ciente de que as almas de Cade e de seu irmão gêmeo Dace estão ligadas ao mesmo destino, ela é obrigada a repensar sua estratégia para acabar com os Richter.Com a ajuda de seus amigos, a Buscadora precisa partir em mais uma jornada desta vez, pelas várias dimensões do Mundo Mediano , não só para impedir que os Richter coloquem em prática um novo plano para controlar o Encantamento e todos os seus habitantes, mas também para salvar a alma de seu grande amor, Dace." },
+        colecao:"Coleção 2",
+        nome:"Místico",
+        sinopse:"A saga de Daire Santos como Buscadora de Almas está longe do fim. Conseguirá nossa heroína livrar Dace das garras de sua poderosa e maligna família? Depois de ser derrotada e esfaqueada por Cade Richter, seu arqui-inimigo, e quase morrer, Daire Santos volta à vida de uma maneira que jamais poderia imaginar. Ao se recuperar dos ferimentos sofridos, e ciente de que as almas de Cade e de seu irmão gêmeo Dace estão ligadas ao mesmo destino, ela é obrigada a repensar sua estratégia para acabar com os Richter.Com a ajuda de seus amigos, a Buscadora precisa partir em mais uma jornada desta vez, pelas várias dimensões do Mundo Mediano , não só para impedir que os Richter coloquem em prática um novo plano para controlar o Encantamento e todos os seus habitantes, mas também para salvar a alma de seu grande amor, Dace." },
 
       { url:"https://m.media-amazon.com/images/I/81Z-2V1ezEL._SY425_.jpg",
-        colecao: "Coleção 2",
-        nome: "Horizonte",
-        sinopse: "“O destino os uniu – e os separou. Agora Daire e Dace enfrentam a batalha que selará seus destinos. Não pode perca o último volume da série “The soul seekers” O que você sacrificaria por amor? E para cumprir seu dever? Esse é o dilema que Daire Santos precisa enfrentar. Para provar ser digna de sua herança ancestral e honrar a linhagem de Buscadores que a precede, ela será obrigada a abrir mão da vida ao lado de seu amado Dace? Em Horizonte, último volume da série Soul Seekers, Daire e Dace se preparam para enfrentar os Richter de uma vez por todas mas, para isso, precisam descobrir o que o futuro reserva para eles. São realmente predestinados a ficarem juntos? Ou outro destino muito mais sombrio os aguarda? Nesta empreitada, Daire não pode mais contar com a preciosa orientação de sua avó, Paloma. Mas ela e Dace terão a ajuda de seus amigos, Xotichl, Auden, Lita e Axel, e dos anciãos Pé Esquerdo, Cree, Chay e Chepi. A energia da juventude e a sabedoria dos anciãos serão as melhores armas que eles terão na luta para tentar salvar os três mundos da destruição do Coiote." }
+        colecao:"Coleção 2",
+        nome:"Horizonte",
+        sinopse:"“O destino os uniu – e os separou. Agora Daire e Dace enfrentam a batalha que selará seus destinos. Não pode perca o último volume da série “The soul seekers” O que você sacrificaria por amor? E para cumprir seu dever? Esse é o dilema que Daire Santos precisa enfrentar. Para provar ser digna de sua herança ancestral e honrar a linhagem de Buscadores que a precede, ela será obrigada a abrir mão da vida ao lado de seu amado Dace? Em Horizonte, último volume da série Soul Seekers, Daire e Dace se preparam para enfrentar os Richter de uma vez por todas mas, para isso, precisam descobrir o que o futuro reserva para eles. São realmente predestinados a ficarem juntos? Ou outro destino muito mais sombrio os aguarda? Nesta empreitada, Daire não pode mais contar com a preciosa orientação de sua avó, Paloma. Mas ela e Dace terão a ajuda de seus amigos, Xotichl, Auden, Lita e Axel, e dos anciãos Pé Esquerdo, Cree, Chay e Chepi. A energia da juventude e a sabedoria dos anciãos serão as melhores armas que eles terão na luta para tentar salvar os três mundos da destruição do Coiote." }
     ]
   },
   {
-    nome: "Amanda Maia",
+    nome:"Amanda G. Ferreira",
+    bandeira: "assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91UKmGZbIkL._SY466_.jpg",
+        nome:"Coração Sangrento",
+        sinopse:"Neste baile, nenhum coração está a salvo... Desde que o coração da eterna romântica Amaranta parou de bater em seu último casamento, sua Mansão se tornou o cenário de um dos eventos mais desejados e secretos do ano: o Baile dos Corações. Entre máscaras enigmáticas e doces afrodisíacos, os convidados se perdem nos jardins labirínticos onde as flores respiram pela dona da casa, mantendo-a viva de maneira misteriosa. Harmonia, a mestre confeiteira do amor, dedica sua vida a criar paixões avassaladoras, mesmo sem nunca ter experimentado esse sentimento. Ao lado de Mica, o jardineiro que despreza o amor, ela colhe os Corações-Sangrentos — flores mágicas que, transformadas em doces, desencadeiam romances intensos, embora efêmeros. Ano após ano, ela observa os convidados sucumbirem à magia das flores, acreditando que sua missão é fazer cada baile inesquecível. Porém, nesta edição, algo sai terrivelmente errado. A chegada de um misterioso convidado ameaça desestabilizar o baile, forçando Harmonia e Mica a navegarem pelos perigos da noite para proteger os segredos do jardim e da garota adormecida que lá habita. Conforme a tensão aumenta, os dois se veem envolvidos em uma teia de identidades ocultas, encontros proibidos e flores mágicas, percebendo que este baile pode não apenas destruir os corações dos convidados, mas os deles também." }
+    ]
+  },
+  {
+    nome:"Amanda Maia",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71FGUe0z+NL._SY425_.jpg",
-        colecao: "Coleção 1",
-        nome: "Sintonia Perfeita",
-        sinopse: "Bryan McCoy é o nome do problema de Mackenzie Wilde. Sorriso cafajeste, andar que esbanja confiança, jaqueta de couro e os coturnos pretos são a marca registrada do garoto que um dia foi o melhor amigo de Mackenzie. Quase dois anos depois de um incidente, que acarretou o fim de uma amizade de anos, Mackenzie está de volta à pacata cidade de Humperville, o lugar que se esforçou tanto para deixar para trás. Determinada a não se deixar abalar pelos erros que cometeu no passado, tentará se concentrar nas aulas de jornalismo e reconstruir o relacionamento com sua família. Mas Bryan não se esqueceu da dor que a amiga lhe causou, nem da maneira como o apunhalou pelas costas. Diferente de tudo que Mackenzie se lembrava, ele agora é um amargurado e rancoroso vocalista da banda The Reckless e determinado a mostrar o que as marcas deixadas por ela fizeram com seu coração." },
+        colecao:"Coleção 1",
+        nome:"Sintonia Perfeita",
+        sinopse:"Bryan McCoy é o nome do problema de Mackenzie Wilde. Sorriso cafajeste, andar que esbanja confiança, jaqueta de couro e os coturnos pretos são a marca registrada do garoto que um dia foi o melhor amigo de Mackenzie. Quase dois anos depois de um incidente, que acarretou o fim de uma amizade de anos, Mackenzie está de volta à pacata cidade de Humperville, o lugar que se esforçou tanto para deixar para trás. Determinada a não se deixar abalar pelos erros que cometeu no passado, tentará se concentrar nas aulas de jornalismo e reconstruir o relacionamento com sua família. Mas Bryan não se esqueceu da dor que a amiga lhe causou, nem da maneira como o apunhalou pelas costas. Diferente de tudo que Mackenzie se lembrava, ele agora é um amargurado e rancoroso vocalista da banda The Reckless e determinado a mostrar o que as marcas deixadas por ela fizeram com seu coração." },
 
       { url:"https://m.media-amazon.com/images/I/41EcKH4lSjL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Desastre Perfeito: Ato I",
+        colecao:"Coleção 1",
+        nome:"Desastre Perfeito: Ato I",
         sinopse: "Aidan Lynch e Delilah Linderman claramente não suportam um ao outro, mas outra coisa que está clara é que nenhum dos dois sabe exatamente o porquê.Talvez seja a rixa entre as famílias ou porque há coisas em Delilah que Aidan enxerga em si mesmo. O motivo que os fazem brigar tanto, talvez, seja a inevitável atração que ele sente pela garota que representa uma ameaça ao seu coração.O que sabem, de fato, é:Nada na relação deles é concreto.Tudo e todas as coisas partem do princípio de onde, quando e por quê.As pessoas se cruzam por um motivo, mas permanecem juntas por escolha.Desastres acontecem quando dois mundos diferentes se colidem." },
 
       { url:"https://m.media-amazon.com/images/I/41QsHxd3FeL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Desastre Perfeito: Ato II",
+        colecao:"Coleção 1",
+        nome:"Desastre Perfeito: Ato II",
         sinopse: "Aidan e Delilah se encaixavam como duas peças de um quebra-cabeça. Ela tinha medo de ser rejeitada. Ele só queria descobrir a verdade. Duas pessoas em que as famílias escondem segredos e existe uma guerra por poder há muitos anos. Desde o começo, Aidan e Delilah estão fadados ao desastre. Mas Aidan está disposto a reconquistá-la e provar que tudo que sentiu foi real, independentemente do que Delilah acredita, ele quer provar que ela está errada. O problema? Ela perdeu as memórias no trágico acidente que a deixou em coma durante vinte e três dias." },
 
       { url:"https://m.media-amazon.com/images/I/6182fu2IA+L._SY425_.jpg",
-        colecao: "Coleção 1",
-        nome: "Erro Perfeito",
-        sinopse: "Theresa McAvoy tem um passado cruel que a impede de viver como antes. É como se constantemente tentasse respirar debaixo d’água. Jeremy Chase é tecladista da The Reckless, e guarda tantos segredos e conflitos dentro de si, que estar sob sua pele é sufocante. Ela é a única filha do novo empresário da banda e campo proibido para Chase, mas, com uma personalidade única e um mau humor feroz, Theresa consegue provocar sentimentos que ele sequer sabia que podiam existir. Ela não se sente confortável na presença de um homem há muito tempo. Ele nunca se apaixonou por ninguém. Porém a atração física entre eles é inegável e fará com que quebrem todas as regras. Em meio a tudo que parece errado, vão descobrir que, se quiserem ficar juntos, terão que revisitar os demônios do passado e reabrir feridas que são dolorosas demais." },
+        colecao:"Coleção 1",
+        nome:"Erro Perfeito",
+        sinopse:"Theresa McAvoy tem um passado cruel que a impede de viver como antes. É como se constantemente tentasse respirar debaixo d’água. Jeremy Chase é tecladista da The Reckless, e guarda tantos segredos e conflitos dentro de si, que estar sob sua pele é sufocante. Ela é a única filha do novo empresário da banda e campo proibido para Chase, mas, com uma personalidade única e um mau humor feroz, Theresa consegue provocar sentimentos que ele sequer sabia que podiam existir. Ela não se sente confortável na presença de um homem há muito tempo. Ele nunca se apaixonou por ninguém. Porém a atração física entre eles é inegável e fará com que quebrem todas as regras. Em meio a tudo que parece errado, vão descobrir que, se quiserem ficar juntos, terão que revisitar os demônios do passado e reabrir feridas que são dolorosas demais." },
 
       { url:"https://m.media-amazon.com/images/I/41KOmJ6InsL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Segredo Perfeito: Ato I",
+        colecao:"Coleção 1",
+        nome:"Segredo Perfeito: Ato I",
         sinopse: "Gravity Monaghan batalhou por anos em busca de sua realização profissional, mas se vê em uma situação desgastante como estagiária de uma estilista que não tem a intenção de ajudá-la a crescer. Seu sonho de se tornar um grande nome no ramo da moda fica cada vez mais distante, e depois que ele volta para sua vida, parece que suas opções se concentraram nele. Ashton Baker está vivendo o auge de seu sucesso como o membro mais comentado da famosa banda de rock, a The Reckless. Movido a sexo e uma série de polêmicas que envolvem seu nome, o último problema que arranjou em meio à turnê mundial, a mais importante de sua carreira, foi o estopim para os outros integrantes e sua equipe. Ele precisa dela para mudar sua imagem, enquanto ela precisa dele para se destacar. Em meio à desconfiança e raiva, Gravity e Ashton se deparam com um sentimento ainda mais perturbador: o rancor. Eles não se esqueceram do que aconteceu, mas ainda que não assumam, são atraídos um pelo outro. Não são só suas histórias que os perseguem, mas os segredos que guardam os levam a viver sob uma teia de mentiras. É tudo sobre causa e efeito, e o passado sempre volta para cobrar seu preço." },
 
       { url:"https://m.media-amazon.com/images/I/41mEjjo-1+L._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Segredo Perfeito: Ato II",
+        colecao:"Coleção 1",
+        nome:"Segredo Perfeito: Ato II",
         sinopse: "Eles são como fogo e gasolina. São ambiciosos e detestam perder. Iniciaram uma guerra impossível de ganhar. Mas farão de tudo para mostrar quem é o mais forte. É assim que Ashton e Gravity lidam com suas emoções: preferem se ferir a admitir o que sentem um pelo outro. Porém, em meio a essa tempestade, eles continuam persistindo em segredos e mentiras que os levarão à mais dolorosa ruína." },
 
       { url:"https://m.media-amazon.com/images/I/41E0klb6AuL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Segredo Perfeito: Ato III",
-        sinopse: "Por muito tempo, segredos construíram uma base sólida para aqueles que temiam o passado, oferecendo uma falsa sensação de segurança. Para Gravity, esconder-se atrás dessas máscaras e construir uma realidade sustentada por mentiras a fez acreditar que estava protegida de seus demônios. Mas, quando eles retornam para assombrá-la, ela descobre que pode até fugir, mas nunca se esconder. Ashton está disposto a enfrentar qualquer inimigo para ficar com ela, pois, para ele, perder nunca será uma opção. Ele a quer. Ela teme as consequências. Ele não se importa com o passado que ela carrega. E ela continua presa a um sentimento antigo. Será que eles finalmente vão derrubar esse império de segredos para proteger um bem maior?" }
+        colecao:"Coleção 1",
+        nome:"Segredo Perfeito: Ato III",
+        sinopse: "Por muito tempo, segredos construíram uma base sólida para aqueles que temiam o passado, oferecendo uma falsa sensação de segurança. Para Gravity, esconder-se atrás dessas máscaras e construir uma realidade sustentada por mentiras a fez acreditar que estava protegida de seus demônios. Mas, quando eles retornam para assombrá-la, ela descobre que pode até fugir, mas nunca se esconder. Ashton está disposto a enfrentar qualquer inimigo para ficar com ela, pois, para ele, perder nunca será uma opção. Ele a quer. Ela teme as consequências. Ele não se importa com o passado que ela carrega. E ela continua presa a um sentimento antigo. Será que eles finalmente vão derrubar esse império de segredos para proteger um bem maior?" },
+
+      { url:"https://m.media-amazon.com/images/I/61itlTQBgEL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Oposto Perfeito: Ato I",
+        sinopse:"Effy Cohen sempre acreditou que algumas dores podiam ser curadas com amor. Mas o que acontece quando essa crença se choca contra uma alma dilacerada a ponto de não conseguir sentir? Finnick Taylor nunca pediu para ser salvo. Filho de um passado cruel, ele aprendeu a sobreviver em silêncio — sufocando sentimentos, enterrando traumas, se escondendo atrás de uma frieza que parecia impenetrável. Até Effy cruzar seu caminho. Ela viu o que ninguém viu. Tocou partes que nem ele sabia que existiam. Amar alguém como Finn exige mais do que coragem. Exige entrega. Exige se despir de todas as certezas. Exige ficar, mesmo quando tudo dentro de você grita para ir embora. Um vínculo visceral. Uma conexão dilacerante. Dois mundos quebrados, orbitando a mesma escuridão. E a certeza inegável de que, mesmo tentando, nunca conseguiram se afastar. Pelo menos até virarem pó." },
+
+      { url:"https://m.media-amazon.com/images/I/61lFHYW3dAL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Oposto Perfeito: Ato II",
+        sinopse:"Finnick Taylor é o nome que o mundo inteiro conhece — frio, inatingível, com uma fama que mistura sexo, vício e autodestruição. O rosto que todos vêem esconde o homem que perdeu tudo o que amava. E, quando teve a chance de salvá-la, escolheu afastá-la… para protegê-la de si mesmo. Effy Cohen nunca se recuperou do que aconteceu entre eles. Ela aprendeu a sobreviver — mesmo que isso significasse sufocar o que sentia. Determinada, intensa e ferida, Effy prometeu nunca mais se perder por ninguém. Muito menos por ele. Agora, o destino força os dois a encarar tudo o que tentaram esquecer. Ele é o caos que ela passou a odiar. Ela é a única coisa que ele acredita que pode salvá-lo. Mas mágoas antigas nunca morrem. Elas apenas aprendem a respirar em silêncio — esperando o momento certo para explodir." }
     ]
   },
   {
-    nome: "Amy Alward",
+    nome:"Amber V. Nicole",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71r0HPxBMbL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O livro de Azrael",
+        sinopse:"Há muitos séculos, desesperada para salvar a sua irmã, Dianna fez um acordo com Kaden, um monstro muito pior do que qualquer pesadelo. Presa em servidão a ele, ela é forçada a caçar uma antiga relíquia mantida por seus inimigos mais perigosos: um exército liderado por Samkiel, o Destruidor de Mundos. Após a Guerra dos Deuses, Samkiel se escondeu de tudo, negando a sua coroa e abandonando o seu povo. Agora, um ataque contra aqueles que ele ama o envia de volta ao reino para o qual ele nunca desejou retornar, e na mira de um inimigo que ele esperava esquecer. Com todos os mundos em jogo, Dianna e Samkiel são forçados a deixar de lado a sua animosidade e a trabalhar juntos, antes que tudo esteja perdido." },
+        
+      { url:"https://m.media-amazon.com/images/I/81KTMWB+pTL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Trono de Monstros",
+        sinopse:"Dianna está determinada a se vingar. Quando o último resquício de humanidade é arrancado dela, ela decide abraçar seu lado monstruoso e incendiar os mundos. Porém Samkiel se recusa a acreditar que ela se tornou o monstro que todos os outros veem, e ele fará qualquer coisa que tiver ao seu alcance para salvá-la de si mesma, mesmo que isso signifique perdê-la. Com todos os reinos em risco pelo exército de Kaden, e uma miríade de novas ameaças no horizonte, Samkiel não pode se dar ao luxo de baixar a guarda. E enquanto a sede de sangue de Dianna só aumenta, ele está ficando sem tempo para salvar os dois…" },
+      
+      { url:"https://m.media-amazon.com/images/I/815DLfuNDXL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A Ascensão da Rainha",
+        sinopse:"Pergunte a ela, garoto. Pergunte o que ela implorou às estrelas e o que vive agora. Pergunte o que ela arrancou dos céus. E então pergunte se ela se importa. O sangue antigo corre em suas veias. Nismera e suas legiões governam os reinos enquanto o poder de Samkiel preenche o céu. Com ele ausente, ela se esforça para consolidar seu lugar no trono… custe o que custar. Dianna combate sob o peso de meias-verdades, mentiras e fraudes. Depois de superar o que pensava ser sua batalha mais difícil, logo descobre que ainda assim corre o risco de perder tudo. Samkiel se esforça para se curar, mas está mais atarefado que nunca. A Mão foi desmantelada, os reinos estão em turbulência e a única pessoa em quem ele pode confiar o mantém à distância. Será que os dois conseguirão resolver suas diferenças ou ambos sucumbirão à lâmina da Deusa da Guerra? O único rei verdadeiro retorna, mas será o rei ou a rainha quem governará a todos?" }
+    ]
+  },
+  {
+    nome:"Amy Alward",
+    bandeira:"assets/images/bandeiras/ca.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91G12C0Ej7L._SY466_.jpg",
-        colecao: "Colção 1",
-        nome: "A poção secreta",
-        sinopse: "A Princesa do Reino de Nova toma acidentalmente uma poção do amor, e se apaixona por si mesma! Para encontrar um antídoto que possa curá-la, o rei mobiliza todos numa expedição chamada Caçada Selvagem. Competidores do mundo todo saem em busca dos mais raros ingredientes em florestas mágicas e montanhas geladas, enfrentando perigos e encarando a morte para encontrar a fórmula da poção secreta. Dentre eles, está Samantha, uma garota comum que herdou dos seus ancestrais alquimistas o talento para preparar poções. Esta pode ser a oportunidade para reerguer a decadente loja de poções da família, afinal o mundo todo estará acompanhando a Caçada nas mídias sociais. Será que ela conseguirá descobrir a cura e salvar a Princesa?" },
+        colecao:"Coleção 1",
+        nome:"A poção secreta",
+        sinopse:"A Princesa do Reino de Nova toma acidentalmente uma poção do amor, e se apaixona por si mesma! Para encontrar um antídoto que possa curá-la, o rei mobiliza todos numa expedição chamada Caçada Selvagem. Competidores do mundo todo saem em busca dos mais raros ingredientes em florestas mágicas e montanhas geladas, enfrentando perigos e encarando a morte para encontrar a fórmula da poção secreta. Dentre eles, está Samantha, uma garota comum que herdou dos seus ancestrais alquimistas o talento para preparar poções. Esta pode ser a oportunidade para reerguer a decadente loja de poções da família, afinal o mundo todo estará acompanhando a Caçada nas mídias sociais. Será que ela conseguirá descobrir a cura e salvar a Princesa?" },
 
       { url:"https://m.media-amazon.com/images/I/919aiMrtFIL._SY425_.jpg",
-        colecao: "Colção 1",
-        nome: "A poção perdida",
-        sinopse: "Depois de vencer a Caçada Selvagem, salvando a Princesa Evelyn, a vida de Sam Kemi mudou completamente! Tudo parece estar indo muito bem, o trabalho na loja de poções da família, sua amizade com a princesa e os preparativos para uma grande viagem internacional, até que de repente não está mais... Alguém adulterou a mente do avô de Sam para tentar descobrir a fórmula da Aqua Vitae, uma poção capaz de curar qualquer doença e que estava perdida entre as páginas de um antigo diário da família Kemi. Sem suas memórias e precioso conhecimento, o avô de Sam está cada vez mais perdido e confuso. E, conforme o tempo passa, seu estado só piora. Agora Sam precisa encontrar a receita perdida da poção mais poderosa do mundo, pela qual as pessoas matariam para pôr as mãos, e trazer as memórias do seu avô de volta. Trocando vestidos, príncipes e palácios por dragões, centauros e cavernas, Sam começa a aventura mais importante e perigosa de sua vida – na qual tudo pode acontecer!" },
+        colecao:"Coleção 1",
+        nome:"A poção perdida",
+        sinopse:"Depois de vencer a Caçada Selvagem, salvando a Princesa Evelyn, a vida de Sam Kemi mudou completamente! Tudo parece estar indo muito bem, o trabalho na loja de poções da família, sua amizade com a princesa e os preparativos para uma grande viagem internacional, até que de repente não está mais... Alguém adulterou a mente do avô de Sam para tentar descobrir a fórmula da Aqua Vitae, uma poção capaz de curar qualquer doença e que estava perdida entre as páginas de um antigo diário da família Kemi. Sem suas memórias e precioso conhecimento, o avô de Sam está cada vez mais perdido e confuso. E, conforme o tempo passa, seu estado só piora. Agora Sam precisa encontrar a receita perdida da poção mais poderosa do mundo, pela qual as pessoas matariam para pôr as mãos, e trazer as memórias do seu avô de volta. Trocando vestidos, príncipes e palácios por dragões, centauros e cavernas, Sam começa a aventura mais importante e perigosa de sua vida – na qual tudo pode acontecer!" },
 
       { url:"https://m.media-amazon.com/images/I/91ZMb2mN5YL._SY425_.jpghttps://m.media-amazon.com/images/I/91ZMb2mN5YL._SY425_.jpg",
-        colecao: "Colção 1",
-        nome: "A poção mortal",
-        sinopse: "Depois de encontrar o diário de poções da sua bisavó, escapar das garras de uma alquimista malévola, recuperar a memória do seu avô e se tornar uma Mestra Alquimista, não é hora de Sam Kemi ter um bom e merecido descanso? Mas agora que a Princesa Evelyn está casada com o sinistro Príncipe Stefan e começa a apresentar os estranhos sintomas de um vírus desconhecido, parece que as aventuras de Sam estão apenas começando. Com uma equipe de TV registrando cada passo de Sam e o tempo quase se esgotando, nossa garota alquimista terá agora que enfrentar erupções vulcânicas, animais mitológicos e o pérfido jogo de um Príncipe cheio de segredos, se quiser salvar a Princesa e a vida de todos os seus súditos... de um sono eterno!" }
+        colecao:"Coleção 1",
+        nome:"A poção mortal",
+        sinopse:"Depois de encontrar o diário de poções da sua bisavó, escapar das garras de uma alquimista malévola, recuperar a memória do seu avô e se tornar uma Mestra Alquimista, não é hora de Sam Kemi ter um bom e merecido descanso? Mas agora que a Princesa Evelyn está casada com o sinistro Príncipe Stefan e começa a apresentar os estranhos sintomas de um vírus desconhecido, parece que as aventuras de Sam estão apenas começando. Com uma equipe de TV registrando cada passo de Sam e o tempo quase se esgotando, nossa garota alquimista terá agora que enfrentar erupções vulcânicas, animais mitológicos e o pérfido jogo de um Príncipe cheio de segredos, se quiser salvar a Princesa e a vida de todos os seus súditos... de um sono eterno!" }
     ]
   },
   {
-    nome: "Ana Paula Araújo",
+    nome:"Amy Lea",
+    bandeira:"assets/images/bandeiras/ca.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91u4TmbND3L._SY425_.jpg",
+        nome:"Caída por você",
+        sinopse:"Organizar a festa de formatura perfeita é o último item na lista de desejos de Charlotte Wu, uma ultradisciplinada aluna do último ano do ensino médio. Tudo está correndo de acordo com o planejado até que, durante a decoração do salão, um escorregão faz Charlotte despencar de uma escada e aterrissar em cheio em cima de seu arqui-inimigo, o detestavelmente sarado J. T. Renner. Quando ela acorda, se vê em uma cama desconhecida, com 30 anos de idade, ao lado do noivo. E o pior de tudo: ele é o Renner. Ou os dois enlouqueceram de vez ou foram arremessados na vida adulta e ficarão presos para sempre em seu corpo de 30 anos. Agora que eles são a única constante na vida um do outro, Charlotte e Renner se unem para descobrir juntos tudo que mudou durante o tempo que perderam. De quebra, Charlotte ainda descobre que Renner tem muito mais a mostrar do que seu charme irritantemente atlético – e que mais importante do que ultrapassar os marcos da vida é saber aproveitar o que está entre eles."}
+    ]
+  },
+  {
+    nome:"Ana Huang",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71s4GMjBLcL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Amor corrompido",
+        sinopse:"Alex Volkov é um demônio abençoado com um rosto angelical e amaldiçoado por um passado do qual não consegue escapar. A única coisa que o motiva é o desejo de vingança em razão de ter presenciado a tragédia que o assombra desde então. Não existe espaço na sua vida para o amor. Mas quando ele é obrigado a tomar conta da irmã de seu melhor amigo, Alex sente algo de diferente em seu peito: Uma rachadura. Algo amolecendo. Uma chama que pode virar seu mundo de cabeça pra baixo. Ava Chen é uma garota de espírito livre encurralada por pesadelos de uma infância da qual não se lembra. Apesar de seu passado obscuro, ela nunca deixou de enxergar a beleza em tudo... inclusive no coração de um homem frio que não deveria desejar. O melhor amigo de seu irmão. Seu vizinho. Seu redentor e sua perdição. O amor entre os dois nunca deveria ter acontecido, mas, quando acontece, revela segredos que podem destruir ambos... e tudo o que amam." },
+      
+      { url:"https://m.media-amazon.com/images/I/716HF9UOihL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Jogos do amor",
+        sinopse:"Rhys Larsen é um guarda-costas inabalável, taciturno e arrogante que vive sob duas regras: proteger seus clientes a qualquer custo e não se deixar envolver emocionalmente. Nunca. Em nenhum momento ele se viu tentado a quebrar essas regras... Até ela aparecer. Bridget, sua cliente, é uma princesa (literalmente) cuja teimosia destrói todas as regras dele. Ela não é nada o que Rhys esperava e tudo o que jamais pensou que precisaria. Dia após dia, a teimosia de Bridget derruba as defesas de Rhys, até que ele, apesar de seu juramento, não consegue mais negar: ele a deseja intensamente. Porque ela é dele. Sua princesa. O fruto proibido. Sua maior fantasia. / Bridget von Ascheberg sonha com a liberdade de viver e amar quem quiser. Mas, quando seu irmão abdica do trono, ela se depara com um futuro bem diferente. Um casamento sem amor e uma posição que nunca quis assumir. Enquanto enfrenta as dificuldades desse novo caminho, ela deve esconder o seu desejo por um homem que não pode ter. Seu guarda-costas. Seu protetor. Sua ruína. Inesperado e inesquecível, este é um amor que pode não só destruir um reino, mas também a vida dos dois." },
+
+      { url:"https://m.media-amazon.com/images/I/71JKKnPlzHL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Amor e ódio",
+        sinopse:"Josh Chen é arrogante, deslumbrante e está a caminho de se tornar um médico de sucesso. Ele nunca conheceu uma mulher que resistisse ao seu charme, exceto por Jules Ambrose. A bela ruiva tem sido uma pedra em seu sapato desde quando se conheceram, mas ela também consome os pensamentos dele de uma maneira que nenhuma outra mulher foi capaz. Quando toda essa animosidade entre eles explode em uma noite memorável, Josh propõe uma solução que matará a vontade dos dois: um acordo de inimizade colorida com regras simples: Sem ciúmes. Sem conexão. E sem paixão. / Jules Ambrose é uma ex-baladeira extrovertida e ambiciosa, cujo foco está em apenas um objetivo: passar no exame da Ordem dos Advogados. A última coisa da qual ela precisa é se envolver com um médico que transforma algo complicado numa situação insuportável... não interessa o quão lindo ele seja. Porém, quanto mais ela o conhece, mais percebe que o homem que detesta há tanto tempo é mais do que ela conseguia enxergar. O irmão da sua melhor amiga. O seu inimigo. E também a sua única salvação. A união deles é quente como o inferno. E quando os demônios do passado os alcançam, ambos encaram verdades que podem salvá-los... ou destruir tudo o que construíram juntos." },
+
+      { url:"https://m.media-amazon.com/images/I/71xKbTOFFbL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Mentiras do amor",
+        sinopse:"Christian Harper é charmoso, mortal e esperto o suficiente para esconder sua personalidade: ele é um monstro vestido em ternos perfeitos. Tem um senso de moral baixíssimo, ainda menor para o amor, mas precisa admitir que uma força estranha o puxa em direção à mulher que vive no apartamento abaixo do seu. Ela é o objeto do seu desejo mais obscuro, o único quebra-cabeças que Christian não é capaz de decifrar. Mas quando, de repente, a oportunidade de ficar próximo dela surge, ele quebra as próprias regras para oferecer um acordo à moça, algo que ela não poderá negar. Todo monstro tem suas fraquezas. E ela é a dele. Sua obsessão. Seu vício. A única exceção. / Stella Alonso é doce, tímida e introvertida, apesar do que posta em suas redes sociais. Ela é romântica, mas guarda o seu coração preso em uma gaiola. Dividida entre dois empregos, tem pouco tempo para um relacionamento amoroso... ou mesmo o desejo de ter um. Quando uma ameaça do seu passado a leva para os braços – e para a casa – do homem mais perigoso que conheceu, Stella é tentada a se permitir sentir alguma coisa pela primeira vez em muito tempo. Porque, apesar da natureza fria de Christian, ele mexe com ela quando estão juntos." },
+
+      { url:"https://m.media-amazon.com/images/I/81Fr78MieZL._SY425_.jpg",
+        colecao:"Coleção 2",
+        nome:"Rei da Ira",
+        sinopse:"Ela é a esposa que ele nunca quis… e a fraqueza que ele nunca pensou que teria. Implacável. Meticuloso. Arrogante. Dante Russo gosta de estar no controle, tanto na vida pessoal quanto na profissional. O CEO bilionário nunca cogitou se casar, até que uma chantagem o obriga a aceitar o noivado com uma mulher que mal conhece: Vivian Lau, herdeira de um império de joias e filha do seu mais recente inimigo. Ela é bonita e encantadora, mas Dante está disposto a fazer de tudo para destruir as evidências da chantagem e terminar o noivado. O único problema é que, depois de ter Vivian para si, ele não consegue mais pensar em perdê-la. / Ele parece detestável... mas ela não vai conseguir resistir à atração. Elegante. Ambiciosa. Educada. Vivian Lau é a filha perfeita, que pode levar sua família ao topo da alta sociedade. Casar-se com um Russo significa ganhar acesso a lugares inalcançáveis para novos-ricos. Embora Dante tenha um jeito rude e distante, Vivian concorda em se casar com ele por uma questão de dever familiar. Desejar seu toque não fazia parte dos planos. Assim como cometer o erro mais fatal de todos: se apaixonar por seu futuro marido." },
+
+      { url:"https://m.media-amazon.com/images/I/81sAFpjrZPL._SY425_.jpg",
+        colecao:"Coleção 2",
+        nome:"Rei do Orgulho",
+        sinopse:"Ela é o oposto dele em todos os sentidos... e a maior tentação que já experimentou. Discreto, controlado e impecavelmente educado, Kai Young não tem tempo nem vontade de se envolver em confusões – e Isabella, com seu cabelo colorido e piadas inadequadas, é o caos em pessoa. Com uma importante votação para CEO se aproximando e um império midiático em jogo, o herdeiro bilionário não pode se dar ao luxo de se distrair com ela. Isabella representa tudo que ele não deveria desejar, mas cada olhar e cada toque só aumentam a tentação de quebrar todas as regras... e tomá-la para si de uma vez. / Ele é certinho demais, respeitável demais... e irresistível demais. Isabella Valencia é ousada, impulsiva e cheia de vida, a alma de todas as festas, capaz de encantar qualquer homem... exceto Kai Young. Não que isso faça diferença – Kai não é o seu tipo. Além disso, como ele é membro do clube exclusivo onde Isabella trabalha, os dois não podem se envolver em hipótese alguma. No entanto, ela não pode negar que, sob a a" },
+
+      { url:"https://m.media-amazon.com/images/I/41LgUh+N1LL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 2",
+        nome:"Rei da Ganância",
+        sinopse:"Ele perdeu o amor de sua vida... mas fará de tudo para reconquistá-lo. O genial e ambicioso Dominic Davenport lutou para se tornar o Rei de Wall Street. Ele tem tudo: uma casa enorme, uma bela esposa e mais dinheiro do que poderia gastar. Porém, não importa o quanto ganhe, nunca fica satisfeito. Em sua eterna busca por mais, ele acaba afastando a única pessoa que sempre o considerou o mais importante. É apenas quando ela vai embora que Dominic se dá conta de que há mais na vida do que riqueza e glória. Mas então já é tarde demais. Ele parecia o homem de seus sonhos, mas partiu seu coração... e agora terá que lidar com as consequências. Gentil e inteligente, Alessandra cansou de ficar de lado enquanto Dominic construía seu império. E, agora que chegou ao topo, seu marido deixou de ser a pessoa por quem ela se apaixonou. Quando fica evidente que, para ele, o trabalho sempre virá em primeiro lugar, Alessandra cria coragem para retomar as rédeas da própria vida – mesmo que isso signifique abandonar o único homem que já amou. Ela só não imaginava que Dominic se recusaria a perdê-la... e que estaria disposto a lutar pelo casamento com todas as forças." },
+
+      { url:"https://m.media-amazon.com/images/I/41ygMDW+P3L._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 2",
+        nome:"Rei da Preguiça",
+        sinopse:"Ela é viciada em trabalho e está sempre nervosa... mas ele adoraria ensiná-la a relaxar. Herdeiro de uma das maiores fortunas do mundo, Xavier Castillo tem tudo ao seu alcance. Sem interesse em assumir o império da família, passa os dias em férias eternas, rodeado de amigos, música, bebida e mulheres que o adoram... exceto por uma: Sloane, sua assessora de imprensa. Nada o diverte mais do que irritá-la. Porém, quando uma tragédia os obriga a conviver mais de perto, Xavier se depara com um futuro incerto e se dá conta de que a única pessoa imune ao seu charme é também a única que ele deseja. / Ele é o seu cliente mais irritante e faz seu sangue ferver... de raiva, claro. Inteligente e ambiciosa, Sloane Kensington é uma assessora de imprensa do alto escalão acostumada a lidar com clientes difíceis. No entanto, nenhum a deixa mais enfurecida (e irrequieta) do que Xavier, um bilionário bon vivant que tem um enervante sorriso com covinhas. Ela pode até ser obrigada a trabalhar com ele, porém jamais cairá em seu charme... por mais que ele faça seu coração disparar. Xavier é seu cliente e nada mais. Certo?" },
+    ]
+  },
+  {
+    nome:"Ana Paula Araújo",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71CTY2HRERL._SY466_.jpg",
-        nome: "Abuso: A cultura do estupro no Brasil",
-        sinopse: "Por que o estupro é um crime ainda tão comum no Brasil? Por que a vítima muitas vezes é tão – ou mais – julgada pela sociedade do que o próprio criminoso? Por que é tão difícil fazer uma denúncia? Após quatro anos de pesquisas, viagens pelo país e mais de 100 entrevistas com vítimas e familiares, criminosos, psiquiatras e diversos especialistas no assunto, a jornalista Ana Paula Araújo escreve Abuso - a cultura do estupro no Brasil com coragem e sem meias-verdades. A obra é uma reportagem que trata do medo e vergonha das vítimas, de como elas são julgadas e muitas vezes culpabilizadas pela sociedade e pelo poder público, das dificuldades para denunciar, dos caminhos para superar o trauma e seguir em frente e como atitudes tão entranhadas em nossa sociedade geraram uma verdadeira cultura do estupro em nosso país. Ela também auxilia as vítimas a utilizarem os meios de denúncia disponíveis no país, como o disque 100, e esclarece sobre o direito ao aborto decorrente de estupro, que é autorizado por lei sem que haja queixa na polícia. Ana Paula analisa casos que chocaram os brasileiros e outros tantos que, apesar de bárbaros, ficaram perdidos em meio ao constrangimento das vítimas e à lentidão da lei para mostrar como o estupro afeta toda a rede familiar e deixa marcas indestrutíveis na vida de quem o sofre. Ela acompanha todo o caminho das vítimas por justiça e mostra todas as facetas e implicações desse crime tão cruel e, infelizmente, tão corriqueiro no Brasil. Abuso é uma obra ousada, pesquisada com apuro e escrita com imensa sinceridade por uma das mais importantes jornalistas em atividade no país. Porém, mais do que tudo isso, Abuso é um livro extremamente necessário, que precisa ser lido por todos." }
+        nome:"Abuso: A cultura do estupro no Brasil",
+        sinopse:"Por que o estupro é um crime ainda tão comum no Brasil? Por que a vítima muitas vezes é tão – ou mais – julgada pela sociedade do que o próprio criminoso? Por que é tão difícil fazer uma denúncia? Após quatro anos de pesquisas, viagens pelo país e mais de 100 entrevistas com vítimas e familiares, criminosos, psiquiatras e diversos especialistas no assunto, a jornalista Ana Paula Araújo escreve Abuso - a cultura do estupro no Brasil com coragem e sem meias-verdades. A obra é uma reportagem que trata do medo e vergonha das vítimas, de como elas são julgadas e muitas vezes culpabilizadas pela sociedade e pelo poder público, das dificuldades para denunciar, dos caminhos para superar o trauma e seguir em frente e como atitudes tão entranhadas em nossa sociedade geraram uma verdadeira cultura do estupro em nosso país. Ela também auxilia as vítimas a utilizarem os meios de denúncia disponíveis no país, como o disque 100, e esclarece sobre o direito ao aborto decorrente de estupro, que é autorizado por lei sem que haja queixa na polícia. Ana Paula analisa casos que chocaram os brasileiros e outros tantos que, apesar de bárbaros, ficaram perdidos em meio ao constrangimento das vítimas e à lentidão da lei para mostrar como o estupro afeta toda a rede familiar e deixa marcas indestrutíveis na vida de quem o sofre. Ela acompanha todo o caminho das vítimas por justiça e mostra todas as facetas e implicações desse crime tão cruel e, infelizmente, tão corriqueiro no Brasil. Abuso é uma obra ousada, pesquisada com apuro e escrita com imensa sinceridade por uma das mais importantes jornalistas em atividade no país. Porém, mais do que tudo isso, Abuso é um livro extremamente necessário, que precisa ser lido por todos." }
     ]
   },
   {
-    nome: "Ana Recalde",
+    nome:"Ana Recalde",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81SIh8rmL9L._SY342_.jpg",
-        nome: "Beladona",
-        sinopse: "A HQ conta a história de Samantha, uma menina assombrada por sonhos terríveis. A história se passa em dois mundos: Primeiro o mundo real e o segundo, um mundo dos pesadelos. Nesse mundo dos pesadelos, Samantha é perseguida constantemente por espíritos que a atormentam e que claramente desejam seu mal, mas isso tudo tem um propósito sinistro e que a levará a uma jornada com momentos de superação, descoberta, euforia, depressão e violência." }
+        nome:"Beladona",
+        sinopse:"A HQ conta a história de Samantha, uma menina assombrada por sonhos terríveis. A história se passa em dois mundos: Primeiro o mundo real e o segundo, um mundo dos pesadelos. Nesse mundo dos pesadelos, Samantha é perseguida constantemente por espíritos que a atormentam e que claramente desejam seu mal, mas isso tudo tem um propósito sinistro e que a levará a uma jornada com momentos de superação, descoberta, euforia, depressão e violência." }
     ]
   },
   {
-    nome: "Andrei Fernandes",
+    nome:"Andrei Fernandes",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81oTAG6x+kL._SY466_.jpg",
-        colecao: "Coleção 1",
-        nome: "Kalciferum: Demônios, Bruxas e Vagantes (Livro 1)",
+        colecao:"Coleção 1",
+        nome:"Kalciferum: Demônios, Bruxas e Vagantes (Livro 1)",
         sinopse: "Muitas coisas escapam aos nossos olhos. Algumas delas se aproveitam disso, se esgueirando em vielas escuras, se misturando na multidão, sobrevivendo enquanto continuam ocultadas pelo véu da ignorância. Mas o que aconteceria se este véu fosse repentinamente retirado e por algum motivo inimaginável você pudesse ver realmente aquilo que espreita na escuridão? Rafael era só mais um, perdido em suas convicções mundanas sobre tudo, até descobrir que seu colega de trabalho era na verdade um demônio fugitivo e que a partir daquele momento, sua vida nunca mais seria a mesma." },
 
       { url:"https://m.media-amazon.com/images/I/91-rfwzaufL._SY466_.jpg",
-        colecao: "Coleção 1",
-        nome: "O Martelo das Feiticeiras (Livro 2)",
-        sinopse: "O Martelo das Feiticeiras é uma fantasia urbana que acompanha a jornada de Rafael, um mundano como outro qualquer, que foi dragado para o mundo oculto cheio de feitiçaria e entidades sobrenaturais que se escondem na cidade. Enquanto tenta gerenciar a empresa de seu falecido pai e continuar com a vida da melhor maneira possível no mundo profano, Rafael terá que encarar acusações de crimes que não cometeu, perante um juri de magos que compõe um órgão regulador de assuntos arcanos. Para se livrar de uma condenação, terá que encarar três misteriosas ordálias que terão consequências avassaladoras na percepção do mundo a sua volta." }
+        colecao:"Coleção 1",
+        nome:"O Martelo das Feiticeiras (Livro 2)",
+        sinopse:"O Martelo das Feiticeiras é uma fantasia urbana que acompanha a jornada de Rafael, um mundano como outro qualquer, que foi dragado para o mundo oculto cheio de feitiçaria e entidades sobrenaturais que se escondem na cidade. Enquanto tenta gerenciar a empresa de seu falecido pai e continuar com a vida da melhor maneira possível no mundo profano, Rafael terá que encarar acusações de crimes que não cometeu, perante um juri de magos que compõe um órgão regulador de assuntos arcanos. Para se livrar de uma condenação, terá que encarar três misteriosas ordálias que terão consequências avassaladoras na percepção do mundo a sua volta." }
     ]
   },
   {
-    nome: "Angie Thomas",
+    nome:"Angie Thomas",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81K0iS2zjmL._SY466_.jpg",
-        nome: "Uma rosa no concreto",
-        sinopse: "Em Uma rosa no concreto, Angie Thomas revisita os personagens do sucesso O ódio que você semeia. Conheça a história de Maverick Carter aos 17 anos e de como ele se tornou o pai de Seven e Starr. Maverick Carter sabe que um homem de verdade cuida da própria família. Como filho de uma ex-lenda da gangue King Lords, Mav faz isso da única maneira que conhece: vendendo drogas. O dinheiro serve para ajudar a mãe, que trabalha em dois empregos para sustentar a casa enquanto o pai está na prisão. Com apenas 17 anos, sabe que sua vida não é perfeita, mas com uma namorada de tirar o fôlego e um primo superprotetor, Mav tem tudo sob controle. Ou melhor, tinha... até descobrir que é pai de um bebê de três meses. Conciliar a vida nas ruas, os estudos e ainda ser um bom pai não é tarefa fácil. Ainda mais com Iesha, a mãe do bebê, deixando todo o trabalho em suas mãos. Por isso, quando tem a chance de dar um rumo diferente a sua vida, Maverick aproveita. Em um mundo que espera sua derrota, Mav quer provar que é diferente. Afinal, até rosas conseguem florescer nas situações mais adversas. Mas com o sangue dos King Lords correndo em suas veias, deixar tudo para trás pode ser um verdadeiro desafio. A lealdade, a vingança e a responsabilidade de Mav são postas à prova, especialmente depois do brutal assassinato de um ente querido. Ele terá que descobrir por si mesmo o que realmente significa ser um homem." }
+        nome:"Uma rosa no concreto",
+        sinopse:"Em Uma rosa no concreto, Angie Thomas revisita os personagens do sucesso O ódio que você semeia. Conheça a história de Maverick Carter aos 17 anos e de como ele se tornou o pai de Seven e Starr. Maverick Carter sabe que um homem de verdade cuida da própria família. Como filho de uma ex-lenda da gangue King Lords, Mav faz isso da única maneira que conhece: vendendo drogas. O dinheiro serve para ajudar a mãe, que trabalha em dois empregos para sustentar a casa enquanto o pai está na prisão. Com apenas 17 anos, sabe que sua vida não é perfeita, mas com uma namorada de tirar o fôlego e um primo superprotetor, Mav tem tudo sob controle. Ou melhor, tinha... até descobrir que é pai de um bebê de três meses. Conciliar a vida nas ruas, os estudos e ainda ser um bom pai não é tarefa fácil. Ainda mais com Iesha, a mãe do bebê, deixando todo o trabalho em suas mãos. Por isso, quando tem a chance de dar um rumo diferente a sua vida, Maverick aproveita. Em um mundo que espera sua derrota, Mav quer provar que é diferente. Afinal, até rosas conseguem florescer nas situações mais adversas. Mas com o sangue dos King Lords correndo em suas veias, deixar tudo para trás pode ser um verdadeiro desafio. A lealdade, a vingança e a responsabilidade de Mav são postas à prova, especialmente depois do brutal assassinato de um ente querido. Ele terá que descobrir por si mesmo o que realmente significa ser um homem." }
     ]
   },
   {
-    nome: "Ann Shen ",
+    nome:"Ann Liang",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81mMVjmCZAL._SY466_.jpg",
+        nome:"Dessa vez é real",
+        sinopse:"Eliza Lin, de dezessete anos, acabou de chegar em Pequim e sente falta de sua melhor amiga e da vida que deixou nos Estados Unidos. Agora, ela não só tem que se adaptar a uma nova realidade, mas também lidar com mais uma reviravolta: a redação que ela fez sobre ter encontrado sua alma gêmea na cidade viraliza da noite pro dia. De repente, ela tem a aprovação de seus colegas, uma proposta de estágio em uma grande revista e um segredo gigantesco: Eliza inventou a redação inteira! Ela nunca sequer se apaixonou, que dirá ter um relacionamento. Desesperada para esconder a verdade, a garota faz um acordo com um ator famoso de sua turma, o charmoso e indiferente Caz Song. Nada como um namoro falso para despistar os curiosos. Mas quando o relacionamento com Caz se torna um pouco convincente demais, todo o plano de Eliza é colocado em risco. Será que ela vai conseguir seguir adiante mesmo se isso significar partir o próprio coração?" },
+
+      { url:"https://m.media-amazon.com/images/I/81vovBI30DL._SY466_.jpg",
+        nome:"Tudo o que eu não te disse",
+        sinopse:"Sadie Wen é perfeita na teoria: representante da escola, oradora da turma e um 'prazer de ter em sala de aula'. O truque para manter seu sorriso de estudante-modelo estampado no rosto o tempo todo? Ela canaliza todas as suas frustrações em seus rascunhos de e-mail. Ela nunca os enviaria, é lógico, mas é um alívio poder desabafar sobre sua professora de inglês inflexível ou sobre uma colega de classe aproveitadora que está levando crédito pelo seu trabalho. No entanto, os e-mails que carregam o seu mais puro rancor são direcionados ao seu irritante rival acadêmico, Julius Gong, cuja arrogância e síndrome de superioridade a incomodam desde que eram crianças. Sadie não precisa se conter em seus e-mails, afinal ninguém jamais os lerá... Pelo menos era o que ela achava antes de eles serem enviados acidentalmente para todo o colégio. Da noite para o dia, a vida de Sadie, cuidadosamente moldada e livre de conflitos, é virada de cabeça para baixo. É o seu pior pesadelo acontecendo: todos na escola sabem o que ela realmente pensa deles, e agora eles não têm medo de dizer o que pensam dela também. Mas, em meio ao caos, há uma pessoa que está começando a apreciar a “verdadeira” Sadie: Julius, o único garoto que ela jurou odiar." }
+    ]
+  },
+  {
+    nome:"Ann Shen ",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91tndEF2ujL._SY385_.jpg",
-        nome: "Divinas Mulheres",
-        sinopse: "As deusas vêm de todos os lugares do mundo. Algumas criaram tudo aquilo que conhecemos hoje; outras já existiam antes mesmo do próprio tempo. Embora suas histórias sejam diferentes, todas possuem algo em comum: essas mulheres inigualáveis encontraram a força dentro de si mesmas e são símbolos para os tesouros e valores que buscamos em nossas vidas.Nós crescemos ouvindo histórias sobre protagonistas corajosas e resilientes, cujas vidas fantásticas nos fizeram sonhar com paraísos e terras distantes. Chegou a hora de trazer essas aventuras mais para perto." }
+        nome:"Divinas Mulheres",
+        sinopse:"As deusas vêm de todos os lugares do mundo. Algumas criaram tudo aquilo que conhecemos hoje; outras já existiam antes mesmo do próprio tempo. Embora suas histórias sejam diferentes, todas possuem algo em comum: essas mulheres inigualáveis encontraram a força dentro de si mesmas e são símbolos para os tesouros e valores que buscamos em nossas vidas.Nós crescemos ouvindo histórias sobre protagonistas corajosas e resilientes, cujas vidas fantásticas nos fizeram sonhar com paraísos e terras distantes. Chegou a hora de trazer essas aventuras mais para perto." }
     ]
   },
   {
-    nome: "Anna Carey",
+    nome:"Anna Carey",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81JItFMV7tL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Eva",
-        sinopse: "Aonde você vai quando não existe lugar seguro? Dezesseis anos depois de um vírus mortal dizimar a maioria da população da Terra, o mundo é um lugar perigoso. Dezoito anos de idade, Eva nunca foi além do perímetro fortemente vigiado de sua escola, onde ela e duzentas outras meninas órfãs tem um futuro prometido como os professoras e artistas da New America. Mas na noite antes da formatura, Eva descobre a chocante verdade sobre o verdadeiro propósito e de sua escola o destino horrível que espera por ela. Fugindo da única casa que ela já conheceu, Eva sai em uma longa e perigosa viagem  em busca de um lugar que ela possa sobreviver. Ao longo do caminho ela encontra Arden, seu ex- rival da escola, e Caleb, um menino áspero, rebelde, vivendo em estado selvagem. Nunca tendo encontrado um homem em sua vida, Eva foi ensinada a temê-los, mas Caleb aos poucos ganha sua confiança... e seu coração. Ele promete protegê-la, mas quando os soldados começam a caça-los, Eva deve escolher entre o verdadeiro amor e a sua vida." },
+        colecao:"Coleção 1",
+        nome:"Eva",
+        sinopse:"Aonde você vai quando não existe lugar seguro? Dezesseis anos depois de um vírus mortal dizimar a maioria da população da Terra, o mundo é um lugar perigoso. Dezoito anos de idade, Eva nunca foi além do perímetro fortemente vigiado de sua escola, onde ela e duzentas outras meninas órfãs tem um futuro prometido como os professoras e artistas da New America. Mas na noite antes da formatura, Eva descobre a chocante verdade sobre o verdadeiro propósito e de sua escola o destino horrível que espera por ela. Fugindo da única casa que ela já conheceu, Eva sai em uma longa e perigosa viagem  em busca de um lugar que ela possa sobreviver. Ao longo do caminho ela encontra Arden, seu ex- rival da escola, e Caleb, um menino áspero, rebelde, vivendo em estado selvagem. Nunca tendo encontrado um homem em sua vida, Eva foi ensinada a temê-los, mas Caleb aos poucos ganha sua confiança... e seu coração. Ele promete protegê-la, mas quando os soldados começam a caça-los, Eva deve escolher entre o verdadeiro amor e a sua vida." },
 
       { url:"https://m.media-amazon.com/images/I/41JzzA4J-UL._SY250_.jpg",
-        colecao: "Coleção 1",
-        nome: "Uma vez",
-        sinopse: "Quando você está sendo caçada, em que pode confiar? Pela primeira vez desde que fugiu da escola, muitos meses atrás, Eva pode dormir tranquila. Ela está morando em Califia, um refúgio para mulheres, protegida do aterrorizante destino reservado às meninas órfãs na Nova América. Mas a estabilidade tem um preço: foi obrigada a se separar de Caleb, o garoto que ama. Mas, quando fica sabendo que ele está em perigo, abandona tudo para encontrá-lo e acaba caindo em uma armadilha. Agora, presa na Cidade de Areia e vigiada 24 horas por dia, Eva descobre um segredo de seu passado que não poderia ter imaginado nem em seu pior pesadelo." },
+        colecao:"Coleção 1",
+        nome:"Uma vez",
+        sinopse:"Quando você está sendo caçada, em que pode confiar? Pela primeira vez desde que fugiu da escola, muitos meses atrás, Eva pode dormir tranquila. Ela está morando em Califia, um refúgio para mulheres, protegida do aterrorizante destino reservado às meninas órfãs na Nova América. Mas a estabilidade tem um preço: foi obrigada a se separar de Caleb, o garoto que ama. Mas, quando fica sabendo que ele está em perigo, abandona tudo para encontrá-lo e acaba caindo em uma armadilha. Agora, presa na Cidade de Areia e vigiada 24 horas por dia, Eva descobre um segredo de seu passado que não poderia ter imaginado nem em seu pior pesadelo." },
 
       { url:"https://m.media-amazon.com/images/I/51qFVzckJQL._SY250_.jpg",
-        colecao: "Coleção 1",
-        nome: "Renascer",
-        sinopse: "Renascer é a conclusão surpreendente da fábula épica de Anna Carey, sobre romance e sacrifício na arrepiante distopia de Nova América. Depois de perder Caleb, sua alma gêmea, Eva se vê obrigada a fazer o papel da princesa feliz e patriota de Nova América. Presa em seu próprio palácio, sua vida se torna uma mentira. Porém, Eva irá lutar pelo que acredita, pela lembrança de Caleb e pela revolução que ambos almejavam. Partindo de onde o rapaz parara, ela planeja derrubar Nova América, a começar pela capital – a Cidade de Areia –, com a ajuda de Moss, infiltrado na corte do rei. Mas não será fácil cumprir seu papel nessa história. Afinal, sua primeira grande missão é um caminho sem volta: para construir um mundo novo e livre, Eva precisará matar seu próprio pai." }
+        colecao:"Coleção 1",
+        nome:"Renascer",
+        sinopse:"Renascer é a conclusão surpreendente da fábula épica de Anna Carey, sobre romance e sacrifício na arrepiante distopia de Nova América. Depois de perder Caleb, sua alma gêmea, Eva se vê obrigada a fazer o papel da princesa feliz e patriota de Nova América. Presa em seu próprio palácio, sua vida se torna uma mentira. Porém, Eva irá lutar pelo que acredita, pela lembrança de Caleb e pela revolução que ambos almejavam. Partindo de onde o rapaz parara, ela planeja derrubar Nova América, a começar pela capital – a Cidade de Areia –, com a ajuda de Moss, infiltrado na corte do rei. Mas não será fácil cumprir seu papel nessa história. Afinal, sua primeira grande missão é um caminho sem volta: para construir um mundo novo e livre, Eva precisará matar seu próprio pai." }
     ]
   },
   {
-    nome: "Annie Darling",
+    nome:"Anne-Sophie Jouhanneau",
+    bandeira:"assets/images/bandeiras/fr.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71FSwSQ-EGL._SY466_.jpg",
+        nome:"Beijos e Croissants",
+        sinopse:"Mia Jenrow sempre soube que seria uma bailarina profissional. Na verdade, o balé está em seu sangue, uma vez que sua tataravó dançou na Opéra de Paris e foi pintada pelo grande artista Edgar Degas. Apesar de sua família dizer que essa história não passa de uma lenda, para Mia é muito mais: é seu destino. Depois de planejar um verão mágico na França para ir atrás do seu sonho, Mia finalmente chega em Paris, mas logo percebe que tudo pode ser bem mais complicado do que imaginava. Para começar, ela tem uma rival, Avery, que faz de tudo para expor seus erros. E para piorar, o professor de balé é extremamente rígido e exige padrões de perfeição inalcançáveis. E ainda tem Louis. O catastrófico e charmoso Louis, que está doido para mostrar a sua cidade natal para Mia. Ela mal pode esperar para pular na garupa da Vespa do garoto e abraçá-lo pelas costas enquanto passeiam sob as luzes brilhantes da Torre Eiffel. Assim, Mia percebe que o seu verão será muito mais do que treinar passos de balé, afinal, não é à toa que Paris é conhecida como a Cidade do Amor. Beijos e croissants é um romance doce e envolvente, que já teve os direitos vendidos para adaptação audiovisual." }
+    ]
+  },
+  {
+    nome:"Annie Darling",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81aXhExgMkL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "A pequena livraria dos corações solitários",
-        sinopse: "Era uma vez uma pequena livraria em Londres, onde Posy Morland passou a vida perdida entre as páginas de seus romances favoritos. Assim, quando Lavinia, a excêntrica dona da Bookends, morre e deixa a loja para Posy, ela se vê obrigada a colocar os livros de lado e encarar o mundo real. Porque Posy não herdou apenas um negócio quase falido, mas também a atenção indesejada do neto de Lavinia, Sebastian, conhecido como o homem mais grosseiro de Londres. Posy tem um plano astucioso e seis meses para transformar a Bookends na livraria dos seus sonhos — isso se Sebastian deixá-la em paz para trabalhar. Enquanto Posy e os amigos lutam para salvar sua amada livraria, ela se envolve em uma batalha com Sebastian, com quem começou a ter fantasias um tanto ardentes... Resta saber se, como as heroínas de seus romances favoritos, Posy vai conseguir o seu 'felizes para sempre'." },
+        colecao:"Coleção 1",
+        nome:"A pequena livraria dos corações solitários",
+        sinopse:"Era uma vez uma pequena livraria em Londres, onde Posy Morland passou a vida perdida entre as páginas de seus romances favoritos. Assim, quando Lavinia, a excêntrica dona da Bookends, morre e deixa a loja para Posy, ela se vê obrigada a colocar os livros de lado e encarar o mundo real. Porque Posy não herdou apenas um negócio quase falido, mas também a atenção indesejada do neto de Lavinia, Sebastian, conhecido como o homem mais grosseiro de Londres. Posy tem um plano astucioso e seis meses para transformar a Bookends na livraria dos seus sonhos — isso se Sebastian deixá-la em paz para trabalhar. Enquanto Posy e os amigos lutam para salvar sua amada livraria, ela se envolve em uma batalha com Sebastian, com quem começou a ter fantasias um tanto ardentes... Resta saber se, como as heroínas de seus romances favoritos, Posy vai conseguir o seu 'felizes para sempre'." },
 
       { url:"https://m.media-amazon.com/images/I/91hDOEG2FgL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Amor verdadeiro na livraria dos corações solitários",
-        sinopse: "Esse é mais um romance delicioso da série A Livraria dos Corações Solitários, sobre os funcionários da livraria, um 'alegre bando de desajustados', que por uma razão ou outra desistiram do amor e, ainda assim, o encontram quando menos esperam. Verity Love está perfeitamente feliz sozinha, muito obrigada. E seu namorado fictício é muito útil para ajudá-la a escapar de eventos sociais indesejados. Mas, quando um mal-entendido a obriga a apresentar um total estranho como namorado para suas amigas, a vida de Verity de repente se torna muito mais complicada. Uma namorada fictícia também pode ser bem útil para Johnny. Indo contra todos os instintos de Verity, ela aceita fazer uma parceria com ele para um único verão recheado de casamentos, aniversários e festas no jardim, com apenas uma promessa: não se apaixonarem um pelo outro. Mas isso não tem nem chance de acontecer, pois Verity jurou nunca mais ter um namorado, e o coração de Johnny já tem dona." },
+        colecao:"Coleção 1",
+        nome:"Amor verdadeiro na livraria dos corações solitários",
+        sinopse:"Esse é mais um romance delicioso da série A Livraria dos Corações Solitários, sobre os funcionários da livraria, um 'alegre bando de desajustados', que por uma razão ou outra desistiram do amor e, ainda assim, o encontram quando menos esperam. Verity Love está perfeitamente feliz sozinha, muito obrigada. E seu namorado fictício é muito útil para ajudá-la a escapar de eventos sociais indesejados. Mas, quando um mal-entendido a obriga a apresentar um total estranho como namorado para suas amigas, a vida de Verity de repente se torna muito mais complicada. Uma namorada fictícia também pode ser bem útil para Johnny. Indo contra todos os instintos de Verity, ela aceita fazer uma parceria com ele para um único verão recheado de casamentos, aniversários e festas no jardim, com apenas uma promessa: não se apaixonarem um pelo outro. Mas isso não tem nem chance de acontecer, pois Verity jurou nunca mais ter um namorado, e o coração de Johnny já tem dona." },
 
       { url:"https://m.media-amazon.com/images/I/81p8m3eeOaL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Loucamente apaixonada na livraria dos corações solitários",
-        sinopse: "Cheia de tatuagens e com o cabelo cor-de-rosa, a dublê de pinup Nina adora bad boys — quanto mais cara de mau, melhor. Apesar dos receios de seus amigos, ela acredita firmemente que o amor verdadeiro só tem uma forma: selvagem, intenso e pontuado por brigas tempestuosas — como na história de Heathcliff e Cathy, o casal angustiado de O morro dos ventos uivantes. E ela não vai se contentar com nada menos que isso. Mas anos de encontros marcados por aplicativo não trouxeram nada além de caras esquisitos e paqueras banais, e Nina não está nem um pouco mais perto de encontrar o amor. Quando um homem de seu passado entra na livraria, Nina sabe que não tem nada a temer: o garoto mais nerd da escola se tornou um analista de negócios tedioso que combina o terno com a gravata, sem chance de fazer seu coração bater mais rápido. O que só mostra quão pouco Nina sabe sobre bad boys, analistas de negócios e o próprio coração..." },
+        colecao:"Coleção 1",
+        nome:"Loucamente apaixonada na livraria dos corações solitários",
+        sinopse:"Cheia de tatuagens e com o cabelo cor-de-rosa, a dublê de pinup Nina adora bad boys — quanto mais cara de mau, melhor. Apesar dos receios de seus amigos, ela acredita firmemente que o amor verdadeiro só tem uma forma: selvagem, intenso e pontuado por brigas tempestuosas — como na história de Heathcliff e Cathy, o casal angustiado de O morro dos ventos uivantes. E ela não vai se contentar com nada menos que isso. Mas anos de encontros marcados por aplicativo não trouxeram nada além de caras esquisitos e paqueras banais, e Nina não está nem um pouco mais perto de encontrar o amor. Quando um homem de seu passado entra na livraria, Nina sabe que não tem nada a temer: o garoto mais nerd da escola se tornou um analista de negócios tedioso que combina o terno com a gravata, sem chance de fazer seu coração bater mais rápido. O que só mostra quão pouco Nina sabe sobre bad boys, analistas de negócios e o próprio coração..." },
 
       { url:"https://m.media-amazon.com/images/I/81G0bBKwBiL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Um beijo de inverno na livraria dos corações solitários",
-        sinopse: "O Natal é a ocasião perfeita para espalhar amor e alegria... Porém, na livraria Felizes para Sempre, um improvável casal luta para encontrar o espírito natalino. Mattie, uma confeiteira brilhante, detesta a comemoração desde que teve o coração partido na véspera de um Natal. A única coisa que ela odeia mais que essa data é o insuportável Tom, que a irrita desde que ela começou a administrar o salão de chá ao lado da livraria. Mas, após uma coincidência, os dois passam a conhecer detalhes da vida um do outro que sequer imaginavam, o que faz com que alguns pontos de vista se alterem. Assim, quando Mattie e Tom são deixados no comando nos frenéticos dias antes do Natal, mesmo estando no inverno, as coisas certamente vão esquentar. Será que uma livraria cheia de romances, com uma rena em tamanho real e uma barraca de beijos, pode convencer dois ranzinzas a se apaixonar pelo Natal... e, quem sabe, um pelo outro?" }
+        colecao:"Coleção 1",
+        nome:"Um beijo de inverno na livraria dos corações solitários",
+        sinopse:"O Natal é a ocasião perfeita para espalhar amor e alegria... Porém, na livraria Felizes para Sempre, um improvável casal luta para encontrar o espírito natalino. Mattie, uma confeiteira brilhante, detesta a comemoração desde que teve o coração partido na véspera de um Natal. A única coisa que ela odeia mais que essa data é o insuportável Tom, que a irrita desde que ela começou a administrar o salão de chá ao lado da livraria. Mas, após uma coincidência, os dois passam a conhecer detalhes da vida um do outro que sequer imaginavam, o que faz com que alguns pontos de vista se alterem. Assim, quando Mattie e Tom são deixados no comando nos frenéticos dias antes do Natal, mesmo estando no inverno, as coisas certamente vão esquentar. Será que uma livraria cheia de romances, com uma rena em tamanho real e uma barraca de beijos, pode convencer dois ranzinzas a se apaixonar pelo Natal... e, quem sabe, um pelo outro?" }
     ]
   },
   {
-    nome: "Astrid Scholte",
+    nome:"Ariani Castelo",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81cSg50gnvL._SY466_.jpg",
+        nome:"O abismo de Celina",
+        sinopse:"Ao acordar em um lugar escuro, frio e desolado rodeada por outros corpos e sem ideia de como foi parar ali, Celina logo se dá conta de que algo terrível aconteceu. As cicatrizes cobrindo metade do seu corpo e as memórias vagas de um incêndio são as únicas pistas de que não está mais no mundo dos vivos. Suas suspeitas são confirmadas quando um homem imponente, de olhos negros e sorriso debochado, aparece e comunica a todos que, longe de terem garantido um lugar no Paraíso, eles estão no Abismo, e o único jeito de sair dali é vencendo três desafios. Afinal, a Morte adora jogos. No Abismo, entretanto, os medos assumem contornos ainda mais assustadores. Amigos e inimigos se confundem. Criaturas perversas espreitam da escuridão. E, em meio a tudo isso, reina a figura mais cruel e intrigante de todas — a própria Morte. Às vezes brutal, às vezes gentil, tão temível quanto atraente, Odilon é uma ameaça e um mistério... com o qual Celina se vê cada vez mais envolvida. E se a única maneira de escapar do Abismo for mergulhar na escuridão?" }
+    ]
+  },
+  {
+    nome:"Ashley Poston",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61uqu8bGpTL._SY466_.jpg",
+        nome:"Geekerela",
+        sinopse:"Quando Elle Wittimer, nerd de carteirinha, descobre que sua série favorita vai ganhar uma refilmagem hollywoodiana, ela fica dividida. Antes de seu pai morrer, ele transmitiu à filha sua paixão pelo clássico de ficção científica, e agora ela não quer que suas lembranças sejam arruinadas por astros pop e fãs que nunca tinham ouvido falar da série. Mas a produção do filme anunciou um concurso de cosplay numa famosa convenção valendo um convite para um baile com o ator principal, e Elle não consegue resistir. Na Abóbora Mágica, o food truck vegano onde trabalha, ela encontra a ajuda de uma amiga cheia de talentos para moda que vai criar o traje perfeito para a ocasião. Afinal, o concurso é a chance de Elle se livrar das tarefas domésticas impostas pela terrível madrasta e das irmãs postiças malvadas. Já Darien Freeman, o astro adolescente escalado para ser o protagonista do filme, não está nada ansioso para o evento, embora o papel seja seu grande sonho. Visto como só mais um rostinho bonito, o próprio Darien também está começando a achar que se tornou uma farsa. Até que, no baile, ele conhece uma menina que vai provar o contrário. Esta releitura de Cinderela transporta para o universo nerd os principais elementos do clássico conto de fadas, fazendo uma verdadeira homenagem a todos aqueles que sabem o que é ser fã e se dedicar de coração àquilo que amam." }
+    ]
+  },
+  {
+    nome:"Astrid Scholte",
+    bandeira:"assets/images/bandeiras/au.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91W1uyMyxTL._SY342_.jpg",
-        nome: "As quatro rainhas mortas",
-        sinopse: "No continente de Quadara, há séculos quatro rainhas reinam absolutas, cada uma representando o próprio quadrante. Juntas, mas separadas. A decidida Iris fala por Archia, a ilha de terras férteis; a estoica Corra representa a tecnológica Eonia; Marguerite, a mais velha das rainhas, é a soberana de Toria e de seus curiosos habitantes; e Stessa, a mais jovem, é o rosto de Ludia, o quadrante da diversão e da arte. As quatro mulheres dividem o poder, sempre respeitando as Leis das Rainhas, sempre pensando no povo e no melhor para a nação. Mas elas têm segredos, e estes podem ser letais. Tão letais quanto Kelarie Corrington. Aos 17 anos, a toriana é a mais hábil larápia e a melhor mentirosa de Jetée. um distrito de excessos, contrabando e charlatões. O último lugar que Varin, um mensageiro eonista, deveria visitar. Mas ele foi roubado... por Keralie, e a jovem é a única esperança de reaver a mercadoria e manter seu emprego. Um mensageiro nunca pode perder sua encomenda. Para piorar, há coisas muito mais sinistras nos chips de comunicação afanados por Keralie. Algo que pode enredar a larápia e o mensageiro em uma conspiração para assassinar as quatro rainhas de Quadara. Sem opção, os dois resolvem se unir para descobrir o assassino e salvar a própria vida no processo. Quando sua relutante parceria começa a se transformar em algo mais, os dois precisam aprender a confiar um no outro e a superar as diferenças entre quadrantes para viver esse amor. Mas será que uma curiosa toriana e um insensível eonista têm alguma chance?" }
+        nome:"As quatro rainhas mortas",
+        sinopse:"No continente de Quadara, há séculos quatro rainhas reinam absolutas, cada uma representando o próprio quadrante. Juntas, mas separadas. A decidida Iris fala por Archia, a ilha de terras férteis; a estoica Corra representa a tecnológica Eonia; Marguerite, a mais velha das rainhas, é a soberana de Toria e de seus curiosos habitantes; e Stessa, a mais jovem, é o rosto de Ludia, o quadrante da diversão e da arte. As quatro mulheres dividem o poder, sempre respeitando as Leis das Rainhas, sempre pensando no povo e no melhor para a nação. Mas elas têm segredos, e estes podem ser letais. Tão letais quanto Kelarie Corrington. Aos 17 anos, a toriana é a mais hábil larápia e a melhor mentirosa de Jetée. um distrito de excessos, contrabando e charlatões. O último lugar que Varin, um mensageiro eonista, deveria visitar. Mas ele foi roubado... por Keralie, e a jovem é a única esperança de reaver a mercadoria e manter seu emprego. Um mensageiro nunca pode perder sua encomenda. Para piorar, há coisas muito mais sinistras nos chips de comunicação afanados por Keralie. Algo que pode enredar a larápia e o mensageiro em uma conspiração para assassinar as quatro rainhas de Quadara. Sem opção, os dois resolvem se unir para descobrir o assassino e salvar a própria vida no processo. Quando sua relutante parceria começa a se transformar em algo mais, os dois precisam aprender a confiar um no outro e a superar as diferenças entre quadrantes para viver esse amor. Mas será que uma curiosa toriana e um insensível eonista têm alguma chance?" }
     ]
   },
   {
-    nome: "Augusto Alvarenga e Vinícius Grossos",
+    nome:"Augusto Alvarenga e Vinícius Grossos",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/51oJ7vIETyL._SY445_SX342_.jpg",
-        nome: "1+1 A matemática do amor",
-        sinopse: "Lucas e Bernardo são dois garotos, melhores amigos um do outro. De repente, recebem a notícia de que Bernardo irá se mudar com a família para outro país. E percebem que não querem perder a valiosa amizade... Lucas tenta transformar cada dia que resta com o amigo na melhor experiência de suas vidas: escreve uma lista de coisas para fazer epretende cumprir uma por uma, em todos os detalhes. Então os meninos percebem que há algo mais forte entre eles... Um sentimento profundo, que não conseguem explicar e que torna todas aquelas experiências ainda mais intensas. Mas o que fazer com tudo isso quando se tem apenas 16 anos?" }
+        nome:"1+1 A matemática do amor",
+        sinopse:"Lucas e Bernardo são dois garotos, melhores amigos um do outro. De repente, recebem a notícia de que Bernardo irá se mudar com a família para outro país. E percebem que não querem perder a valiosa amizade... Lucas tenta transformar cada dia que resta com o amigo na melhor experiência de suas vidas: escreve uma lista de coisas para fazer epretende cumprir uma por uma, em todos os detalhes. Então os meninos percebem que há algo mais forte entre eles... Um sentimento profundo, que não conseguem explicar e que torna todas aquelas experiências ainda mais intensas. Mas o que fazer com tudo isso quando se tem apenas 16 anos?" }
     ]
   },
   {
-    nome: "Babi Dewet",
+    nome:"Ava Reid",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91iRCuM49PL._SY425_.jpg",
+        nome:"Lições sobre afogamentos",
+        sinopse:"Effy Sayre sempre acreditou em contos de fadas, não que tivesse muita escolha: desde pequena, foi assombrada por visões do Rei das Fadas. Sua única escapatória foi mergulhar na célebre história de Angharad, escrita por Emrys Myrddin, sobre uma garota humana que se apaixona pelo Rei das Fadas, e então causa sua destruição. O seu exemplar antigo e surrado do livro é o que mantém Effy seguindo em frente durante seu primeiro ano do curso de arquitetura na prestigiosa universidade Llyrian. Então, quando a família de Myrddin anuncia um concurso para escolher alguém para remodelar a mansão do autor, ela não tem a menor dúvida de que nasceu para isso. Mas a Mansão Hiraeth não é para amadores: antiquada e em ruínas, está a dois passos de desmoronar no tempestuoso mar que a rodeia. Mas, assim que Effy chega ao local, descobre que alguém já vive lá: Preston Héloury, um jovem e rabugento acadêmico de literatura, que está decidido a provar que o autor favorito dela não passa de uma fraude. Os dois estudantes rivais começam a investigar o legado do recluso autor, encontrando pistas deixadas em cartas, livros e diários, e descobrem que não é só a estrutura da casa que tem sérios problemas. Forças sombrias, tanto humanas quanto mágicas, estão conspirando contra eles — e a verdade desenterrada pode significar o fim do caminho para ambos." }
+    ]
+  },
+  {
+    nome:"Ayslan Monteiro",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71UZmLlpwmL._SY466_.jpg",
+        nome:"Te vejo na final",
+        sinopse:"Depois de ser arrancado do armário e ver sua carreira ser basicamente arruinada da noite para o dia, Edinho Meteoro, ex-promessa do futebol brasileiro e atual jogador de um time italiano pouco conhecido, não está exatamente feliz, mas pelo menos está estabelecido e seguro. Claro, ele não pode se dar ao luxo de dar um passo para fora da linha ou se tornará alvo da torcida, as marcas dispostas a patrociná-lo são raríssimas, tem só um amigo no time todo e lida todos os dias com o provocante e rabugento Benedikt Kühn, seu capitão e maior rival, que não larga do seu pé. Mas as coisas estão prestes a mudar, pois Cida, a nova técnica da seleção brasileira, acabou de convocá-lo para a Copa do Mundo. Edinho finalmente terá a chance de conquistar seu lugar de destaque no futebol, mas ele precisará enfrentar o país que o abandonou, uma federação homofóbica e colegas de time que claramente não o desejam ali — além dos sentimentos confusos por um certo jogador alemão — para realizar seus sonhos." }
+    ]
+  },
+  {
+    nome:"Babi A. Sette",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81QnlQx4loL._SY425_.jpg",
+        nome:"Sapatilhas de gelo",
+        sinopse:"Natalie sempre quis ser a bailarina principal de uma grande companhia de balé. Após sair de um relacionamento conturbado e se ver sozinha em Londres, a dança se torna seu único conforto. Frustrada com sua carreira estagnada e uma vida social mais congelada que o inverno na Rússia, ela pede demissão por e-mail, insultando alguns diretores no processo. Sem muitas opções, Natalie aceita o convite para concorrer a uma vaga na Companhia de Balé do Canadá e se muda para a casa do primo, Nick, em Toronto. Voltar a morar com ele seria perfeito, se não fosse pelo incômodo de dividir o apartamento com Lucas Allen More, o capitão do time de hóquei e melhor amigo de Nick. Lucas é o típico atleta popular e mulherengo, com o rosto de um deus e o corpo digno de um catálogo de roupa íntima. Ele poderia ser o sonho de qualquer garota, mas, desde a primeira vez que se encontraram, anos atrás, as impressões não foram as melhores. Natalie o acha metido e fútil, e os olhares que ele lança em sua direção só a irritam ainda mais. Contudo, enquanto Natalie tenta se concentrar no processo seletivo mais importante de sua vida, começa a se sentir distraída por Lucas, que acaba se revelando uma companhia agradável e um apoio inesperado, especialmente quando uma presença misteriosa ameaça trazer à tona fantasmas do passado. Natalie está pronta para lutar com todas as suas forças e conquistar o tão sonhado posto de bailarina principal, mas talvez não esteja preparada para o pas de deux mais desafiador de todos: aquele que põe seu coração em risco." },
+
+      { url:"https://m.media-amazon.com/images/I/81tT6HRTH7L._SY425_.jpg",
+        nome:"O beijo da neve",
+        sinopse:"Nina é uma jovem patinadora que ficou afastada das pistas por questões familiares. Agora, ela se vê diante do desafio de retornar às competições, dividindo seu tempo entre treinos intensos e trabalhos que paguem as contas. As coisas ficam ainda mais complicadas quando o patinador olímpico Elyan Kane — um cara frio e intenso, que desapareceu por cinco anos, após a morte trágica de sua parceira no esporte —, surge com uma proposta irrecusável para Nina. O que Elyan não sabe — e, se depender de Nina e dos deuses hindus e irlandeses de suas avós, nunca saberá — é que na adolescência ela nutria uma paixão platônica por ele. E que o primeiro encontro entre os dois resultou em uma enorme desilusão para a garota. Apesar das emoções conflitantes, Nina não pode perder a oportunidade de perseguir seus sonhos na patinação, mesmo que isso signifique lidar com a presença irritante de Elyan e com aqueles olhares longos e penetrantes, que vêm fazendo uma bagunça em seu coração. Entre as fascinantes auroras boreais do Canadá, um castelo com fama de mal-assombrado e as pistas de patinação, eles enfrentarão obstáculos, medos e sentimentos contraditórios. E tentarão provar que a paixão — pela patinação e talvez por alguém que está bem ao lado — pode superar qualquer adversidade." },
+
+        { url:"https://m.media-amazon.com/images/I/81BMRfCPSdL._SY425_.jpg",
+          nome:"Senhorita Aurora",
+          sinopse:"Uma história romântica e encantadora, com toques de humor e carregada de emoção, da mesma autora de Não me esqueças. Nicole é uma jovem bailarina e está prestes a realizar seu sonho: estrear no papel principal em uma peça na Companhia de Ballet de Londres. Tudo estaria perfeito se não fosse por um dos seus diretores, o temido Daniel Hunter, um maestro prodígio de temperamento difícil, que desperta em Nicole sentimentos contraditórios. Quando uma tempestade de neve isola os dois em uma mansão centenária, Nicole e Daniel serão obrigados a encarar não apenas os segredos que atormentam o maestro, mas também uma paixão proibida — e avassaladora — que nasce entre eles. Entre a tão sonhada carreira na dança, um amor intenso como ela nunca sentiu e a própria segurança, Nicole se verá diante de escolhas que parecem impossíveis. E caberá a ela resgatar Daniel de seu próprio passado. Senhorita Aurora é um romance poderoso, tocante e perturbador, que mostra que todos merecem uma segunda chance." }
+    ]
+  },
+  {
+    nome:"Babi Dewet",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91iX3-8S4QL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Sonata em punk rock",
-        sinopse: "Por que alguém escolheria uma orquestra se pode ter uma banda de rock? Essa sempre foi a dúvida de Valentina Gontcharov. Entre o trabalho como gerente do mercado do bairro e as tarefas de casa, o sonho de viver de música estava, aos poucos, ficando em segundo plano. Até que, ao descobrir que tem ouvido absoluto e ser aceita na Academia Margareth Vilela, o conservatório de música mais famoso do país, a garota tem a chance de seguir uma nova vida na conhecida Cidade da Música, o lugar capaz de realizar todos os seus sonhos.No conservatório, Tim, como prefere ser chamada, terá que superar seus medos e inseguranças e provar a si mesma do que é capaz, mesmo que isso signifique dominar o tão assustador piano e abraçar de vez o seu lado de musicista clássica. Só que, para dificultar ainda mais as coisas, o arrogante e talentoso Kim cruza seu caminho de uma forma que é impossível ignorar.Em um universo completamente diferente do que estava acostumada, repleto de notas, arpejos, partituras, instrumentos e disciplina, Valentina irá mostrar ao certinho Kim que não é só ele que está precisando de um pouco de rock’n’roll, mas sim toda a Cidade da Música." },
+        colecao:"Coleção 1",
+        nome:"Sonata em punk rock",
+        sinopse:"Por que alguém escolheria uma orquestra se pode ter uma banda de rock? Essa sempre foi a dúvida de Valentina Gontcharov. Entre o trabalho como gerente do mercado do bairro e as tarefas de casa, o sonho de viver de música estava, aos poucos, ficando em segundo plano. Até que, ao descobrir que tem ouvido absoluto e ser aceita na Academia Margareth Vilela, o conservatório de música mais famoso do país, a garota tem a chance de seguir uma nova vida na conhecida Cidade da Música, o lugar capaz de realizar todos os seus sonhos.No conservatório, Tim, como prefere ser chamada, terá que superar seus medos e inseguranças e provar a si mesma do que é capaz, mesmo que isso signifique dominar o tão assustador piano e abraçar de vez o seu lado de musicista clássica. Só que, para dificultar ainda mais as coisas, o arrogante e talentoso Kim cruza seu caminho de uma forma que é impossível ignorar.Em um universo completamente diferente do que estava acostumada, repleto de notas, arpejos, partituras, instrumentos e disciplina, Valentina irá mostrar ao certinho Kim que não é só ele que está precisando de um pouco de rock’n’roll, mas sim toda a Cidade da Música." },
 
       { url:"https://m.media-amazon.com/images/I/91byjLaKibL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Allegro em Hip-Hop",
-        sinopse: "No segundo livro da série Cidade da Música, você vai conhecer Camila. Ela é neta de japoneses e filha de pais muito rigorosos que têm grandes planos para ela e para sua irmã. Desde pequena, aprendeu que precisava se esforçar mais, que precisava ser melhor, que não existia tempo a perder na adolescência e que sua inteligência e seu talento deveriam levá-la longe. Camila, então, trocou as festas das amigas por treinos de balé, e a vontade de viajar o mundo afora pela consagrada Academia Margereth Vilela. Sua vida inteira estava programada e organizada. Até que uma crise de ansiedade a fez perceber que tudo ainda podia mudar e, depois de conhecer Vitor, um garoto desengonçado e cheio de sardas que tocava violino, a vida mostrou à Camila que uma dose de hiphop poderia fazer os dias dela mais felizes." }
+        colecao:"Coleção 1",
+        nome:"Allegro em Hip-Hop",
+        sinopse:"No segundo livro da série Cidade da Música, você vai conhecer Camila. Ela é neta de japoneses e filha de pais muito rigorosos que têm grandes planos para ela e para sua irmã. Desde pequena, aprendeu que precisava se esforçar mais, que precisava ser melhor, que não existia tempo a perder na adolescência e que sua inteligência e seu talento deveriam levá-la longe. Camila, então, trocou as festas das amigas por treinos de balé, e a vontade de viajar o mundo afora pela consagrada Academia Margereth Vilela. Sua vida inteira estava programada e organizada. Até que uma crise de ansiedade a fez perceber que tudo ainda podia mudar e, depois de conhecer Vitor, um garoto desengonçado e cheio de sardas que tocava violino, a vida mostrou à Camila que uma dose de hiphop poderia fazer os dias dela mais felizes." }
     ]
   },
   {
-    nome: "Beatriz Leal",
+    nome:"Beatriz Leal",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/914np-pN-AL._SY342_.jpg",
-        nome: "Mulheres que mordem",
-        sinopse: "Buenos Aires. Brasília. Anos 70, anos 80, 2006. Quatro mulheres, quatro mordidas. Uma neta adotada, uma mãe torturada, uma mãe adotiva e uma avó exaurida pela busca. Quatro pontos de vista entrelaçados em uma narrativa intensa e delicada, que joga luz sobre passagens sombrias da história recente latino-americana." }
+        nome:"Mulheres que mordem",
+        sinopse:"Buenos Aires. Brasília. Anos 70, anos 80, 2006. Quatro mulheres, quatro mordidas. Uma neta adotada, uma mãe torturada, uma mãe adotiva e uma avó exaurida pela busca. Quatro pontos de vista entrelaçados em uma narrativa intensa e delicada, que joga luz sobre passagens sombrias da história recente latino-americana." }
     ]
   },
   {
-    nome: "Bel Rodrigues",
+    nome:"Becca Mackenzie",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/719icaU7hZL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Se pudesse contar as estrelas",
+        sinopse:"Esse é o caso de Alison que, certo dia, ainda criança, desperta prestes a se afogar em um lago. A garota é levada para a Escola Bellatrix e, em pouco tempo, descobre que está na Terra do Nunca, lar daqueles que nunca nasceram – um mundo tão mágico quanto perigoso. Enquanto luta para se adaptar a essa realidade, uma descoberta inesperada a leva a questionar tudo o que lhe disseram sobre aquele lugar. Em meio a criaturas fantásticas, o perigo representado pelos piratas e desafios inesperados, Alison precisa encontrar força e coragem para desvendar os segredos da Terra do Nunca e trilhar seu próprio caminho em busca de um sonho que parece impossível." },
+
+      { url:"https://m.media-amazon.com/images/I/71hUFawk+QL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Se pudesse ver as estrelas",
+        sinopse:"Depois de arriscarem tudo para chegar à Terra, Alison e Levi acreditavam que a parte mais difícil havia ficado para trás. No entanto, este novo lugar revela-se muito mais complexo do que a Terra do Nunca. Enquanto Levi tenta se adaptar a um mundo que o enxerga como um vilão saído dos livros, Alison se lança na missão de achar sua mãe biológica e, enfim, obter as respostas que sempre procurou. Contudo, a mulher que encontra é marcada por cicatrizes que mal consegue esconder. À medida que as duas constroem uma frágil amizade, Alison testemunha a dor dela sem poder revelar que é a causa e, talvez, a cura para tamanho sofrimento. E, com o tempo correndo contra si, terá de confiar que os laços invisíveis entre mãe e filha são mais fortes do que o esquecimento — e que algumas histórias, mesmo quando parecem perdidas, ainda podem encontrar um novo começo." }
+    ]
+  },
+  {
+    nome:"Bel Rodrigues",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91IMehQUUfL._SY342_.jpg",
-        nome: "13 segundos",
-        sinopse: "O primeiro livro solo de Bel Rodrigues mostra como o machismo pode, em apenas 13 segundos, mudar completamente a vida de uma garota. Lola está no último ano do ensino médio e acabou de terminar um relacionamento. Ela sabe que foi a melhor decisão, mas ainda assim não é fácil encarar o vestibular e um coração partido ao mesmo tempo. Tudo que Lola quer agora é colocar a vida em ordem, descobrir a si mesma e reavaliar suas prioridades. Sua maior paixão é o canto, e por isso, incentivada pelos amigos, ela cria um canal no Youtube onde posta covers de suas músicas favoritas.Ela também quer se divertir, sair para beber com os amigos e conhecer pessoas. Em uma dessas noites que ela se envolve com John. O que era para ser só uma noite acaba ficando mais complicado quando ela descobre que ele faz intercâmbio no colégio dela... e do ex. Lola não quer se envolver, mas é difícil ignorar John, com todo aquele charme canadense. E quando tudo parece ter se alinhado, treze segundos são suficientes para mudar drasticamente a vida da garota.Entre conselhos sinceros, noites quentes e provas do Ensino Médio, a única coisa que Lola não seria capaz de prever era o quão rápido tudo poderia desmoronar. Em treze segundos, especificamente.13 segundos é um livro potente, que dialoga com os julgamentos que mulheres jovens enfrentam cotidianamente simplesmente por buscarem serem livres, por quererem ser elas mesmas." }
+        nome:"13 segundos",
+        sinopse:"O primeiro livro solo de Bel Rodrigues mostra como o machismo pode, em apenas 13 segundos, mudar completamente a vida de uma garota. Lola está no último ano do ensino médio e acabou de terminar um relacionamento. Ela sabe que foi a melhor decisão, mas ainda assim não é fácil encarar o vestibular e um coração partido ao mesmo tempo. Tudo que Lola quer agora é colocar a vida em ordem, descobrir a si mesma e reavaliar suas prioridades. Sua maior paixão é o canto, e por isso, incentivada pelos amigos, ela cria um canal no Youtube onde posta covers de suas músicas favoritas.Ela também quer se divertir, sair para beber com os amigos e conhecer pessoas. Em uma dessas noites que ela se envolve com John. O que era para ser só uma noite acaba ficando mais complicado quando ela descobre que ele faz intercâmbio no colégio dela... e do ex. Lola não quer se envolver, mas é difícil ignorar John, com todo aquele charme canadense. E quando tudo parece ter se alinhado, treze segundos são suficientes para mudar drasticamente a vida da garota.Entre conselhos sinceros, noites quentes e provas do Ensino Médio, a única coisa que Lola não seria capaz de prever era o quão rápido tudo poderia desmoronar. Em treze segundos, especificamente.13 segundos é um livro potente, que dialoga com os julgamentos que mulheres jovens enfrentam cotidianamente simplesmente por buscarem serem livres, por quererem ser elas mesmas." }
     ]
   },
   {
-    nome: "Bel Rodrigues, Hugo Francioni, Pedro Pereira e Pam Gonçalves",
+    nome:"Bel Rodrigues, Hugo Francioni, Pedro Pereira e Pam Gonçalves",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81S-hQXi8qL._SY342_.jpg",
-        nome: "O amor nos tempos de #likes",
-        sinopse: "Quatro grandes booktubers se unem em uma coletânea que reinventa contos românticos na era digital Os tempos mudaram, mas e o amor? Continua a dar aquele frio na barriga e fazer os jovens atravessarem quilômetros para viver uma paixão? Em O Amor nos tempos de #likes, quatro booktubers se inspiram em três histórias da literatura para criar suas versões de contos românticos na era digital. Uma bela, jovem e famosa youtuber com medo do amor; um casal inesperado em um encontro às escuras (literalmente) e dois meninos apaixonados por livros tentando entender quem são e o que querem são os protagonistas destes contos que evocam Orgulho e Preconceito (Pam Gonçalves), Dom Casmurro (Bel Rodrigues) e Romeu e Julieta (Pedrugo)." }
+        nome:"O amor nos tempos de #likes",
+        sinopse:"Quatro grandes booktubers se unem em uma coletânea que reinventa contos românticos na era digital Os tempos mudaram, mas e o amor? Continua a dar aquele frio na barriga e fazer os jovens atravessarem quilômetros para viver uma paixão? Em O Amor nos tempos de #likes, quatro booktubers se inspiram em três histórias da literatura para criar suas versões de contos românticos na era digital. Uma bela, jovem e famosa youtuber com medo do amor; um casal inesperado em um encontro às escuras (literalmente) e dois meninos apaixonados por livros tentando entender quem são e o que querem são os protagonistas destes contos que evocam Orgulho e Preconceito (Pam Gonçalves), Dom Casmurro (Bel Rodrigues) e Romeu e Julieta (Pedrugo)." }
     ]
   },
   {
-    nome: "Binha Cibelle",
+    nome:"Bella Mackie",
+    bandeira:"assets/images/bandeiras/gb.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61+AXDEFJ9L._SY466_.jpg",
+        nome:"Como Matei Minha Querida Família",
+        sinopse:"Grace Bernard não teve uma vida fácil. Sua mãe foi abandonada grávida por um mentiroso sedutor, que já era casado e jamais teve qualquer intenção de reconhecer a menina como filha. Após uma infância de privações, Grace perde a mãe e descobre que seu pai é quase uma celebridade: um milionário famoso por variados empreendimentos bem-sucedidos, com um gosto duvidoso para moda e decoração de interiores. Nutrida por uma raiva cuidadosamente alimentada ao longo dos anos, Grace decide enfim executar seu plano de vingança: despachar o pai e todos os membros da sua família cafona e podre de rica. Repleto de humor macabro, reviravoltas irônicas e tiradas mordazes, Como Matei Minha Querida Família é um romance engraçado e perspicaz sobre a complexidade das relações humanas, sobretudo as familiares. Em uma narrativa que evoca clássicos do cinema como As Oito Vítimas, o inesquecível Kill Bill de Quentin Tarantino e a série televisiva Killing Eve, a autora nos oferece, nas palavras do jornal britânico The Guardian, “uma anti-heroína capaz de superar protagonistas masculinos como Patrick Bateman, de Psicopata Americano”. Enquanto narra a sua história da prisão, Grace nos leva de volta à infância, à adolescência e relata como tramou e executou os seus crimes. A autora Jojo Moyes define com precisão: “Engraçada, mordaz, mórbida e perversa, Grace é uma personagem pela qual me vi torcendo mesmo durante seus crimes mais sórdidos”. Entre lembranças da mãe, opiniões sobre moda, reflexões sobre a arrogância dos ricos e o privilégio dos homens, a personagem se revela inteligente, cruel e, no fim das contas, inescapavelmente humana." }
+    ]
+  },
+  {
+    nome:"Bia Carvalho",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71Ro3yFGBFL._SY425_.jpg",
+        nome:"O Cretino que eu Odeio",
+        sinopse:"Cassian Greene é um workaholic rabugento, antissocial que odeia seus colegas de trabalho por tudo o que o fizeram passar algum tempo atrás, quando ele ocupou uma posição de destaque na empresa da qual é herdeiro. O filho bastardo do CEO – coisa que nunca o deixam esquecer. Melissa Foster é sua secretária, que almeja crescer na empresa e se destacar. Isso, se seu chefe insuportável – e infelizmente muito sexy – permitir. Um acaso do destino faz com que uma das principais clientes da empresa comece a shippá-los, o que os obriga a fingirem um namoro, com a promessa de que Melissa seria promovida assim que o contrato fosse firmado. O problema é que os dois se apaixonam, mas Cass não quer saber de compromissos nem de entregar seu coração e rejeita Melissa quando ela decide se render de corpo e alma aos dois. O que será que esse chefe turrão irá fazer para provar a Melissa que ele pode mudar... caso o prêmio – no caso, ela – por essa redenção valha a pena?" }
+    ]
+  },
+  {
+    nome:"Binha Cibelle",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://livrariapublica.com.br/capa/nao-me-solte-jamais-binha-cibelle-pdf-B09JVQVCYS.webp",
-        nome: "Não me solte jamais",
-        sinopse: "De repente, um casamento por conveniência. Jogada à própria sorte em meio a uma família que não conhece, Ana se vê às voltas com as implicações de deixar toda sua vida para trás. É quando o inimaginável se torna real que ela suspeita poder encontrarnos Chae muito mais do que uma união compulsória. Além de que o cardápio extenso de irmãos à sua escolha acaba se mostrando bem melhor do que a encomenda, coisa que ela pretende aproveitar. Mas algo não está certo, e, enquanto Ana descobre novas facetas de sua própria personalidade, alguém vasculha seu passado em busca dos segredos que ela não quer deixar transparecer. Será Ana Fernandes tão frágil e inocente quanto aparenta? E ainda mais: poderá o amor nascer e florescer em meio às mentiras e traumas dos passados deles? " }
+        nome:"Não me solte jamais",
+        sinopse:"De repente, um casamento por conveniência. Jogada à própria sorte em meio a uma família que não conhece, Ana se vê às voltas com as implicações de deixar toda sua vida para trás. É quando o inimaginável se torna real que ela suspeita poder encontrarnos Chae muito mais do que uma união compulsória. Além de que o cardápio extenso de irmãos à sua escolha acaba se mostrando bem melhor do que a encomenda, coisa que ela pretende aproveitar. Mas algo não está certo, e, enquanto Ana descobre novas facetas de sua própria personalidade, alguém vasculha seu passado em busca dos segredos que ela não quer deixar transparecer. Será Ana Fernandes tão frágil e inocente quanto aparenta? E ainda mais: poderá o amor nascer e florescer em meio às mentiras e traumas dos passados deles? " }
     ]
   },
   {
-    nome: "Brittainy C. Cherry",
+    nome:"Brittainy C. Cherry",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/917Uu3tHnXL._SY342_.jpg",
-        nome: "Eleanor & Grey",
-        sinopse: "Eleanor é uma adolescente introvertida que prefere a companhia de seus amados livros - e cardigãs com libélulas - a interagir socialmente, sobretudo com os colegas da escola. Quando a prima a arrasta para uma festa, Ellie se surpreende ao ser abordada pelo astro do time de basquete; afinal de contas os dois não têm absolutamente nada em comum. Ou pelo menos era o que ela pensava. Com o tempo, a amizade entre eles surge de forma natural; uma ligação tão forte, tão intensa, que logo se transforma em outro sentimento. Algo que Ellie nunca havia experimentado. Mas aquele sonho se transforma em pesadelo de uma hora para outra. Uma terrível notícia faz o mundo de Eleanor desabar. A única coisa ainda de pé é Greyson, incansavelmente ao seu lado. Mas nem sempre a força do amor é o bastante para deter o curso da vida: Ellie e Grey se veem forçados a se separar. Anos mais tarde, Eleanor pensa ter deixado seu primeiro amor no passado, mas o caminho dos dois volta a se cruzar. Só que, dessa vez, quem precisa de ajuda é Greyson. O problema é que ele já não é mais o garoto doce de suas lembranças. Grey se tornou um homem frio, insensível, e o elo especial que um dia partilharam parece ter se rompido para sempre." },
+        nome:"Eleanor & Grey",
+        sinopse:"Eleanor é uma adolescente introvertida que prefere a companhia de seus amados livros - e cardigãs com libélulas - a interagir socialmente, sobretudo com os colegas da escola. Quando a prima a arrasta para uma festa, Ellie se surpreende ao ser abordada pelo astro do time de basquete; afinal de contas os dois não têm absolutamente nada em comum. Ou pelo menos era o que ela pensava. Com o tempo, a amizade entre eles surge de forma natural; uma ligação tão forte, tão intensa, que logo se transforma em outro sentimento. Algo que Ellie nunca havia experimentado. Mas aquele sonho se transforma em pesadelo de uma hora para outra. Uma terrível notícia faz o mundo de Eleanor desabar. A única coisa ainda de pé é Greyson, incansavelmente ao seu lado. Mas nem sempre a força do amor é o bastante para deter o curso da vida: Ellie e Grey se veem forçados a se separar. Anos mais tarde, Eleanor pensa ter deixado seu primeiro amor no passado, mas o caminho dos dois volta a se cruzar. Só que, dessa vez, quem precisa de ajuda é Greyson. O problema é que ele já não é mais o garoto doce de suas lembranças. Grey se tornou um homem frio, insensível, e o elo especial que um dia partilharam parece ter se rompido para sempre." },
 
       { url:"https://m.media-amazon.com/images/I/4195d4rwvfL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Landon & Shay (Vol. 1)",
-        sinopse: "Landon Harrison é o bad boy da cidade de Raine, Illinois. Ele está no último ano do ensino médio, é o cara mais popular da escola e vem de uma família abastada. Todos acham que ele tem o mundo a seus pés. Mas, sob essa superfície, a verdade é completamente diferente. Landon é um rapaz triste, melancólico e luta contra seus demônios. Shay Gable é uma adolescente encantadora. Sensível, simpática e muito popular, ela faz parte da realeza da escola. Não tem quem não goste da dona perfeitinha, a não ser Landon. E o sentimento é recíproco. Os dois se conhecem há anos e têm vários amigos em comum, mas se odeiam. Shay acredita no amor, em contos de fadas... e Landon, para ela, é a personificação do que mais despreza nos meninos, ele é metido, arrogante, atrevido e um conquistador barato. Mas tudo muda no dia em que os dois inventam uma aposta: o primeiro que fizer com que o outro se apaixone ganha o jogo. E é aí que a relação deles muda da água para o vinho. O garoto que Shay nunca suportou agora faz suas bochechas corarem e seu coração acelerar. De repente, ela passa a ver um lado dele que nunca sonhou que existisse. E Landon não imagina que passar mais tempo com Shay e conhecê-la melhor possa lhe fazer tão bem. Ele agora mal pode esperar para vê-la." },
+        colecao:"Coleção 1",
+        nome:"Landon & Shay (Vol. 1)",
+        sinopse:"Landon Harrison é o bad boy da cidade de Raine, Illinois. Ele está no último ano do ensino médio, é o cara mais popular da escola e vem de uma família abastada. Todos acham que ele tem o mundo a seus pés. Mas, sob essa superfície, a verdade é completamente diferente. Landon é um rapaz triste, melancólico e luta contra seus demônios. Shay Gable é uma adolescente encantadora. Sensível, simpática e muito popular, ela faz parte da realeza da escola. Não tem quem não goste da dona perfeitinha, a não ser Landon. E o sentimento é recíproco. Os dois se conhecem há anos e têm vários amigos em comum, mas se odeiam. Shay acredita no amor, em contos de fadas... e Landon, para ela, é a personificação do que mais despreza nos meninos, ele é metido, arrogante, atrevido e um conquistador barato. Mas tudo muda no dia em que os dois inventam uma aposta: o primeiro que fizer com que o outro se apaixone ganha o jogo. E é aí que a relação deles muda da água para o vinho. O garoto que Shay nunca suportou agora faz suas bochechas corarem e seu coração acelerar. De repente, ela passa a ver um lado dele que nunca sonhou que existisse. E Landon não imagina que passar mais tempo com Shay e conhecê-la melhor possa lhe fazer tão bem. Ele agora mal pode esperar para vê-la." },
 
       { url:"https://m.media-amazon.com/images/I/819m1MDAaWL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Landon & Shay (Vol. 2)",
-        sinopse: "Landon Harrison, agora Landon Pace, se tornou um grande astro de Hollywood, porém os anos longe de Shay fizeram com que sua mente vagasse para lugares cada vez mais sombrios. Ele ficou tão acostumado a usar uma máscara para esconder suas angústias e sua verdadeira personalidade que deixou de ser sincero até mesmo com Shay, a pessoa que, durante uma fase difícil da sua vida, foi seu refúgio. Shay Gable estudou escrita criativa e acompanhou pela mídia a ascensão meteórica de Landon. Ela acreditava que a distância havia sido o único empecilho ao namoro dos dois. Durante o tempo em que passaram juntos, ela se doou por inteiro, porém o relacionamento deles passou a lhe trazer mais mágoa do que felicidade. Mais de dez anos depois do término, finalmente Landon e Shay se reencontram. No entanto, parece que aquele amor adolescente, que nasceu do ódio e com o tempo passou a fazer o coração deles acelerar, agora retornou às suas origens, pelo menos para Shay. O que ela não sabe é que, na verdade, Landon nunca parou de pensar na única mulher que amou na vida ― para quem escreve cartas diariamente, mesmo que não as envie. Será que ele conseguirá reconquistar Shay e lhe mostrar que os dois nasceram um para o outro? Ou as feridas do coração dela jamais vão cicatrizar?" },
+        colecao:"Coleção 1",
+        nome:"Landon & Shay (Vol. 2)",
+        sinopse:"Landon Harrison, agora Landon Pace, se tornou um grande astro de Hollywood, porém os anos longe de Shay fizeram com que sua mente vagasse para lugares cada vez mais sombrios. Ele ficou tão acostumado a usar uma máscara para esconder suas angústias e sua verdadeira personalidade que deixou de ser sincero até mesmo com Shay, a pessoa que, durante uma fase difícil da sua vida, foi seu refúgio. Shay Gable estudou escrita criativa e acompanhou pela mídia a ascensão meteórica de Landon. Ela acreditava que a distância havia sido o único empecilho ao namoro dos dois. Durante o tempo em que passaram juntos, ela se doou por inteiro, porém o relacionamento deles passou a lhe trazer mais mágoa do que felicidade. Mais de dez anos depois do término, finalmente Landon e Shay se reencontram. No entanto, parece que aquele amor adolescente, que nasceu do ódio e com o tempo passou a fazer o coração deles acelerar, agora retornou às suas origens, pelo menos para Shay. O que ela não sabe é que, na verdade, Landon nunca parou de pensar na única mulher que amou na vida ― para quem escreve cartas diariamente, mesmo que não as envie. Será que ele conseguirá reconquistar Shay e lhe mostrar que os dois nasceram um para o outro? Ou as feridas do coração dela jamais vão cicatrizar?" },
 
       { url:"https://m.media-amazon.com/images/I/81dmmzv8xfL._SY342_.jpg",
-        colecao: "Coleção 2",
-        nome: "O ar que ele respira",
-        sinopse: "É fácil julgar um homem pelo seu passado. Olhar para Tristan e ver um monstro. Mas eu não podia fazer isso. Eu precisava aceitar a dor que vivia dentro dele porque era a mesma que vivia em mim. Nós dois estávamos vazios. Nós dois procurávamos por algo mais. Nós dois queríamos juntar os cacos do nosso passado. Só assim, talvez, conseguíssemos finalmente nos lembrar de como respirar.   Elizabeth está tentando seguir em frente. Depois da morte do marido e de ter passado um ano na casa da mãe, ela decide voltar a seu antigo lar e enfrentar as lembranças de seu casamento feliz com Steven. A dor da perda ainda a consome, as lágrimas ainda insistem em cair, mas ela encontra em Emma, sua filha de 5 anos, a força que precisa para recomeçar. Ao retornar à pequena Meadows Creek, Elizabeth chega à conclusão de que tudo, com exceção dela própria, continua igual: as fofocas, os velhos amigos, a estranha loja do Sr. Henson... Ou melhor, quase tudo. Seu novo vizinho, Tristan Cole, é o cara mais falado da cidade, porém todos o evitam. Grosseiro, solitário, o olhar sempre agressivo e triste, ele parece fugir do passado. Com o tempo, Elizabeth descobre que, por trás do ser intratável, há um homem que foi devastado pela morte das pessoas que mais amava e tenta se aproximar dele, mas Tristan faz de tudo para impedir que ela entre em sua vida. Em seu coração despedaçado, não há espaço para um novo começo. Ou há?" },
+        colecao:"Coleção 2",
+        nome:"O ar que ele respira",
+        sinopse:"É fácil julgar um homem pelo seu passado. Olhar para Tristan e ver um monstro. Mas eu não podia fazer isso. Eu precisava aceitar a dor que vivia dentro dele porque era a mesma que vivia em mim. Nós dois estávamos vazios. Nós dois procurávamos por algo mais. Nós dois queríamos juntar os cacos do nosso passado. Só assim, talvez, conseguíssemos finalmente nos lembrar de como respirar.   Elizabeth está tentando seguir em frente. Depois da morte do marido e de ter passado um ano na casa da mãe, ela decide voltar a seu antigo lar e enfrentar as lembranças de seu casamento feliz com Steven. A dor da perda ainda a consome, as lágrimas ainda insistem em cair, mas ela encontra em Emma, sua filha de 5 anos, a força que precisa para recomeçar. Ao retornar à pequena Meadows Creek, Elizabeth chega à conclusão de que tudo, com exceção dela própria, continua igual: as fofocas, os velhos amigos, a estranha loja do Sr. Henson... Ou melhor, quase tudo. Seu novo vizinho, Tristan Cole, é o cara mais falado da cidade, porém todos o evitam. Grosseiro, solitário, o olhar sempre agressivo e triste, ele parece fugir do passado. Com o tempo, Elizabeth descobre que, por trás do ser intratável, há um homem que foi devastado pela morte das pessoas que mais amava e tenta se aproximar dele, mas Tristan faz de tudo para impedir que ela entre em sua vida. Em seu coração despedaçado, não há espaço para um novo começo. Ou há?" },
 
       { url:"https://m.media-amazon.com/images/I/916A4POqe0L._SY342_.jpg",
-        colecao: "Coleção 2",
-        nome: "A chama dentro de nós",
-        sinopse: "Uma bela amizade. Uma improvável história de amor. Uma tragédia que pode pôr tudo a perder. Da mesma autora de Sr. Daniels e O ar que ele respira Logan Silverstone e Alyssa Walters não têm nada em comum. Ele passa os dias contando centavos para pagar o aluguel, sofrendo com a rejeição dos pais e tentando encontrar um rumo para sua vida caótica. Ela, por outro lado, parece ter um futuro brilhante pela frente. Um dia, porém, um simples gesto dá origem a uma improvável amizade. Ao longo dos anos, o sentimento que os une se transforma em algo até então desconhecido para os dois. Alyssa e Logan não conseguem resistir à atração que sempre sentiram um pelo outro e finalmente descobrem o amor. Mas uma tragédia promete separá-los para sempre. Ou pelo menos é isso que eles pensam. Seriam as reviravoltas do destino e as feridas do coração capazes de apagar para sempre a chama que há dentro deles?" },
+        colecao:"Coleção 2",
+        nome:"A chama dentro de nós",
+        sinopse:"Uma bela amizade. Uma improvável história de amor. Uma tragédia que pode pôr tudo a perder. Da mesma autora de Sr. Daniels e O ar que ele respira Logan Silverstone e Alyssa Walters não têm nada em comum. Ele passa os dias contando centavos para pagar o aluguel, sofrendo com a rejeição dos pais e tentando encontrar um rumo para sua vida caótica. Ela, por outro lado, parece ter um futuro brilhante pela frente. Um dia, porém, um simples gesto dá origem a uma improvável amizade. Ao longo dos anos, o sentimento que os une se transforma em algo até então desconhecido para os dois. Alyssa e Logan não conseguem resistir à atração que sempre sentiram um pelo outro e finalmente descobrem o amor. Mas uma tragédia promete separá-los para sempre. Ou pelo menos é isso que eles pensam. Seriam as reviravoltas do destino e as feridas do coração capazes de apagar para sempre a chama que há dentro deles?" },
 
       { url:"https://m.media-amazon.com/images/I/51j+INDnjoL._SY445_SX342_.jpg",
-        colecao: "Coleção 2",
-        nome: "A força que nos atrai",
-        sinopse: "Graham Russell é um homem atormentado, fechado para o mundo. Seus livros de terror fizeram dele um escritor famoso, mas seu coração continua assombrado pelos fantasmas de uma infância difícil e de uma relação conturbada com o pai. Casado com Jane, em um relacionamento conveniente, mas sem amor, ele vê sua vida virar de cabeça para baixo quando Talon, sua filha, nasce prematura e corre risco de morte. Aturdida, Jane abandona a filha e o marido ainda no hospital, e agora Graham precisa abrir seu coração frio para o desafio de ser pai solteiro. Porém, uma reviravolta do destino coloca Lucy em seu caminho. Apaixonada pela vida, falante e intensa, ela é o oposto de Graham. Apesar de ainda carregar a dor pela morte da mãe, ela está sempre disposta a ver tudo da forma mais positiva possível, e encontra em sua floricultura uma forma de dar mais cor e alegria ao mundo. Sensibilizada com o estado de saúde de Talon, ela se oferece para ajudar nos cuidados com a bebê - afinal, ela tem experiência como babá. O escritor, no entanto, tem motivos muito fortes para não querer Lucy se intrometendo em sua rotina. Além do mais, Graham não sabe lidar com esse tipo de gentileza e generosidade, e a última coisa que ele precisa é de uma florista meio hippie querendo alterar o rumo de sua vida. Não é mesmo?" }
+        colecao:"Coleção 2",
+        nome:"A força que nos atrai",
+        sinopse:"Graham Russell é um homem atormentado, fechado para o mundo. Seus livros de terror fizeram dele um escritor famoso, mas seu coração continua assombrado pelos fantasmas de uma infância difícil e de uma relação conturbada com o pai. Casado com Jane, em um relacionamento conveniente, mas sem amor, ele vê sua vida virar de cabeça para baixo quando Talon, sua filha, nasce prematura e corre risco de morte. Aturdida, Jane abandona a filha e o marido ainda no hospital, e agora Graham precisa abrir seu coração frio para o desafio de ser pai solteiro. Porém, uma reviravolta do destino coloca Lucy em seu caminho. Apaixonada pela vida, falante e intensa, ela é o oposto de Graham. Apesar de ainda carregar a dor pela morte da mãe, ela está sempre disposta a ver tudo da forma mais positiva possível, e encontra em sua floricultura uma forma de dar mais cor e alegria ao mundo. Sensibilizada com o estado de saúde de Talon, ela se oferece para ajudar nos cuidados com a bebê - afinal, ela tem experiência como babá. O escritor, no entanto, tem motivos muito fortes para não querer Lucy se intrometendo em sua rotina. Além do mais, Graham não sabe lidar com esse tipo de gentileza e generosidade, e a última coisa que ele precisa é de uma florista meio hippie querendo alterar o rumo de sua vida. Não é mesmo?" },
+
+      { url:"https://m.media-amazon.com/images/I/813i1AY371L._SY425_.jpg",
+        nome:"Depois daquele inverno",
+        sinopse:"Starlet Evans é uma jovem exemplar. Suas notas na faculdade são excelentes, ela tem um namorado maravilhoso, e tudo em sua vida está de acordo com o plano de ação traçado para conquistar o futuro que sempre quis – um futuro que sua falecida mãe aprovaria, acredita ela. Até que, no dia do seu aniversário de 21 anos, ela flagra o namorado com outra e o sonho de uma vida perfeita vai por água abaixo. Para afogar as mágoas e não deixar isso estragar seu aniversário, ela resolve ir a uma festa com uma amiga, que garante que a receita para esquecer um boy lixo é pegar um cara bem gato. E é exatamente isso que Starlet faz. Inclusive, ela nem se importa quando ele se recusa a revelar o nome – e a química que rolou entre os dois foi tamanha que tornou todo o resto dispensável. Milo Corti está passando por um momento difícil. Faz quase um ano que perdeu a mãe e que o pai se entregou à bebida e à tristeza. O jovem foge da dor e da solidão se jogando nos braços de mulheres aleatórias. Mas com aquela aniversariante foi diferente, e agora ela não sai da sua cabeça. Só que ele tem coisas mais importantes para resolver no momento. Ao que tudo indica, vai ser reprovado no último ano do ensino médio, a menos que sua nova monitora consiga ajudá-lo a melhorar as notas. É aí que o destino entra em ação e faz esses dois jovens perdidos se encontrarem uma segunda vez. A diferença é que, agora, ambos têm noção de que o envolvimento entre eles é proibido. Mas como resistir à atração que sentem um pelo outro com tantas horas juntos na biblioteca? E se alguém perceber que os dois se conectam num nível além do permitido? Quem dera se esse fosse o único drama na vida deles... Milo e Starlet não imaginavam que, depois do calor em um momento de paixão, viria um inverno tão frio." },
+
+      { url:"https://m.media-amazon.com/images/I/91i5UEHTzwL._SY425_.jpg",
+        colecao:"Coleção 3",
+        nome:"Tempestades do Sul",
+        sinopse:"Tudo o que Kennedy queria era fugir. Fugir de um casamento fracassado e sem amor, cheio de traumas e mágoas. E é na pequena cidade de Havenbarrow que ela busca um recomeço. Ao lado da irmã, ela acredita que finalmente está em paz para passar por seu processo de cura. O que ela não imaginava era que acabaria caindo logo de cara nos braços do sujeito considerado a ovelha negra da cidade. E o pior, eles já se conheciam de um passado muito remoto. Jax e Kennedy frequentaram o mesmo acampamento de verão quando eram mais novos, mas os dois não se viam fazia muito tempo. Hoje, são duas pessoas completamente diferentes. Um homem frio, com um passado sombrio, Jax é um cara bem diferente do jovem que Kennedy um dia conheceu. Só que ninguém imagina que até a ovelha negra da cidade precisa de um ombro amigo em algum momento. Por trás de toda aquela pose de bad boy de Jax, existe um enorme coração, que já sofreu muito. Quando o passado dos dois volta para assombrá-los, eles se dão conta de que precisam encarar de frente a tempestade que os espera." },
+
+      { url:"https://m.media-amazon.com/images/I/41DLuYrPRML._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 3",
+        nome:"Luzes do Leste",
+        sinopse:"É noite de Halloween em Nova York, e Chapeuzinho Vermelho, que acabou de descobrir que estava sendo traída pelo namorado, resolve curar as mágoas numa festa com uma amiga. Mas logo se vê sozinha naquele mar de gente e é resgatada pelo Capitão América. O cara tem talento para super-herói: parece se importar mais com os outros do que com ele mesmo e percebe que Chapeuzinho precisa de uma forcinha. Juntos, os dois vivem experiências inesquecíveis em vários pontos da cidade. Mas é em um terraço, sob as luzes do leste, que eles abrem o coração um para o outro – sem revelar seus nomes. Tudo o que Capitão sabe sobre Chapeuzinho é que ela foi abandonada pela mãe ainda bebê e que seu sonho é ter uma família e se tornar uma jornalista bem-sucedida. O que Chapeuzinho descobre sobre Capitão é que ele passou muitos anos acompanhando a mãe em consultas e tratamentos, até que um dia recebeu a notícia de que ela estava curada do câncer. Então jurou que ia trabalhar duro para vencer na vida e ajudar os menos favorecidos. Quando aquela noite mágica chega ao fim, os dois combinam de nunca mais voltar aos lugares aonde foram juntos, deixando que o universo os conecte de novo – se isso tiver de acontecer. Dois anos depois, Connor Roe deixou para trás a roupa de Capitão América e, aos 28 anos, é um dos homens mais ricos da cidade. Muito reservado, ele se recusa a dar entrevistas. Aaliyah Winters ainda tem sua fantasia de Chapeuzinho Vermelho, mas está focada na realidade. Ela é editora-assistente em uma grande revista e está de casamento marcado com Jason, um executivo bem-sucedido que acabou de ser transferido para a Califórnia. Para celebrar sua promoção, a empresa dá uma festa, na qual Aaliyah finalmente vai conhecer os colegas de trabalho do noivo. Ela só não imaginava que o sócio dele seria Connor Roe: o homem mais poderoso de Nova York e que tanto tocou seu coração naquela noite de Halloween." },
+
+      { url:"https://m.media-amazon.com/images/I/A1-qZ4owncL._SY425_.jpg",
+        colecao:"Coleção 3",
+        nome:"Ondas do oeste",
+        sinopse:"Damian Blackstone é especialista em desvendar os segredos mais obscuros de uma pessoa, porém nunca foi capaz de descobrir as próprias origens. Depois de anos em busca de informações sobre sua família, ele recebeu uma carta de Kevin Michaels, que se dizia seu pai, mas que, agora, está morto. Sem hesitar, ele embarca para a Califórnia, onde acredita que, finalmente, descobrirá todas as respostas sobre seu passado. Ao chegar para o enterro, ele descobre que Kevin dedicou todo o seu amor à sua filha de criação, Stella. Para Damian, é impossível ficar no mesmo ambiente que a mulher que usurpou dele tudo o que mais desejava na vida: o amor do pai. Mal sabia ele que esse constrangimento poderia ser ainda maior, pois Kevin deixou toda a sua fortuna para os dois, mas com uma condição: que eles se casassem. Stella está perdida. Ela não sabe viver em um mundo onde Kevin não existe mais. Quando tinha seis anos e sua mãe morreu, Kevin e sua avó de consideração, Maple, passaram a ser sua família, seu porto seguro. Mesmo sem entender por que ele lhe arranjou aquele casamento, algo lhe diz que deve aceitar o acordo. Para receber a herança, Stella e Damian precisam passar pelo menos seis meses juntos, mas a convivência não é fácil. A infância solitária em lares temporários fez de Damian um homem frio, reservado, incapaz de criar laços com alguém. Stella, por outro lado, é bem diferente: bondosa, sonhadora, ela tem o dom de enxergar o melhor das pessoas e cresceu sentindo a presença da mãe no mar. Mas será que essas ondas do Oeste serão fortes o bastante para lavar o trauma, a dor e todas as camadas de escuridão que envolvem o passado dos dois? " },
+
+      { url:"https://m.media-amazon.com/images/I/917SmDL7Q0L._SY425_.jpg",
+        colecao:"Coleção 3",
+        nome:"Estrelas do Norte",
+        sinopse:"Hailee Jones é apaixonada por Aiden Walters desde que os dois eram crianças e ficavam deitados na grama observando juntos as estrelas do Norte. Ele foi o primeiro amor dela, e ela, o dele. Quando Aiden conseguiu seu primeiro papel como ator, era Hailee quem estava ao seu lado, e ela podia jurar que os dois ficariam juntos para sempre. Mas as coisas mudam quando Aiden vira um astro de Hollywood e todos os holofotes se voltam para sua vida. Desde pequena, Hailee escuta comentários maldosos na escola e sofre bullying por estar acima do peso, algo que nunca foi fácil, mas a situação fica insustentável quando seu namorado ganha fama internacional. Então, depois de uma avalanche de críticas, ela se deixa convencer de que a única coisa que pode fazer para não atrapalhar a carreira de Aiden é terminar com ele. Cinco anos depois do sofrido término, Aiden está de volta à sua cidade natal e acaba se hospedando no único hotel da região, cuja gerente é o grande amor da sua vida. Hailee é então forçada a lidar diariamente com o homem cujo coração ela despedaçou, o cara que agora se ressente dela, que se mostra irritado toda vez que dá de cara com ela, aquele que jurou que nunca mais dirigiria a palavra a ela. Em poucos dias fica claro que, agora, os dois são inimigos. Mas, por trás das palavras duras de Aiden, Hailee consegue enxergar resquícios daquele menino que um dia ela tanto amou e se dá conta de que ainda o deseja. Será que o amor de Hailee por Aiden será capaz de curar suas feridas do passado?" },
     ]
   },
   {
-    nome: "Bruna Pallazzo",
+    nome:"Bruna Pallazzo",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71ps4czH6EL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Estilhaçados",
-        sinopse: "“Tome cuidado com o que deseja”, me disseram. Não seja tão romântico, nem tão ambicioso, muito menos tão verdadeiro, mas tem uma coisa que você precisa saber sobre mim: Eu não tenho medo de nada. Foi assim que consegui entrar na Universidade de Crownford, me tornar o running back titular do time de futebol americano e ainda me esforçar, esquecendo até dos meus próprios limites, para atingir o meu objetivo de me tornar um médico. Eu não tinha medo de nada, mas então eu conheci uma menina com aparência angelical, que escondia em si cacos capazes de ferir profundamente alguém — inclusive ela mesma. O medo muitas vezes é a armadura que encontramos para nos proteger do perigo. Meu perigo tinha nome, cheiro de morango e me intrigava mais do que qualquer pessoa que tivesse passado na minha vida. E a pior parte era que eu não tinha qualquer armadura para me proteger dos seus estilhaços." },
+        colecao:"Coleção 1",
+        nome:"Estilhaçados",
+        sinopse:"“Tome cuidado com o que deseja”, me disseram. Não seja tão romântico, nem tão ambicioso, muito menos tão verdadeiro, mas tem uma coisa que você precisa saber sobre mim: Eu não tenho medo de nada. Foi assim que consegui entrar na Universidade de Crownford, me tornar o running back titular do time de futebol americano e ainda me esforçar, esquecendo até dos meus próprios limites, para atingir o meu objetivo de me tornar um médico. Eu não tinha medo de nada, mas então eu conheci uma menina com aparência angelical, que escondia em si cacos capazes de ferir profundamente alguém — inclusive ela mesma. O medo muitas vezes é a armadura que encontramos para nos proteger do perigo. Meu perigo tinha nome, cheiro de morango e me intrigava mais do que qualquer pessoa que tivesse passado na minha vida. E a pior parte era que eu não tinha qualquer armadura para me proteger dos seus estilhaços." },
 
       { url:"https://m.media-amazon.com/images/I/31EZ7uyPAsL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Mascarados",
-        sinopse: "Um dia escutei que as pessoas com sorrisos mais bonitos são as mesmas que escondem as dores mais profundas. Me olhando agora, vejo que talvez essa frase estivesse errada. Eu não acho que escondo minhas feridas, eu apenas não as sinto mais. É o melhor a se fazer, assim como me manter afastado da possibilidade de algum dia deixar alguém me amar novamente. Um monstro não ama, ele destrói. E pessoas como eu merecem ficar sozinhas. A culpa que corrói meu coração o paralisou, e mesmo que a menina de olhos perversos e lábios pecadores me faça desejar que ele volte a bater, eu sei que não posso permitir. Eu não sou o príncipe que ela deseja. E eu não preciso de nenhuma princesa. O futebol americano era uma lembrança diária do motivo pelo qual eu não deveria permitir que o coração de ninguém batesse por mim. Principalmente o dela. Ela merece um rei. E eu sou apenas uma fera enjaulada em uma máscara de homem feliz." },
+        colecao:"Coleção 1",
+        nome:"Mascarados",
+        sinopse:"Um dia escutei que as pessoas com sorrisos mais bonitos são as mesmas que escondem as dores mais profundas. Me olhando agora, vejo que talvez essa frase estivesse errada. Eu não acho que escondo minhas feridas, eu apenas não as sinto mais. É o melhor a se fazer, assim como me manter afastado da possibilidade de algum dia deixar alguém me amar novamente. Um monstro não ama, ele destrói. E pessoas como eu merecem ficar sozinhas. A culpa que corrói meu coração o paralisou, e mesmo que a menina de olhos perversos e lábios pecadores me faça desejar que ele volte a bater, eu sei que não posso permitir. Eu não sou o príncipe que ela deseja. E eu não preciso de nenhuma princesa. O futebol americano era uma lembrança diária do motivo pelo qual eu não deveria permitir que o coração de ninguém batesse por mim. Principalmente o dela. Ela merece um rei. E eu sou apenas uma fera enjaulada em uma máscara de homem feliz." },
       
       { url:"https://m.media-amazon.com/images/I/310-HURUhNL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Envenenados",
-        sinopse: "Um dia, li que há três coisas que não devemos quebrar em nossas vidas: confiança, promessas e um coração. Eu fui capaz de quebrar as três. Perdão não é algo que se dá para qualquer um. Segundas chances são para aqueles que merecem tal benção. Hoje, me pergunto se entro nesse grupo seleto de pessoas que podem conseguir o alívio de reescrever suas histórias. Ninguém muda o passado, isso é fato, mas o futuro é repleto de possibilidades, e é nisso que, agora, eu me agarro. Eu preciso de uma segunda chance. Eu preciso dela. Olhá-la, hoje, é como me ver em um espelho. Ela se tornou amarga, desconfiada e misteriosa. Não precisa ser um grande gênio para compreender o que havia acontecido com ela. Eu aconteci com ela. O vilão da história, do amor da minha vida, sou eu. O meu passado, aparentemente, nos destruiu, mas eu não o deixarei tirar mais nada de nós dois. Vou lutar para que, assim como eu, ela também encontre o antídoto para seu coração envenenado." },
+        colecao:"Coleção 1",
+        nome:"Envenenados",
+        sinopse:"Um dia, li que há três coisas que não devemos quebrar em nossas vidas: confiança, promessas e um coração. Eu fui capaz de quebrar as três. Perdão não é algo que se dá para qualquer um. Segundas chances são para aqueles que merecem tal benção. Hoje, me pergunto se entro nesse grupo seleto de pessoas que podem conseguir o alívio de reescrever suas histórias. Ninguém muda o passado, isso é fato, mas o futuro é repleto de possibilidades, e é nisso que, agora, eu me agarro. Eu preciso de uma segunda chance. Eu preciso dela. Olhá-la, hoje, é como me ver em um espelho. Ela se tornou amarga, desconfiada e misteriosa. Não precisa ser um grande gênio para compreender o que havia acontecido com ela. Eu aconteci com ela. O vilão da história, do amor da minha vida, sou eu. O meu passado, aparentemente, nos destruiu, mas eu não o deixarei tirar mais nada de nós dois. Vou lutar para que, assim como eu, ela também encontre o antídoto para seu coração envenenado." },
 
       { url:"https://m.media-amazon.com/images/I/31mYKBrD+9L._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Perdidos",
-        sinopse: "Eu escondo um segredo, um que me prende, tira-me o sono. Ninguém vê que, por baixo da minha coroa, existe um homem amargurado e ferido. Eu não deixo que as pessoas vejam as minhas dores. Elas são apenas minhas. Meu coração se quebrou, minha alma se corrompeu. E tudo o que já fui um dia, morreu junto com aquilo que eu tinha de mais precioso. Mas então, tem ela. A garota que não só me provoca reações, mas também sentimentos. Mágoa, rancor e ódio. Muito ódio, tanto que, às vezes, parece que vai me sufocar. Um rei e uma rainha. Uma guerra fria que já perdura há anos. Um confronto que sempre desperta o meu pior. Ela não é minha tábua de salvação. Ela não é nada para mim. Mas, mesmo que eu não entenda, às vezes, o ódio que sinto por ela faz o meu coração voltar a bater. Mesmo que não faça sentido, é nos olhos da minha inimiga que eu encontro tudo aquilo que perdi. " }
+        colecao:"Coleção 1",
+        nome:"Perdidos",
+        sinopse:"Eu escondo um segredo, um que me prende, tira-me o sono. Ninguém vê que, por baixo da minha coroa, existe um homem amargurado e ferido. Eu não deixo que as pessoas vejam as minhas dores. Elas são apenas minhas. Meu coração se quebrou, minha alma se corrompeu. E tudo o que já fui um dia, morreu junto com aquilo que eu tinha de mais precioso. Mas então, tem ela. A garota que não só me provoca reações, mas também sentimentos. Mágoa, rancor e ódio. Muito ódio, tanto que, às vezes, parece que vai me sufocar. Um rei e uma rainha. Uma guerra fria que já perdura há anos. Um confronto que sempre desperta o meu pior. Ela não é minha tábua de salvação. Ela não é nada para mim. Mas, mesmo que eu não entenda, às vezes, o ódio que sinto por ela faz o meu coração voltar a bater. Mesmo que não faça sentido, é nos olhos da minha inimiga que eu encontro tudo aquilo que perdi. " }
     ]
   },
   {
-    nome: "C. C. Hunter",
+    nome:"Brynne Weaver",
+    bandeira:"assets/images/bandeiras/ca.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81TkyB20j5L._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Cutelo e Corvo",
+        sinopse:"Quando um encontro casual desperta um vínculo improvável entre os assassinos e rivais Sloane e Rowan, eles constroem algo aparentemente impossível: uma amizade de duas almas sombrias que por acaso gostam de matar outros serial killers. Ela leva os olhos das vítimas como troféus, e ele é um chef de cozinha que, nas horas vagas, atua como o assassino conhecido como Açougueiro de Boston. Percorrendo o país todo, essa dupla institui uma competição particular de sangue e sofrimento que acontece anualmente e os coloca frente a frente com os monstros mais perigosos dos Estados Unidos. À medida que a sua amizade se transforma em algo mais, o perigo aumenta e eles passam de predadores a presas, correndo o risco de perder não só o amor recém-descoberto, mas a própria vida. Será que Rowan e Sloane conseguirão sair vivos desse jogo? Ou finalmente encontraram alguém à sua altura?" },
+
+      { url:"https://m.media-amazon.com/images/I/811kqtEUxHL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Couro e Rouxinol",
+        sinopse:"Tudo que o assassino de aluguel Lachlan Kane quer é uma vida pacata em seu ateliê de artigos de couro, livre do passado traumático. Quando ele deixa o melhor cliente de seu chefe na mão, porém, fica claro que nunca conseguirá escapar do submundo. Até que a cantora Lark Montague lhe propõe um trato: ela pode garantir a segurança dele, mas ele vai ter que se casar com ela para isso. Ainda que os dois não se suportem. Lachlan acha que Lark é só uma filhinha de papai privilegiada, mas há muitos segredos nas sombras da aparente alegria dela. Com a família em colapso e a felicidade da melhor amiga em risco, Lark decide se tornar esposa do homem que está determinada a detestar, mesmo que ele seja uma tentação em forma de matador profissional. Enquanto os dois circulam pelo mundo decadente que os une, o casamento parece cada vez mais real. Assim como os perigos, que não são apenas os que eles conhecem. Há um vilão com muito mais sede de sangue à espreita." },
+
+      { url:"https://m.media-amazon.com/images/I/81v+MBhJB3L._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Foice e Pardal",
+        sinopse:"Depois de uma desilusão amorosa, o Dr. Fionn Kane se refugia numa cidadezinha no interior de Nebraska para curar o coração partido. Ele quer se afastar da ex-quase-noiva e superar a crise em sua carreira como cirurgião. Agora só vai se concentrar no trabalho e não pensar mais em romance. O problema é que, não importa quanto ele fuja, o caos sempre arruma um jeito de encontrá-lo. Estrela principal do Globo da Morte e do tarô, Rose Evan já está há uma década com o Circo Silveria, e não tem do que reclamar. Indo de cidade em cidade, ela tem o disfarce perfeito para se livrar de abusadores de mulheres e seguir em frente sem olhar para trás. Mas quando um de seus assassinatos dá errado e ela acaba com um ferimento feio na perna, Rose se vê presa em Nebraska, na casa do médico da cidade, um cara gatíssimo com pinta de intelectual. A atração entre os dois é explosiva, só que há mais coisas em jogo do que eles imaginam. Nessa trama de sangue e desejo, nem toda dor de amor tem remédio, e quanto mais tempo Rose ficar no mesmo lugar, maiores as chances de ter que encarar o passado que está voltando para assombrá-la." }
+    ]
+  },
+  {
+    nome:"C. C. Hunter",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Qh4pXetUL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Nascida à meia-noite",
+        colecao:"Coleção 1",
+        nome:"Nascida à meia-noite",
         sinopse: "Kylie Galen está na pior. Seus pais vão se divorciar, seu namorado acaba de romper com ela e, uma noite depois de ser presa por estar na festa errada, com as pessoas erradas e na hora errada, sua mãe a manda para Shadow Falls – um acampamento para adolescentes problemáticos, localizado numa cidade chamada Fallen no meio de uma misteriosa floresta, e isso muda sua vida para sempre. Poucas horas depois de chegar, ela descobre, assustada, que seus colegas não são apenas “problemáticos”. Kylie nunca se sentiu normal, mas também não se considera uma daquelas aberrações paranormais. Ou será que é? Em Shadow Falls, vampiros, lobisomens, metamorfos, bruxas e fadas aprendem juntos a desenvolver seus poderes, controlar sua magia e viver no mundo normal. No entanto, as coisas tomam um rumo diferente quando Derek e Lucas entram em cena. Derek é um fae que possui poderes mágicos e quer a todo custo namorar a Kylie, e Lucas, um lobisomem com quem ela partilha um passado secreto. De início, tudo o que Kylie deseja é sair de Shadow Falls e voltar para casa. Porém, com Derek e Lucas ocupando um lugar cativo em seu coração, e depois de descobrir que ela própria tem estranhos poderes, talvez sua vida nunca mais volte a ser a mesma..." },
 
       { url:"https://m.media-amazon.com/images/I/81vo6BcIvhL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Desperta ao amanhecer",
-        sinopse: "Kylie anseia por descobrir sua própria identidade sobrenatural e o que seus poderes significam. Agora ela vai precisar deles mais do que nunca, porque está sendo assombrada por outro espírito, que insiste em dizer que alguém que ela ama morrerá antes do final do verão. Se ao menos Kylie soubesse quem ela precisa salvar e como... Mas a maior causa de seus problemas são os dilemas do coração. Kylie sabe que precisa decidir entre Lucas, o lobisomem que conheceu quando ainda era garotinha, e Derek, um fae muito atraente, para não correr os risco de perder os dois. Mas o romance vai ter que esperar, porque alguém do lado sombrio do mundo natural se esconde em Shadow Falls." },
+        colecao:"Coleção 1",
+        nome:"Desperta ao amanhecer",
+        sinopse:"Kylie anseia por descobrir sua própria identidade sobrenatural e o que seus poderes significam. Agora ela vai precisar deles mais do que nunca, porque está sendo assombrada por outro espírito, que insiste em dizer que alguém que ela ama morrerá antes do final do verão. Se ao menos Kylie soubesse quem ela precisa salvar e como... Mas a maior causa de seus problemas são os dilemas do coração. Kylie sabe que precisa decidir entre Lucas, o lobisomem que conheceu quando ainda era garotinha, e Derek, um fae muito atraente, para não correr os risco de perder os dois. Mas o romance vai ter que esperar, porque alguém do lado sombrio do mundo natural se esconde em Shadow Falls." },
 
       { url:"https://m.media-amazon.com/images/I/71rSEkEPtNL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Levada ao entardecer",
-        sinopse: "Nesse terceiro livro da saga Acampamento Shadow Falls, Kylie quer saber a verdade por pior que ela seja! A verdade sobre quem é a sua verdadeira família, a verdade sobre os seus poderes sobrenaturais e a verdade sobre o que ela sente com relação a Lucas e Derek. E, pra completar, um fantasma vive atrás dela com um aviso terrível: “Alguém vive e alguém morre”. Enquanto Kylie tenta desvendar o mistério e proteger aqueles a quem ama, finalmente descobre o segredo da sua identidade sobrenatural. E a verdade é bem diferente e muito mais inesperada do que ela jamais imaginou!" },
+        colecao:"Coleção 1",
+        nome:"Levada ao entardecer",
+        sinopse:"Nesse terceiro livro da saga Acampamento Shadow Falls, Kylie quer saber a verdade por pior que ela seja! A verdade sobre quem é a sua verdadeira família, a verdade sobre os seus poderes sobrenaturais e a verdade sobre o que ela sente com relação a Lucas e Derek. E, pra completar, um fantasma vive atrás dela com um aviso terrível: “Alguém vive e alguém morre”. Enquanto Kylie tenta desvendar o mistério e proteger aqueles a quem ama, finalmente descobre o segredo da sua identidade sobrenatural. E a verdade é bem diferente e muito mais inesperada do que ela jamais imaginou!" },
 
       { url:"https://m.media-amazon.com/images/I/71g6TzFwKtL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Sussurros ao luar",
-        sinopse: "A saga Acampamento Shadow Falls está de volta, em seu quarto volume, e com uma sequência ainda mais explosiva! Uma nova ameaça agita o acampamento, mudando para sempre a vida de Kylie, de um jeito que ela nunca imaginou. Kylie tem que enfrentar uma gangue de marginais que querem vê-la morta e um avô misterioso que deixa bem claro o quanto desconfia de Shadow Falls. Ao mesmo tempo, ela luta para desvendar os segredos da sua identidade e decifrar os seus sentimentos por Derek e Lucas. Num mundo em constante tumulto, para Kylie só existe uma certeza: a mudança é inevitável e tudo um dia chega ao fim, até mesmo o seu tempo em Shadow Falls." },
+        colecao:"Coleção 1",
+        nome:"Sussurros ao luar",
+        sinopse:"A saga Acampamento Shadow Falls está de volta, em seu quarto volume, e com uma sequência ainda mais explosiva! Uma nova ameaça agita o acampamento, mudando para sempre a vida de Kylie, de um jeito que ela nunca imaginou. Kylie tem que enfrentar uma gangue de marginais que querem vê-la morta e um avô misterioso que deixa bem claro o quanto desconfia de Shadow Falls. Ao mesmo tempo, ela luta para desvendar os segredos da sua identidade e decifrar os seus sentimentos por Derek e Lucas. Num mundo em constante tumulto, para Kylie só existe uma certeza: a mudança é inevitável e tudo um dia chega ao fim, até mesmo o seu tempo em Shadow Falls." },
 
       { url:"https://m.media-amazon.com/images/I/91TIyyg0pmL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Escolhida ao anoitecer",
-        sinopse: "Um final surpreendente para a Saga Acampamento Shadow Falls! O inimigo mais poderoso de Kylie retorna para destruí-la de uma vez por todas, mas ela finalmente assume seus plenos poderes e passa por uma transformação que vai surpreender todos ao seu redor. Mas a jornada de Kylie não será completa até que ela faça uma escolha final: a quem vai finalmente se entregar de corpo e alma? Será que escolherá Lucas, o lobisomem que partiu seu coração, mas faz tudo para reconquistá-la, ou Derek, o meio fae que abriu mão do relacionamento entre eles, mas agora diz que a ama? Tudo o que Kylie aprendeu em Shadow Falls a preparava para este momento, quando o destino lhe revelará por fim quem terá a chave do seu coração." },
+        colecao:"Coleção 1",
+        nome:"Escolhida ao anoitecer",
+        sinopse:"Um final surpreendente para a Saga Acampamento Shadow Falls! O inimigo mais poderoso de Kylie retorna para destruí-la de uma vez por todas, mas ela finalmente assume seus plenos poderes e passa por uma transformação que vai surpreender todos ao seu redor. Mas a jornada de Kylie não será completa até que ela faça uma escolha final: a quem vai finalmente se entregar de corpo e alma? Será que escolherá Lucas, o lobisomem que partiu seu coração, mas faz tudo para reconquistá-la, ou Derek, o meio fae que abriu mão do relacionamento entre eles, mas agora diz que a ama? Tudo o que Kylie aprendeu em Shadow Falls a preparava para este momento, quando o destino lhe revelará por fim quem terá a chave do seu coração." },
 
       { url:"https://m.media-amazon.com/images/I/51hb+WADSUL._SY445_SX342_.jpg",
-        nome: "Eu e esse meu coração",
-        sinopse: "Leah MacKenzie, de 17 anos, não tem coração. O que a mantém viva é um coração artificial que ela carrega dentro de uma mochila. Com seu tipo sanguíneo raro, um transplante é como um sonho distante. Conformada, ela tenta se esquecer de que está com os dias contados, criando uma lista de coisas para fazer antes de morrer . De repente, Leah recebe uma segunda chance: há um coração disponível! O problema é quando ela descobre que o doador é um garoto da sua escola e que supostamente se matou! Matt, o irmão gêmeo do doador, se recusa a acreditar que Eric se suicidou. Quando Leah o procura, eles descobrem que ambos têm sonhos semelhantes que podem ter pistas do que realmente aconteceu a Eric. Enquanto tentam desvendar esse mistério, Matt e Leah se apaixonam e não querem correr o risco de perder um ao outro. Mas nem a vida nem um coração transplantado vem com garantias. Quem diria que viver exige mais coragem do que morrer?" }
+        nome:"Eu e esse meu coração",
+        sinopse:"Leah MacKenzie, de 17 anos, não tem coração. O que a mantém viva é um coração artificial que ela carrega dentro de uma mochila. Com seu tipo sanguíneo raro, um transplante é como um sonho distante. Conformada, ela tenta se esquecer de que está com os dias contados, criando uma lista de coisas para fazer antes de morrer . De repente, Leah recebe uma segunda chance: há um coração disponível! O problema é quando ela descobre que o doador é um garoto da sua escola e que supostamente se matou! Matt, o irmão gêmeo do doador, se recusa a acreditar que Eric se suicidou. Quando Leah o procura, eles descobrem que ambos têm sonhos semelhantes que podem ter pistas do que realmente aconteceu a Eric. Enquanto tentam desvendar esse mistério, Matt e Leah se apaixonam e não querem correr o risco de perder um ao outro. Mas nem a vida nem um coração transplantado vem com garantias. Quem diria que viver exige mais coragem do que morrer?" }
     ]
   },
   {
-    nome: "Caitlín R. Kiernan",
+    nome:"C. J. Tudor",
+    bandeira:"assets/images/bandeiras/gb.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91hnRlcVHPL._SY466_.jpg",
+        nome:"Garotas em chamas",
+        sinopse:"Há muito tempo uma história sinistra é contada na pequena Chapel Croft. Cinco séculos atrás, mártires protestantes foram traídos, e então queimados. Trinta anos atrás, duas adolescentes desapareceram sem deixar vestígios. E há algumas semanas, o responsável pela paróquia local se enforcou na nave da igreja. A reverenda Jack Brooks, mãe solteira de uma jovem de quatorze anos, chega a esse vilarejo em busca de um recomeço. Em vez disso, encontra um lugar tomado por conspirações e segredos, e é recebida com um estranho pacote de boas-vindas: um kit de exorcismo e um bilhete: Não há nada escondido que não venha a ser descoberto. Quanto mais Jack e sua filha, Flo, exploram a cidadezinha e conhecem seus estranhos moradores, mais as duas se aprofundam em feridas antigas, mistérios e suspeitas. E, quando Flo começa a ver meninas ardendo em chamas, fica evidente que há fantasmas por ali que se recusam a descansar em paz." }
+    ]
+  },
+  {
+    nome:"Caitlín R. Kiernan",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81G4SIdqZJL._SY342_.jpg",
-        nome: "A menina submersa",
-        sinopse: "O trabalho cuidadoso de Caitlín R. Kiernan é nos guiar pela mente de sua personagem India Morgan Phelps, ou Imp, uma menina que tem nos livros os grandes companheiros na luta contra seu histórico genético esquizofrênico e paranoico. Filha e neta de mulheres que buscaram o suicídio como única alternativa, Imp começa a escrever um livro de memórias para tentar reconstruir seus pensamentos e lutar contra o que seria a maldição da família Phelps, além de buscar suas lembranças sobre a inusitada Eva Canning, sua relação com a namorada e consigo mesma, que evoca em muitos momentos a atmosfera de filmes como Azul é a Cor mais Quente (Palma de Ouro em Cannes, 2013) e Almas Gêmeas (1994), de Peter Jackson." }
+        nome:"A menina submersa",
+        sinopse:"O trabalho cuidadoso de Caitlín R. Kiernan é nos guiar pela mente de sua personagem India Morgan Phelps, ou Imp, uma menina que tem nos livros os grandes companheiros na luta contra seu histórico genético esquizofrênico e paranoico. Filha e neta de mulheres que buscaram o suicídio como única alternativa, Imp começa a escrever um livro de memórias para tentar reconstruir seus pensamentos e lutar contra o que seria a maldição da família Phelps, além de buscar suas lembranças sobre a inusitada Eva Canning, sua relação com a namorada e consigo mesma, que evoca em muitos momentos a atmosfera de filmes como Azul é a Cor mais Quente (Palma de Ouro em Cannes, 2013) e Almas Gêmeas (1994), de Peter Jackson." }
     ]
   },
   {
-    nome: "Carina Rissi",
+    nome:"Callie Hart",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71PJVodvO-L._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Quicksilver",
+        sinopse:"Aos vinte e quatro anos, Saeris Fane é tão boa em sobreviver quanto em guardar segredos. Na escaldante Zilvaren, as condições de vida sob os Gêmeos, os dois sóis que assolam a cidade, não poderiam ser piores. A água é o bem mais raro e precioso, e os zilvarenses fazem qualquer coisa para conseguir um pouco mais do que sua mísera cota diária. Uma ladra habilidosa, capaz de muito mais do que bater carteiras, há anos Saeris vem desviando água potável dos reservatórios da rainha Madra. E não é só isso: ela possui uma estranha e perigosa habilidade de manipular metais, algo proibido e considerado heresia. Mas, ao se deparar com a Morte em pessoa, ela sem querer reabre um portal entre mundos e é transportada para Yvelia, o gélido reino dos feéricos. Esses seres, antes considerados um mito e um pesadelo, provam-se bastante reais, e Saeris acaba no meio de um conflito centenário que pode ser fatal. A primeira humana a cruzar as montanhas geladas de Yvelia em mil anos, ela se vê ligada a um belo guerreiro feérico que tem os próprios planos secretos e sombrios. Ele pretende usar a magia de alquimista de Saeris para proteger seu povo, e não importa o que isso vá custar a ele... ou a ela. A Morte tem nome e sobrenome: Kingfisher do Portão de Ajun, de passado obscuro e atitudes suspeitas. Mas ele também pode ser a única esperança de Saeris de voltar para casa. Entretanto, é preciso ter cuidado com os acordos que se faz com feéricos. O diabo mora nos detalhes e, em Yvelia, nada é realmente o que parece." },
+
+      { url:"https://m.media-amazon.com/images/I/71NQ0SDYkDL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Não lançado no Brasil",
+        sinopse:"",
+        mostrarNome: true },
+
+      { url:"assets/images/continua.png",
+        colecao:"Coleção 1" }
+    ]
+  },
+  {
+    nome:"Camila Cocenza",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81JEyFXZtoL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Geek: Clichê invertido entre o Geek e a Cheerleader",
+        sinopse:"Você já imaginou o que faria se a pessoa dos seus sonhos começasse a se aproximar de você? Eric nunca cogitou algo do tipo, mas era exatamente o que estava acontecendo. Uma das garotas mais gatas da universidade estava visitando a biblioteca com mais frequência do que o comum e ele nunca, em hipótese alguma, cogitou a ideia de que ela desejasse mais do que uma ajuda com o seu computador. Mas quem poderia culpá-lo? Ela é loira. Ela é sexy. Ela é popular. Ela é Ashley King. E ele? Um geek viciado em League of Legends, com quase vinte anos e ainda é virgem. Por mais que tudo indicasse que algo de errado não estava certo, Eric estava decidido a aproveitar cada segundo do que Ashley tinha a oferecer. E se ela por algum motivo bizarro o queria, porque negar seu grande sabre de luz para ela? Afinal, o que um cara que já é considerado um perdedor tem a perder?" },
+
+      { url:"https://m.media-amazon.com/images/I/51NdN15ErNL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"The Champion",
+        sinopse:"Bryan Evans, além de ser um grande cafajeste, galinha e sem-vergonha, era uma grande promessa para o futebol americano quando conheceu Taylor Jones no seu último ano da faculdade, e embora tenham passado apenas algumas semanas juntos, ela deixou marcas que nunca cicatrizaram. Talvez tenha sido o jeito como ela partiu, que tornou tudo mais complicado, confuso e doloroso. A única certeza que ele tinha era de que Taylor sempre foi o conjunto de todas as coisas que ele nunca quis, mas que também jamais conseguiu esquecer. Sete anos depois, o destino mais uma vez entrelaça os seus caminhos, só que agora, Taylor é a sua nova vizinha e todos aqueles sentimentos adormecidos estão prestes a vir à tona. Apesar de todo o ressentimento e insegurança, Bryan Evans está determinado a conquistar a garota que roubou o seu coração, mas como nem tudo são flores, ela não está sozinha. Taylor agora tem um filho: o arteiro Bruce, que por ironia do destino, ou não, odeia o quarterback desde a primeira troca de olhares e vai fazer de tudo para o vizinho sofrer as consequências por não olhar por onde pisa." }
+    ]
+  },
+  {
+    nome:"Carina Rissi",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81zanJze4SL._SY342_.jpg",
-        nome: "Amor sob encomenda",
-        sinopse: "Em Amor sob encomenda , Melissa Gouvêa está totalmente focada na profissão. Como é a responsável pela situação financeira da família, o que inclui o caro tratamento médico da mãe e a ajuda ao pai que se encontra desempregado, a determinada assistente sonha em se tornar a produtora de eventos da Allure. Já que casar não faz parte de seus planos no momento, ela se vê apavorada quando descobre que o namorado foi visto comprando um anel de noivado. Mas Mel não devia ter se preocupado tanto, pois o anel não era para ela e, pior ainda, a Allure foi contratada para realizar o cerimonial do canalha. Mesmo assim, Melissa aceita o maior desafio de todos que já teve na vida: produzir o casamento do ex. Com tudo isso, a bagunça em sua vida aumenta quando ela se vê dividindo o apartamento com o cara mais irritante, cínico, atrevido - e muito lindo, infelizmente - que conhece. O problema é que no momento Melissa devia se concentrar em manter o que ainda resta de seu coração a salvo e sobreviver ao casamento do ex. Porém o novo colega de apartamento confunde sua razão e seus batimentos cardíacos, despertando desejos avassaladores até então ela não conhecia. Tarde demais, Mel se dá conta de que seu coração nunca correu tanto perigo... Entre confusões e mal-entendidos, viagens e reuniões, Mel terá que decidir o que realmente importa para ela e, se seu antigo relacionamento, que até então era tudo o que ela tinha, continua sendo tão importante. No meio de todas essas dúvidas, será que ela conseguirá resolver sua vida pessoal e ainda produzir um evento que poderá fazer Mel ascender profissionalmente?" }
+        nome:"Amor sob encomenda",
+        sinopse:"Em Amor sob encomenda , Melissa Gouvêa está totalmente focada na profissão. Como é a responsável pela situação financeira da família, o que inclui o caro tratamento médico da mãe e a ajuda ao pai que se encontra desempregado, a determinada assistente sonha em se tornar a produtora de eventos da Allure. Já que casar não faz parte de seus planos no momento, ela se vê apavorada quando descobre que o namorado foi visto comprando um anel de noivado. Mas Mel não devia ter se preocupado tanto, pois o anel não era para ela e, pior ainda, a Allure foi contratada para realizar o cerimonial do canalha. Mesmo assim, Melissa aceita o maior desafio de todos que já teve na vida: produzir o casamento do ex. Com tudo isso, a bagunça em sua vida aumenta quando ela se vê dividindo o apartamento com o cara mais irritante, cínico, atrevido - e muito lindo, infelizmente - que conhece. O problema é que no momento Melissa devia se concentrar em manter o que ainda resta de seu coração a salvo e sobreviver ao casamento do ex. Porém o novo colega de apartamento confunde sua razão e seus batimentos cardíacos, despertando desejos avassaladores até então ela não conhecia. Tarde demais, Mel se dá conta de que seu coração nunca correu tanto perigo... Entre confusões e mal-entendidos, viagens e reuniões, Mel terá que decidir o que realmente importa para ela e, se seu antigo relacionamento, que até então era tudo o que ela tinha, continua sendo tão importante. No meio de todas essas dúvidas, será que ela conseguirá resolver sua vida pessoal e ainda produzir um evento que poderá fazer Mel ascender profissionalmente?" }
     ]
   },
   {
-    nome: "Carolina Maria de Jesus",
+    nome:"Carissa Broadbent",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81RjC2cOULL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A serpente e as asas feitas de noite",
+        sinopse:"Oraya é a filha adotiva do rei dos vampiros Nascidos da Noite. Humana em meio a predadores naturais, ela passou a vida lutando em um mundo que desafia sua existência. A única chance que tem de sobreviver é vencendo o Kejari, um lendário torneio promovido pela própria deusa da morte. Mas derrotar seus adversários, vampiros das três casas do reino, não será um desafio simples e, para resistir à brutalidade das batalhas, Oraya será obrigada a se aliar a um rival misterioso. Raihn é um vampiro atroz, inimigo do rei e o oponente mais poderoso que Oraya encontra. Ainda assim, o que mais a assusta é a inesperada afeição que sente por ele. Quando a Casa da Noite é ameaçada, Raihn parece ser o único capaz de entender e ajudá-la, mas, em um mundo em que nada é mais mortal que o amor, essa relação pode colocar tudo a perder." },
+      
+      { url:"https://m.media-amazon.com/images/I/81ZgwyMtB-L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"As cinzas e o rei maldito pelas estrelas",
+        sinopse:"Tudo o que Oraya pensava ser verdade foi destruído. Depois do traumatizante torneio Kejari, a princesa Nascida da Noite se tornou prisioneira em seu próprio reino. Em luto pela única família que já teve e se recuperando de uma traição devastadora, ela sequer sabe a verdade sobre o próprio sangue. Só lhe resta uma certeza: não confiar em ninguém, muito menos em Raihn. Quando Raihn oferece à princesa uma aliança secreta, ela vê a chance perfeita para recuperar o reino e se vingar de seu traidor. Para isso, precisará controlar um poder antigo, entrelaçado com os maiores segredos de seu pai. Mas, com inimigos se aproximando por toda parte, a tarefa se torna ainda mais desafiadora. À medida que desvenda o passado e enfrenta o futuro, Oraya se vê forçada a escolher entre a realidade sangrenta de tomar o poder e algo que pode ser sua ruína: um amor avassalador." }
+    ]
+  },
+  {
+    nome:"Carolina Maria de Jesus",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71z42zpEwbL._SY342_.jpg",
-        nome: "Quarto de despejo",
+        nome:"Quarto de despejo",
         sinopse: "O diário da catadora de papel Carolina Maria de Jesus deu origem à este livro, que relata o cotidiano triste e cruel da vida na favela. A linguagem simples, mas contundente, comove o leitor pelo realismo e pelo olhar sensível na hora de contar o que viu, viveu e sentiu nos anos em que morou na comunidade do Canindé, em São Paulo, com três filhos." }
     ]
   },
   {
-    nome: "Caroline Carlson",
+    nome:"Caroline Carlson",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91vVPnMqmoL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O tesouro da encantadora",
-        sinopse: "Há muitos anos, quando objetos mágicos eram tão comuns quanto panelas nos lares de Augusta, a magia era controlada por uma feiticeira muito poderosa: a Encantadora das Terras do Norte. Certo dia, cansada de sofrer ataques de cidadãos que queriam usar os poderes de maneira ilícita, ela resolveu se vingar: recolheu a maioria dos itens mágicos do reino e desapareceu, deixando os cidadãos sem notícias de seu paradeiro nem desse magnífico tesouro. Anos depois, quando Hilary Westfield decidiu que queria ser pirata, nem imaginava que estava prestes a participar da caça ao maior tesouro de todos os tempos. Afinal, tudo o que a preocupava era fugir da Escola da Senhorita Pimm para Damas Delicadas, onde as jovens da alta sociedade aprendiam a valsar, desmaiar e se comportar à mesa. Hilary não via utilidade nenhuma naquelas lições e queria se juntar à Quase Honrosa Liga de Piratas. Qualificações não lhe faltavam, mas a Liga não admitia garotas em sua equipe de algozes e pilantras. Decidida a partir para alto-mar a qualquer custo, Hilary responde ao anúncio de um pirata autônomo em busca de membros para sua tripulação. De repente, ela se vê no meio de uma aventura marítima em busca do tesouro mais valioso do reino: o tesouro da Encantadora. Para encontrá-lo, ela contará com um mapa sem X e precisará enfrentar o vilão mais traiçoeiro - e surpreendente - de todos os mares." },
+        colecao:"Coleção 1",
+        nome:"O tesouro da encantadora",
+        sinopse:"Há muitos anos, quando objetos mágicos eram tão comuns quanto panelas nos lares de Augusta, a magia era controlada por uma feiticeira muito poderosa: a Encantadora das Terras do Norte. Certo dia, cansada de sofrer ataques de cidadãos que queriam usar os poderes de maneira ilícita, ela resolveu se vingar: recolheu a maioria dos itens mágicos do reino e desapareceu, deixando os cidadãos sem notícias de seu paradeiro nem desse magnífico tesouro. Anos depois, quando Hilary Westfield decidiu que queria ser pirata, nem imaginava que estava prestes a participar da caça ao maior tesouro de todos os tempos. Afinal, tudo o que a preocupava era fugir da Escola da Senhorita Pimm para Damas Delicadas, onde as jovens da alta sociedade aprendiam a valsar, desmaiar e se comportar à mesa. Hilary não via utilidade nenhuma naquelas lições e queria se juntar à Quase Honrosa Liga de Piratas. Qualificações não lhe faltavam, mas a Liga não admitia garotas em sua equipe de algozes e pilantras. Decidida a partir para alto-mar a qualquer custo, Hilary responde ao anúncio de um pirata autônomo em busca de membros para sua tripulação. De repente, ela se vê no meio de uma aventura marítima em busca do tesouro mais valioso do reino: o tesouro da Encantadora. Para encontrá-lo, ela contará com um mapa sem X e precisará enfrentar o vilão mais traiçoeiro - e surpreendente - de todos os mares." },
 
       { url:"https://m.media-amazon.com/images/I/819R1zsHJML._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O terror das terras do Sul",
-        sinopse: "Em O tesouro da Encantadora, Hilary viveu grandes aventuras em alto-mar até encontrar o maior tesouro do reino, desaparecido havia muito tempo, e sua dona, a Encantadora das Terras do Norte. Como recompensa, recebeu um certificado de filiação à Quase Honrosa Liga de Piratas e o título de Terror das Terras do Sul. Neste novo volume da série, a Encantadora voltou ao seu posto, e Hilary acompanha a redistribuição dos objetos mágicos pelo reino. Mas o presidente da QHLP não está satisfeito: Hilary precisa se envolver numa atividade verdadeiramente pirática logo, como matar um monstro marinho ou derrotar um líder pirata num duelo, senão perderá seu título - e sua filiação à Liga. Antes que consiga recuperar sua reputação, a garota fica chocada ao descobrir que a Encantadora foi sequestrada. Contrariando as ordens do presidente da Liga, Hilary se junta à gárgula e a seus amigos para investigar o caso, ainda que resgatar Encantadoras não esteja na lista de atividades próprias a um pirata." },
+        colecao:"Coleção 1",
+        nome:"O terror das terras do Sul",
+        sinopse:"Em O tesouro da Encantadora, Hilary viveu grandes aventuras em alto-mar até encontrar o maior tesouro do reino, desaparecido havia muito tempo, e sua dona, a Encantadora das Terras do Norte. Como recompensa, recebeu um certificado de filiação à Quase Honrosa Liga de Piratas e o título de Terror das Terras do Sul. Neste novo volume da série, a Encantadora voltou ao seu posto, e Hilary acompanha a redistribuição dos objetos mágicos pelo reino. Mas o presidente da QHLP não está satisfeito: Hilary precisa se envolver numa atividade verdadeiramente pirática logo, como matar um monstro marinho ou derrotar um líder pirata num duelo, senão perderá seu título - e sua filiação à Liga. Antes que consiga recuperar sua reputação, a garota fica chocada ao descobrir que a Encantadora foi sequestrada. Contrariando as ordens do presidente da Liga, Hilary se junta à gárgula e a seus amigos para investigar o caso, ainda que resgatar Encantadoras não esteja na lista de atividades próprias a um pirata." },
 
       { url:"https://m.media-amazon.com/images/I/81zqJC41DkL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O código dos bucaneiros",
-        sinopse: "No último volume da série, Caroline Carlson traz um desfecho fantástico, repleto de ação e absurdamente divertido, como toda aventura em alto-mar deve ser. Depois de descobrir que o líder da Quase Honrosa Liga de Piratas, o capitão Dentenegro, estava envolvido com um grupo de criminosos que quer dominar o reino, Hilary Westfield decide pegar seu sabre, seguir até a Praça da Pólvora e desafiar o capitão e seus comparsas perversos a uma batalha em alto-mar. Se vencer, Hilary se tornará a nova presidente da Liga. Se perder, ela vai perecer no mar, ou, na melhor das hipóteses, será exilada no Abrigo Pestilento para Piratas Mal-Humorados. O problema é que a batalha nem vai começar se Hilary não conseguir reunir duzentos seguidores para lutar ao seu lado. Assim, a jovem pirata parte numa missão de recrutamento que pode ou não envolver piratas temíveis, damas delicadas mais temíveis ainda… e galinhas." }
+        colecao:"Coleção 1",
+        nome:"O código dos bucaneiros",
+        sinopse:"No último volume da série, Caroline Carlson traz um desfecho fantástico, repleto de ação e absurdamente divertido, como toda aventura em alto-mar deve ser. Depois de descobrir que o líder da Quase Honrosa Liga de Piratas, o capitão Dentenegro, estava envolvido com um grupo de criminosos que quer dominar o reino, Hilary Westfield decide pegar seu sabre, seguir até a Praça da Pólvora e desafiar o capitão e seus comparsas perversos a uma batalha em alto-mar. Se vencer, Hilary se tornará a nova presidente da Liga. Se perder, ela vai perecer no mar, ou, na melhor das hipóteses, será exilada no Abrigo Pestilento para Piratas Mal-Humorados. O problema é que a batalha nem vai começar se Hilary não conseguir reunir duzentos seguidores para lutar ao seu lado. Assim, a jovem pirata parte numa missão de recrutamento que pode ou não envolver piratas temíveis, damas delicadas mais temíveis ainda… e galinhas." }
     ]
   },
   {
-    nome: "Cath Crowley",
+    nome:"Cath Crowley",
+    bandeira:"assets/images/bandeiras/au.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91WUA8ySKFL._SY342_.jpg",
-        nome: "Graffiti Moon",
-        sinopse: "O ano letivo acabou, aliás, o último ano do ensino médio. Lucy planejou a maneira perfeita de comemorar: essa noite, finalmente, ela encontrará o Sombra, o genial e misterioso grafiteiro, cujo fantástico trabalho se encontra espalhado por toda a cidade. Ele está de spray na mão, escondido em algum lugar, espalhando cor, desenhando pássaros e o azul do céu na noite. E Lucy sabe que um artista como o Sombra é alguém por quem ela pode se apaixonar — se apaixonar de verdade. A última pessoa com quem Lucy quer passar essa noite é o Ed, o cara que ela tem tentado evitar desde que deu um soco no nariz dele no encontro mais estranho de sua vida. Mas quando Ed conta para Lucy que sabe onde achar o Sombra, os dois de repente se juntam numa busca frenética aos lugares onde sua arte, repleta de tristeza e fuga, reverbera nos muros da cidade. Mas Lucy não consegue ver o que está bem diante dos seus olhos." }
+        nome:"Graffiti Moon",
+        sinopse:"O ano letivo acabou, aliás, o último ano do ensino médio. Lucy planejou a maneira perfeita de comemorar: essa noite, finalmente, ela encontrará o Sombra, o genial e misterioso grafiteiro, cujo fantástico trabalho se encontra espalhado por toda a cidade. Ele está de spray na mão, escondido em algum lugar, espalhando cor, desenhando pássaros e o azul do céu na noite. E Lucy sabe que um artista como o Sombra é alguém por quem ela pode se apaixonar — se apaixonar de verdade. A última pessoa com quem Lucy quer passar essa noite é o Ed, o cara que ela tem tentado evitar desde que deu um soco no nariz dele no encontro mais estranho de sua vida. Mas quando Ed conta para Lucy que sabe onde achar o Sombra, os dois de repente se juntam numa busca frenética aos lugares onde sua arte, repleta de tristeza e fuga, reverbera nos muros da cidade. Mas Lucy não consegue ver o que está bem diante dos seus olhos." }
     ]
   },
   {
-    nome: "Catherine Doyle",
+    nome:"Catherine Doyle",
+    bandeira:"assets/images/bandeiras/ir.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91J7c60Ua-L._SY342_.jpg",
-        nome: "As guerreiras da maré",
-        sinopse: "Fionn Boyle tinha se tornado Guardião da Tempestade da ilha de Arranmore havia menos de seis meses quando milhares de aterrorizantes caçadores de almas apareceram. Os seguidores de olhos vazios da temida feiticeira Morrigan chegaram para erguer sua líder novamente e Fionn se vê impotente diante da situação. A magia do Guardião da Tempestade o abandonou e, com a memória de seu avô minguando, Fionn terá que contar com seus amigos Shelby e Sam para ajudá-lo a convocar o exército de merrows de Dagda, as criaturas guerreiras que patrulham as profundezas do mar de Arranmore. Mas ninguém acredita que as ferozes criaturas marinhas sequer existam. Como ele poderia provar que está certo se não possui magia? Enquanto Fionn procura pelo seu exército perdido, os outros ilhéus se preparam para a invasão. A batalha para salvar Arranmore começou." }
+        nome:"As guerreiras da maré",
+        sinopse:"Fionn Boyle tinha se tornado Guardião da Tempestade da ilha de Arranmore havia menos de seis meses quando milhares de aterrorizantes caçadores de almas apareceram. Os seguidores de olhos vazios da temida feiticeira Morrigan chegaram para erguer sua líder novamente e Fionn se vê impotente diante da situação. A magia do Guardião da Tempestade o abandonou e, com a memória de seu avô minguando, Fionn terá que contar com seus amigos Shelby e Sam para ajudá-lo a convocar o exército de merrows de Dagda, as criaturas guerreiras que patrulham as profundezas do mar de Arranmore. Mas ninguém acredita que as ferozes criaturas marinhas sequer existam. Como ele poderia provar que está certo se não possui magia? Enquanto Fionn procura pelo seu exército perdido, os outros ilhéus se preparam para a invasão. A batalha para salvar Arranmore começou." }
     ]
   },
   {
-    nome: "Catherine Ryan Hyde",
+    nome:"Catherine Ryan Hyde",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/813hDexaG3L._SY342_.jpg",
-        nome: "Leve-me Com Você: Algumas viagens nos transformam, outras nos despertam",
-        sinopse: "Esqueça todas as histórias que você já leu sobre as férias de verão. Troque as praias paradisíacas pelos tons terrosos das reservas naturais americanas, as cadeiras e protetores solares por um trailer e um pacote de marshmallows, e abra bem os olhos para observar as estrelas com August, Seth e Henry, o trio improvável e inesquecível de LEVE-ME COM VOCÊ.August Shroeder é um professor de ciências desacreditado e um alcoólatra em recuperação. Todos os anos, seu destino nas férias de verão é o mesmo: a estrada. Em seu trailer, ele percorre quilômetros e mais quilômetros nas rodovias para visitar os belíssimos parques e reservas naturais. Seu plano era visitar o Parque Nacional Yellowstone com seu filho, Phillip, mas agora não há ninguém no banco do passageiro ― apenas um punhado de cinzas guardado no porta-luvas, em uma garrafa de chá carregada de significado. Quando o trailer quebra, August busca conserto na oficina mais próxima. Mas, além do motor home pronto para seguir viagem, ele sai de lá com dois garotos a tiracolo ― seus novos companheiros nessa road trip ― e a chance de repaginar uma viagem que tinha tudo para ser melancólica e permeada por lembranças doloridas." }
+        nome:"Leve-me Com Você: Algumas viagens nos transformam, outras nos despertam",
+        sinopse:"Esqueça todas as histórias que você já leu sobre as férias de verão. Troque as praias paradisíacas pelos tons terrosos das reservas naturais americanas, as cadeiras e protetores solares por um trailer e um pacote de marshmallows, e abra bem os olhos para observar as estrelas com August, Seth e Henry, o trio improvável e inesquecível de LEVE-ME COM VOCÊ.August Shroeder é um professor de ciências desacreditado e um alcoólatra em recuperação. Todos os anos, seu destino nas férias de verão é o mesmo: a estrada. Em seu trailer, ele percorre quilômetros e mais quilômetros nas rodovias para visitar os belíssimos parques e reservas naturais. Seu plano era visitar o Parque Nacional Yellowstone com seu filho, Phillip, mas agora não há ninguém no banco do passageiro ― apenas um punhado de cinzas guardado no porta-luvas, em uma garrafa de chá carregada de significado. Quando o trailer quebra, August busca conserto na oficina mais próxima. Mas, além do motor home pronto para seguir viagem, ele sai de lá com dois garotos a tiracolo ― seus novos companheiros nessa road trip ― e a chance de repaginar uma viagem que tinha tudo para ser melancólica e permeada por lembranças doloridas." }
     ]
   },
   {
-    nome: "Charles Bukowski",
+    nome:"Charles Bukowski",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/21jEhH72n4L.jpg",
-        nome: "Mulheres",
-        sinopse: "“Eu tinha cinquenta anos e há quatro não ia pra cama com nenhu­ma mulher.” Este é Henry Chinaski, Hank, escritor, alcoólatra, amante de música clássica, alter ego de Charles Bukowski e protagonista de Mulheres. Mas este não é um livro convencional – nem poderia ser, em se tratando de Bukowski – no qual um homem está à procura de seu verdadeiro amor. Após um período de jejum sexual, sem desejar mulher alguma, Hank conhece Lydia – e April, Lilly, Dee Dee, Mindy, Hilda, Cassie, Sara, Valerie, não importa o nome que ela tenha. Hank entra na vida dessas mulheres, bagunça suas almas, rompe corações, as enlouquece, as faz sofrer. E no fim elas ainda o consideram um bom sujeito. Publicado em 1978, Mulheres, o terceiro romance de Bukowski, é a essência de sua literatura: com o velho Chinaski, ele sintetiza a alma de todos aqueles que se sentem à margem. Escrevendo em prosa, Bukowski poetisa a dureza da vida e nos dá uma pista: “ficção é a vida melhorada”." }
+        nome:"Mulheres",
+        sinopse:"“Eu tinha cinquenta anos e há quatro não ia pra cama com nenhu­ma mulher.” Este é Henry Chinaski, Hank, escritor, alcoólatra, amante de música clássica, alter ego de Charles Bukowski e protagonista de Mulheres. Mas este não é um livro convencional – nem poderia ser, em se tratando de Bukowski – no qual um homem está à procura de seu verdadeiro amor. Após um período de jejum sexual, sem desejar mulher alguma, Hank conhece Lydia – e April, Lilly, Dee Dee, Mindy, Hilda, Cassie, Sara, Valerie, não importa o nome que ela tenha. Hank entra na vida dessas mulheres, bagunça suas almas, rompe corações, as enlouquece, as faz sofrer. E no fim elas ainda o consideram um bom sujeito. Publicado em 1978, Mulheres, o terceiro romance de Bukowski, é a essência de sua literatura: com o velho Chinaski, ele sintetiza a alma de todos aqueles que se sentem à margem. Escrevendo em prosa, Bukowski poetisa a dureza da vida e nos dá uma pista: “ficção é a vida melhorada”." }
     ]
   },
   {
-    nome: "Charlie Donlea",
+    nome:"Charlie Donlea",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71RSf4wvXJL._SY342_.jpg",
-        nome: "Deixada para trás",
-        sinopse: "Duas colegas são raptadas. Megan foge e, um ano depois, escreve um livro que se torna um sucesso. Um detalhe inconveniente: Nicole continua desaparecida. Nicole e Megan são alunas do último ano da high school de Emerson Bay, uma cidadezinha na Carolina do Norte. Certa noite de verão, elas desaparecem de uma festa à beira do lago. A polícia realiza uma busca intensa, mas não encontra nenhuma pista. Quando já haviam perdido as esperanças de encontrá-las com vida, Megan aparece, milagrosamente, ao conseguir escapar do cativeiro escondido nas profundezas da mata. Um ano depois, Megan lança um livro contando o seu martírio naquelas duas semanas, e, imediatamente, ele se torna um best-seller e a converte de uma heroína local em celebridade nacional. Trata-se de um relato triunfante e inspirador, exceto por um detalhe inconveniente: Nicole continua desaparecida. Livia, irmã mais velha de Nicole, aluna de patologia forense, espera que um dia, em breve, o corpo de Nicole seja encontrado, e caberá a alguém como ela analisar a evidência e determinar finalmente a causa da morte de sua irmã. Em vez disso, a primeira pista do desaparecimento de Nicole surge de outro corpo que chega ao necrotério onde ela trabalha. É de alguém ligado ao passado de Nicole. Então, Livia entra em contato com Megan para contar a descoberta, e pedir mais detalhes da noite em que as duas foram sequestradas. Como outras garotas também desapareceram, Livia começa a acreditar que existe uma forte ligação entre todos aqueles casos. No entanto, Megan sabe mais do que revelou em seu livro. Lampejos de memória surgem, apontando para algo mais sombrio e monstruoso do que o descrito em suas arrepiantes memórias. Quanto mais ela e Livia se aprofundam, mais se dão conta de que, às vezes, o terror verdadeiro está em encontrar exatamente o que estávamos procurando." }
+        nome:"Deixada para trás",
+        sinopse:"Duas colegas são raptadas. Megan foge e, um ano depois, escreve um livro que se torna um sucesso. Um detalhe inconveniente: Nicole continua desaparecida. Nicole e Megan são alunas do último ano da high school de Emerson Bay, uma cidadezinha na Carolina do Norte. Certa noite de verão, elas desaparecem de uma festa à beira do lago. A polícia realiza uma busca intensa, mas não encontra nenhuma pista. Quando já haviam perdido as esperanças de encontrá-las com vida, Megan aparece, milagrosamente, ao conseguir escapar do cativeiro escondido nas profundezas da mata. Um ano depois, Megan lança um livro contando o seu martírio naquelas duas semanas, e, imediatamente, ele se torna um best-seller e a converte de uma heroína local em celebridade nacional. Trata-se de um relato triunfante e inspirador, exceto por um detalhe inconveniente: Nicole continua desaparecida. Livia, irmã mais velha de Nicole, aluna de patologia forense, espera que um dia, em breve, o corpo de Nicole seja encontrado, e caberá a alguém como ela analisar a evidência e determinar finalmente a causa da morte de sua irmã. Em vez disso, a primeira pista do desaparecimento de Nicole surge de outro corpo que chega ao necrotério onde ela trabalha. É de alguém ligado ao passado de Nicole. Então, Livia entra em contato com Megan para contar a descoberta, e pedir mais detalhes da noite em que as duas foram sequestradas. Como outras garotas também desapareceram, Livia começa a acreditar que existe uma forte ligação entre todos aqueles casos. No entanto, Megan sabe mais do que revelou em seu livro. Lampejos de memória surgem, apontando para algo mais sombrio e monstruoso do que o descrito em suas arrepiantes memórias. Quanto mais ela e Livia se aprofundam, mais se dão conta de que, às vezes, o terror verdadeiro está em encontrar exatamente o que estávamos procurando." }
     ]
   },
   {
-    nome: "Charlotte Brontë",
+    nome:"Charlotte Brontë",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81K3+gIAxrL._SY342_.jpg",
-        nome: "Jane Eyre",
-        sinopse: "Romance mais querido e famoso de Charlotte Brontë, Jane Eyre foi imediatamente reconhecido como obra-prima quando publicado em 1847. A história da órfã de temperamento forte e independente atravessando uma infância sofrida na casa da tia e em Lowood, onde é educada, cativa leitoras e leitores de todas as épocas. Ao romper com o passado em busca de autonomia, Jane emprega-se como governanta e apaixona-se pelo patrão sarcástico, descobrindo assim o amor ― e, com ele, um segredo terrível." }
+        nome:"Jane Eyre",
+        sinopse:"Romance mais querido e famoso de Charlotte Brontë, Jane Eyre foi imediatamente reconhecido como obra-prima quando publicado em 1847. A história da órfã de temperamento forte e independente atravessando uma infância sofrida na casa da tia e em Lowood, onde é educada, cativa leitoras e leitores de todas as épocas. Ao romper com o passado em busca de autonomia, Jane emprega-se como governanta e apaixona-se pelo patrão sarcástico, descobrindo assim o amor ― e, com ele, um segredo terrível." }
     ]
   },
   {
-    nome: "Clare Vanderpool",
+    nome:"Cho Nam-Joo",
+    bandeira:"assets/images/bandeiras/cs.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61yRrzRAoCL._SY522_.jpg",
+        nome:"Kim Jiyoung, nascida em 1982",
+        sinopse:"Em um pequeno apartamento nos arredores da frenética Seul vive Kim Jiyoung. Uma millennial comum, Jiyoung largou seu emprego em uma agência de marketing para cuidar da filha recém-nascida em tempo integral ― como se espera de tantas mulheres coreanas. Mas, em pouco tempo, ela começa a apresentar sintomas estranhos, que preocupam o marido e os sogros: Jiyoung personifica vozes de outras mulheres conhecidas ― vivas e mortas. A estranheza de seu comportamento cresce na mesma proporção que a frustração do marido, que acaba aconselhando a esposa a se consultar com um psiquiatra. Toda a sua trajetória é, então, contada ao médico. Nascida em 1982 e com o nome mais comum entre as meninas coreanas, Kim Jiyoung rapidamente se dá conta de como é desfavorecida frente ao irmão mimado. Seu comportamento sempre é vigiado e cobrado pelos homens ao seu redor: desde os professores do ensino fundamental, que impõem uniformes rígidos às meninas, até os colegas de trabalho, que instalam uma câmera escondida no banheiro feminino para postar fotos íntimas das mulheres em sites pornográficos. Aos olhos do pai, é culpa de Jiyoung que os homens a assediem; aos olhos do marido, é dever dela abandonar a carreira para cuidar da casa e da filha. A vida dolorosamente comum de Kim Jiyoung vai contra os avanços da Coreia do Sul, uma vez que o país abandona as políticas de controle de natalidade e “planejamento familiar” ― que privilegiava o nascimento de meninos ― e aprova uma nova legislação contra a discriminação de gênero. Diante de tudo isso, será que seu psiquiatra pode curá-la ou sequer descobrir o que realmente a aflige? Best-seller internacional, Kim Jiyoung, nascida em 1982 é uma obra poderosa e contemporânea que não só atinge o âmago da individualidade feminina, como também questiona o papel da mulher em âmbito universal." }
+    ]
+  },
+  {
+    nome:"Christina Lauren",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/616U6mSP3lL._SY425_.jpg",
+        nome:"Imperfeitos",
+        sinopse:"Olive se sente como a gêmea azarada da casa: dos acidentes estranhamente inexplicáveis ao fracasso na vida profissional e amorosa ― nada dá certo para ela. Porém, parece que o jogo vira quando sua alergia a frutos do mar a protege de um desastre, já que todos os convidados da festa de casamento da irmã sofrem com intoxicação alimentar. Na verdade... nem todos. Ethan, o irmão do noivo, também ficou de fora desse pesadelo. Então, a irmã de Olive, sempre muito prática, propõe a eles que aproveitem a viagem de lua-de-mel, que não é reembolsável, para uma ilha do Havaí. Mas há um “pequeno” problema: Olive e Ethan são inimigos mortais. Há um passado entre eles que tornou a convivência impossível. Mas quem vai dizer não para essa viagem? Ainda mais de graça? Nem pensar! A ideia de ambos era ficar bem longe um do outro, mas a situação muda quando uma mentirinha boba vai crescendo e não podem voltar atrás. E dividindo a mesma suíte, entre farpas e sarcasmos, já se pode desconfiar.... onde tem raiva tem fogo? Com diálogos inteligentes e divertidos, dois personagens cativantes, e cenários de tirar o fôlego, Imperfeitos é o livro ideal para rir sem parar e ainda ver uma história de amor nascer no lugar mais improvável." },
+        
+      { url:"https://m.media-amazon.com/images/I/81grII1TpvL._SY466_.jpg",
+        nome:"O experimento do amor verdadeiro",
+        sinopse:"Fizzy Chen está perdida. É verdade que ela tem uma carreira incrível como autora de romances, mas, quando a convidam para discursar em uma formatura, ela percebe que não tem vivido o que retrata nos livros. A realidade é que Fizzy nunca sequer se apaixonou. Agora, o otimismo que ela sempre incentivou em suas leitoras parece apenas uma mentira. Connor Prince ama o que faz como documentarista, mas não sabe como vai cumprir a missão dada pelo chefe: criar um reality show de namoro. Seu caminho cruza o de Fizzy no momento ideal: ele está desesperado para encontrar uma protagonista para o novo programa, e quem seria melhor para isso que a rainha do romance? Porém, quando a produção de O Experimento do Amor Verdadeiro começa, Connor passa a se perguntar se pode haver um par perfeito para ele também — enquanto Fizzy percebe que o final feliz do qual ela já tinha desistido pode estar se escondendo bem ali, atrás das câmeras." }
+    ]
+  },
+  {
+    nome:"Ciara Smyth",
+    bandeira:"assets/images/bandeiras/ir.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81RBfvL9LPL._SY522_.jpg",
+        nome:"Memórias de um amor inesperado",
+        sinopse:"Saoirse Clarke tem dezessete anos e não acredita em finais felizes. Afinal, se eles realmente existissem, seu pai não teria desistido de sua mãe, que está em uma casa de repouso sem se lembrar do próprio nome. Apesar de não querer relacionamento sério com ninguém, Saoirse acaba conhecendo Ruby, uma linda garota com sardas e um ar travesso irresistível, que pode acabar interrompendo os seus planos. Tentando respeitar a regra de “não relacionamento” de Saoirse, Ruby tem uma proposta: apenas um verão juntas, com os melhores clichês de comédias românticas e data certa para acabar. Parece o plano perfeito a não ser por um mero detalhe: nos romances, os personagens sempre se apaixonam de verdade no final. Será diferente com elas?" }
+    ]
+  },
+  {
+    nome:"Clare Vanderpool",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81CcjZ7EqTL._SY342_.jpg",
-        nome: "Em Algum Lugar nas Estrelas",
-        sinopse: "Um romance intenso sobre a difícil arte de crescer em um mundo que nem sempre parece satisfeito com a nossa presença.Pelo menos é desse jeito que as coisas têm acontecido para Jack Baker. A Segunda Guerra Mundial estava no fim, mas ele não tinha motivos para comemorar. Sua mãe morreu e seu pai... bem, seu pai nunca demonstrou se preocupar muito com o filho. Jack é então levado para um internato no Maine (o mesmo estado onde vivem Stephen King e boa parte de seus personagens). O colégio militar, o oceano que ele nunca tinha visto, a indiferença dos outros alunos: tudo aquilo faz Jack se sentir pequeno. Até ele conhecer o enigmático Early Auden.Early, um nome que poderia ser traduzido como precoce, é uma descrição muito adequada para um prodígio como ele, que decifra casas decimais do número Pi como se lesse uma odisseia. Mas, por trás de sua genialidade, há uma enorme dificuldade de se relacionar com o mundo e de lidar com seus sentimentos e com as pessoas ao seu redor.Obsessivo, Early Auden tem regras específicas sobre que músicas deve ouvir em cada dia da semana: Louis Armstrong às segundas; Sinatra às quartas; Glenn Miller às sextas; Mozart aos domingos e Billie Holiday sempre que estiver chovendo. Seu comportamento é um dos muitos indícios da síndrome de Asperger, uma forma branda de autismo que só seria descoberta muito tempo depois da Segunda Guerra, e que inspirou personagens já clássicos como o Sr. Spock (Star Trek), o Dr. House e Sheldon Cooper (The Big Bang Theory).Quando chegam as festas de fim de ano, a escola fica vazia. Todos os alunos voltam para casa, para celebrar com suas famílias. Todos, menos Jack e Early. Os dois aproveitam a solidão involuntária e partem em uma jornada ao encontro do lendário Urso Apalache. Nessa grande aventura, vão encontrar piratas, seres fantásticos e até, quem sabe, uma maneira de trazer os mortos de volta – ainda que talvez do que Jack mais precise seja aprender a deixá-los em paz." }
+        nome:"Em Algum Lugar nas Estrelas",
+        sinopse:"Um romance intenso sobre a difícil arte de crescer em um mundo que nem sempre parece satisfeito com a nossa presença.Pelo menos é desse jeito que as coisas têm acontecido para Jack Baker. A Segunda Guerra Mundial estava no fim, mas ele não tinha motivos para comemorar. Sua mãe morreu e seu pai... bem, seu pai nunca demonstrou se preocupar muito com o filho. Jack é então levado para um internato no Maine (o mesmo estado onde vivem Stephen King e boa parte de seus personagens). O colégio militar, o oceano que ele nunca tinha visto, a indiferença dos outros alunos: tudo aquilo faz Jack se sentir pequeno. Até ele conhecer o enigmático Early Auden.Early, um nome que poderia ser traduzido como precoce, é uma descrição muito adequada para um prodígio como ele, que decifra casas decimais do número Pi como se lesse uma odisseia. Mas, por trás de sua genialidade, há uma enorme dificuldade de se relacionar com o mundo e de lidar com seus sentimentos e com as pessoas ao seu redor.Obsessivo, Early Auden tem regras específicas sobre que músicas deve ouvir em cada dia da semana: Louis Armstrong às segundas; Sinatra às quartas; Glenn Miller às sextas; Mozart aos domingos e Billie Holiday sempre que estiver chovendo. Seu comportamento é um dos muitos indícios da síndrome de Asperger, uma forma branda de autismo que só seria descoberta muito tempo depois da Segunda Guerra, e que inspirou personagens já clássicos como o Sr. Spock (Star Trek), o Dr. House e Sheldon Cooper (The Big Bang Theory).Quando chegam as festas de fim de ano, a escola fica vazia. Todos os alunos voltam para casa, para celebrar com suas famílias. Todos, menos Jack e Early. Os dois aproveitam a solidão involuntária e partem em uma jornada ao encontro do lendário Urso Apalache. Nessa grande aventura, vão encontrar piratas, seres fantásticos e até, quem sabe, uma maneira de trazer os mortos de volta – ainda que talvez do que Jack mais precise seja aprender a deixá-los em paz." }
     ]
   },
   {
-    nome: "Cláudia Lemes e Paula Febbe",
+    nome:"Clarice Lispector",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61TaHURu27L._SY342_.jpg",
+        nome:"A hora da estrela",
+        sinopse:"Pouco antes de morrer, em 1977, Clarice Lispector decide se afastar da inflexão intimista que caracteriza sua escrita para desafiar a realidade. O resultado desse salto na extroversão é A hora da estrela, o livro mais surpreendente que escreveu. Se desde Perto do coração selvagem, seu romance de estreia, Clarice estava de corpo inteiro, todo o tempo, no centro de seus relatos, agora a cena é ocupada por personagens que em nada se parecem com ela. A nordestina Macabéa, a protagonista de A hora da estrela, é uma mulher miserável, que mal tem consciência de existir. Depois de perder seu único elo com o mundo, uma velha tia, ela viaja para o Rio, onde aluga um quarto, se emprega como datilógrafa e gasta suas horas ouvindo a Rádio Relógio. Apaixona-se, então, por Olímpico de Jesus, um metalúrgico nordestino, que logo a trai com uma colega de trabalho. Desesperada, Macabéa consulta uma cartomante, que lhe prevê um futuro luminoso, bem diferente do que a espera." }
+    ]
+  },
+  {
+    nome:"Clarissa Coral",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81kUIWlhXvS._SY522_.jpg",
+        nome:"A Rebelião do Oceano",
+        sinopse:"Para conter o avanço de um poderoso Lorde do Oeste, a rebelde princesa Kiera de Valois é enviada contra a vontade para se casar com um príncipe aliado. Entretanto, durante uma emboscada, ela acaba a bordo do navio Tempestade da Caveira, comandado pelo ardiloso pirata Derek Morgan. Contudo, o que era para ser uma fonte de lucro se transforma em uma jornada perigosa quando uma ameaça crescente começa a espreitar os mares e as costas de vários reinos, forçando um acordo entre a princesa e o pirata. Assim, entre tesouros, espadas e paixões proibidas, Kiera e Derek navegam para o coração de um oceano desconhecido, onde escolhas difíceis podem colocar em jogo tudo o que a princesa mais ama." },
+
+      { url:"https://m.media-amazon.com/images/I/818aOue4w9L._SY425_.jpg",
+        nome:"Jardim de Estrelas",
+        sinopse:"Perto de completar seus vinte e um anos, a princesa Maressa Sternenlicht precisa enfrentar a tradição mais antiga de seu reino: vários pretendentes irão competir por sua mão, e o vencedor a levará como esposa no dia de seu aniversário. Incapaz de mudar as regras, ela trama uma forma de ao menos conhecer os pretendentes: durante o torneio, se passará por uma criada do castelo. Nas sombras das montanhas, exilado junto com sua raça, o erelin Ikaris Ashera recebe a chance de vingar seu povo quando é enviado para um reino inimigo, com o objetivo de participar de um tradicional torneio para entrar no castelo e matar a herdeira do trono. Contudo, o que era para ser um jogo para a princesa e uma missão para o erelin, se transforma em algo sombrio quando uma antiga ameaça ressurge, forçando Maressa e Ikaris a se unirem em um caminho entrelaçado pelos mistérios do céu, das estrelas, do amor e da magia, onde histórias esquecidas podem guardar presságios letais." }
+    ]
+  },
+  {
+    nome:"Cláudia Lemes e Paula Febbe",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71Qfu2cUoqL._SY342_.jpg",
-        nome: "Cartas no Corredor da Morte",
-        sinopse: "Dois serial killers no corredor da morte trocam cartas reveladoras sobre como praticaram seus crimes e como funcionam suas mentes doentias. O laço de cumplicidade entre eles se intensifica quando ambos planejam, mesmo trancafiados, uma nova e espetacular morte. Cartas no corredor da morte é um livro epistolar escrito por Cláudia Lemes e Paula Febbe e violento tal qual a mente de assassinos em série. Nele, as autoras constroem e apresentam as lógicas distorcidas de criminosos que banalizam a vida humana em busca de uma falsa racionalidade." }
+        nome:"Cartas no Corredor da Morte",
+        sinopse:"Dois serial killers no corredor da morte trocam cartas reveladoras sobre como praticaram seus crimes e como funcionam suas mentes doentias. O laço de cumplicidade entre eles se intensifica quando ambos planejam, mesmo trancafiados, uma nova e espetacular morte. Cartas no corredor da morte é um livro epistolar escrito por Cláudia Lemes e Paula Febbe e violento tal qual a mente de assassinos em série. Nele, as autoras constroem e apresentam as lógicas distorcidas de criminosos que banalizam a vida humana em busca de uma falsa racionalidade." }
     ]
   },
-  {
-    nome: "Colleen Houck",
-    imagens: [
-      { url:"https://m.media-amazon.com/images/I/919D9CeAO1L._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O despertar do príncipe",
-        sinopse: "Aos 17 anos, Lilliana Young tem uma vida aparentemente invejável. Ela mora em um luxuoso hotel de Nova York com os pais ricos e bem-sucedidos, só usa roupas de grife, recebe uma generosa mesada e tem liberdade para explorar a cidade. Mas para isso ela precisa seguir algumas regras: só tirar notas altas no colégio, apresentar-se adequadamente nas festas com os pais e fazer amizade apenas com quem eles aprovarem. Um dia, na seção egípcia do Metropolitan Museum of Art, Lily está pensando numa maneira de convencer os pais a deixá-la escolher a própria carreira, quando uma figura espantosa cruza o seu caminho: uma múmia ― na verdade, um príncipe egípcio com poderes divinos que acaba de despertar de um sono de mil anos. A partir daí, a vida solitária e super-regrada de Lily sofre uma reviravolta. Uma força irresistível a leva a seguir o príncipe Amon até o lendário Vale dos Reis, no Egito, em busca dos outros dois irmãos adormecidos, numa luta contra o tempo para realizar a cerimônia que é a última esperança para salvar a humanidade do maligno deus Seth." },
-
-      { url:"https://m.media-amazon.com/images/I/61yX0-BM3mL._SY342_.jpg", 
-        colecao: "Coleção 1",
-        nome: "Duelo dos imortais",
-        sinopse: "Quem são os deuses que regem os caminhos e descaminhos de Amon e Lily, os corajosos heróis da série Deuses do Egito? Por que esses deuses tramam conquistas e vinganças, envolvendo a humanidade em suas maquinações? E por que deixam nos ombros de alguns jovens mortais a responsabilidade pela salvação do mundo? Antes que Lily e Amon se encontrassem, antes mesmo que o caos dominasse o cosmos e os deuses precisassem de três irmãos corajosos para combater o mal, muita coisa já estava em jogo. Em O duelo dos imortais, vamos conhecer a história dos quatro irmãos que assistiam, com seus poderes especiais, o grande Amon-Rá no governo da Terra: Osíris, o generoso deus da agricultura, que ajuda os mortais a crescer e prosperar em seu ambiente natural. Ísis, a linda deusa da criação, que promove a saúde e o bem-estar. Néftis, a doce vidente, que mantém o equilíbrio entre os seres vivos e o universo. E por último Seth, o mais jovem, que cresceu desprovido de poderes e desprezado por todos. Quando, finalmente, os poderes de Seth se manifestam, que efeito sobre a humanidade terá a perigosa mistura de uma infância marcada pela rejeição, uma intensa paixão não correspondida e o incrível poder de desfazer coisas, pessoas... e até deuses? Romance, traição e vingança são os fios que tecem esta trama surpreendente, cujos personagens imortais despertam em nós os mais profundos sentimentos." },
-
-      { url:"https://m.media-amazon.com/images/I/71PXgTv1zmL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O coração da esfinge",
-        sinopse: "Lily Young achou que viajar pelo mundo com um príncipe egípcio tinha sido sua maior aventura. Mas a grande jornada de sua vida ainda está para começar. Depois que Amon e Lily se separaram de maneira trágica, ele se transportou para o mundo dos mortos — aquilo que os mortais chamam de inferno. Atormentado pela perda de seu grande e único amor, ele prefere viver em agonia a recorrer à energia vital dela mais uma vez. Arrasada, Lily vai se refugiar na fazenda da avó. Mesmo em outra dimensão, ela ainda consegue sentir a dor de Amon, e nunca deixa de sonhar com o sofrimento infinito de seu amado. Isso porque, antes de partir, Amon deu uma coisa muito es pecial a ela: um amuleto que os conecta, mesmo em mundos opostos. Com a ajuda do deus da mumificação, Lily vai descobrir que deve usar esse objeto para libertar o príncipe egípcio e salvar seus reinos da escuridão e do caos. Resta saber se ela estará pronta para fazer o que for preciso." },
-
-      { url:"https://m.media-amazon.com/images/I/710G7cEAMyL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "A coroa da vingança",
-        sinopse: "Meses após sua pacata vida como herdeira milionária sofrer uma reviravolta e ela embarcar numa vertiginosa jornada pelo Egito, Lilliana Young está praticamente de volta à estaca zero. Suas lembranças das aventuras egípcias e, especialmente, de Amon, o príncipe do sol, foram apagadas, e só resta a Lily atribuir os vestígios de estranhos acontecimentos a um sonho exótico. A não ser por um detalhe: duas estranhas vozes em sua mente, que pertencem a uma leoa e uma fada, a convencem de que ela não é mais a mesma e que seu corpo está se preparando para se transformar em outro ser. Enquanto tenta dar sentido a tudo isso, Lily descobre que as forças do mal almejam destruir muito mais que sua sanidade mental – o que está em jogo é o futuro da humanidade. Seth, o obscuro deus do caos, está prestes a se libertar da prisão onde se encontra confinado há milhares de anos, decidido a destruir o mundo e todos os deuses. Para enfrentá-lo de uma vez por todas, Lily se une a Amon e seus dois irmãos nesta terceira e última aventura da série Deuses do Egito." },
-
-      { url:"https://m.media-amazon.com/images/I/51AM5AYNiZL._SY445_SX342_.jpg",
-        nome: "A chama de Ember",
-        sinopse: "Quinhentos anos atrás, Jack fez um pacto com um demônio e acabou condenado a uma eternidade de servidão. Como um lanterna, seu único dever é guardar um dos portais que levam ao reino imortal, garantindo que nenhuma alma se infiltre onde não é bem-vinda. Jack sempre fez um excelente trabalho... até conhecer a bela Ember O'Dare. Há tempos, a bruxa de 17 anos vem tentando enganar Jack para atravessar o portal. Insistente, sem temer os alertas dele, Ember enfim consegue adentrar a dimensão proibida com a ajuda de um vampiro afável e misterioso, e então tem início uma perseguição frenética através de um mundo deslumbrante e perigoso. Agora Jack precisa resgatar Ember antes que os universos terreno e sobrenatural entrem em colapso e se tornem um caos." }
-    ]
-  },
-  {
-    nome: "Colleen Hoover",
+    {
+    nome:"Colleen Hoover",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/51Ktv6igBIL._SY445_SX342_.jpg",
-        nome: "Todas as suas (im)perfeições",
-        sinopse: "Todas as suas imperfeições narra a história de Quinn e Graham. Eles se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto. Fim da dança... se o destino não tivesse outros planos para os dois. Meses mais tarde, os acordes tocam para o casal mais uma vez e eles se reencontram. Graham está convencido de que são almas gêmeas. Quinn jamais se sentiu dessa forma antes. A intensidade do sentimento os assusta, mas eles mergulham de cabeça mesmo assim. O casamento é tudo o que sonhavam, a parceria perfeita. Mesmo nos momentos difíceis, sabem que podem contar com o outro. Nenhum deles desiste do amor que sentem. Até que a primeira nota dissonante abala a sinfonia do casal. Até que Quinn parece estar disposta a trocar tudo o que é pela única coisa que não consegue ser: mãe. A luta do casal por um filho arrisca os alicerces da relação. Quinn não pode engravidar. Graham não é um candidato para adoção por conta de um erro do passado. O impasse os deixa parados no salão, no silêncio. A orquestra está em suspenso. Os dois parecem surdos para a música do amor." },
+        nome:"Todas as suas (im)perfeições",
+        sinopse:"Todas as suas imperfeições narra a história de Quinn e Graham. Eles se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto. Fim da dança... se o destino não tivesse outros planos para os dois. Meses mais tarde, os acordes tocam para o casal mais uma vez e eles se reencontram. Graham está convencido de que são almas gêmeas. Quinn jamais se sentiu dessa forma antes. A intensidade do sentimento os assusta, mas eles mergulham de cabeça mesmo assim. O casamento é tudo o que sonhavam, a parceria perfeita. Mesmo nos momentos difíceis, sabem que podem contar com o outro. Nenhum deles desiste do amor que sentem. Até que a primeira nota dissonante abala a sinfonia do casal. Até que Quinn parece estar disposta a trocar tudo o que é pela única coisa que não consegue ser: mãe. A luta do casal por um filho arrisca os alicerces da relação. Quinn não pode engravidar. Graham não é um candidato para adoção por conta de um erro do passado. O impasse os deixa parados no salão, no silêncio. A orquestra está em suspenso. Os dois parecem surdos para a música do amor." },
 
       { url:"https://m.media-amazon.com/images/I/814Gfw9NOpL._SY342_.jpg",
-        nome: "As mil partes do meu coração",
-        sinopse: "Merit Voss está cansada de guardar os segredos de sua família e decide que chegou a hora de desaparecer. Mas antes de sumir do mapa, ela vai revelar um por um, tudo que a família vem guardando por anos. A cerca branca ao redor da sua casa é a única coisa normal na vida de Merit. Parte de uma família peculiar e cheia de segredos, ela mora em uma antiga igreja, batizada de Dólar Voss. A mãe, curada de um câncer, mora no porão, e o pai e o restante da família, no andar de cima. Isso inclui sua nova esposa, a ex-enfermeira da ex-mulher, o pequeno Moby, fruto desse relacionamento, o irmão mais velho, Utah, e a gêmea idêntica de Merit, Honor. E, como se a casa não tivesse cheia o bastante, ainda chegam o excêntrico Luck e o misterioso Sagan. Mas Merit sente que é o oposto de todos ali. Mas seu plano de revelar a verdade não sai como o esperado e ela deve decidir se pode dar uma segunda chance não apenas à sua família, mas também a si mesma. As mil partes do meu coração mostra que nunca é tarde para perdoar e que não existe família perfeita, por mais branca que seja a cerca." },
+        nome:"As mil partes do meu coração",
+        sinopse:"Merit Voss está cansada de guardar os segredos de sua família e decide que chegou a hora de desaparecer. Mas antes de sumir do mapa, ela vai revelar um por um, tudo que a família vem guardando por anos. A cerca branca ao redor da sua casa é a única coisa normal na vida de Merit. Parte de uma família peculiar e cheia de segredos, ela mora em uma antiga igreja, batizada de Dólar Voss. A mãe, curada de um câncer, mora no porão, e o pai e o restante da família, no andar de cima. Isso inclui sua nova esposa, a ex-enfermeira da ex-mulher, o pequeno Moby, fruto desse relacionamento, o irmão mais velho, Utah, e a gêmea idêntica de Merit, Honor. E, como se a casa não tivesse cheia o bastante, ainda chegam o excêntrico Luck e o misterioso Sagan. Mas Merit sente que é o oposto de todos ali. Mas seu plano de revelar a verdade não sai como o esperado e ela deve decidir se pode dar uma segunda chance não apenas à sua família, mas também a si mesma. As mil partes do meu coração mostra que nunca é tarde para perdoar e que não existe família perfeita, por mais branca que seja a cerca." },
 
       { url:"https://m.media-amazon.com/images/I/917G-FdK2kL._SY342_.jpg",
-        nome: "Novembro, 9",
-        sinopse: "Apesar de ter apenas 18 anos, Fallon já passou por muita coisa. Sobreviveu a um incêndio que a deixou desfigurada, e viu a carreira de atriz desmoronar por conta das cicatrizes. Agora, no aniversário do fatídico acidente, ela finalmente se sente pronta para sair de Los Angeles e recomeçar a vida em Nova York. No almoço de despedida com o pai, bem na véspera da mudança, Fallon conhece Ben, um aspirante a escritor. A atração entre os dois faz com que passem o dia inteiro juntos, mas a partida iminente de Fallon os impede de viver esse amor. Decididos a vencer o destino, fazem uma promessa: se encontrar todo ano nessa mesma data. Ao longo do tempo, muitas coisas mudam na vida dos dois, mas o ritual dos encontros e sua história de amor viram enredo do livro de Ben. E, quando parece que o destino finalmente conspira para que fiquem juntos, Fallon descobre algo que a faz questionar as motivações do homem por quem está apaixonada. Será que ela não passa de mais uma personagem na trama de Ben?" },
+        nome:"Novembro, 9",
+        sinopse:"Apesar de ter apenas 18 anos, Fallon já passou por muita coisa. Sobreviveu a um incêndio que a deixou desfigurada, e viu a carreira de atriz desmoronar por conta das cicatrizes. Agora, no aniversário do fatídico acidente, ela finalmente se sente pronta para sair de Los Angeles e recomeçar a vida em Nova York. No almoço de despedida com o pai, bem na véspera da mudança, Fallon conhece Ben, um aspirante a escritor. A atração entre os dois faz com que passem o dia inteiro juntos, mas a partida iminente de Fallon os impede de viver esse amor. Decididos a vencer o destino, fazem uma promessa: se encontrar todo ano nessa mesma data. Ao longo do tempo, muitas coisas mudam na vida dos dois, mas o ritual dos encontros e sua história de amor viram enredo do livro de Ben. E, quando parece que o destino finalmente conspira para que fiquem juntos, Fallon descobre algo que a faz questionar as motivações do homem por quem está apaixonada. Será que ela não passa de mais uma personagem na trama de Ben?" },
 
       { url:"https://m.media-amazon.com/images/I/91tvK+-CZ+L._SY342_.jpg",
-        nome: "Até o verão terminar",
-        sinopse: "Filha de uma mãe problemática e um pai ausente, Beyah precisou aprender a se virar sozinha desde pequena. Sua vida foi trilhada com muitas decepeções. Mas ela está prestes a mudar a sua sorte graças a si mesma, e a mais ninguém, por conta da bolsa de estudos que ganhou para estudar em uma boa universidade. Apenas dois curtos meses separam o tão sonhado futuro do passado que tanto deseja deixar para trás. Mas uma reviravolta faz Beyah perder até mesmo a casa em que mora. Sem opção, ela recorre ao último recurso que tem e precisará passar o resto do verão na casa de praia do pai que mal conhece, da nova esposa e da filha dela que nem ao menos ouvira falar. O plano de Beyah é se manter quase invisível até poder ir para a faculdade. Mas o vizinho da casa ao lado torna tudo muito mais complicado. Afinal, é difícil ignorar o rico, bonito e misterioso Samson. Os dois parecem não ter nada em comum. Ela viveu uma vida sem dinheiro ou amor enquanto ele tem uma família rica e privilegiada. Mas no olhar dele vive uma tristeza que apenas quem também a carrega dentro de si consegue reconhecer. E isso os torna irresístiveis um para o outro. Sem terem como fugir da atração que sentem, Beyah e Samson resolvem se dar uma chance, mas apenas até o verão terminar." },
+        nome:"Até o verão terminar",
+        sinopse:"Filha de uma mãe problemática e um pai ausente, Beyah precisou aprender a se virar sozinha desde pequena. Sua vida foi trilhada com muitas decepeções. Mas ela está prestes a mudar a sua sorte graças a si mesma, e a mais ninguém, por conta da bolsa de estudos que ganhou para estudar em uma boa universidade. Apenas dois curtos meses separam o tão sonhado futuro do passado que tanto deseja deixar para trás. Mas uma reviravolta faz Beyah perder até mesmo a casa em que mora. Sem opção, ela recorre ao último recurso que tem e precisará passar o resto do verão na casa de praia do pai que mal conhece, da nova esposa e da filha dela que nem ao menos ouvira falar. O plano de Beyah é se manter quase invisível até poder ir para a faculdade. Mas o vizinho da casa ao lado torna tudo muito mais complicado. Afinal, é difícil ignorar o rico, bonito e misterioso Samson. Os dois parecem não ter nada em comum. Ela viveu uma vida sem dinheiro ou amor enquanto ele tem uma família rica e privilegiada. Mas no olhar dele vive uma tristeza que apenas quem também a carrega dentro de si consegue reconhecer. E isso os torna irresístiveis um para o outro. Sem terem como fugir da atração que sentem, Beyah e Samson resolvem se dar uma chance, mas apenas até o verão terminar." },
 
       { url:"https://m.media-amazon.com/images/I/91jnepo7VNL._SY342_.jpg",
-        nome: "Se não fosse você",
-        sinopse: "Morgan e Clara Grant são mãe e filha, e aparentemente não têm nada em comum. Morgan engravidou muito nova, com dezesseis anos, e está determinada a evitar que sua filha passe pelas mesmas dificuldades que enfrentou. Colocando sempre a família em primeiro plano, Morgan deixou os próprios sonhos de lado para dedicar-se à filha e ao marido. Clara, por sua vez, não quer seguir os passos da mãe - ela não consegue enxergar nada de espontâneo na personalidade de Morgan. No auge dos seus dezesseis anos, seu maior desejo é ir para a universidade estudar teatro, mesmo que os pais não incentivem a carreira. Com personalidades incompatíveis e objetivos divergentes, a convivência entre Morgan e Clara está cada dia mais insustentável. A única pessoa capaz de criar um ambiente de paz é Chris - marido de Morgan, pai de Clara, o porto seguro da família. Mas essa paz é quebrada após um trágico acidente que muda completamente a vida das duas. Enquanto Morgan luta para reconstruir tudo que desabou ao seu redor e encontra conforto na última pessoa que esperava, Clara só aumenta sua lista de rebeldias. Com o passar dos dias, novos segredos, ressentimentos e mal-entendidos fazem com que mãe e filha se afastem ainda mais... e a distância aumenta tanto ao ponto de uma reaproximação se tornar improvável. Depois de tanto tempo distantes e com muita coisa não dita, será que ainda há chances de que tudo fique bem?" },
+        nome:"Se não fosse você",
+        sinopse:"Morgan e Clara Grant são mãe e filha, e aparentemente não têm nada em comum. Morgan engravidou muito nova, com dezesseis anos, e está determinada a evitar que sua filha passe pelas mesmas dificuldades que enfrentou. Colocando sempre a família em primeiro plano, Morgan deixou os próprios sonhos de lado para dedicar-se à filha e ao marido. Clara, por sua vez, não quer seguir os passos da mãe - ela não consegue enxergar nada de espontâneo na personalidade de Morgan. No auge dos seus dezesseis anos, seu maior desejo é ir para a universidade estudar teatro, mesmo que os pais não incentivem a carreira. Com personalidades incompatíveis e objetivos divergentes, a convivência entre Morgan e Clara está cada dia mais insustentável. A única pessoa capaz de criar um ambiente de paz é Chris - marido de Morgan, pai de Clara, o porto seguro da família. Mas essa paz é quebrada após um trágico acidente que muda completamente a vida das duas. Enquanto Morgan luta para reconstruir tudo que desabou ao seu redor e encontra conforto na última pessoa que esperava, Clara só aumenta sua lista de rebeldias. Com o passar dos dias, novos segredos, ressentimentos e mal-entendidos fazem com que mãe e filha se afastem ainda mais... e a distância aumenta tanto ao ponto de uma reaproximação se tornar improvável. Depois de tanto tempo distantes e com muita coisa não dita, será que ainda há chances de que tudo fique bem?" },
 
       { url:"https://m.media-amazon.com/images/I/91d33h5mhaL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Um caso perdido",
-        sinopse: "Aos 18 anos, Sky cataloga garotos como sabores de sorvete. Alguns são baunilha, outros, um pouco mais ousados. Mas nenhum a empolga. Aliás, o que ela gostaria mesmo de experimentar é o ensino médio, por mais que todas as suas referências sobre o assunto ― tiradas d seus amados e fiéis companheiros livros ― retratem a escola com as pinceladas de um inferno hormonal. No entanto, Sky é forte e, principalmente, está preparada, apesar dos estranhos pesadelos que a perseguem, que lhe mostram uma garotinha sempre às lágrimas. Então, quando a mãe adotiva a libera para frequentar o último ano na escola local, ela pensa em tirar o máximo da experiência. Mesmo que sua melhor amiga, e única pessoa que conhece na instituição, tenha resolvido fazer intercâmbio na Itália. Sky se vê sozinha na selva de nerds, atletas, populares... e com uma reputação nebulosa. Mas quando ela conhece Dean Holder, um rapaz cuja fama pode competir com a sua, Sky experimenta sensações de que jamais acreditou ser capaz. Ele a aterroriza e a encanta. Tudo isso com apenas um encontro. Embora tente manter distância, Holder insiste em saber tudo sobre Sky, e, incapaz de negar a estranha conexão, ela finalmente se rende ― sem saber que o comportamento errático do garoto tem uma explicação, que testará o amor dos dois e a confiança de Sky nesse caso perdido pelo qual se apaixonou. Agora, a verdade pode libertá-la. Ou simplesmente trucidá-la em Um caso perdido , uma história que retrata dois jovens com um passado devastador e um amor capaz de guiá-los numa jornada de descobertas... sobre vida, amor, confiança e, acima de tudo, o poder da verdade." },
+        colecao:"Coleção 1",
+        nome:"Um caso perdido",
+        sinopse:"Aos 18 anos, Sky cataloga garotos como sabores de sorvete. Alguns são baunilha, outros, um pouco mais ousados. Mas nenhum a empolga. Aliás, o que ela gostaria mesmo de experimentar é o ensino médio, por mais que todas as suas referências sobre o assunto ― tiradas d seus amados e fiéis companheiros livros ― retratem a escola com as pinceladas de um inferno hormonal. No entanto, Sky é forte e, principalmente, está preparada, apesar dos estranhos pesadelos que a perseguem, que lhe mostram uma garotinha sempre às lágrimas. Então, quando a mãe adotiva a libera para frequentar o último ano na escola local, ela pensa em tirar o máximo da experiência. Mesmo que sua melhor amiga, e única pessoa que conhece na instituição, tenha resolvido fazer intercâmbio na Itália. Sky se vê sozinha na selva de nerds, atletas, populares... e com uma reputação nebulosa. Mas quando ela conhece Dean Holder, um rapaz cuja fama pode competir com a sua, Sky experimenta sensações de que jamais acreditou ser capaz. Ele a aterroriza e a encanta. Tudo isso com apenas um encontro. Embora tente manter distância, Holder insiste em saber tudo sobre Sky, e, incapaz de negar a estranha conexão, ela finalmente se rende ― sem saber que o comportamento errático do garoto tem uma explicação, que testará o amor dos dois e a confiança de Sky nesse caso perdido pelo qual se apaixonou. Agora, a verdade pode libertá-la. Ou simplesmente trucidá-la em Um caso perdido , uma história que retrata dois jovens com um passado devastador e um amor capaz de guiá-los numa jornada de descobertas... sobre vida, amor, confiança e, acima de tudo, o poder da verdade." },
 
       { url:"https://m.media-amazon.com/images/I/91DszGVK+2L._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Sem esperança",
-        sinopse: "Às vezes é preciso enfrentar o passado para seguir em frente... Toda história tem dois lados. E agora chegou a hora de descobrirmos a verdade sob o ponto de vista de Dean Holder. Assombrado pela culpa e pelo remorso de não ter conseguido salvar nem a amiga Hope nem a irmã Less, Holder desenvolveu uma personalidade agressiva e desconta sua raiva em qualquer um que tente desafiá-lo. Por mais que tenha se esforçado, jamais conseguiu superar as tragédias que ocorreram após o sequestro de Hope;. Holder nunca imaginou que voltaria a vê-la algum dia, e não acredita na própria sorte ao se deparar com ela depois de tantos anos; agora com outro nome ― Sky ― e outra família. No entanto, ele não poderia supor que o sofrimento seria ainda maior após o reencontro. Em Sem esperança , o jovem revela como os acontecimentos da infância de Sky afetaram sua vida e sua família, fazendo-o buscar a própria redenção na possibilidade de salvá-la. Mas é apenas amando Sky que ele enfim será capaz de se reconciliar consigo mesmo." }
+        colecao:"Coleção 1",
+        nome:"Sem esperança",
+        sinopse:"Às vezes é preciso enfrentar o passado para seguir em frente... Toda história tem dois lados. E agora chegou a hora de descobrirmos a verdade sob o ponto de vista de Dean Holder. Assombrado pela culpa e pelo remorso de não ter conseguido salvar nem a amiga Hope nem a irmã Less, Holder desenvolveu uma personalidade agressiva e desconta sua raiva em qualquer um que tente desafiá-lo. Por mais que tenha se esforçado, jamais conseguiu superar as tragédias que ocorreram após o sequestro de Hope;. Holder nunca imaginou que voltaria a vê-la algum dia, e não acredita na própria sorte ao se deparar com ela depois de tantos anos; agora com outro nome ― Sky ― e outra família. No entanto, ele não poderia supor que o sofrimento seria ainda maior após o reencontro. Em Sem esperança , o jovem revela como os acontecimentos da infância de Sky afetaram sua vida e sua família, fazendo-o buscar a própria redenção na possibilidade de salvá-la. Mas é apenas amando Sky que ele enfim será capaz de se reconciliar consigo mesmo." },
+        
+      { url:"https://m.media-amazon.com/images/I/81QfnQRnYxL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"Talvez um dia",
+        sinopse:"Sydney acabou de completar 22 anos e já fez algo inédito em sua vida: socou a cara da ex-melhor amiga. Até hoje, ela não podia reclamar da vida. Um namorado atencioso, uma melhor amiga com quem dividia o apartamento... Tudo bem, até Sydney descobrir que as duas pessoas em quem mais confiava se pegavam quando ela não estava por perto. Até que foi um soco merecido. Sydney encontra abrigo na casa de Ridge, um músico cujo talento ela vinha admirando há um tempo. Juntos, os dois descobrem um entrosamento fora do comum para compor e uma atração que só cresce com o tempo. O problema é que Ridge tem uma namorada, e a última coisa que Sydney precisa agora é se transformar numa traidora." },
+
+      { url:"https://m.media-amazon.com/images/I/81Hd9gXekLL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"Talvez não",
+        sinopse:"Quando surge a oportunidade para Warren de ter uma colega de quarto, ele aceita sem pensar duas vezes. Afinal, essa mudança pode trazer uma emoção bem-vinda para a sua vida. Ou talvez não. Especialmente porque essa colega é a fria e calculista Bridgette. Pelo menos é a energia que ela transmite a Warren. A tensão entre os dois é tão carregada que eles não suportam ficar no mesmo ambiente. Mas Warren tem uma teoria sobre Bridgette: alguém que consegue odiar com tanta intensidade deve ser capaz de amar na mesma medida. E ele quer testar a teoria com ela. Será que Bridgette abrirá seu coração para Warren e finalmente aprenderá a amar? Talvez. Ou talvez não." },
+
+      { url:"https://m.media-amazon.com/images/I/418TsqM0zKL._SY445_SX342_ML2_.jpg",
+        colecao:"Coleção 2",
+        nome:"Talvez agora",
+        sinopse:"Agora que o relacionamento de Ridge com Maggie terminou, ele e Sydney estão explorando completamente essa nova liberdade de expressar seus sentimentos. No entanto, ele e Warren são o único suporte de Maggie... e devem aprender a lidar com a situação nesse novo contexto. Enquanto isso, Maggie está desfrutando da nova etapa de sua vida, embora ainda sinta algum ressentimento por tudo o que aconteceu. Após tantos anos vivendo uma relação já estável - e morna - com Ridge, Maggie não consegue prever o que a aguarda. A insegurança com relação a sua doença, o desejo de independência e a ânsia de viver novas e empolgantes experiências É nesse meio que entra Jake, o rapaz que a ajudou a cumprir o primeiro item em sua lista de coisas para fazer: pular de paraquedas. Ele está tão interessado nela quanto ela nele, mas Maggie arriscará viver um novo relacionamento e deixar o passado para trás? Por outro lado, Sydney, ao finalmente engatar a relação com Ridge, se vê realizada... Ridge representa tudo o que sempre sonhou em alguém e a química entre os dois é evidente. No entanto, a constante proximidade de Maggie a preocupa... E, mais uma vez, ela deverá ser forte para lidar com o assunto com o equilíbrio e maturidade que ele exige. Embalado por uma atmosfera musical e tratando de temas como amizade, lealdade e, principalmente, o real significado de união, Colleen Hoover retorna com a continuação de uma - ou várias? - história de amor, situações-limite e, principalmente, personagens perfeitamente imperfeitos. Talvez agora é contada não só sob um, mas vários prismas - e, como um bom românce, não podem faltar as boas doses de risos e as lágrimas." }
     ]
   },
   {
-    nome: "Conceição Evaristo",
+    nome:"Colleen Houck",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/919D9CeAO1L._SY342_.jpg",
+        colecao:"Coleção 1",
+        nome:"O despertar do príncipe",
+        sinopse:"Aos 17 anos, Lilliana Young tem uma vida aparentemente invejável. Ela mora em um luxuoso hotel de Nova York com os pais ricos e bem-sucedidos, só usa roupas de grife, recebe uma generosa mesada e tem liberdade para explorar a cidade. Mas para isso ela precisa seguir algumas regras: só tirar notas altas no colégio, apresentar-se adequadamente nas festas com os pais e fazer amizade apenas com quem eles aprovarem. Um dia, na seção egípcia do Metropolitan Museum of Art, Lily está pensando numa maneira de convencer os pais a deixá-la escolher a própria carreira, quando uma figura espantosa cruza o seu caminho: uma múmia ― na verdade, um príncipe egípcio com poderes divinos que acaba de despertar de um sono de mil anos. A partir daí, a vida solitária e super-regrada de Lily sofre uma reviravolta. Uma força irresistível a leva a seguir o príncipe Amon até o lendário Vale dos Reis, no Egito, em busca dos outros dois irmãos adormecidos, numa luta contra o tempo para realizar a cerimônia que é a última esperança para salvar a humanidade do maligno deus Seth." },
+
+      { url:"https://m.media-amazon.com/images/I/61yX0-BM3mL._SY342_.jpg", 
+        colecao:"Coleção 1",
+        nome:"Duelo dos imortais",
+        sinopse:"Quem são os deuses que regem os caminhos e descaminhos de Amon e Lily, os corajosos heróis da série Deuses do Egito? Por que esses deuses tramam conquistas e vinganças, envolvendo a humanidade em suas maquinações? E por que deixam nos ombros de alguns jovens mortais a responsabilidade pela salvação do mundo? Antes que Lily e Amon se encontrassem, antes mesmo que o caos dominasse o cosmos e os deuses precisassem de três irmãos corajosos para combater o mal, muita coisa já estava em jogo. Em O duelo dos imortais, vamos conhecer a história dos quatro irmãos que assistiam, com seus poderes especiais, o grande Amon-Rá no governo da Terra: Osíris, o generoso deus da agricultura, que ajuda os mortais a crescer e prosperar em seu ambiente natural. Ísis, a linda deusa da criação, que promove a saúde e o bem-estar. Néftis, a doce vidente, que mantém o equilíbrio entre os seres vivos e o universo. E por último Seth, o mais jovem, que cresceu desprovido de poderes e desprezado por todos. Quando, finalmente, os poderes de Seth se manifestam, que efeito sobre a humanidade terá a perigosa mistura de uma infância marcada pela rejeição, uma intensa paixão não correspondida e o incrível poder de desfazer coisas, pessoas... e até deuses? Romance, traição e vingança são os fios que tecem esta trama surpreendente, cujos personagens imortais despertam em nós os mais profundos sentimentos." },
+
+      { url:"https://m.media-amazon.com/images/I/71PXgTv1zmL._SY342_.jpg",
+        colecao:"Coleção 1",
+        nome:"O coração da esfinge",
+        sinopse:"Lily Young achou que viajar pelo mundo com um príncipe egípcio tinha sido sua maior aventura. Mas a grande jornada de sua vida ainda está para começar. Depois que Amon e Lily se separaram de maneira trágica, ele se transportou para o mundo dos mortos — aquilo que os mortais chamam de inferno. Atormentado pela perda de seu grande e único amor, ele prefere viver em agonia a recorrer à energia vital dela mais uma vez. Arrasada, Lily vai se refugiar na fazenda da avó. Mesmo em outra dimensão, ela ainda consegue sentir a dor de Amon, e nunca deixa de sonhar com o sofrimento infinito de seu amado. Isso porque, antes de partir, Amon deu uma coisa muito es pecial a ela: um amuleto que os conecta, mesmo em mundos opostos. Com a ajuda do deus da mumificação, Lily vai descobrir que deve usar esse objeto para libertar o príncipe egípcio e salvar seus reinos da escuridão e do caos. Resta saber se ela estará pronta para fazer o que for preciso." },
+
+      { url:"https://m.media-amazon.com/images/I/710G7cEAMyL._SY342_.jpg",
+        colecao:"Coleção 1",
+        nome:"A coroa da vingança",
+        sinopse:"Meses após sua pacata vida como herdeira milionária sofrer uma reviravolta e ela embarcar numa vertiginosa jornada pelo Egito, Lilliana Young está praticamente de volta à estaca zero. Suas lembranças das aventuras egípcias e, especialmente, de Amon, o príncipe do sol, foram apagadas, e só resta a Lily atribuir os vestígios de estranhos acontecimentos a um sonho exótico. A não ser por um detalhe: duas estranhas vozes em sua mente, que pertencem a uma leoa e uma fada, a convencem de que ela não é mais a mesma e que seu corpo está se preparando para se transformar em outro ser. Enquanto tenta dar sentido a tudo isso, Lily descobre que as forças do mal almejam destruir muito mais que sua sanidade mental – o que está em jogo é o futuro da humanidade. Seth, o obscuro deus do caos, está prestes a se libertar da prisão onde se encontra confinado há milhares de anos, decidido a destruir o mundo e todos os deuses. Para enfrentá-lo de uma vez por todas, Lily se une a Amon e seus dois irmãos nesta terceira e última aventura da série Deuses do Egito." },
+
+      { url:"https://m.media-amazon.com/images/I/51AM5AYNiZL._SY445_SX342_.jpg",
+        nome:"A chama de Ember",
+        sinopse:"Quinhentos anos atrás, Jack fez um pacto com um demônio e acabou condenado a uma eternidade de servidão. Como um lanterna, seu único dever é guardar um dos portais que levam ao reino imortal, garantindo que nenhuma alma se infiltre onde não é bem-vinda. Jack sempre fez um excelente trabalho... até conhecer a bela Ember O'Dare. Há tempos, a bruxa de 17 anos vem tentando enganar Jack para atravessar o portal. Insistente, sem temer os alertas dele, Ember enfim consegue adentrar a dimensão proibida com a ajuda de um vampiro afável e misterioso, e então tem início uma perseguição frenética através de um mundo deslumbrante e perigoso. Agora Jack precisa resgatar Ember antes que os universos terreno e sobrenatural entrem em colapso e se tornem um caos." }
+    ]
+  },
+  {
+    nome:"Conceição Evaristo",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81UyOaYhRrL._SY342_.jpg",
-        nome: "Olhos d'água",
-        sinopse: "Em Olhos d’água Conceição Evaristo ajusta o foco de seu interesse na população afro-brasileira abordando, sem meias palavras, a pobreza e a violência urbana que a acometem. Sem sentimentalismos, mas sempre incorporando a tessitura poética à ficção, seus contos apresentam uma significativa galeria de mulheres: Ana Davenga, a mendiga Duzu-Querença, Natalina, Luamanda, Cida, a menina Zaíta. Ou serão todas a mesma mulher, captada e recriada no caleidoscópio da literatura em variados instantâneos da vida? Elas diferem em idade e em conjunturas de experiências, mas compartilham da mesma vida de ferro, equilibrando-se na “frágil vara” que, lemos no conto “O Cooper de Cida”, é a “corda bamba do tempo”. Em Olhos d’água estão presentes mães, muitas mães. E também filhas, avós, amantes, homens e mulheres – todos evocados em seus vínculos e dilemas sociais, sexuais, existenciais, numa pluralidade e vulnerabilidade que constituem a humana condição. Sem quaisquer idealizações, são aqui recriadas com firmeza e talento as duras condições enfrentadas pela comunidade afro-brasileira." }
+        nome:"Olhos d'água",
+        sinopse:"Em Olhos d’água Conceição Evaristo ajusta o foco de seu interesse na população afro-brasileira abordando, sem meias palavras, a pobreza e a violência urbana que a acometem. Sem sentimentalismos, mas sempre incorporando a tessitura poética à ficção, seus contos apresentam uma significativa galeria de mulheres: Ana Davenga, a mendiga Duzu-Querença, Natalina, Luamanda, Cida, a menina Zaíta. Ou serão todas a mesma mulher, captada e recriada no caleidoscópio da literatura em variados instantâneos da vida? Elas diferem em idade e em conjunturas de experiências, mas compartilham da mesma vida de ferro, equilibrando-se na “frágil vara” que, lemos no conto “O Cooper de Cida”, é a “corda bamba do tempo”. Em Olhos d’água estão presentes mães, muitas mães. E também filhas, avós, amantes, homens e mulheres – todos evocados em seus vínculos e dilemas sociais, sexuais, existenciais, numa pluralidade e vulnerabilidade que constituem a humana condição. Sem quaisquer idealizações, são aqui recriadas com firmeza e talento as duras condições enfrentadas pela comunidade afro-brasileira." }
     ]
   },
   {
-    nome: "Cora Menestrelli",
+    nome:"Constance Sayers",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/817tAtf-0YL._SY466_.jpg",
+        nome:"Uma bruxa no tempo",
+        sinopse:"Helen Lambert viveu várias vidas: uma jovem pianista na Paris dos anos 1890, uma atriz na Hollywood dos anos 1930, uma estrela do rock da década de 1970… só que ela não sabe disso. Até que ela conhece um homem que afirma tê-la acompanhado por séculos, que diz estar ligado a ela desde sempre. Helen não acredita nele. Afinal, sua vida é tão normal quanto a de qualquer outra mulher de seu tempo, que tem sua individualidade e sua carreira. Mas seus sonhos, muito vívidos, começam a lhe trazer de volta a memória de vidas interrompidas e um amor trágico. Presa em uma maldição, Helen será forçada a reviver os mesmos eventos sinistros que arruinaram suas vidas anteriores. No entanto, cada renascimento lhe trouxe poderes sobrenaturais que ela ainda não conhece, e é com esta versão empoderada de si mesma que vai desafiar o espaço e o tempo para quebrar esse feitiço… antes que seja tarde demais." }
+    ]
+  },
+  {
+    nome:"Cora Menestrelli",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61Vv1tM6sBL._SY342_.jpg",
-        nome: "Metanoia",
-        sinopse: "Quando o melhor jogador de futebol do mundo deixa de jogar, muita coisa é perdida no processo. Incluindo a si mesmo. Três anos depois de uma tragédia que o arrancou de seu sonho de infância no auge de seu sucesso, William desistiu de tudo. Deixou de medir o peso de suas ações e, dessa forma, as consequências delas. Foi um choque, e não apenas para ele. Ninguém se prepara para virar um fracassado. Agora, ele precisa lidar com tais consequências dos erros do seu presente e passado. Uma delas, na forma de uma garota que o odeia mais do que qualquer coisa, e está disposta a fazer de tudo para mantê-lo longe de tudo e todos que ela ama." }
+        nome:"Metanoia",
+        sinopse:"Quando o melhor jogador de futebol do mundo deixa de jogar, muita coisa é perdida no processo. Incluindo a si mesmo. Três anos depois de uma tragédia que o arrancou de seu sonho de infância no auge de seu sucesso, William desistiu de tudo. Deixou de medir o peso de suas ações e, dessa forma, as consequências delas. Foi um choque, e não apenas para ele. Ninguém se prepara para virar um fracassado. Agora, ele precisa lidar com tais consequências dos erros do seu presente e passado. Uma delas, na forma de uma garota que o odeia mais do que qualquer coisa, e está disposta a fazer de tudo para mantê-lo longe de tudo e todos que ela ama." }
     ]
   },
   {
-    nome: "Courtney Summers",
+    nome:"Costanza Casati",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91ctoqWmHlL._SY466_.jpg",
+        nome:"Clitemnestra",
+        sinopse:"Destinada a um rei, forçada a se casar com um tirano. Colocada no papel de mera observadora enquanto ele começa uma guerra e sacrifica sua própria filha para aplacar os deuses. Mas este papel nunca lhe caiu bem, e esta guerra tampouco foi a primeira ofensa contra ela. Ao encontrar conforto em seus próprios pensamentos conspiratórios, Clitemnestra planeja vingança, calmamente. Então, a rainha espera e aguarda até que possa forçar os deuses a participarem de seu plano de retaliação, porque ela aprendeu há muito tempo que o poder nunca lhe é dado ― você tem que tomá-lo. Em um cenário imersivo, Clitemnestra subverte a narrativa ao criar um reconto feminista e eletrizante da mais injustiçada das personagens da mitologia grega e apresenta com brilhantismo a magnífica rainha que enfrentou ferozmente aqueles que a prejudicaram." }
+    ]
+  },
+  {
+    nome:"Courtney Summers",
+    bandeira:"assets/images/bandeiras/ca.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81E1KHOtRUL._SY342_.jpg",
-        nome: "Sadie",
-        sinopse: "Uma garota foi brutalmente assassinada. Seu corpo foi encontrado entre um pomar de macieiras e uma escola incendiada nos arredores de Cold Creek, Colorado. Seu nome era Mattie Southern, e ela só tinha treze anos. A pequena Mattie era a única conexão de sua irmã mais velha, Sadie Hunter, com o mundo. Quando elas foram abandonadas pela mãe, que era viciada em álcool e outras drogas, Sadie cuidou da irmãzinha como se nada mais importasse. Agora, tudo o que a garota de dezenove anos quer é fazer justiça com as próprias mãos. E nem mesmo a gagueira que dificulta sua comunicação vai impedi-la de encontrar o paradeiro do assassino. Desde que partiu atrás do abusador que tirou a vida de Mattie, Sadie nunca mais foi vista. O que aconteceu com ela? A única pessoa disposta a encontrar respostas é o jornalista West McCray. Quando a polícia não conseguiu resolver o caso, a avó de consideração das garotas pediu a ajuda dele. O repórter está seguindo o rastro de Sadie e, ao longo de sua investigação, ele produz um podcast. Cada pista descoberta revela uma verdade desoladora. Dividido entre o podcast de West McCray e a narrativa da personagem, Sadie é um thriller que perturbará você até a última página. Afinal, uma garota desaparecida é sempre uma história inacabada." }
+        nome:"Sadie",
+        sinopse:"Uma garota foi brutalmente assassinada. Seu corpo foi encontrado entre um pomar de macieiras e uma escola incendiada nos arredores de Cold Creek, Colorado. Seu nome era Mattie Southern, e ela só tinha treze anos. A pequena Mattie era a única conexão de sua irmã mais velha, Sadie Hunter, com o mundo. Quando elas foram abandonadas pela mãe, que era viciada em álcool e outras drogas, Sadie cuidou da irmãzinha como se nada mais importasse. Agora, tudo o que a garota de dezenove anos quer é fazer justiça com as próprias mãos. E nem mesmo a gagueira que dificulta sua comunicação vai impedi-la de encontrar o paradeiro do assassino. Desde que partiu atrás do abusador que tirou a vida de Mattie, Sadie nunca mais foi vista. O que aconteceu com ela? A única pessoa disposta a encontrar respostas é o jornalista West McCray. Quando a polícia não conseguiu resolver o caso, a avó de consideração das garotas pediu a ajuda dele. O repórter está seguindo o rastro de Sadie e, ao longo de sua investigação, ele produz um podcast. Cada pista descoberta revela uma verdade desoladora. Dividido entre o podcast de West McCray e a narrativa da personagem, Sadie é um thriller que perturbará você até a última página. Afinal, uma garota desaparecida é sempre uma história inacabada." }
     ]
   },
   {
-    nome: "Cressida Cowell",
+    nome:"Cressida Cowell",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91wJ6lEHU6L._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como treinar o seu dragão",
-        sinopse: "Neste livro estão as memórias da época em que Soluço era apenas um garoto normal. Muito normal. Nem um pouco heroico. Ele precisava desesperadamente capturar e treinar um dragão, e teria de ser o animal mais impressionante de todos. Mas tudo o que conseguiu foi uma criaturinha pequena e banguela, nada ameaçadora. Foi então que seu destino de herói começou a ser traçado." },
+        colecao:"Coleção 1",
+        nome:"Como treinar o seu dragão",
+        sinopse:"Neste livro estão as memórias da época em que Soluço era apenas um garoto normal. Muito normal. Nem um pouco heroico. Ele precisava desesperadamente capturar e treinar um dragão, e teria de ser o animal mais impressionante de todos. Mas tudo o que conseguiu foi uma criaturinha pequena e banguela, nada ameaçadora. Foi então que seu destino de herói começou a ser traçado." },
 
       { url:"https://m.media-amazon.com/images/I/91zXZAJ4P1L._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como ser um pirata",
-        sinopse: "Nessa aventura eletrizante Soluço conta mais do início de sua história – quando ele ainda tinha muito o que aprender sobre como usar uma espada, sobreviver a naufrágios, escapar de dragões homicidas e desvendar os mistérios de um tesouro pirata muito bem escondido." },
+        colecao:"Coleção 1",
+        nome:"Como ser um pirata",
+        sinopse:"Nessa aventura eletrizante Soluço conta mais do início de sua história – quando ele ainda tinha muito o que aprender sobre como usar uma espada, sobreviver a naufrágios, escapar de dragões homicidas e desvendar os mistérios de um tesouro pirata muito bem escondido." },
 
       { url:"https://m.media-amazon.com/images/I/91bhw2nsuyL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como falar dragonês",
-        sinopse: "Nessa nova aventura da série, o dragão Banguela foi capturado, um nanodragão está prestes a virar refeição e Dragões-tubarões estão à solta. Mais uma vez, os vikings precisam de um salvador... Soluço!" },
+        colecao:"Coleção 1",
+        nome:"Como falar dragonês",
+        sinopse:"Nessa nova aventura da série, o dragão Banguela foi capturado, um nanodragão está prestes a virar refeição e Dragões-tubarões estão à solta. Mais uma vez, os vikings precisam de um salvador... Soluço!" },
 
       { url:"https://m.media-amazon.com/images/I/71+ay92oW9L._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como quebrar a maldição de um dragão",
-        sinopse: "Será que Soluço vai encontrar o antídoto para a picada da Vorpente Venenosa e ainda por cima derrotar o assustador Garra da Destruição? E ele conseguirá vencer o perigoso machado de Norberto, o Demente, para mais uma vez ser o herói da história?" },
+        colecao:"Coleção 1",
+        nome:"Como quebrar a maldição de um dragão",
+        sinopse:"Será que Soluço vai encontrar o antídoto para a picada da Vorpente Venenosa e ainda por cima derrotar o assustador Garra da Destruição? E ele conseguirá vencer o perigoso machado de Norberto, o Demente, para mais uma vez ser o herói da história?" },
 
       { url:"https://m.media-amazon.com/images/I/71gMHufj-oL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como mudar uma história de dragão",
-        sinopse: "Com a ajuda do novo Guarda-peito de Soluço, o misterioso ex-herói Fabuloso Figurão, o Time Soluço precisa devolver a Pedra de Fogo, que foi roubada, para o fumegante vulcão da Ilha dos Lava-loucos. Além das ameaças da iminente erupção, a ilha guarda mais um segredo: por centenas de anos, ovos de Dragões Exterminadores estão depositados sob o solo, à espera de que o calor da lava incandescente rompa suas cascas e possibilite às cruéis criaturas espalhar sua sombria destruição por todo o arquipélago." },
+        colecao:"Coleção 1",
+        nome:"Como mudar uma história de dragão",
+        sinopse:"Com a ajuda do novo Guarda-peito de Soluço, o misterioso ex-herói Fabuloso Figurão, o Time Soluço precisa devolver a Pedra de Fogo, que foi roubada, para o fumegante vulcão da Ilha dos Lava-loucos. Além das ameaças da iminente erupção, a ilha guarda mais um segredo: por centenas de anos, ovos de Dragões Exterminadores estão depositados sob o solo, à espera de que o calor da lava incandescente rompa suas cascas e possibilite às cruéis criaturas espalhar sua sombria destruição por todo o arquipélago." },
 
       { url:"https://m.media-amazon.com/images/I/71NogLa-t1L._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Guia do herói para vencer dragões mortais",
-        sinopse: "Montados em um Dragão Furtivo, que Camicazi roubou de sua mãe, Bertha, que por sua vez, o roubou de Insensato, o Chefe mais assustador de todo o mundo bárbaro, nossos improváveis heróis partem para a Biblioteca Pública dos Cabeças-ocas, protegida pelo terrível Bibliotecário Cabelo Assustado. Considerados uma influência civilizadora extremamente perigosa, os livros foram banidos de todo o território viking, permanecendo devidamente isolados nos labirintos da Biblioteca, localizada na Ilha Esqueça-me. Porém, durante sua missão para roubar o único livro considerado útil por Stoico, o volume Como treinar o seu dragão, escrito pelo Professor Tosco Traste, Soluço começa a contestar o decreto e fica cada vez mais certo da importância dos livros e de como eles podem, literalmente, salvar vidas." },
+        colecao:"Coleção 1",
+        nome:"Guia do herói para vencer dragões mortais",
+        sinopse:"Montados em um Dragão Furtivo, que Camicazi roubou de sua mãe, Bertha, que por sua vez, o roubou de Insensato, o Chefe mais assustador de todo o mundo bárbaro, nossos improváveis heróis partem para a Biblioteca Pública dos Cabeças-ocas, protegida pelo terrível Bibliotecário Cabelo Assustado. Considerados uma influência civilizadora extremamente perigosa, os livros foram banidos de todo o território viking, permanecendo devidamente isolados nos labirintos da Biblioteca, localizada na Ilha Esqueça-me. Porém, durante sua missão para roubar o único livro considerado útil por Stoico, o volume Como treinar o seu dragão, escrito pelo Professor Tosco Traste, Soluço começa a contestar o decreto e fica cada vez mais certo da importância dos livros e de como eles podem, literalmente, salvar vidas." },
 
       { url:"https://m.media-amazon.com/images/I/71XehB-ycqL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como navegar em uma tempestade de dragão",
-        sinopse: "Como navegar em uma tempestade de dragão , sétima aventura da série, começa com a participação do inseparável trio Soluço, Camicazi e Perna-de-Peixe, além dos dragões de caça Banguela e Mosca da Tempestade, na tradicional Competição Amistosa de Nado Intertribal. No entanto, durante a competição, os improváveis heróis são sequestrados e acabam em uma expedição que cruzará todo o Grande Oceano Ocidental - e encontram bestas dignas de mitos medievais ao longo do caminho rumo ao Novo Mundo." },
+        colecao:"Coleção 1",
+        nome:"Como navegar em uma tempestade de dragão",
+        sinopse:"Como navegar em uma tempestade de dragão , sétima aventura da série, começa com a participação do inseparável trio Soluço, Camicazi e Perna-de-Peixe, além dos dragões de caça Banguela e Mosca da Tempestade, na tradicional Competição Amistosa de Nado Intertribal. No entanto, durante a competição, os improváveis heróis são sequestrados e acabam em uma expedição que cruzará todo o Grande Oceano Ocidental - e encontram bestas dignas de mitos medievais ao longo do caminho rumo ao Novo Mundo." },
 
       { url:"https://m.media-amazon.com/images/I/71u4q1TDQsL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como treinar seu viking",
-        sinopse: "Em Como treinar o seu viking , a nova aventura da série Como treinar o seu dragão , Banguela conta uma história da época em que Soluço era apenas um menino - e parecia bastante improvável que, no fim das contas, ele se tornasse o grande Chefe dos Hooligans Cabeludos. Soluço e o amigo Perna-de-peixe, com a ajuda de seus respectivos dragões, Banguela e Vaca Aterrorizante, precisam enfrentar um grande desafio do Programa de Treinamento de Piratas: vencer seus arquirrivais Malvado Melequento, Bafoca de Maluquício e a dragoa Lagarta de Fogo na Competição de Caça. Organizada pelo treinador Bocão Bonarroto, a prova de pesca noturna reserva aos participantes todos os perigos escondidos nas profundezas do mar e, aos perdedores, três semanas apavorantes limpando o banheiro dos dragões da tribo." },
+        colecao:"Coleção 1",
+        nome:"Como treinar seu viking",
+        sinopse:"Em Como treinar o seu viking , a nova aventura da série Como treinar o seu dragão , Banguela conta uma história da época em que Soluço era apenas um menino - e parecia bastante improvável que, no fim das contas, ele se tornasse o grande Chefe dos Hooligans Cabeludos. Soluço e o amigo Perna-de-peixe, com a ajuda de seus respectivos dragões, Banguela e Vaca Aterrorizante, precisam enfrentar um grande desafio do Programa de Treinamento de Piratas: vencer seus arquirrivais Malvado Melequento, Bafoca de Maluquício e a dragoa Lagarta de Fogo na Competição de Caça. Organizada pelo treinador Bocão Bonarroto, a prova de pesca noturna reserva aos participantes todos os perigos escondidos nas profundezas do mar e, aos perdedores, três semanas apavorantes limpando o banheiro dos dragões da tribo." },
 
       { url:"https://m.media-amazon.com/images/I/71-9nJwI9eL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como partir o coração de um dragão",
-        sinopse: "Em Como partir o coração de um dragão , a nova aventura da série Como treinar o seu dragão, Soluço está bastante ocupado: tem que conseguir completar a Tarefa Impossível, derrotar os Berserks, salvar Perna-de-peixe de virar comida de monstro e, ainda por cima, descobrir o secretíssimo segredo do Trono Perdido. Parece muita coisa? Não para Soluço; afinal, é para isso que servem os heróis, não é?" },
+        colecao:"Coleção 1",
+        nome:"Como partir o coração de um dragão",
+        sinopse:"Em Como partir o coração de um dragão , a nova aventura da série Como treinar o seu dragão, Soluço está bastante ocupado: tem que conseguir completar a Tarefa Impossível, derrotar os Berserks, salvar Perna-de-peixe de virar comida de monstro e, ainda por cima, descobrir o secretíssimo segredo do Trono Perdido. Parece muita coisa? Não para Soluço; afinal, é para isso que servem os heróis, não é?" },
 
       { url:"https://m.media-amazon.com/images/I/719BzHC58SL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como roubar a espada de um dragão",
-        sinopse: "Tudo começa quando jovens de todo o Arquipélago partem em uma árdua jornada até a Escola de Esgrima de Fogo Fugaz, para provar seu valor e se tornar Guerreiros das Tribos. Mas, para chegar lá, eles precisam escalar até o topo da Montanha Furiosa, em uma subida íngreme de dois dias e uma noite. Antes de partir, Soluço foi advertido pelo Velho Enrugado: 'Um perigo terrível os aguarda na Escola de Esgrima de Fogo Fugaz... O mundo irá precisar de um Herói, e este pode muito bem ser você... E lembre-se: cuide de sua espada, Soluço, pois é a espada que mostra o caminho...' Uma Rebelião de Dragões ameaça a vida de todos os humanos, e Alvin, o Traiçoeiro, pode acabar se tornando o próximo Rei do Oeste Mais Selvagem. Conseguirá Soluço manter-se firme com sua espada e impedir que o mal vença?" },
+        colecao:"Coleção 1",
+        nome:"Como roubar a espada de um dragão",
+        sinopse:"Tudo começa quando jovens de todo o Arquipélago partem em uma árdua jornada até a Escola de Esgrima de Fogo Fugaz, para provar seu valor e se tornar Guerreiros das Tribos. Mas, para chegar lá, eles precisam escalar até o topo da Montanha Furiosa, em uma subida íngreme de dois dias e uma noite. Antes de partir, Soluço foi advertido pelo Velho Enrugado: 'Um perigo terrível os aguarda na Escola de Esgrima de Fogo Fugaz... O mundo irá precisar de um Herói, e este pode muito bem ser você... E lembre-se: cuide de sua espada, Soluço, pois é a espada que mostra o caminho...' Uma Rebelião de Dragões ameaça a vida de todos os humanos, e Alvin, o Traiçoeiro, pode acabar se tornando o próximo Rei do Oeste Mais Selvagem. Conseguirá Soluço manter-se firme com sua espada e impedir que o mal vença?" },
 
       { url:"https://m.media-amazon.com/images/I/71ceLDeAuML._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como pegar a joia do dragão",
-        sinopse: "Em tempos tão sinistros, a esperança de todos reside na Joia do Dragão, a última das relíquias do Rei e o artefato mais poderoso que existe. Só que Alvin também está atrás da Joia, e ele pretende usá-la para banir os dragões da face da Terra. Soluço precisará não só de um plano brilhante para contrariar os planos do vilão, mas também de um bocado de sorte nesse novo volume da série Como treinar o seu dragão ." },
+        colecao:"Coleção 1",
+        nome:"Como pegar a joia do dragão",
+        sinopse:"Em tempos tão sinistros, a esperança de todos reside na Joia do Dragão, a última das relíquias do Rei e o artefato mais poderoso que existe. Só que Alvin também está atrás da Joia, e ele pretende usá-la para banir os dragões da face da Terra. Soluço precisará não só de um plano brilhante para contrariar os planos do vilão, mas também de um bocado de sorte nesse novo volume da série Como treinar o seu dragão ." },
 
       { url:"https://m.media-amazon.com/images/I/91bOdwzILCL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como trair o herói de um dragão",
-        sinopse: "Soluço precisa ser coroado Rei do Oeste Mais Selvagem. Será que ele vai se livrar dos Dragões-espiões Vampiros da bruxa e conseguir as Coisas Perdidas do Rei antes do Juízo Final de Yule? E há mesmo um traidor no acampamento de Soluço que, no fim, trairá todos?" },
+        colecao:"Coleção 1",
+        nome:"Como trair o herói de um dragão",
+        sinopse:"Soluço precisa ser coroado Rei do Oeste Mais Selvagem. Será que ele vai se livrar dos Dragões-espiões Vampiros da bruxa e conseguir as Coisas Perdidas do Rei antes do Juízo Final de Yule? E há mesmo um traidor no acampamento de Soluço que, no fim, trairá todos?" },
 
       { url:"https://m.media-amazon.com/images/I/A15NvZdhrkL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Como combater a fúria de um dragão",
-        sinopse: "Soluço Spantosicus Strondus III morava na pequena Ilha de Berk com um dragão de caça chamado Banguela e um dragão de montaria chamado Caminhante do Vento, em um mundo repleto de dragões. Apesar de pequeno e magricela, era um dos poucos capaz de falar a língua dos dragões. Um dia, libertou sem querer um enorme Dragão-marinho conhecido como dragão Furioso, que estava acorrentado havia mais de cem anos. Esse dragão deu início a uma Rebelião com a intenção de exterminar todos os humanos, e por isso homens e dragões entraram em guerra. Agora o combate caminha para o seu fim. Quando os últimos raios de sol desaparecerem no horizonte, humanos e dragões travarão a Batalha Final pela sobrevivência. Como combater a fúria de um dragão começa no Dia do Juízo Final de Yule. Alvin, o Traiçoeiro, está prestes a ser coroado Rei do Oeste Mais Selvagem na ilha do Amanhã, e ele planeja começar seu reinado de terror com a extinção de todos os dragões. Para impedir esse acontecimento trágico, Soluço precisa provar que é o verdadeiro Rei, ser coroado no lugar de Alvin, enfrentar o dragão Furioso e salvar os Vikings e os dragões. Tudo seria um pouco mais fácil se nosso Herói não tivesse perdido a memória e conseguisse lembrar quem ele é…" },
+        colecao:"Coleção 1",
+        nome:"Como combater a fúria de um dragão",
+        sinopse:"Soluço Spantosicus Strondus III morava na pequena Ilha de Berk com um dragão de caça chamado Banguela e um dragão de montaria chamado Caminhante do Vento, em um mundo repleto de dragões. Apesar de pequeno e magricela, era um dos poucos capaz de falar a língua dos dragões. Um dia, libertou sem querer um enorme Dragão-marinho conhecido como dragão Furioso, que estava acorrentado havia mais de cem anos. Esse dragão deu início a uma Rebelião com a intenção de exterminar todos os humanos, e por isso homens e dragões entraram em guerra. Agora o combate caminha para o seu fim. Quando os últimos raios de sol desaparecerem no horizonte, humanos e dragões travarão a Batalha Final pela sobrevivência. Como combater a fúria de um dragão começa no Dia do Juízo Final de Yule. Alvin, o Traiçoeiro, está prestes a ser coroado Rei do Oeste Mais Selvagem na ilha do Amanhã, e ele planeja começar seu reinado de terror com a extinção de todos os dragões. Para impedir esse acontecimento trágico, Soluço precisa provar que é o verdadeiro Rei, ser coroado no lugar de Alvin, enfrentar o dragão Furioso e salvar os Vikings e os dragões. Tudo seria um pouco mais fácil se nosso Herói não tivesse perdido a memória e conseguisse lembrar quem ele é…" },
 
       { url:"https://m.media-amazon.com/images/I/A1pQu6jRVKL._SY342_.jpg",
-        colecao: "Coleção 2",
-        nome: "No tempo dos feiticeiros",
-        sinopse: "Divertida aventura que se passa num mundo mítico de vikings e dragões, a série infantil Como treinar o seu dragão se tornou um sucesso no mundo inteiro. São 12 livros, além de 2 volumes extras, que somam 780 mil exemplares vendidos no Brasil e 8 milhões no mundo, além de ter inspirado adaptações para a TV, numa série de animação exibida pelo Cartoon Network, e para o cinema, produzida pela DreamWorks. Agora, a escritora e ilustradora Cressida Cowell deixa os vikings de lado para uma nova trilogia, sobre os antigos tempos em que havia feiticeiros, bruxas, guerreiros… e Magia. No tempo dos feiticeiros mostra a guerra entre duas tribos: os feiticeiros, que eram mágicos, e os guerreiros, que não eram. Esta é a história de Xar, um menino feiticeiro cujos poderes ainda não despertaram, e de Desejo, uma menina guerreira cujo maior sonho é ser reconhecida pela mãe. Xar e Desejo foram ensinados a odiar um ao outro, mas terão que superar as diferenças e enfrentar um mal que pode destruir seus lares." },
+        colecao:"Coleção 2",
+        nome:"No tempo dos feiticeiros",
+        sinopse:"Divertida aventura que se passa num mundo mítico de vikings e dragões, a série infantil Como treinar o seu dragão se tornou um sucesso no mundo inteiro. São 12 livros, além de 2 volumes extras, que somam 780 mil exemplares vendidos no Brasil e 8 milhões no mundo, além de ter inspirado adaptações para a TV, numa série de animação exibida pelo Cartoon Network, e para o cinema, produzida pela DreamWorks. Agora, a escritora e ilustradora Cressida Cowell deixa os vikings de lado para uma nova trilogia, sobre os antigos tempos em que havia feiticeiros, bruxas, guerreiros… e Magia. No tempo dos feiticeiros mostra a guerra entre duas tribos: os feiticeiros, que eram mágicos, e os guerreiros, que não eram. Esta é a história de Xar, um menino feiticeiro cujos poderes ainda não despertaram, e de Desejo, uma menina guerreira cujo maior sonho é ser reconhecida pela mãe. Xar e Desejo foram ensinados a odiar um ao outro, mas terão que superar as diferenças e enfrentar um mal que pode destruir seus lares." },
 
       { url:"https://m.media-amazon.com/images/I/A1iVhuCfhBL._SY342_.jpg",
-        colecao: "Coleção 2",
-        nome: "Duas vezes magia",
-        sinopse: "Era uma vez, há muitos e muitos anos, um menino feiticeiro e uma menina guerreira que foram ensinados a odiar um ao outro. Desejo é filha da rainha dos guerreiros e dona do poderoso (e proibido!) Livro das Palavras Mágicas. Xar é filho de um grande feiticeiro e tentou algo impensável. Agora, ele tem uma ameaçadora marca de bruxa na mão. Para proteger seus lares de um mal terrível, os dois tiveram que se unir, e dessa grande aventura nasceu uma amizade improvável capaz de superar qualquer diferença. Neste segundo volume da série No tempo dos feiticeiros, o perigo se esconde atrás de cada árvore, e Desejo e Xar precisarão correr contra o tempo para derrotar o grande Rei Bruxo, uma tarefa quase impossível. Mas coisas quase impossíveis já aconteceram antes…" }
+        colecao:"Coleção 2",
+        nome:"Duas vezes magia",
+        sinopse:"Era uma vez, há muitos e muitos anos, um menino feiticeiro e uma menina guerreira que foram ensinados a odiar um ao outro. Desejo é filha da rainha dos guerreiros e dona do poderoso (e proibido!) Livro das Palavras Mágicas. Xar é filho de um grande feiticeiro e tentou algo impensável. Agora, ele tem uma ameaçadora marca de bruxa na mão. Para proteger seus lares de um mal terrível, os dois tiveram que se unir, e dessa grande aventura nasceu uma amizade improvável capaz de superar qualquer diferença. Neste segundo volume da série No tempo dos feiticeiros, o perigo se esconde atrás de cada árvore, e Desejo e Xar precisarão correr contra o tempo para derrotar o grande Rei Bruxo, uma tarefa quase impossível. Mas coisas quase impossíveis já aconteceram antes…" }
     ]
   },
   {
-    nome: "Cristhian Couto",
+    nome:"Cristhian Couto",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81PmiQYtCtL._SY342_.jpg",
-        nome: "As Damas de Afrodite",
-        sinopse: "Afrodite, a deusa do amor, não é apenas uma figura mitológica, mas uma entidade que busca justiça para as mulheres que tiveram seus corações dilacerados. Em troca de dons divinos como beleza e sensualidade, suas Damas tornam-se suas executoras, vingadoras daqueles que menosprezam o amor. Nancy, diretora de um prestigiado museu, é uma dessas Damas, levando uma vida dupla entre a elegância do dia e a violência da noite. No entanto, uma noite de comemoração se transforma em tragédia quando uma série de assassinatos abala o grupo, deixando apenas Nancy e algumas guerreiras sobreviventes. Agora, perseguidas por um inimigo misterioso, elas devem unir forças para sobreviver enquanto uma sociedade secreta, alimentada por ódio divino, conspira para destruí-las. Traição, intriga e paixão se entrelaçam nesta saga épica." },
+        nome:"As Damas de Afrodite",
+        sinopse:"Afrodite, a deusa do amor, não é apenas uma figura mitológica, mas uma entidade que busca justiça para as mulheres que tiveram seus corações dilacerados. Em troca de dons divinos como beleza e sensualidade, suas Damas tornam-se suas executoras, vingadoras daqueles que menosprezam o amor. Nancy, diretora de um prestigiado museu, é uma dessas Damas, levando uma vida dupla entre a elegância do dia e a violência da noite. No entanto, uma noite de comemoração se transforma em tragédia quando uma série de assassinatos abala o grupo, deixando apenas Nancy e algumas guerreiras sobreviventes. Agora, perseguidas por um inimigo misterioso, elas devem unir forças para sobreviver enquanto uma sociedade secreta, alimentada por ódio divino, conspira para destruí-las. Traição, intriga e paixão se entrelaçam nesta saga épica." },
 
       { url:"https://m.media-amazon.com/images/I/81M23WDj74L._SY342_.jpg",
-        nome: "Alcateia: Sucessão Sanguinária",
-        sinopse: "Aos dezoito anos, Alefrey Garmani vê sua vida privilegiada desmoronar. Filho de uma família influente da cidade de Delfa, ele tenta lidar com a queda de seu lar após a prisão de seu pai por assassinato—um crime envolto em segredos e conspirações. Mas essa não é a única verdade oculta nas sombras. Delfa esconde mistérios muito mais antigos e perigosos. Quando forças ancestrais emergem e a verdade sobre sua origem vem à tona, Alefrey percebe que seu destino já estava traçado. A maldição do Lobo foi despertada, e não há como fugir." }
+        nome:"Alcateia: Sucessão Sanguinária",
+        sinopse:"Aos dezoito anos, Alefrey Garmani vê sua vida privilegiada desmoronar. Filho de uma família influente da cidade de Delfa, ele tenta lidar com a queda de seu lar após a prisão de seu pai por assassinato—um crime envolto em segredos e conspirações. Mas essa não é a única verdade oculta nas sombras. Delfa esconde mistérios muito mais antigos e perigosos. Quando forças ancestrais emergem e a verdade sobre sua origem vem à tona, Alefrey percebe que seu destino já estava traçado. A maldição do Lobo foi despertada, e não há como fugir." }
     ]
   },
   {
-    nome: "Cristina Bomfim",
+    nome:"Cristina Bomfim",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91YAjc9F4wL._SY342_.jpg",
-        nome: "A sereia sem dons",
-        sinopse: "O sangue pode suprimir os desejos do coração? Admete é herdeira do trono de Norisea. Seu reino vive em harmonia nas profundezas do oceano. Porém, a cada sete anos os humanos do reino de Enellon realizam uma tradição infeliz: caçar sereias. Após tantas perdas, a princesa vê seu coração tomado pela vingança, e a oportunidade perfeita aparece quando o rei da terra anuncia que está procurando uma nova rainha. Nessa jornada, Admete irá mudar seu nome, sua cauda e inclusive seus preconceitos. Será ela capaz de salvar seu povo da matança?" }
+        nome:"A sereia sem dons",
+        sinopse:"O sangue pode suprimir os desejos do coração? Admete é herdeira do trono de Norisea. Seu reino vive em harmonia nas profundezas do oceano. Porém, a cada sete anos os humanos do reino de Enellon realizam uma tradição infeliz: caçar sereias. Após tantas perdas, a princesa vê seu coração tomado pela vingança, e a oportunidade perfeita aparece quando o rei da terra anuncia que está procurando uma nova rainha. Nessa jornada, Admete irá mudar seu nome, sua cauda e inclusive seus preconceitos. Será ela capaz de salvar seu povo da matança?" }
+    ]
+  },
+  {
+    nome:"Cynthia D. Jonas",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/913Sxsamr5L._SY425_.jpg",
+        nome:"Segredos Submersos",
+        sinopse:"Pietra ainda era adolescente quando previu uma morte na festa de Réveillon, mas ninguém levou a premonição da menina a sério até que a tragédia aconteceu. Anos depois, assombrada pela culpa, tudo o que Pietra mais deseja é manter distância do sítio, porém o destino tem outros planos. Falida e sem ter outra opção, se vê forçada a voltar. O que Pietra não esperava era que a casa guardasse mais do que poeira e lembranças. Ao se deparar com o fantasma de seu amigo morto, descobre uma verdade chocante: ele fora assassinado. Pietra vê na solução do crime a oportunidade de fazer as pazes com o passado. Acompanhada de seu novo vizinho, um italiano enigmático, tenta desvendar o crime que aconteceu há mais de uma década. Entre investigações do passado e segredos terríveis, Pietra segue um caminho arriscado que pode levá-la a ter o mesmo fim que seu amigo." }
+    ]
+  },
+  {
+    nome:"Cynthia Pelayo",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81xrBCjtpvL._SY466_.jpg",
+        nome:"Poemas para Meninas Esquecidas na Escuridão",
+        sinopse:"É com estas palavras que a autora Cynthia Pelayo prefacia sua obra. Nas páginas de Poemas para Meninas Esquecidas na Escuridão, há mulheres representando cada estado dos Estados Unidos. São bebês, meninas, adolescentes, mulheres adultas e idosas. Muitas eram estudantes, mães, mulheres com carreiras e sonhos ― e, em um instante, tudo se perdeu. Muitos dos casos seguem em aberto ou sem solução, e a maioria das mulheres não foi encontrada. Não há restos mortais que possam ser entregues à família para um funeral ou para um desfecho e um adeus. Indicado ao Elgin Award e ao Bram Stoker Award, Poemas para Meninas Esquecidas na Escuridão eterniza casos esquecidos pela comunidade e negligenciados pelas autoridades. Abordando de modo direto e contundente temas como violência de gênero, discriminação racial e desigualdade social, o livro expõe feridas abertas em nossa sociedade e nos conduz pela dolorosa realidade das estruturas sociais que perpetuam o sofrimento e a marginalização de mulheres. Ao dar voz às histórias das vítimas e destacar a urgência de mudanças sistêmicas, a autora despe a complacência coletiva e nos confronta com a urgência de reconhecer a tragédia que nos rodeia." }
     ]
   },
   {
     nome: "Dan Brown",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81VY-l5aY6L._SY342_.jpg",
         colecao: "Coleção 1",
@@ -786,7 +1426,23 @@ export const autores = [
     ]
   },
   {
+    nome:"Dana Schwartz",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61KFoQDs9NL._SY466_.jpg",
+        colecao:"Coleçaõ 1",
+        nome:"Anatomia",
+        sinopse:"O maior desejo de lady Hazel Sinnett é se tornar uma renomada cirurgiã, algo impensável para uma mulher no século XIX. Para conseguir estudar na Sociedade Real de Anatomistas, ela finge ser um jovem cavalheiro, mas é expulsa quando descobrem sua identidade. Desesperada, a garota faz um acordo com o dr. Beecham: se ela passar no exame estudando por conta própria, ele permitirá que Hazel realize seu sonho. Mas livros não bastam para aprender anatomia. Ela vai precisar de cadáveres. Jack Currer quer apenas sobreviver em uma cidade onde a miséria e a morte espreitam a cada esquina. Há anos, ele desenterra corpos e os vende para estudantes de medicina, mas o trabalho ilegal está cada dia mais perigoso. Homens estranhos rondam os cemitérios, seus amigos estão desaparecendo das ruas e há rumores de uma nova epidemia de febre. Quando Hazel contrata os serviços de Jack, os dois se aventuram por esse cenário lúgubre e descobrem que não estão a salvo. Agora, eles terão que desvendar os segredos que conectam túmulos anônimos à conservadora sociedade de Edimburgo… e encarar os próprios sentimentos." },
+
+      { url:"https://m.media-amazon.com/images/I/81wcycR39NL._SY466_.jpg",
+        colecao:"Coleçaõ 1",
+        nome:"Imortalidade",
+        sinopse:"Após se passar por um cavalheiro para estudar na Sociedade Real de Anatomistas e desafiar o impiedoso dr. Beecham, Hazel Sinnett leva uma vida solitária no Castelo Hawthornden, ainda sem notícias de Jack Currer, o ladrão de cadáveres que conquistou seu coração. Todos em Edimburgo já ouviram falar sobre a cirurgiã que oferece tratamentos médicos, mas as leis no século XIX são ainda mais cruéis com as mulheres. De uma hora para a outra, depois de salvar a vida de uma paciente, Hazel é condenada à prisão. Os dias dela podem estar contados, e a garota já não sabe qual será seu destino. Até que é libertada pela família real, com a condição de se tornar médica da princesa Charlotte, neta adoecida do rei George III. Especialistas renomados tentaram diagnosticar a princesa, sem sucesso, e agora o futuro da Coroa está nas mãos de Hazel. Ela é então levada até a conservadora alta sociedade londrina, se embrenhando em um meio luxuoso em que segredos estão por toda parte. Ao descobrir um grupo secreto de intelectuais chamado Companheiros à Morte, Hazel se dá conta de que há muito mais em jogo do que seu futuro como cirurgiã. Forças malignas rondam a monarquia, e a garota pode ser a única capaz de detê-las..." }
+    ]
+  },
+  {
     nome: "Dani Atkins",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Uzet363TL._SY342_.jpg",
         nome: "Uma curva no tempo",
@@ -799,6 +1455,7 @@ export const autores = [
   },
   {
     nome: "Daniel Cole",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/9189+DKKiDL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -818,6 +1475,7 @@ export const autores = [
   },
   {
     nome: "Daniel Keyes",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91i29TgAsvL._SY342_.jpg",
         nome: "Flores Para Algernon",
@@ -825,7 +1483,47 @@ export const autores = [
     ]
   },
   {
+    nome:"Danielle L. Jensen",
+    bandeira:"assets/images/bandeiras/ca.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91eCTToG0+L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Um destino tatuado em sangue",
+        sinopse:"Freya passou a vida escondendo a magia que corre em suas veias. Abençoada com uma gota de sangue da deusa Hlin, ela é capaz de criar um escudo mágico que repele qualquer ataque. E, segundo uma profecia, quem controlar o seu destino governará todo o reino de Skaland. Quando uma situação extrema a obriga a revelar seu poder, ela é forçada a se unir ao jarl Snorri, um dos líderes da região. Manipulada por homens durante toda a vida, Freya vai fazer de tudo para tomar as rédeas do próprio futuro. Ela só não contava com a presença enigmática de Bjorn, filho do jarl, que é o único que a enxerga como uma guerreira de verdade, ao mesmo tempo que desperta nela uma atração incontrolável… Se ceder a esse desejo, porém, Freya vai pôr em risco não só o próprio destino, mas a vida de todos que jurou proteger." },
+
+      { url:"https://m.media-amazon.com/images/I/91iUixaTNRL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Uma maldição cravada em osso",
+        sinopse:"Os poderes de Freya são muito maiores do que todos imaginavam, e o rastro de morte em seu caminho parece inevitável. Desesperada para evitar esse destino sombrio, ela arrisca uma aliança com o maior inimigo de Skaland, visando obter respostas da vidente que previu seu futuro ― a mesma que enviou Bjorn para matá-la. Enquanto a jovem ainda ferve de raiva pela traição de Bjorn, o juramento de sangue a obriga a mantê-lo sempre por perto enquanto busca uma maneira de evitar a guerra iminente. À medida que o conflito se aproxima, deuses e mortais devem escolher suas armas. A batalha mais feroz, porém, será travada por Freya dentro de si mesma. Com a magia de duas deusas queimando em suas veias, ela terá que decidir entre se tornar o escudo de seu povo ― ou levá-lo ao inferno." },
+
+      { url:"https://m.media-amazon.com/images/I/81njRG4Mx4L._SY425_.jpg",
+        colecao:"Coleção 2",
+        nome:"A ponte entre reinos",
+        sinopse:"Lara é uma princesa treinada para ser uma espiã letal. Ela tem duas certezas: 1) o rei Aren de Ithicana é seu maior inimigo; 2) ela será a responsável por destruí-lo. Por ser a única rota possível num mundo assolado por tempestades, a ponte de Ithicana gera poder e riqueza ― e a miséria dos territórios vizinhos, entre eles a terra natal de Lara. Então, quando é enviada para cumprir um acordo de paz e se casar com Aren, Lara está decidida a descobrir todas as fraquezas desse reino impenetrável. Mas, conforme se infiltra em seu novo lar e entende o preço que Ithicana paga para manter o controle da ponte, Lara começa a questionar suas convicções. E, quando seus sentimentos por Aren passam da hostilidade para uma paixão intensa, ela terá de escolher qual reino vai salvar ― e qual vai destruir." },
+
+      { url:"https://m.media-amazon.com/images/I/41rKk33zpWL._SY445_SX342_ML2_.jpg",
+        colecao:"Coleção 2",
+        nome:"A rainha traidora",
+        sinopse:"Lara é uma rainha traidora. Ao compartilhar informações secretas sobre a defesa de Ithicana, a jovem não só quebrou a confiança de seu povo como possibilitou que a ponte fosse dominada pelo rei de Maridrina, seu pai. Em exílio, Lara se sente impotente diante de tanta morte e destruição, mas quando descobre que seu marido, Aren, foi capturado em batalha, ela decide fazer de tudo para se redimir ― e salvar o homem por quem se apaixonou perdidamente. Arriscando a vida em mares revoltos, Lara volta para Ithicana com planos não só para libertar Aren, mas todo o Reino da Ponte. Para isso, ela pretende usar as armas mais letais que seu pai já criou: suas irmãs. Contudo, o palácio de Maridrina é praticamente impossível de invadir, e há peças demais nesse jogo em que inimigos e aliados trocam de lugar a todo momento. Para piorar, talvez seu maior adversário seja justamente o homem que ela está tentando libertar." },
+
+      { url:"https://m.media-amazon.com/images/I/81eEkQtzhKL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"O herdeiro inadequado",
+        sinopse:"Criada para ser herdeira de um império, Zarrah tem certeza de que a família Veliant assassinou sua mãe, e está pronta para acabar com cada um deles. A oportunidade perfeita surge quando a general é enviada para a fronteira: ela não vai poupar esforços para aniquilar as tropas inimigas ― e matar o príncipe Veliant que as lidera. No entanto, um encontro às escuras com um belo maridriniano faz Zarrah questionar o sentido da guerra e de tanta violência. Quanto mais encontra esse homem misterioso, mais ela enxerga o conflito entre Valcotta e Maridrina com outros olhos ― e mergulha num romance ardente. Até que, quando as identidades são reveladas, Zarrah terá que decidir se dá uma chance para a paz… ou se parte para a guerra contra quem roubou seu coração." }
+    ]
+  },
+  {
+    nome:"Danielle Parker",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81bkVTRQERL._SY466_.jpg",
+        nome:"A aposta do coração",
+        sinopse:"Sasha Johnson-Sun pode não saber ainda como superar a morte de seu pai ou por quanto tempo sua mãe vai precisar passar os sábados limpando casas. Mas de uma coisa tem certeza: ela vai se formar no ensino médio, ser a oradora da turma e ganhar uma bolsa de estudos em dinheiro. O que ela não esperava era que o seu ex-melhor amigo gato e talentoso, Ezra Davis-Goldberg, também estivesse na disputa para receber as honras. E o pior, empatado com ela. Sasha não quer deixar esse resultado ser decidido ao acaso, então ela propõe uma aposta acadêmica valendo tudo. Agora, Sasha e Ezra vão precisar encarar os motivos que fizeram os dois se afastarem e tentar entender quem eles se tornaram desde então. Mas essa reaproximação inesperada vai mexer com os sentimentos de ambos. Com seu futuro em jogo, Sasha precisará escolher: honrar os sacrifícios de sua família e vencer a todo custo ou apostar seu coração e dar uma chance a felicidade?" }
+    ]
+  },
+  {
     nome: "David Levithan e John Green",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91MSjRvZWiL._SY342_.jpg",
         nome: "Will & Will: Um nome, um destino",
@@ -833,7 +1531,42 @@ export const autores = [
     ]
   },
   {
+    nome:"Day Fernandes",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/A1Ox51acKUL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Terremoto e Ruínas",
+        sinopse:"UMA MALDIÇÃO DE SANGUE. Ninguém conta mentiras tão bem quanto Belinda Saltimore. Principalmente na mesa de carteado. A casa de apostas se tornou sua arena com a chegada da Praga Obscura, uma doença cruel e misteriosa criada pelos Bradacks – seres imortais que governam os Mares do Norte. UMA TRAIÇÃO BRUTAL. Desde que a doença alcançou seu pai, Belinda planeja comandar o Rosa dos Mares, o navio pirata de sua falecida mãe, para encontrar a cura. Mas uma traição inesperada a coloca sob domínio daqueles que considera seus piores inimigos. UMA GUERRA PRESTES A IRROMPER. Agora, para salvar sua família, Belinda precisará seguir os Bradacks que jurou odiar pela eternidade rumo a um destino incerto. Nessa jornada, verdades sombrias virão à tona, e sentimentos perigosos ameaçam se esgueirar por seu coração mortal. Em meio a segredos e mentiras, Belinda deverá escolher com cuidado em quem confiar. Ou ela mesma irá sucumbir." },
+
+      { url:"https://m.media-amazon.com/images/I/51ttT0kie9L._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Coroa de Chamas e Cinzas",
+        sinopse:"Belinda Saltimore conseguiu libertar Varsa das mãos do Necromante e pagou um preço alto por isso. Mas, ao contrário do que imaginava, nem todas as ameaças foram derrotadas. Enquanto procura por uma maneira de quebrar o feitiço que a impede de enxergar durante o dia, Belinda se vê presa a um terrível jogo de poderes envolvendo deuses, demônios e Bradacks. Além disso, forças rebeldes ameaçam o trono de Vulcan e nem mesmo os dragões estão a salvo dos planos sombrios que rodeiam a corte vulcana. O caos se aproxima. E para enfrentá-lo, Bel e Kenneth precisarão um do outro mais do que nunca. Mas nenhuma aposta vem sem riscos, e se aliar ao enigmático Encantador de Dragões pode acabar despertando emoções que o coração de Belinda sempre temeu encarar. Na eletrizante sequência de “Terremoto e Ruínas”, fazer as escolhas erradas significa não apenas condenar o reino de Vulcan, mas também colocar em risco aquilo que a habilidosa Rainha de Copas mais preza: sua liberdade." }
+    ]
+  },
+  {
+    nome:"Dot Hutchison",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/A1P9XyAVCiL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O jardim das borboletas",
+        sinopse:"Perto de uma mansão isolada, existia um maravilhoso jardim. Nele, cresciam flores exuberantes, árvores frondosas... e uma coleção de preciosas 'borboletas': jovens mulheres, sequestradas e mantidas em cativeiro por um homem brutal e obsessivo, conhecido apenas como Jardineiro. Cada uma delas passa a ser identificada pelo nome de uma espécie de borboleta, tendo, então, a pele marcada com um complexo desenho correspondente. Quando o jardim é finalmente descoberto, uma das sobreviventes é levada às autoridades, a fim de prestar seu depoimento. A tarefa de juntar as peças desse complexo quebra-cabeça cabe aos agentes do fbi Victor Hanoverian e Brandon Eddinson, nesse que se tornará o mais chocante e perturbador caso de suas vidas. Mas Maya, a enigmática garota responsável por contar essa história, não parece disposta a esclarecer todos os sórdidos detalhes de sua experiência. Em meio a velhos ressentimentos, novos traumas e o terrível relato sobre um homem obcecado pela beleza, os agentes ficam com a sensação de que ela esconde algum grande segredo." },
+
+      { url:"https://m.media-amazon.com/images/I/91gmx1udFBL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Rosas de Maio",
+        sinopse:"A eletrizante sequência do sucesso O jardim das borboletas Quatro meses se passaram após a descoberta do Jardim e de suas “borboletas”: jovens mulheres, sequestradas e mantidas em cativeiro por um homem brutal e obsessivo, conhecido apenas como Jardineiro. O inverno está chegando ao fim, e as Borboletas esperam ansiosamente por dias mais quentes e tranquilos. Para os agentes Brandon Eddison, Victor Hanoverian e Mercedes Ramirez, no entanto, a calma não parece valer: em outra parte dos Estados Unidos, mais uma jovem surge brutalmente assassinada. Os indícios apontam para a ação de mais um serial-killer psicopata, capaz não apenas de matar a sangue frio, mas também de elaborar a cena a ser descoberta: a jovem é descoberta no altar de uma velha igreja, com a garganta cortada e o corpo rodeado de flores." },
+
+      { url:"https://m.media-amazon.com/images/I/51E8dzC35QL._SY445_SX342_ML2_.jpg",
+        nome:"As crianças daquele verão",
+        sinopse:"Essa agente do FBI já viu de tudo, mas certamente nada parecido com isso... Quando a agente Mercedes Ramirez chega em casa, encontra uma cena assustadora: um garotinho coberto de sangue na sua varanda, agarrando um urso de pelúcia como se sua vida dependesse disso. Ela não tinha ideia de que aquele era só o começo de um dos casos mais difíceis de sua arreira. Segundo o garoto, um anjo havia assassinado seus pais, levando-o até Mercedes para que ela mantivesse a salvo. Mas os pais dele não foram simplesmente mortos, e sim massacrados. Não será a última vez que a polícia encontrará uma cena do crime como aquela, já que o “anjo vingador” está fazendo justiça com as próprias mãos... e sua missão parece longe de acabar. Uma por uma, mais crianças chegam à porta de Mercedes, todas com a mesma história de terror. Cada uma delas é sobrevivente não apenas de um massacre, mas também possui histórico de traumas em um lar abusivo. E cada uma delas faz com que Mercedes se lembre de suas próprias cicatrizes." }
+    ]
+  },
+  {
     nome: "Duda Porto de Souza e Aryane Cararo",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71BrtHSfXcL._SY342_.jpg",
         nome: "Extraordinárias : Mulheres que revolucionaram o Brasil",
@@ -842,6 +1575,7 @@ export const autores = [
   },
   {
     nome: "Eça de Queiróz",
+    bandeira:"assets/images/bandeiras/pt.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/613LFobfinL._SY342_.jpg",
         nome: "O crime do padre Amaro",
@@ -850,6 +1584,7 @@ export const autores = [
   },
   {
     nome: "Eduardo Sacheri",
+    bandeira:"assets/images/bandeiras/ar.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91QYFkunDGL._SY342_.jpg",
         nome: "O segredo dos seus olhos",
@@ -857,7 +1592,25 @@ export const autores = [
     ]
   },
   {
+    nome:"Elena Armas",
+    bandeira:"assets/images/bandeiras/es.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/8137g6aoSgL._SY425_.jpg",
+        nome:"Um experimento de amor em Nova York",
+        sinopse:"Depois de largar o emprego como engenheira para focar em sua carreira como autora de romances, Rosie Graham se vê presa em um bloqueio criativo e não consegue escrever uma única palavra do livro novo que precisa entregar à editora. Como se não bastasse, seu teto desaba em sua cabeça. Literalmente. Desesperada, Rosie decide se abrigar na casa de Lina, sua melhor amiga, que está fora da cidade. O que ela não sabe é que Lina já havia prometido emprestar o apartamento para o primo, Lucas, o crush secreto de Rosie, que ela vem stalkeando há meses pela internet. A princípio o lugar parece pequeno demais para os dois, mas Lucas sugere que eles o dividam até que ela possa voltar para casa. E, assim que fica sabendo sobre o bloqueio criativo, ele resolve levá-la em uma série de encontros de mentira para trazer de volta sua inspiração romântica e ajudá-la a entregar o livro no prazo. Rosie acha que não tem nada a perder com o experimento, já que a estadia dele em Nova York tem data para acabar. Mas quando Lucas começa a agir como um dos protagonistas dos romances dela – um que, em vez de uma armadura brilhante, usa só uma toalha em volta da cintura, tem um sorriso lindo, um sotaque irresistível e ainda sabe cozinhar –, seis semanas começam a parecer um tempo longo demais para manter a atração por ele sob controle." },
+      
+      { url:"https://m.media-amazon.com/images/I/41sNzXIe8+L._SY445_SX342_QL70_ML2_.jpg",
+        nome:"Uma farsa de amor na Espanha",
+        sinopse:"Em Uma farsa de amor na Espanha, acompanhamos a história de Lina Martín, uma jovem espanhola que morava em Nova York e precisava de um acompanhante para o casamento da irmã em sua cidade natal. Quem se ofereceu foi o homem mais improvável: seu insuportável colega de trabalho Aaron Blackford. Lina, com toda a sua tagarelice, nos apresentou personagens inesquecíveis em situações divertidas, nos emocionou e nos presenteou com momentos para lá de calientes. Agora chegou a hora de vermos três cenas já narradas por ela, mas dessa vez através dos olhos de Aaron. Afinal, o que estava passando pela cabeça dele quando se ofereceu para acompanhá-la ao casamento e começar toda essa história? Esses pensamentos estão prestes a ser revelados!" },
+
+      { url:"https://m.media-amazon.com/images/I/71gmmDdfLkL._SY425_.jpg",
+        nome:"Amor em jogo",
+        sinopse:"Adalyn Reyes passou anos aperfeiçoando sua rotina: acordar antes do nascer do sol, ir para o escritório do Miami Flames – time de futebol da Major League do qual é diretora de comunicação –, dar duro para deixar sua marca, voltar para casa e fazer tudo de novo. Essa rotina é quebrada quando um vídeo de Adalyn agredindo a mascote do time viraliza. Como punição, o dono do clube a manda para Green Oak, uma cidade nos confins da Carolina do Norte, com a missão de tirar o time local da lama. Ao chegar lá, as esperanças de Adalyn de se redimir desmoronam quando ela descobre que as jogadoras treinam de tutu (impraticável), têm cabras como animais de estimação (confuso) e morrem de medo dela (contraproducente). E ainda por cima têm 9 anos de idade. Além disso, Cameron Caldani, o ex-goleiro prodígio que é o candidato perfeito para assessorá-la, quer colocá-la para correr de Green Oak. Culpa de um malfadado primeiro encontro envolvendo um galo, a perna de Cam e o para-choques de Adalyn. Só que ser banida mais uma vez não é uma opção. Mesmo com as rusgas – e faíscas – de sua relação com Cam, Adalyn se recusa a sair de campo sem essa vitória. Ainda que corra o risco de ter o coração chutado para escanteio." }
+    ]
+  },
+  {
     nome: "Elizabeth Bezerra, Moira Bianchi e Barbara Biazioli",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91cBp2Tx98L._SY342_.jpg",
         nome: "Desde a primeira vez",
@@ -865,7 +1618,28 @@ export const autores = [
     ]
   },
   {
+    nome:"Elizabeth Helen",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/911ocR1EW9L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Entre feras e espinhos",
+        sinopse:"Rosalina O’Connell leva sua vida em Orca Cove tão discretamente quanto pode. Conhecida como “a filha de George Louco”, ela tenta passar despercebida entre os outros. Mas George não é louco: está procurando a esposa que ele tem certeza de que foi sequestrada pelos feéricos. Quando George desaparece, Rosa vai atrás do pai e se descobre em um mundo feérico onde seu pai é prisioneiro do Príncipe do Inverno em Castelárvore. Ela não tem escolha além de firmar um acordo para trocar de lugar com o pai, o que significa que Rosa vai ter que ficar em Castelárvore para sempre. Ao se informar sobre a história dos quatro príncipes que habitam o castelo, Rosa descobre que foram amaldiçoados: os príncipes assumem a forma de lobos demoníacos todas as noites e, a cada ano da maldição, perdem mais e mais sua magia. Mas, se cada príncipe conseguir encontrar seu amor predestinado, poderá quebrar a maldição e libertar seus reinos. Assim, Rosa está determinada a ajudá-los a encontrar seus amores predestinados, pois assim poderá voltar para casa. O único problema é que, quanto mais tempo passa com os príncipes, mais Rosa se convence de que é com ela que todos eles devem ficar." },
+
+      { url:"https://m.media-amazon.com/images/I/91m4XwPBhLL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Entre fogo e espinhos",
+        sinopse:"Eu estava vivendo a vida mais comum… até ir parar no reino feérico, presa em um castelo encantado por quatro príncipes que à noite se transformavam em feras mortais. Conforme fui entendendo os príncipes e seu mundo, foi impossível não me apaixonar por eles. Mas viver em um conto de fadas não é só o que contam por aí. Especialmente quando fui obrigada a voltar ao reino humano. Não sei quais mistérios me aguardam, mas vou fazer tudo que puder para voltar para minhas quatro feras. E tenho que correr, porque meus príncipes precisam de mim. A terrível maldição se torna pior a cada dia… E, conforme o tempo passa, perco mais um pedaço do meu coração para os príncipes, apesar de saber que isso só me põe em perigo. Agora, mais do que nunca, vou precisar encontrar coragem para cumprir meu verdadeiro propósito e impedir uma guerra iminente em um mundo onde cada escolha é entrelaçada pelo ouro do destino." },
+
+      { url:"https://m.media-amazon.com/images/I/81fq1SPbZgL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Entre pétalas e espinhos",
+        sinopse:"Ser parte do mundo feérico é maravilhoso. Porém, o castelo encantado onde moro está caindo aos pedaços e cada um de meus príncipes enfrenta uma crise pessoal própria. Para piorar, o infame Príncipe dos Espinhos está sempre tentando me beijar. E eu meio que estou a fim disso. Quando rumores sobre uma guerra se espalham pelo Reino da Primavera, um inimigo cruel não vai poupar esforços para me matar e tomar esse reino. Agora, mais do que nunca, vou precisar iluminar um caminho para meus príncipes e ajudar Ezryn, o Alto Príncipe da Primavera, a recuperar seu trono. Não posso permitir que ele se perca na escuridão… a menos que eu me perca primeiro." }
+    ]
+  },
+  {
     nome: "Elizabeth Hoyt",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/8105ZzVArmL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -904,7 +1678,55 @@ export const autores = [
     ]
   },
   {
+    nome:"Elle Casey",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81SCB-tLexL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A Guerra dos Fae: As Crianças Trocadas",
+        sinopse:"Jayne é uma adolescente rebelde e desbocada. Não se encaixa em lugar algum. Sem dinheiro e sem rumo, ela e seu colega de escola Tony fogem de casa e encontram outros jovens em situação semelhante. Uma misteriosa organização oferece-lhes dinheiro para participarem de um estranho e suspeito experimento envolvendo uma competição. Sequestrados e lançados numa sinistra floresta repleta de seres sobrenaturais assustadores, os garotos precisam enfrentar perigos inimagináveis e vencer a prova, quando Jayne descobre-se possuidora de dons especiais de que nunca suspeitou, poderes de que precisará desesperadamente, para sobreviver num mundo paralelo ao mundo real... o mundo dos Fae. Encare a leitura desta fantasia surpreendente, repleta e ação, suspense, magia e muito humor, escrita por um dos grandes talentos contemporâneos da literatura jovem." },
+
+      { url:"https://m.media-amazon.com/images/I/813PzhjU9kL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A Guerra dos Fae: Chamado às Armas",
+        sinopse:"Os FAE da luz sao convocados a fazer uma importante mudanca e treinar seus dons magicos para enfrentar os fae das trevas. Jayne Sparks e seus amigos Spike, Chase, Finn e Becky estão na iminência de uma guerra sangrenta e devem sofrer uma mudança, como crianças trocadas, para serem membros dos FAE da Luz com identidades mágicas. Poderão se transformar em elfos, ninfas, da emons, íncubos, anões e duendes verdes, querendo ou não aceitar suas novas identidades, desapontando-se com elas ou não. Tony, porém, alegando não ter agressividade suficiente para enfrentar a guerra com os FAE das Trevas, se afastou, deixando Jayne Sparks cheia de saudades e entristecida. Mas ela logo recuperará seu ânimo, pois conhecerá novos personagens cativantes e estará engajada num treinamento em que sua natural liderança, por ser determinada e despachada, se fará sentir. Mas a situação colocará muitas dúvidas, e os novos personagens poderão revelar facetas inesperadas. Como será resolvida a questão entre os FAE da Luz e os FAE das Trevas? Serão Jayne e seu grupo de amigos capazes de dar conta de uma missão tão espinhosa? Muitas respostas a estas perguntas, e outras tantas que foram provocadas pelo primeiro volume da série, serão respondidas aos leitores. E surgirão novos e fascinantes enigmas." },
+
+      { url:"https://m.media-amazon.com/images/I/91dKQbgE2ZL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"A Guerra dos Fae: Luz e Trevas",
+        sinopse:"Os FAE da luz em combate contra os fae das trevas jayne sparks está mais destemida do que nunca! O terceiro volume da série GUERRA DOS FAE, LUZ E TREVAS, é uma vitória definitiva do estilo de Elle Casey nesta saga consagrada pelo sucesso entre os leitores jovens americanos e brasileiros. Jayne Sparks está mais destemida, engraçada e rebelde do que nunca, tendo que enfrentar os problemas causados acidentalmente pelo duende Tim, aprender a manipular melhor seus poderes com O Verde, conhecer traições de um grande amigo e descobrir quais são os motivos secretos pelos quais há uma guerra incessante entre Faes das Trevas e Faes da Luz. Seus poderes podem torná-la vulnerável às manipulações dos Fae das Trevas, e ela poderá torna-se prisioneira de forças inimigas. Mas sua astúcia sempre estará lá. Acompanhe agora esta terceira parte agitada e emocionante." },
+
+      { url:"https://m.media-amazon.com/images/I/81wM3-TshtL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A Guerra dos Fae: Nova Ordem Mundial",
+        sinopse:"Jayne e seus amigos estão numa encruzilhada, tendo que enfrentar a batalha final que decidirá a formação da nova ordem exigida pelo mundo sempre em guerra entre os Fae da Luz e da Escuridão. Jayne se encontra numa encruzilhada não somente no terreno da estratégia e da magia, mas também do coração, que está dividido entre seu anjo da guarda e seu amigo elemental, Chase e Spike. Acontecimentos inesperados darão um toque surpreendente de romantismo e lágrimas neste último volume da Guerra dos Fae. Surpresas após surpresas são mantidas até o final, que será ainda mais surpreendente para os fãs da insolente e destemida Jayne. E estão de volta o bom humor com o duende Tim e suas palhaçadas, bem como todos os perigos de um mundo onde de cada personagem ou situação pode brotar uma revelação inesperada, exigindo novas lutas e difíceis adaptações." }
+    ]
+  },
+  {
+    nome:"Elle Kennedy",
+    bandeira:"assets/images/bandeiras/ca.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71F-L7ay7ML._SY466_.jpg",
+        nome:"Jogo de corpo",
+        sinopse:"Desde a infância, Hayden Houston é arrastada pelo pai a jogos de hóquei. E, como se a obsessão dele já não fosse ruim o bastante, ele também conseguiu a proeza de ser acusado de manipular os resultados do time de que é dono, os Warriors. Para piorar, Hayden e o namorado estão dando um tempo na relação, de­pois de ele se recusar a aprofundar o relacionamento. Determinada a reorganizar os sentimentos e se redes­cobrir, ela decide se aventurar por uma noite com um desconhecido sexy, com a única condição de que o en­contro nunca se repita. Azar dela, porque Brody Croft não tem a menor intenção de deixá-la escapar. Como astro dos Warriors, desistir não está no seu sangue. Mesmo que Hayden pense que todo jogador de hóquei é egocêntrico e que o envolvimento dos dois só complicaria mais as coisas, Brody tem certeza de que ela logo perceberá que é impossível resistir à conexão que há entre os dois." }
+    ]
+  },
+  {
+    nome:"Elliot Fletcher",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81jPmW415fL._SY466_.jpg",
+        nome:"Alto teor amoroso",
+        sinopse:"Depois de ver a carreira de sucesso ser transformada em nada, April Sinclair quer apenas se recolher e cuidar das feridas. Assim, ela volta para a ilha de Skye, na Escócia, o lugar de onde partiu há muito tempo, e decide ocupar a cabeça com a destilaria de uísque do seu falecido avô. Mas melhorar os negócios da família se torna uma tarefa difícil ao adicionar o fator Malcolm Macabe, um belo gigante nada acostumado a trabalhar em equipe e atual responsável pela destilaria. Apesar de se conhecerem desde a adolescência, Mal está completamente diferente do jovem tímido de que April se lembrava, e deixa bem claro que a presença dela não é mais bem-vinda. Afinal, na vida pacata dele existe espaço para apenas três paixões: uísque escocês, Garoto, seu golden retriever, e silêncio. Mal não tem energia para lidar com princesas mimadas, mesmo que esta princesa seja sua paixonite adolescente. Ele sabe que ela vai ficar entediada e voltar, sem olhar para trás, para seu mundo glamuroso e pomposo. Mas os dias passam, e nada de April ir embora. Na verdade, Mal percebe que eles compartilham um amor por cinema, por conversas em mensagens de texto e pela própria ilha. Até os cachorros dos dois começam a ficar codependentes. Mas como chegar ao equilíbrio com personalidades completamente opostas?" },
+
+      { url:"https://m.media-amazon.com/images/I/81KGLhrqkRL._SY342_.jpg",
+        nome:"Amor com gelo e açúcar",
+        sinopse:"Uma viagem de trem não deveria definir tanto uma vida. Mas para Callum Macabe foi exatamente isso o que aconteceu, marcando o antes e o depois de sua existência sem Juniper Ross. Desde então, quase uma década depois, ele vive no piloto automático, apenas ansiando a próxima interação com ela. Mesmo que seja apenas para importuná-la e derreter aquela camada de gelo. Por outro lado, Juniper se daria por satisfeita se nunca mais visse um Macabe na sua frente. Afinal, um deles partiu seu coração, uma a abandonou e o outro… Bem, Callum pode pagar de perfeitinho para toda a vila, mas Juniper sabe que por trás dessa fachada existe um homem irritante, arrogante e… extremamente charmoso. Um encontro por acaso em um bar, cinco anos atrás, que o diga. Mas, quando Juniper estraga a única oportunidade que tem de se provar para a mãe e realizar o sonho de reformar a pousada da família, ela não vê outra escolha a não ser quebrar as próprias regras e aceitar a ajuda do sr. Perfeitinho. E, quanto mais passam tempo juntos, mais fica claro que as provocações deles escondem algo muito mais complicado… e perigoso. Ao que parece, logo a Ilha de Skye ficará pequena demais para tantos sentimentos." }
+    ]
+  },
+  {
     nome: "Eloisa James",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91tPfQ317yL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -933,7 +1755,40 @@ export const autores = [
     ]
   },
   {
+    nome:"Elsie Silver",
+    bandeira:"assets/images/bandeiras/ca.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81JRzbWUAeL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Sem defeitos",
+        sinopse:"Rhett Eaton é o principal nome do rodeio em touros. O garoto de ouro da cena country. Isso até fazer um comentário polêmico que o deixa em maus lençóis com um patrocinador e, em seguida, ser filmado dando um soco em um homem no meio da rua. Agora seu agente quer que o peão limpe sua imagem e, para garantir que ele ande na linha, designa Summer Hamilton, a própria filha, para supervisioná-lo até o final da temporada de rodeios. Mas Rhett não precisa de babá nenhuma, principalmente se ela usar calças coladinhas no corpo, for a rainha dos sorrisinhos maliciosos e tiver uma boca cor de cereja que nunca se cala – uma boca que não lhe sai da cabeça. Summer diz que é melhor os dois não se envolverem e que a reputação de Rhett não pode sofrer mais nenhum baque. Assim como o coração dela, que não aguentará ser partido mais uma vez. Depois que os dois se conhecem melhor, porém, Rhett percebe que Summer não é só mais um troféu a ser conquistado. E ela, em vez de fugir do que vê, se aproxima cada vez mais – mesmo sabendo que não deveria." },
+
+      { url:"https://m.media-amazon.com/images/I/41MmXgPpGFL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Sem coração",
+        sinopse:"Depois que o bar onde ela trabalha fecha para reformas, Willa Grant fica sem rumo na vida. Mas sua amiga Summer tem a solução ideal e a convida para passar o verão no rancho sendo babá de Luke, sobrinho do noivo dela. O pai de Luke, Cade, evita até olhar para Willa. E tudo bem, porque além de ser rude e mal-humorado, ele ainda é 13 anos mais velho que ela. O problema é que Cade tem os ombros largos, as mãos calejadas e uma boca suja que deixam Willa com as pernas bambas. Quando eles acabam juntos na banheira de hidromassagem para um jogo de verdade ou consequência, todas as suas convicções caem por terra. Assim como as roupas dos dois. À medida que se entregam à atração, Willa percebe que a rispidez dele é só fachada. Afinal, nunca se sentiu protegida assim com homem nenhum. E Cade começa a ver que, quando aceita o risco e abre o coração, coisas boas podem acontecer. Quem sabe até o amor." },
+
+      { url:"https://m.media-amazon.com/images/I/81zuWRleJrL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Sem controle",
+        sinopse:"Jasper Gervais é um astro do hóquei lindo e famoso que vive arrancando suspiros das fãs. Mas, para Sloane, ele sempre vai ser aquele menino perdido de olhos tristes e coração enorme que ela conheceu ainda criança. Seu grande amigo. O homem que ela ama em segredo desde que o viu pela primeira vez. Quando tudo dá errado no dia em que Sloane deveria se casar com outro, Jasper oferece o apoio de que ela precisa. E, quando é ele quem leva uma rasteira da vida, Sloane também se mantém firme a seu lado. Com o mundo dos dois de pernas para o ar, eles resolvem passar uma temporada no rancho em que foram felizes na infância. Só que ali, sozinho com ela, fica cada vez mais difícil para Jasper vê-la – e tocá-la – como amiga. Ao mesmo tempo, Sloane constata que ele ainda é tudo com que sonhava, tudo que sempre acreditou que não poderia ter. Porém a dor do passado de Jasper e a dura realidade de Sloane ameaçam afastá-los para sempre. A não ser que ele enfim deixe claro que a quer de verdade e prove que dessa vez está pronto para ficar. " },
+
+      { url:"https://m.media-amazon.com/images/I/41NH2ujsSsL.jpg",
+        colecao:"Coleção 1",
+        nome:"Não lançado no Brasil",
+        sinopse:"",
+        mostrarNome: true },
+
+      { url:"https://m.media-amazon.com/images/I/41rYc-rpJAL.jpg",
+        colecao:"Coleção 1",
+        nome:"Não lançado no Brasil",
+        sinopse:"",
+        mostrarNome: true }
+    ]
+  },
+  {
     nome: "Emily Gould",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91bffs4YfxL._SY342_.jpg",
         nome: "Melhores amigas",
@@ -941,7 +1796,38 @@ export const autores = [
     ]
   },
   {
+    nome:"Emily Henry",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71qp8YwAt3L._SY425_.jpg",
+        nome:"Nem te conto",
+        sinopse:"Daphne sempre adorou a maneira como seu noivo, Peter, contava a história deles. Como eles se conheceram (em um dia de ventania), se apaixonaram (por causa de um chapéu errante) e voltaram para a cidade natal dele à beira do lago para começar a vida juntos. Ele era muito bom em contar tudo isso... até o momento em que percebeu que estava apaixonado por sua melhor amiga de infância, Petra. É assim que Daphne começa sua nova história: presa na bela cidadezinha de Waning Bay, no Michigan, sem amigos nem família, mas com o emprego dos sonhos como bibliotecária infantil (que mal paga as contas) e morando no apartamento da única pessoa que consegue entender sua situação, o ex de Petra, Miles Nowak. Desalinhado e caótico ― e com uma queda por canções de amor de partir o coração ―, Miles é o exato oposto da prática e discreta Daphne, de quem os colegas de trabalho sabem tão pouco que apostam que ela é do FBI ou está em um programa de proteção a testemunhas. Daphne e Miles conseguem evitar um ao outro na maior parte do tempo, até que um dia, enquanto afogam as mágoas, fazem uma tênue amizade e um plano. Se esse plano envolve a publicação de fotos sugestivas dos dois juntos em aventuras de verão, bem... quem pode culpá-los? Mas é tudo fingimento, claro, porque não tem como Daphne começar o novo capítulo da sua vida se apaixonando pelo ex da atual noiva do seu ex-noivo... certo?" },
+
+      { url:"https://m.media-amazon.com/images/I/71KnjPmQnkL._SY466_.jpg",
+        nome:"Leitura de verão",
+        sinopse:"Augustus Everett é um aclamado autor de ficção literária. January Andrews escreve romances best-seller. Enquanto ela cria seus “felizes para sempre”, ele mata todos os seus personagens. Eles definitivamente são polos opostos. A única coisa que têm em comum é que, durante três meses, vão morar em casas de praia vizinhas, ambos falidos e paralisados por um bloqueio criativo. Até que, em uma noite nebulosa, uma coisa leva à outra e eles fazem um acordo que tem o objetivo de arrancá-los da zona de conforto: Augustus vai passar o verão redigindo um livro com final feliz, e January vai escrever o próximo clássico da literatura. Ela vai levá-lo a viagens de campo dignas de uma comédia romântica, e ele a acompanhará em entrevistas com sobreviventes de um culto de suicídio (obviamente). Cada um vai finalizar um livro e ninguém vai se apaixonar. Será?" },
+
+      { url:"https://m.media-amazon.com/images/I/71PHtFqzj9L._SY425_.jpg",
+        nome:"De férias com você",
+        sinopse:"Poppy e Alex. Alex e Poppy. Eles não têm nada em comum. Ela é uma garota rebelde; ele usa calça cáqui. Ela tem um desejo insaciável de viajar; ele prefere ficar em casa lendo um livro. E de alguma forma, desde uma fatídica carona na faculdade há muitos anos, os dois são melhores amigos. Durante a maior parte do tempo, Poppy e Alex moram longe um do outro — ela em Nova York, ele em sua pequena cidade natal —, mas todo verão, há dez anos, embarcam juntos em uma semana deliciosa de férias. Até dois anos atrás... quando eles estragaram tudo. E, desde então, não se falaram mais. Poppy tem todas as coisas de que precisa, mas se sente estagnada. E, se alguém lhe pergunta quando foi a última vez que se sentiu realmente feliz, ela sabe que foi naquela viagem final com Alex. Por isso decide convencer seu melhor amigo a saírem de férias juntos mais uma vez — pôr tudo em pratos limpos, fazer dar certo. Milagrosamente, ele concorda. Agora Poppy tem uma semana para consertar as coisas. E, quem sabe, contornar a grande verdade que permanece em silêncio no meio de sua amizade aparentemente perfeita. Será que algo mais ainda pode dar errado?" },
+
+      { url:"https://m.media-amazon.com/images/I/71ECFN7-o1L._SY466_.jpg",
+        nome:"Loucos por livros",
+        sinopse:"Os livros são a vida de Nora Stephens — e ela definitivamente não é o tipo de heroína dos livros. Não é a garota impulsiva, nem a descontraída, muito menos a imagem da meiguice. Na verdade, as únicas pessoas para quem Nora pode ser considerada uma heroína são seus clientes, para os quais ela consegue contratos polpudos como agente literária, além de sua amada irmã mais nova, Libby. E é por isso que Nora concorda em passar o verão em Sunshine Falls, Carolina do Norte, quando Libby implora por uma viagem de irmãs. Secretamente, Libby espera que uma autêntica experiência no interior transforme a vida de Nora, que a irmã está convencida de que precisa se tornar a heroína de sua própria história. Mas, em vez de piqueniques no campo ou encontros inesperados com um belo médico, ou quem sabe com um barman musculoso, Nora esbarra em Charlie Lastra, um editor ranzinza que ela conhece de Nova York. Seria um daqueles encontros fofos se não fosse o fato de que eles já se viram antes — e nunca foi fofo. Se Nora sabe que não é a heroína ideal, Charlie também sabe que não é o herói de ninguém. Mas, à medida que se veem juntos repetidas vezes — em uma série de coincidências que nenhum editor que se preze permitiria —, o que eles descobrem pode acabar por deslindar as histórias cuidadosamente elaboradas que eles escreveram sobre si mesmos." }
+    ]
+  },
+  {
+    nome:"Emma Vieira",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71Kl9MrRVNL._SY466_.jpg",
+        nome:"Os Últimos Mestiços",
+        sinopse:"Uma cidade cercada por grandes e famintos lobos, um território para caçadores impiedosos, um local onde corvos tenebrosos circulam pelo céu gélido. Essa é Waterfall! Lucy Foxter é uma jovem policial, que apesar de todas as perdas e traumas que viveu, ainda teme ficar novamente cara a cara com os chamados Filii Lunas. Hoje, os seus únicos companheiros são Pandora, uma gata Sphynx e Rubi, uma cachorra farejadora. Porém, quando ela recebe a notícia do falecimento do avô, através de Rose, a mulher que lhe deu à luz, Lucy resolve encarar mais uma vez a pequena e sombria Waterfall. Assim que coloca os pés na cidade, a jovem descobre que terá de enfrentar segredos escondidos a sete chaves. Fará amigos que jamais imaginou que teria, sentirá seu coração palpitar novamente e conhecerá inimigos saídos de seus piores pesadelos. Mas, além de tudo isso, ela terá que fazer uma escolha, lutar por sua vida, em busca de vingança ou fugir dela mesma. Qual destino a jovem escolherá?" }
+    ]
+  },
+  {
     nome: "Erico Verissimo",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/813v0bphDLL._SY342_.jpg",
         nome: "Incidente em Antares",
@@ -950,6 +1836,7 @@ export const autores = [
   },
   {
     nome: "Erin Beaty",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91BLKruONSL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -969,6 +1856,7 @@ export const autores = [
   },
   {
     nome: "Erin Watt",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81tDuqWzw5L._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1002,7 +1890,8 @@ export const autores = [
     ]
   },
   {
-    nome: "Euclydes da Cunha",
+    nome: "Euclides da Cunha",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61wNPOSBNsL._SY342_.jpg",
         nome: "Os sertões",
@@ -1011,6 +1900,7 @@ export const autores = [
   },
   {
     nome: "Évany Cristina Campos",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91GjxAjEetL._SY342_.jpg",
         nome: "A Guia",
@@ -1019,6 +1909,7 @@ export const autores = [
   },
   {
     nome: "Eve Ensler ",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/51bF32z9BGL._SY445_SX342_.jpg",
         nome: "Os monólogos da vagina",
@@ -1027,6 +1918,7 @@ export const autores = [
   },
   {
     nome: "Evelyn Fernandes",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91LhG+yAYGL._SY342_.jpg",
         nome: "Correndo para o Amor",
@@ -1034,7 +1926,38 @@ export const autores = [
     ]
   },
   {
+    nome:"F. Locks",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91NqFwbAStL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"KNOX: Night Reapers",
+        sinopse:"Ele é membro de um moto clube investigado por um monte de crimes. Eu sou a filha certinha do policial da cidade. Nunca ficamos juntos, nunca ultrapassamos a linha, mas tínhamos um negócio: batíamos na porta um do outro sempre que precisávamos de um favor, e então ficávamos em dívida. Por causa disso, nunca conseguimos nos afastar. Éramos ruins juntos, mas sempre fomos ótimos nos metendo em problemas. Eu procurava por ele quando queria me livrar de um cara insistente; em troca, ele me arrastava para negociações ilegais. Eu nem pensava duas vezes antes de dizer sim para Knox e, por isso, terminei em um porão do MC rival dos Night Reapers com uma arma na minha cabeça, porque, pouco a pouco, a filha do policial se tornou um deles. Em meio ao fogo cruzado, questiono se a decisão de dizer sim para Knox foi o caminho para minha liberdade ou se eu apenas fui um peão em suas mãos." },
+
+      { url:"https://m.media-amazon.com/images/I/91vHJyn3aRL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"STORM: Night Reapers",
+        sinopse:"Fui prometida a Hector Fuentes, o presidente cruel do MC rival dos Night Reapers. E só havia um tipo de homem que poderia me proteger dele. Um reaper. Havia uma maneira de me casar com um deles. Com Ryder Weaver. O homem que tirou minha virgindade e nem se lembrava disso. O homem por quem ainda era apaixonada. A Caçada. Havia uma fila de mulheres inscritas para ele, mas eu tinha os motivos mais fortes. Minha vida dependia disso, e a do meu bebê também. Quando finalmente atravessei a linha de chegada e me tornei a primeira vencedora da sua geração, apesar do título, ele não poderia parecer mais decepcionado. Nos casamos naquela noite, mas ainda precisava contar a Ryder duas coisas: a primeira era que havia sido prometida ao seu maior inimigo, e a segunda é que carregava um filho seu." },
+
+      { url:"https://m.media-amazon.com/images/I/9154CKzQmAL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"REAPER: Night Reapers",
+        sinopse:"Ele é Chase Weaver, o presidente dos Night Reapers, um moto clube temido e respeitado. Eu sou Dakota Carter, uma agente infiltrada, determinada a expor os segredos mais sombrios do clube, enquanto tento ganhar a confiança de um homem conhecido por não confiar em ninguém. Ele é cruel e impiedoso. Eu sou provocadora e insistente. Ele observa tudo. Eu sou uma fachada. Ele é uma fortaleza impenetrável. Eu busco justiça. Apesar de me se questionar se o presidente possui um coração, acho que a maneira mais fácil de derrubá-lo é chegando até ele. Eu comecei fingindo, mas estou há semanas na sede e já não sei mais se estou vivendo uma mentira ou uma verdade. Em um mundo onde a lealdade é tudo e a traição é punida com a morte, preciso decidir até onde estou disposta a ir para alcançar meu objetivo, enquanto Reaper enfrenta seu maior conflito: confiar em mim, uma mulher que pode fazer com ele o que nem mesmo seus piores inimigos conseguiram: destruí-lo." },
+
+      { url:"https://m.media-amazon.com/images/I/81T458QExWL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"NOMAD: Night Reapers",
+        sinopse:"Skylar Brooks: Tyler e eu compartilhamos a mesma casa, as mesmas dores e os mesmos problemas com nossos pais. Com o tempo, a linha entre o que é certo e errado se tornou um borrão. Invadíamos o quarto do outro no meio da noite e depois fingimos que nada havia acontecido... Isso continuou acontecendo, até eu engravidar de um cara e sair de casa para me casar com o pai do meu filho. Mas, cada vez que via Tyler com Asher, percebia como Dylan está longe de ser bom assumindo esse papel. Uma descoberta me empurra de volta à mesma casa onde Tyler e eu crescemos, ele é um homem agora, e me vejo tendo que lidar com sentimentos que engoli quando parti. / Tyler Nomad Thornton: Como chefe de segurança dos Night Reapers, um clube que vive no limite da lei, tomei decisões difíceis. No passado, obriguei o homem que engravidou Sky, a se casar com ela, acreditando que era o certo. Agora, ela está de volta, presa em um casamento infeliz com alguém que secretamente invejei por anos, e percebo o erro que cometi. Enquanto o clube enfrenta novos inimigos, me vejo dividido entre o dever com os reapers e o desejo de proteger Skylar de um perigo que eu mesmo posso ter trazido para sua vida. E agora, tenho que decidir o que estou disposto a sacrificar: meu papel no clube ou a única mulher que eu jamais deveria querer: Minha meia-irmã." },
+
+      { url:"https://m.media-amazon.com/images/I/817QlNSWJAL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"TIGER: Night Reapers",
+        sinopse:"Passei meses na sede dos Night Reapers. Meses dividindo o teto com Sébastien Parker — o garoto que me beijava nas sombras, mas me abandonou à luz do dia. Foi então que a máfia colocou as mãos em mim, cobrando uma dívida que nunca foi minha. Me tornei prisioneira, um exemplo de obediência e punição. Anos depois, Sébastien virou Tiger, um membro oficial. Ele me reconheceu em uma reunião e me exigiu como parte de um acordo territorial. Ele colocou o clube inteiro em risco e, por isso, sua punição foi se casar comigo. Agora, estou de volta à sede. Não apenas dividindo a cama com o homem que arruinou a minha vida, mas carregando o seu sobrenome e uma aliança que nunca pedi. Enquanto isso, a máfia acha que estou morta, e os segredos que guardo podem iniciar uma guerra dos dois lados." }
+    ]
+  },
+  {
     nome: "FML Pepper",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url: "https://m.media-amazon.com/images/I/81vlGZZ-VSL._SY342_.jpg",
         nome: "Treze",
@@ -1043,6 +1966,7 @@ export const autores = [
   },
   {
     nome: "F. Madruga",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81V2mOE7-mL._SY342_.jpg",
         nome: "O Abismo",
@@ -1051,6 +1975,7 @@ export const autores = [
   },
   {
     nome: "F. Scott Fitzgerald",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81MgP36-nsS._SY342_.jpg",
         nome: "O grande Gatsby",
@@ -1059,6 +1984,7 @@ export const autores = [
   },
   {
     nome: "Felipe Saraiça",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81fcH3BmGiL._SY342_.jpg",
         nome: "Para onde vão os suicidas?",
@@ -1066,7 +1992,17 @@ export const autores = [
     ]
   },
   {
+    nome:"Felipe Teodoro",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/51qs6N8Ti3L._SY342_.jpg",
+        nome:"Toda Noite é um Abismo",
+        sinopse:"O que acontece quando a noite engole um homem? O que acontece quando percebemos que o abismo nos cerca e que não há escapatória? O ser humano carrega em si luz & trevas - e há tempo para ambas. A noite e seus escuros não estão apenas do lado de fora, nas calçadas, ruas e vielas, mas também dentro dos nossos corações, dentro das nossas almas. Traumas, paranoias e cicatrizes muitas vezes são o caminho para um lugar escuro, onde monstros sem nome dormem e aguardam o tão esperado despertar. Todo ser humano também é noite, toda existência também é abismo. As 12 histórias que compõe esse livro abordam essa relação, brotam de um estranhamento, de um anoitecer: o evento-chave no qual corpos e paisagens são engolidos pela escuridão, são mergulhados em abismos e assim dão voz ao desconhecido, o maior e mais temido medo humano. Toda noite é um abismo e, quando você perceber isso, nunca mais será o mesmo." }
+    ]
+  },
+  {
     nome: "Fernanda Freitas",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81jHwkmRu1L._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1086,6 +2022,7 @@ export const autores = [
   },
   {
     nome: "Fernando H. de Marchi",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91gA4Yx-OdL._SY342_.jpg",
         nome: "Detalhes Sórdidos",
@@ -1094,6 +2031,7 @@ export const autores = [
   },
   {
     nome: "Flávio Assunção",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/812p8jmiq-L._SY342_.jpg",
         nome: "Lugares Escuros",
@@ -1102,6 +2040,7 @@ export const autores = [
   },
   {
     nome: "Frances Hodgson Burnett",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81n7b4vOdoL._SY342_.jpg",
         nome: "O jardim secreto",
@@ -1110,6 +2049,7 @@ export const autores = [
   },
   {
     nome: "Franz Kafka",
+    bandeira:"assets/images/bandeiras/at.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91oujAEGI8L._SY342_.jpg",
         nome: "A metamorfose",
@@ -1117,7 +2057,55 @@ export const autores = [
     ]
   },
   {
+    nome:"Freida Mcfadden",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81EMPWukojL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"A empregada",
+        sinopse:"Todos os dias, Millie limpa a casa de Nina e Andrew Winchester de cima a baixo. Pega a filha deles na escola. Prepara refeições deliciosas para a família toda antes de poder se recolher e enfim comer o próprio jantar, sozinha em seu quarto minúsculo e claustrofóbico no sótão. Quando Nina passa a sujar todos os cômodos de propósito só para assisti-la limpar, Millie tenta não perder a cabeça. Quando ela conta mentiras perturbadoras sobre a própria filha e tortura psicologicamente o marido, que parece mais e mais fragilizado, Millie tenta ignorar. Afinal, com seu passado problemático, ela tem mais é que agradecer por ter conseguido esse emprego. No entanto, ao olhar bem dentro dos lindos e doces olhos de Andrew e ver o sofrimento contido neles, Millie não consegue deixar de imaginar como seria ter a vida de Nina. O closet cheio de roupas, o carro elegante, o marido perfeito. Logo os Winchesters vão descobrir que não fazem a menor ideia de quem Millie é de verdade. Nem do que ela é capaz de fazer..." },
+
+      { url:"https://m.media-amazon.com/images/I/816XESNxFWL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"O segredo da empregada",
+        sinopse:"Achar alguém que não faça mil perguntas sobre a vida – e o passado – de uma candidata a empregada costuma ser praticamente impossível. Por isso Millie mal consegue acreditar quando Douglas Garrick a contrata. O plano dela é trabalhar na casa da família por um período curto, de preferência sem atrair nenhuma atenção, até alcançar seu objetivo maior. Só que, enquanto ela passa os dias limpando a cobertura deslumbrante e preparando pratos requintados para o casal, a Sra. Garrick nunca sai do quarto. Na verdade, as duas não foram sequer apresentadas. E Millie tem certeza de que já a ouviu chorando. Certo dia, ao colocar a roupa para lavar, ela vê manchas de sangue na camisola da mulher. Não é a primeira vez, e Millie decide descobrir o que está acontecendo. Quando finalmente consegue entrar no quarto, o que vê lá dentro muda todos os seus planos. Alguém precisa pagar. E o preço depende unicamente do que Millie está disposta a fazer." },
+    
+      { url:"https://m.media-amazon.com/images/I/8120kYk+oTL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"A empregada está de olho",
+        sinopse:"Acostumada a limpar a casa dos outros, Millie mal consegue acreditar que agora esta realmente pertence a ela. A cozinha charmosa, a tranquila rua sem saída, o quintal enorme. Ela e o marido, Enzo, economizaram por muitos anos para poder dar aos dois filhos a vida que eles merecem. Como nada é perfeito, assim que ela conhece a Sra. Lowell, sua nova vizinha, a mulher a deixa desconfortável com suas críticas disfarçadas de elogios e a intimidade forçada com que trata Enzo. Mas, ao receber um convite dela para jantar, Millie tem a oportunidade perfeita para desfazer a má impressão. Quando a empregada dos Lowells abre a porta, de avental branco e os cabelos presos num coque apertado, Millie está decidida a ser simpática, afinal, sabe exatamente como é estar nessa posição. Só que o olhar insistente dela lhe dá calafrios. E essa não é a única coisa esquisita no novo bairro. Millie passa a ver uma figura sinistra sempre à espreita, observando sua família, e, para piorar, seu marido começa a fazer passeios noturnos misteriosos. Como se não bastasse, a vizinha do outro lado da rua a adverte: “Se eu fosse você, tomaria cuidado com aquela mulher.” Será que comprar essa casa foi um erro? Millie acreditava que havia deixado seus segredos mais sombrios para trás, mas talvez esse bairro aprazível seja o lugar mais perigoso de todos." }
+    ]
+  },
+  {
+    nome:"Gabriela Goulart",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71Jmq77uK7L._SY466_.jpg",
+        nome:"Amor por Acaso",
+        sinopse:"Nara Medeiros é uma fotógrafa renomada. Através de seu trabalho, empodera mulheres naturalizando suas imperfeições e incentivando o amor próprio. As obras fazem sucesso o suficiente para pagar as contas, mas não para realizar o seu sonho: participar do concurso de fotografia Velise D’Onore, em Paris. Paris é também a casa de Rafael Hutcherson — um engenheiro bem sucedido que Nara conheceu em um bar, anos atrás. Enquanto a fotógrafa luta para juntar dinheiro e ir à Cidade Luz, Rafael tenta vender um projeto para um político parisiense, mas não é levado a sério. Sem esposa, ele é apenas um menino aos olhos dos investidores; Sem dinheiro, ela jamais participará do concurso Velise D’Onore. A solução surge quando Nara liga por acidente para Rafael e ele lhe propõe um noivado de conveniência. A única cláusula do contrato é não se apaixonar, e eles estão certos de que, ao fim do prazo, cada um seguirá sua vida — o que Nara e Rafael não sabem, entretanto, é que o acaso é apenas um caminho para o destino se concretizar." }
+    ]
+  },
+  {
+    nome:"Gabrielle Zevin",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/911PPYalR4L._SY425_.jpg",
+        nome:"Amanhã, amanhã, e ainda outro amanhã",
+        sinopse:"Neste romance emocionante da autora best-seller de A vida do livreiro A. J. Fikry e Em outrolugar, dois amigos – que sempre se amaram, mas nunca foram amantes – se unem em uma parceria criativa na indústria dos videogames, um mundo que lhes traz fama, felicidade, tragédia, dúvidas e, de certa forma, imortalidade. Em um dia congelante de dezembro, no seu terceiro ano em Harvard, Sam Masur sai do metrô e vê, entre uma horda de pessoas esperando na plataforma, Sadie Green. Ele a chama. Por um momento, ela finge não ouvir, mas então se vira, e um jogo começa: uma colaboração lendária que vai levá-los ao estrelato. Esses amigos, próximos desde a infância, pegam dinheiro emprestado, pedem favores e, antes mesmo de se formarem, lançam seu primeiro sucesso, Ichigo. De um dia para o outro, o mundo é deles. Com menos de vinte e cinco anos, Sam e Sadie são brilhantes, bem-sucedidos e ricos, mas essas vantagens não vão protegê-los de suas próprias ambições criativas e das traições do coração. Abarcando mais de trinta anos da vida dos protagonistas, de Cambridge à Califórnia, passando por lugares distantes, reais e virtuais, Amanhã, amanhã, e ainda outro amanhã é uma história intrincada, imaginativa e tocante que examina a natureza múltipla e complexa de nossos fracassos, identidades e deficiências, das possibilidades redentoras dos jogos e, acima de tudo, de nossa necessidade de conexão, de amar e sermos amados. Sim, é uma história de amor, mas diferente de tudo que você já leu." }
+    ]
+  },
+  {
+    nome:"Gareth Brown",
+    bandeira:"assets/images/bandeiras/gb.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91brl9lh05L._SY466_.jpg",
+        nome:"O livro das portas",
+        sinopse:"Cassie Andrews leva uma vida simples em Nova York. Ela divide um apartamento com sua melhor amiga e tem um trabalho do qual gosta, em uma livraria. Mas, ainda assim, desde que perdeu o avô, ela sente que falta alguma coisa em sua vida tão pacata… É quando um de seus clientes favoritos lhe deixa um livro incomum de presente, cheio de escritas estranhas, desenhos misteriosos e uma única frase como instrução na primeira página: Este é o Livro das Portas. Segure-o, e qualquer porta será todas as portas. O que Cassie está prestes a descobrir é que o Livro das Portas é um livro mágico, que concede a quem o possui o incrível poder de ir e vir a todos os lugares possíveis, apenas ao visualizar o local em sua mente. E mal sabe ela que existem outros livros que podem ser tão incríveis quanto, assim como podem desencadear coisas terríveis se caírem nas mãos de pessoas erradas. Pessoas estas que agora estão atrás dela. De repente, Cassie é confrontada pela violência e pelo perigo, e a única pessoa que parece poder ajudá-la é o misterioso Drummond Fox, um homem que aparenta saber quase tudo a respeito desses livros. Agora, unidos pelo mesmo objetivo de se manterem vivos, Cassie e Drummond vão precisar usar todo o tempo — e livros — a seu favor para derrotar alguém que quer reunir todos os livros mágicos para mergulhar o mundo no mais profundo sofrimento." }
+    ]
+  },
+  {
     nome: "Genevieve Valentine",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91gcuB6DHIL._SY342_.jpg",
         nome: "O circo mecânico Tresaulti",
@@ -1125,7 +2113,17 @@ export const autores = [
     ]
   },
   {
+    nome:"Giovana Lazarin",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81wkko0OEGL._SY425_.jpg",
+        nome:"Insuportável",
+        sinopse:"Só há uma coisa que Berlim Cooper quer da vida nesse momento: paz. Depois de anos longe da cidade natal, a garota volta decidida a não se deixar afetar pelo passado recém enterrado e se esforça para recomeçar, se apegando à antiga promessa de que Peace Bay é o lugar ideal para aqueles que buscam por recomeços e uma dose de paz. Mas talvez o destino não compartilhe da sua ideia de calmaria. Não quando, em um acaso inoportuno, ela esbarra com o seu arqui-inimigo da infância e responsável pela sua primeira - e mais dolorida - flechada do cupido: Everest Wilder. Everest gosta de provocá-la, embora a odeie em igual proporção. Eles são como polos iguais de um imã, nutrindo uma repulsão mútua e forte o suficiente para que qualquer tentativa de aproximação seja repelida. Everest e Berlim se odeiam com cada silaba da palavra. Um ódio antigo, rancoroso e repleto de questões mal resolvidas que, por um pequeno deslize do destino, pode pular a sutil linha da emoção e virar amor." }
+    ]
+  },
+  {
     nome: "Gregory Maguire",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81-Nyd+rAvL._SY342_.jpg",
         nome: "Wicked",
@@ -1133,7 +2131,28 @@ export const autores = [
     ]
   },
   {
+    nome:"H. F. Pessoa",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81N2oj9WI7L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O Diário de Hass vol. 1",
+        sinopse:"Com apenas sete anos, Hass é assombrado por terríveis experiências sobrenaturais e pesadelos vívidos que aterrorizam suas noites. Tudo começou depois que um incidente em sua escola despertou nele uma fúria incomum e, incapaz de controlar esse novo, desconhecido e duvidoso sentimento, atraiu para si uma atenção indesejada. Dúvidas, medo, desespero e incertezas compõem seus dias até esbarrar com Bartolomeu, o responsável por oferecer a ele algumas respostas e por fazê-lo conhecer uma nova realidade. O que realmente estava acontecendo com ele? Quem era Hass? Ou melhor, o que era ele? Benção ou maldição?" },
+
+      { url:"https://m.media-amazon.com/images/I/81uS+6c66hL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O Diário de Hass vol. 2",
+        sinopse:"Após uma conturbada travessia para Yazs, Hass acorda em uma estranha enfermaria, em um mundo completamente novo e sem memória do seu passado. Ao lado de Heleanor e Ravy, ele se vê numa misteriosa escola repleta de magia e segredos obscuros. Um local onde crianças são obrigadas a enfrentar um complexo ritual, que decidirá para sempre o rumo de suas vidas. Hass se depara com a face mais sombria desse mundo novo e a cada dia que permanece vivo, precisa lidar com escolhas difíceis que colocam à prova o seu caráter. Permanecer neutro e inocente deixou de ser uma opção quando ele percebe que o fardo da mudança recai em seus ombros." },
+
+      { url:"https://cdn.awsli.com.br/600x700/2492/2492857/produto/356688447/92dcecf59080bb66733ae67e20340818-xh2t8sr4r2.jpg",
+        colecao:"Coleção 1",
+        nome:"O Diário de Hass vol. 3",
+        sinopse:"Dia após dia, Hass se esforça ao máximo para cumprir a promessa de ser mais forte e conseguir sua vingança. Mesmo carregando em seus ombros o fardo da morte de um inocente e no peito, uma tristeza que nunca passa, ele mantém uma rotina intensa de treinos árduos com Nait e Blenda. Com a libertação das fadas, o subsolo precisou ser reorganizado. Para isso, a madame tem conduzido tudo com mãos de ferro a fim de evitar insubordinações, o que tem deixado o clima bastante hostil no local. Recluso no estábulo, Hass divide o espaço com um sogoro e um nuieme, seus confidentes, sem imaginar que tudo está prestes a mudar, forçando-o a abraçar seu lado mais obscuro." }
+    ]
+  },
+  {
     nome: "H. G. Wells",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/7154DYB76DL._SY342_.jpg",
         nome: "O Ovo de Cristal",
@@ -1149,15 +2168,35 @@ export const autores = [
     ]
   },
   {
-    nome: "Han Kang",
+    nome:"",
+    bandeira:"assets/images/bandeiras/.png",
     imagens: [
-      { url:"https://m.media-amazon.com/images/I/81xfcWeN4KL._SY342_.jpg",
-        nome: "A vegetariana",
-        sinopse: "'… Eu tive um sonho', diz Yeonghye, e desse sonho de sangue e escuros bosques nasce uma recusa vista como radical: deixar de comer, cozinhar e servir carne. É o primeiro estágio de um desapego em três atos, um caminho muito particular de transcendência destrutiva que parece infectar todos aqueles que estão próximos da protagonista. A vegetariana conta a história dessa mulher comum que, pela simples decisão de não comer mais carne, transforma uma vida aparentemente sem maiores atrativos em um pesadelo perturbador e transgressivo. Narrado a três vozes, o romance apresenta o distanciamento progressivo da condição humana de uma mulher que decidiu deixar de ser aquilo que marido e família a pressionaram a ser a vida inteira. Este romance de Han Kang tem sido apontado como um dos livros mais importantes da ficção contemporânea. Uma história sobre rebelião, tabu, violência e erotismo escrita com a clareza atordoante das melhores e mais aterradoras fábulas." }
+      { url:"",
+        nome:"",
+        sinopse:"" }
+    ]
+  },
+  {
+    nome:"",
+    bandeira:"assets/images/bandeiras/.png",
+    imagens: [
+      { url:"",
+        nome:"",
+        sinopse:"" }
+    ]
+  },
+  {
+    nome:"",
+    bandeira:"assets/images/bandeiras/.png",
+    imagens: [
+      { url:"",
+        nome:"",
+        sinopse:"" }
     ]
   },
   {
     nome: "Hayesha Di Maffei",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91QXkTzqoGL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1180,6 +2219,7 @@ export const autores = [
   },
   {
     nome: "Helen Hoang",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81vmHUHWsHL._SY342_.jpg",
         nome: "Os números do amor",
@@ -1188,6 +2228,7 @@ export const autores = [
   },
   {
     nome: "Helene Wecker",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91Hha3E6lBL._SY342_.jpg",
         nome: "Golem e o gênio",
@@ -1196,6 +2237,7 @@ export const autores = [
   },
   {
     nome: "Ian McEwan",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81GVoJJW8wL._SY342_.jpg",
         nome: "Reparação",
@@ -1204,6 +2246,7 @@ export const autores = [
   },
   {
     nome: "Inbali Iserles",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91oWsoz6U1L._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1223,6 +2266,7 @@ export const autores = [
   },
   {
     nome: "J. D. Salinger",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91HFFmf2PQL._SY342_.jpg",
         nome: "O apanhador no campo de centeio",
@@ -1231,6 +2275,7 @@ export const autores = [
   },
   {
     nome: "J. Marquesi",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81ni6cx33uL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1250,6 +2295,7 @@ export const autores = [
   },
   {
     nome: "Jamie McGuire",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81FMCAiTOvL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1279,7 +2325,7 @@ export const autores = [
       { url:"https://m.media-amazon.com/images/I/91rn5MCJXTL._SY342_.jpg",
         colecao: "Coleção 1",
         nome: "Bela distração",
-        sinopse: "O FENÔMENO DE BELO DESASTRE CONTINUA COM ESTE PRIMEIRO VOLUME DA SÉRIE IRMÃOS MADDOX Cami Camlin é uma garota intensa e independente. Agora, cursando a faculdade e trabalhando como bartender no The Red Door, Cami não tem tempo para nada, até que uma viagem para visitar seu namorado é cancelada e, pela primeira vez em quase um ano, ela tem um fim de semana de folga. Trenton Maddox era o rei da Universidade Eastern. Mas, depois de um trágico acidente virar sua vida de cabeça para baixo, ele deixa o campus para lidar com a culpa esmagadora. Um ano e meio depois, Trenton está morando com o pai e trabalhando em um estúdio de tatuagem para ajudar a pagar as contas. Justamente quando ele pensa que sua vida está voltando ao normal, nota Cami sozinha em uma mesa no Red Door. Como a irmã mais velha de três caras de pavio curto, Cami acredita que não terá problemas para manter a amizade com Trenton no nível estritamente platônico. Mas, quando um Maddox se apaixona, é para sempre — mesmo que Cami possa ser a razão para que a já fragilizada família Maddox desmorone de vez. Em Bela distração, mergulhamos novamente nas emoções do universo de Belo desastre, além de vislumbrar mais alguns momentos do casal mais amado da literatura new adult, Travis e Abby." },
+        sinopse: "Cami Camlin é uma garota intensa e independente. Agora, cursando a faculdade e trabalhando como bartender no The Red Door, Cami não tem tempo para nada, até que uma viagem para visitar seu namorado é cancelada e, pela primeira vez em quase um ano, ela tem um fim de semana de folga. Trenton Maddox era o rei da Universidade Eastern. Mas, depois de um trágico acidente virar sua vida de cabeça para baixo, ele deixa o campus para lidar com a culpa esmagadora. Um ano e meio depois, Trenton está morando com o pai e trabalhando em um estúdio de tatuagem para ajudar a pagar as contas. Justamente quando ele pensa que sua vida está voltando ao normal, nota Cami sozinha em uma mesa no Red Door. Como a irmã mais velha de três caras de pavio curto, Cami acredita que não terá problemas para manter a amizade com Trenton no nível estritamente platônico. Mas, quando um Maddox se apaixona, é para sempre — mesmo que Cami possa ser a razão para que a já fragilizada família Maddox desmorone de vez. Em Bela distração, mergulhamos novamente nas emoções do universo de Belo desastre, além de vislumbrar mais alguns momentos do casal mais amado da literatura new adult, Travis e Abby." },
 
       { url:"https://m.media-amazon.com/images/I/91WT5lLwRaL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1299,6 +2345,7 @@ export const autores = [
   },
   {
     nome: "Jaqueline Moura",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61t1CDMLdEL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1313,6 +2360,7 @@ export const autores = [
   },
   {
     nome: "Jas Silva",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91oFi30gwgL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1327,6 +2375,7 @@ export const autores = [
   },
   {
     nome: "Jason Rekulak",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81cJQuGQQVL._SY342_.jpg",
         nome: "Desenhos ocultos",
@@ -1335,6 +2384,7 @@ export const autores = [
   },
   {
     nome: "Jay Kristoff",
+    bandeira:"assets/images/bandeiras/au.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81k8uuPbiJL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1354,6 +2404,7 @@ export const autores = [
   },
   {
     nome: "Jennifer L. Armentrout",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81rsA7hMcsL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -1417,6 +2468,7 @@ export const autores = [
   },
   {
     nome: "Jenny Colgan",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81rZ5sSjNjL._SY342_.jpg",
         nome: "A pequena livraria dos sonhos",
@@ -1437,6 +2489,7 @@ export const autores = [
   },
   {
     nome: "Joe Abercrombie",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91il+GXeq8L._SY342_.jpg",
         colecao: "Coleção 1",
@@ -2777,6 +3830,32 @@ export const autores = [
     ]
   },
   {
+    nome:"",
+    bandeira:"assets/images/bandeiras/.png",
+    imagens: [
+      { url:"",
+        nome:"",
+        sinopse:"" }
+    ]
+  },{
+    nome:"",
+    bandeira:"assets/images/bandeiras/.png",
+    imagens: [
+      { url:"",
+        nome:"",
+        sinopse:"" }
+    ]
+  },
+  {
+    nome:"",
+    bandeira:"assets/images/bandeiras/.png",
+    imagens: [
+      { url:"",
+        nome:"",
+        sinopse:"" }
+    ]
+  },
+  {
     nome: "Paloma Bernardino Braga",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Hb6mFdZ0L._SY342_.jpg",
@@ -3825,14 +4904,5 @@ export const autores = [
         nome: "Mirrors",
         sinopse: "Owen Smith é o CEO que cuida da empresa da família Reed há mais de uma década. Estudioso, inteligente e sagaz nos negócios, só quem conhece sua história sabe que sua obsessão extrema com trabalho é apenas uma compensação por ter perdido o amor de sua vida de uma forma tão trágica. Hope Stewart colocou sua vida em segundo lugar para assumir as responsabilidades com o irmão mais novo já que seu pai e sua mãe mal conseguem se manter. Buscando justiça pela fatalidade que acometeu sua família e os fizeram perder tudo, incluindo a saúde, ela trabalha dia e noite na esperança de que alguma hora as coisas se resolvam e ela não precise ser forte o tempo todo. Owen precisa fechar um acordo. Hope é o meio para justificar um fim. Ela tem 23, ele 39. Ninguém quer envolvimento emocional, mas o plano do destino é outro. Será que eles estão prontos para ver essa relação se transformar em algo além de pedaço de papel?" }
     ]
-  },
-  {
-    nome: "",
-    imagens: [
-      { url:"",
-        colecao: "",
-        nome: "",
-        sinopse: "" }
-    ]
-  },
+  }
 ];

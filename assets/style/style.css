@@ -47,6 +47,10 @@ h2 {
   transition: opacity 0.3s ease; /* Suaviza a transição de visibilidade */
 }
 
+.image-name.mostrar-nome {
+  opacity: 1 !important;
+}
+
 .flag-icon {
   width: 22px;
   height: 22px;

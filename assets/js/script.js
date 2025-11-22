@@ -57,6 +57,9 @@ function criarAccordion() {
         const imgName = document.createElement("div");
         imgName.classList.add("image-name");
         imgName.textContent = imagem.nome;
+        if (imagem.mostrarNome) {
+        imgName.classList.add("mostrar-nome");
+}
 
         imgContainer.appendChild(img);
         imgContainer.appendChild(imgName);
@@ -84,6 +87,9 @@ function criarAccordion() {
         const imgName = document.createElement("div");
         imgName.classList.add("image-name");
         imgName.textContent = imagem.nome;
+        if (imagem.mostrarNome) {
+        imgName.classList.add("mostrar-nome");
+        }
 
         imgContainer.appendChild(img);
         imgContainer.appendChild(imgName);
