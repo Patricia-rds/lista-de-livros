@@ -2168,30 +2168,47 @@ export const autores = [
     ]
   },
   {
-    nome:"",
-    bandeira:"assets/images/bandeiras/.png",
+    nome:"Hannah Bonam-Young",
+    bandeira:"assets/images/bandeiras/ca.png",
     imagens: [
-      { url:"",
-        nome:"",
-        sinopse:"" }
+      { url:"https://m.media-amazon.com/images/I/81A7dIAnhhL._SY466_.jpg",
+        nome:"Minha melhor parte",
+        sinopse:"Winnifred McNutty, ou Win, para os íntimos, é uma garota independente, que sempre lutou pelo que acredita e jamais se sentiu limitada por ter uma deficiência em uma das mãos. Em uma festa de Halloween, ela conhece Bo ― um cara gato, engraçado, divertido e muito sexy. A atração entre eles é instantânea e Win tem a melhor ficada da sua vida, mas decide não procurar mais por ele. Afinal, Bo também é uma pessoa com deficiência e tudo o que Win não quer é dar mais motivos para que os outros se metam em sua vida com ideias capacitistas. Até que, semanas depois, Win descobre que está grávida. Desesperada, ela decide procurar Bo, que fica surpreendentemente empolgado com a notícia enquanto Win perde o sono sem saber se está pronta para assumir essa imensa responsabilidade. Assim, os dois embarcam em uma nova e desafiadora jornada apenas como bons amigos e descobrem as dores e as delícias de esperar por uma criança. Só que a química entre eles é inevitável, e esse plano parece estar prestes a ir por água abaixo quando os sentimentos começam a falar mais alto." }
     ]
   },
   {
-    nome:"",
-    bandeira:"assets/images/bandeiras/.png",
+    nome:"Hannah Grace",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
-      { url:"",
-        nome:"",
-        sinopse:"" }
+      { url:"https://m.media-amazon.com/images/I/71a9oboDMJL._SY425_.jpg",
+        nome:"Sonhando acordado",
+        sinopse:"Henry Turner já sabia que conciliar as responsabilidades como capitão do time de hóquei — que ele nem queria, para começo de conversa — e a faculdade não seria fácil. E isso foi antes de puxar uma das matérias mais difíceis do curso, com um professor casca-grossa e impossível de agradar! É aí que entra em cena Halle Jacobs, uma estudante do terceiro ano de Letras com quem Henry faz amizade ao se intrometer sem querer no clube de leitura dela. Halle sempre dá conta de tudo, não importa se tem a ver com a universidade, o emprego ou as mil e uma demandas da família. É por isso que, quando fica sabendo da dificuldade de Henry com a tal matéria, ela se oferece imediatamente para ajudar. O único problema é encontrar tempo (e inspiração) para se dedicar ao romance que está tentando escrever! Halle sente que aproveitou pouco a vida até agora e está com dificuldade de colocar no papel as experiências que nunca teve. Então os dois chegam a um acordo pouco convencional: Halle ajuda Henry a superar as dificuldades acadêmicas, e ele lhe proporciona todas as primeiras vezes que ela não teve: a primeira festa da faculdade, a primeira bebedeira, o primeiro encontro… Eles só precisam seguir algumas regrinhas. A principal delas? Não se apaixonar." },
+
+      { url:"https://m.media-amazon.com/images/I/819M-+U1hpL._SY425_.jpg",
+        nome:"No calor do momento",
+        sinopse:"Em mais uma festa na casa dos jogadores de hóquei do campus de Maple Hills, os caminhos do atleta Russ Callaghan e da estudante Aurora Roberts se cruzam durante uma brincadeira que acaba ficando muito mais quente do que esperavam. Aurora, que sabe que noites de sexo casual têm hora para acabar (e que mantém as expectativas bem baixas em relação a homens em geral), vai embora sem se despedir e nem mesmo dizer seu nome completo ou telefone. Russ, apesar de magoado, pensa que talvez seja melhor assim: vai passar as férias trabalhando em um acampamento e a última coisa que precisa é de distrações… Isto é, até chegar lá e descobrir que uma de suas colegas de trabalho é ninguém menos que a própria Aurora. E o pior: uma das principais regras do lugar é nada de relacionamentos entre os funcionários! Ela, determinada a deixar a reputação de encrenqueira para trás, e ele, que precisa desse emprego mais do que nunca por conta de problemas familiares, estão em um impasse. Os dois têm muitos motivos para manter a distância, mas claramente a química entre eles segue tão forte quanto antes. Será que Russ e Aurora serão capazes de conviver somente como amigos ou acharão impossível não se deixar levar pelo calor do momento?" },
+
+      { url:"https://m.media-amazon.com/images/I/81xhLdQciVL._SY425_.jpg",
+        nome:"Quebrando o gelo",
+        sinopse:"Tudo que Anastasia Allen sempre quis foi entrar para a equipe olímpica de patinação artística, e ter conseguido uma bolsa e uma vaga no time da Universidade da Califórnia foi um passo rumo ao seu objetivo. Nada vai ficar no seu caminho — nem mesmo o capitão do time de hóquei, Nate Hawkins. O papel de Nate, como capitão, é manter seus rapazes no rinque, o que se torna difícil quando um ato de vandalismo força os atletas do hóquei a dividirem o espaço com a equipe de patinação artística — incluindo Anastasia, que claramente não vai nem um pouco com a cara dele. Mas quando o parceiro de Tasi sofre um acidente e o sonho de competir nos Jogos Olímpicos parece em risco, Nate acaba se tornando sua última esperança de fazer todos os seus sacrifícios valerem a pena. Conforme os dois se aproximam, em meio a festanças, discussões acaloradas e trocas de farpas, Anastasia percebe que talvez Nate não seja tão mau assim. Na verdade, até que ele é simpático… e bonito… e gostoso. Logo os dois estão resolvendo suas diferenças e descontando as frustrações na cama — com fogo o bastante para derreter qualquer gelo. Mas Anastasia não fica preocupada: sabe bem quais são suas prioridades, e não tem a menor chance de se apaixonar por um brutamontes do hóquei... certo?" }
     ]
   },
   {
-    nome:"",
-    bandeira:"assets/images/bandeiras/.png",
+    nome:"Harper L. Woods",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
-      { url:"",
-        nome:"",
-        sinopse:"" }
+      { url:"https://m.media-amazon.com/images/I/61+c4UVASvL._SY466_.jpg",
+      colecao:"Coleção 1",
+        nome:"Coven",
+        sinopse:"Willow, uma bruxa criada para se tornar a arma do pai contra o Coven – o grupo de bruxos que destruiu sua família e tirou sua liberdade –, está determinada a fazer de tudo para proteger o irmão mais novo... Sua missão é seguir até o Vale do Cristal, onde está localizada a Universidade Bosque – lugar em que os melhores e mais brilhantes bruxos aprendem a praticar magia, livres do julgamento humano. Determinada e com os poderes em ascensão, Willow planeja vingança, mas alguém pretende atrapalhar seu caminho – o diretor Grayson Thorne, um homem lindo e irritante que a despreza tanto quanto ela o detesta. Contudo, segredos ameaçam dividir a universidade em dois grupos. Ninguém mais fala sobre o massacre sangrento que forçou a instituição a fechar décadas antes. O único assunto em pauta é que, pela primeira vez em cinquenta anos, o Coven irá abrir as portas para treze estudantes promissores que estão destinados a mudar o mundo. Isso se os fantasmas das vítimas do massacre não os matarem primeiro..." },
+
+      { url:"https://m.media-amazon.com/images/I/814qIya73CL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Marcada",
+        sinopse:"Willow passou a vida acreditando que possuía liberdade, mas descobriu que, na realidade, era apenas uma marionete manobrada por mãos ocultas. Marcada pelo destino muito antes de nascer, sua existência entrelaçou-se a um plano arcano — tornar-se uma peça-chave nas mãos daqueles que despertam antigos terrores e ameaçam aniquilar o mundo conhecido. Depois de ser traída pelo homem em quem depositava seu amor, Willow percebe que foi um instrumento para a ruína do Coven, a erradicação dos seus membros e a liberação involuntária de demônios infernais. Apesar da intensa dor da traição que a consome, o vínculo com Grayson é inquebrável, um paradoxo entre paixão e perdição que desafia qualquer esforço de escape. Mas as bruxas sobreviventes clamam por justiça, e Willow tornou-se o foco de seus desejos vingativos, colocando todos ao seu redor em iminente perigo. Despojada do legado do Coven, Willow deve encarar uma jornada solitária na tentativa de consertar os fragmentos do passado, sendo Grayson, tanto o seu maior problema quanto sua única chave para a salvação. Armada com uma força misteriosa, a magia de Willow desponta como uma nova esperança num ambiente sombrio, capaz de confrontar não apenas os sentidos de seu amado, mas também abrir uma frente de combate contra as entidades malévolas, dando início a uma batalha pela redenção cujo preço só ela está disposta a pagar." },
+
+      { url:"assets/images/continua.png",
+        colecao:"Coleção 1", }
     ]
   },
   {
@@ -2223,7 +2240,22 @@ export const autores = [
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81vmHUHWsHL._SY342_.jpg",
         nome: "Os números do amor",
-        sinopse: "Já passou da hora de Stella se casar e constituir família — pelo menos é isso que sua mãe acha. Mas se relacionar com o sexo oposto não é nada fácil para ela: talentosa e bem-sucedida, a econometrista é portadora de Asperger, um transtorno do espectro autista caracterizado por dificuldades nas relações sociais. Se para ela a análise de dados é uma tarefa simples, lidar com os embaraços que uma interação cara a cara podem trazer parece uma missão impossível. Diante desse impasse, Stella bola um plano bem inusitado: contratar um acompanhante para ensiná-la a ser uma boa namorada. Enfrentando uma pilha cada vez maior de contas, Michael Phan usa seu charme e sua aparência para conseguir um dinheiro extra. O acompanhante de luxo tem uma regra que segue à risca: nada de clientes reincidentes. Mas ele se rende à tentação de quebrá-la quando Stella entra em sua vida com uma proposta nada convencional. Quanto mais tempo passam juntos, mais Michael se encanta com a mente brilhante de Stella. E ela, pela primeira vez, vai se sentir impelida a sair de sua zona de conforto para descobrir a equação do amor." }
+        sinopse: "Já passou da hora de Stella se casar e constituir família — pelo menos é isso que sua mãe acha. Mas se relacionar com o sexo oposto não é nada fácil para ela: talentosa e bem-sucedida, a econometrista é portadora de Asperger, um transtorno do espectro autista caracterizado por dificuldades nas relações sociais. Se para ela a análise de dados é uma tarefa simples, lidar com os embaraços que uma interação cara a cara podem trazer parece uma missão impossível. Diante desse impasse, Stella bola um plano bem inusitado: contratar um acompanhante para ensiná-la a ser uma boa namorada. Enfrentando uma pilha cada vez maior de contas, Michael Phan usa seu charme e sua aparência para conseguir um dinheiro extra. O acompanhante de luxo tem uma regra que segue à risca: nada de clientes reincidentes. Mas ele se rende à tentação de quebrá-la quando Stella entra em sua vida com uma proposta nada convencional. Quanto mais tempo passam juntos, mais Michael se encanta com a mente brilhante de Stella. E ela, pela primeira vez, vai se sentir impelida a sair de sua zona de conforto para descobrir a equação do amor." },
+
+      { url:"https://m.media-amazon.com/images/I/81vmHUHWsHL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Os números do amor",
+        sinopse:"Já passou da hora de Stella se casar e constituir família — pelo menos é isso que sua mãe acha. Mas se relacionar com o sexo oposto não é nada fácil para ela: talentosa e bem-sucedida, a econometrista é portadora de Asperger, um transtorno do espectro autista caracterizado por dificuldades nas relações sociais. Se para ela a análise de dados é uma tarefa simples, lidar com os embaraços que uma interação cara a cara podem trazer parece uma missão impossível. Diante desse impasse, Stella bola um plano bem inusitado: contratar um acompanhante para ensiná-la a ser uma boa namorada. Enfrentando uma pilha cada vez maior de contas, Michael Phan usa seu charme e sua aparência para conseguir um dinheiro extra. O acompanhante de luxo tem uma regra que segue à risca: nada de clientes reincidentes. Mas ele se rende à tentação de quebrá-la quando Stella entra em sua vida com uma proposta nada convencional. Quanto mais tempo passam juntos, mais Michael se encanta com a mente brilhante de Stella. E ela, pela primeira vez, vai se sentir impelida a sair de sua zona de conforto para descobrir a equação do amor." },
+
+      { url:"https://m.media-amazon.com/images/I/81TtrIk8FhL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"O teste do casamento",
+        sinopse:"Khai Diep não tem sentimentos. Bom, ele fica irritado quando mexem nas suas coisas e satisfeito quando os centavos são incluídos nos livros contábeis, mas não consegue vivenciar nenhum sentimento profundo, como luto ou amor. Ele acha que tem algum problema, mas sua família sabe que, por ser autista, ele processa as coisas de um jeito diferente e tem dificuldade com as emoções. Como Khai se recusa a arrumar uma namorada, sua mãe resolve viajar ao Vietnã para encontrar a noiva perfeita para ele. Sendo birracial em Hồ Chí Minh, Esme Tran sempre se sentiu deslocada. Quando surge a oportunidade de ir para os EUA e conhecer um possível marido, ela sabe que não pode recusar, pois é a chance de mudar a realidade de sua família. Mas seduzir Khai não sai como o planejado. E assim ela se apaixona por um homem que está convencido de que não pode retribuir seu afeto. O tempo de Esme nos EUA está se esgotando. Será que Khai vai admitir que estava errado, e que pode haver mais de uma maneira de amar, antes que seja tarde demais?" },
+
+      { url:"https://m.media-amazon.com/images/I/51KPgpwRnNL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"O princípio do coração",
+        sinopse:"Depois que um vídeo seu tocando violino viraliza, Anna Sun não consegue repetir o sucesso e fica à beira de um burnout. Para piorar, seu namorado anuncia que quer tentar uma relação aberta antes de se comprometer de vez com ela. Magoada e brava, Anna decide que, se Julian quer uma relação aberta, é isso que ele vai ter. Ela está pronta para embarcar numa maratona de encontros — quanto mais inadequados forem os parceiros, melhor. Mas então ela conhece o motoqueiro tatuado Quan Diep. Embora os dois estejam procurando sexo casual, eles falham na primeira noite. Depois na segunda. E na terceira. A verdade é que Anna logo percebe que Quan é mais do que sexo e que ele a aceita como ela é. Entretanto, quando uma tragédia se abate sobre a família de Anna, ela é obrigada a assumir um papel que nunca desejou, e o peso das expectativas ameaça esmagá-la. Anna e Quan querem lutar por esse amor, mas, para fazer isso, primeiro precisam lutar por si próprios." }
     ]
   },
   {
@@ -2233,6 +2265,15 @@ export const autores = [
       { url:"https://m.media-amazon.com/images/I/91Hha3E6lBL._SY342_.jpg",
         nome: "Golem e o gênio",
         sinopse: "Os confrontos e as barreiras vividas por duas culturas tão próximas, ainda que aparentemente opostas. Em GOLEM E O GÊNIO, premiado romance fantástico que a DarkSide® Books traz ao Brasil, o leitor se transporta à Nova York da virada do século XX, em uma viagem fascinante através das culturas árabe e judaica. Seus guias serão poderosos seres mitológicos. Chava é uma golem, criatura feita de barro, trazida à vida por um estranho rabino envolvido com os estudos alquímicos da Cabala. Ahmad é um gênio, ser feito de fogo, nascido no deserto sírio, preso em uma antiga garrafa de cobre por um beduíno, séculos atrás. Atraídos pelo destino à parte mais pobre de uma Manhattan construída por imigrantes, Ahmad e Chava se tornam improváveis amigos e companheiros de alma, desafiando suas naturezas opostas. Até a noite em que um terrível incidente os separa. Mas uma poderosa ameaça vai reuni-los novamente, colocando em risco suas existências e obrigando-os a fazer uma escolha definitiva. O romance de estreia de Helene Wecker reúne mitologia popular, ficção histórica e fábula mágica, entrelaçando as culturas árabe e judaica com uma narrativa inventiva e inesquecível, escrita de maneira primorosa." }
+    ]
+  },
+  {
+    nome:"Holly Black",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91xqPVccKTL._SY425_.jpg",
+        nome:"Livro da Noite",
+        sinopse:"Charlie Hall nunca encontrou um cadeado que não pudesse abrir, um livro que não pudesse roubar ou uma decisão ruim que não fosse tomar. Tendo passado metade da vida trabalhando para sombristas, pessoas com magia para manipular sombras a fazerem o que quisessem — espiar quartos trancados, estrangular pessoas em suas camas ou coisa ainda pior —, ela aprendeu como se tornar a ladra perfeita. Os sombristas guardam muito bem seus mistérios, gerando um mercado clandestino de artefatos e segredos. E para conseguir o que querem, eles precisam de Charlie Hall, ou melhor, de suas habilidades. Mas além de saber que é melhor não se envolver muito com o mundo das sombras, ela agora é uma nova mulher. E nesta versão é apenas uma bartender tentando pagar as contas no fim do mês. Porém, se livrar da própria história não é assim tão fácil. E quando uma figura terrível de seu passado retorna, Charlie se vê em um turbilhão de assassinatos e mentiras. Seu futuro parece, na melhor das hipóteses, incerto, e, na pior, inexistente. E se quiser sobreviver, precisará enfrentar até mesmo as pessoas que mais ama no mundo — todos tentando roubar um segredo que lhes dará um poder vasto e terrível." }
     ]
   },
   {
@@ -2262,6 +2303,68 @@ export const autores = [
         colecao: "Coleção 1",
         nome: "O mago",
         sinopse: "Quando chega à Terraneve para continuar a busca pelo seu irmão perdido, Pirie, Isla se depara com muitos perigos. A tundra é um lugar difícil e os lobos que vivem ali em seus reinos gelados a tornam mais desafiadora ainda. Mas o talento de Isla nas artes da Foxcraft tem crescido extraordinariamente. Determinada a se reunir novamente com o que restou de sua família e a cumprir uma missão muito importante para salvar toda a Terrabrava, Isla agora precisará encontrar uma forma de conseguir a ajuda dos lobos e também o caminho de volta para casa. ISLA ESTÁ SOZINHA, MAS NÃO POR, MUITO TEMPO. Isla conseguiu atravessar o Rio Furioso e chegou em um novo lugar, para uma nova missão: a Terraneve. Aparentemente inóspita e lar dos lobos, a Terraneve guarda muitos mistérios e precisará ser explorada para que Isla chegue mais perto de encontrar seu irmão, Pirie. Além disso, a jovem raposa vai precisar usar suas habilidades em Foxcraft para cumprir uma missão muito importante: salvar todos de uma cruel e poderosa raposa, conhecida como o Mago, que tem usado a Foxcraft para realizar uma antiga ameaça. Se ele conseguir, muito mais do que a vida de Pirie pode estar em jogo, e toda a Terrabrava estará arruinada. Quando tudo parece perdido, Isla consegue ajuda de um antigo amigo da Terracinza, o Príncipe Farraclaw, líder do Bishar dos Claw. Agora, junto com seus amigos lobos, nada poderá deter essa raposinha." }
+    ]
+  },
+  {
+    nome:"Isabel Ibañez",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81roftFSbSL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"O que o rio sabe",
+        sinopse:"Inez Olivera faz parte da alta sociedade de Buenos Aires no século XIX. Como o resto do mundo, a cidade está imersa em magia antiga, que já foi quase toda abandonada ou esquecida. Inez tem tudo que uma garota poderia querer, exceto o que mais deseja: viver ao lado dos pais aventureiros, que com frequência a deixam para trás para vagar pelo mundo. Quando fica sabendo da morte dos dois, ela herda uma imensa fortuna e é contatada pelo tio misterioso, um arqueólogo. Ansiando por respostas, Inez parte para o Cairo levando um anel de ouro que o pai lhe enviou antes de falecer. Assim que chega, porém, a magia antiga impregnada na joia a leva por um caminho inesperado. Provocada o tempo todo por Whitford, o belo e irritante assistente do tio, Inez vai explorar tumbas ancestrais e se perder em aventuras (e nos belos olhos do jovem). Mas ela precisará confiar na magia para descobrir a verdade sobre a morte dos pais – ou arriscar se tornar um mero peão num jogo mortal." },
+
+      { url:"https://m.media-amazon.com/images/I/81zVA71dsgL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Onde a biblioteca se esconde",
+        sinopse:"Egito, 1885. Inez Olivera atravessou meio mundo para chegar ao Egito atrás de respostas para a morte misteriosa dos pais. Mas toda essa busca a conduziu por um caminho arriscado, cheio de dor, traição e uma magia capaz de levá-la a um passado ancestral. Inez ainda está remoendo outra perda trágica em sua família quando tio Ricardo lhe dá um ultimato em relação a sua herança. Resta-lhe assim uma única opção: casar-se com Whitford Hayes. Ex-soldado britânico, ajudante do tio de Inez e uma constante pedra no sapato da jovem, Whit tem motivos secretos para permanecer no Egito. Ao apostar no amor, Inez acaba se unindo justamente à pessoa que poderia arruiná-la." }
+    ]
+  },
+  {
+    nome:"Isadora Lacerda",
+    bandeira:"assets/images/bandeiras/.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81LcnihJjJL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Sempre Você (Parte I)",
+        sinopse:"A cada morte, uma nova palavra. Londres vivia sob o terror de um rastro de corpos por cada centímetro da cidade. Eles acreditavam ser somente uma disputa entre assassinos rivais até que estes começaram a conversar através dos corpos. Então, tornou-se uma sina: um assassinato, uma nova mensagem. Na teoria, eles são predadores lutando por terrenos de caça. Na realidade… Nicolas Berrychoth era o chefe da máfia britânica à procura da assassina russa que já havia tentado matá-lo. Mas, diferente do que a maioria pensava, ele nunca quis pagar na mesma moeda. Não antes de conseguir tê-la das formas mais perversas para si. Nicolas só precisava descobrir o rosto da mulher que se tornou a sua mais louca obsessão. O que ele não imaginava, era que já a conhecia, mas sob outra identidade. Clara Rossi era a mulher que assombrava seus dias e o fazia sentir coisas que nunca quis." },
+
+      { url:"https://m.media-amazon.com/images/I/81iSgg8A1aL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Sempre Você (Parte II)",
+        sinopse:"Interligados por um passado que não conseguem esquecer e por um presente perturbado por mentiras, Clara Rossi e Nicolas Berrychoth se prenderam em um labirinto de desejo, obsessão e vingança ao estabelecerem uma aliança. Entretanto, a única saída parecia ser o preço da vida um do outro. Nessa continuação eletrizante, a assassina mergulha em um novo tsunami de problemas e sentimentos sempre que se depara com os olhos de seus sonhos e pesadelos, pois as mentiras de Nicolas eram quase tão sedutoras quanto seu toque. Como chefe de uma das maiores organizações criminosas da Europa, Nicolas tinha alguns princípios irremediáveis em seu trabalho. Mas nunca se deve dizer nunca… Principalmente quando alguém como Clara Rossi cruzava seu caminho. Ela era a dona de todas as exceções dele. Seu impulso sombrio. Uma distorcida lembrança de um passado ainda mais antigo. Mas nada disso podia impedi-lo de manter seus olhos nela para onde quer que vá. Muito menos, impedir que sua aliança com ela desbravasse um caminho diferente de todos os seus outros negócios. Clara o desafiou como nenhuma outra. Ele a desvendou como ninguém. O jogo, que começou com insultos, logo se transformou em um conjunto de mentiras para disfarçar o óbvio: no lugar de ódio, algo mais — um sentimento novo — começava a surgir. Eles só precisavam se lembrar de que tinham um juramento para honrar e uma decisão para tomar, pois iniciaram uma guerra e, agora, mafiosos russos queriam servir suas cabeças em bandejas de prata. Em uma jornada na qual sangue e poder se misturaram em um mundo onde nem tudo era o que parecia ser, a lealdade era um luxo e a traição dormia debaixo de suas camas, restava somente uma única questão: entre desejo e vingança, poderia haver uma escolha certa? Aqui e agora, ou eles se matam… Ou se tornam um para sempre." }
+    ]
+  },
+  {
+    nome:"Ivy Fairbanks",
+    bandeira:"assets/images/bandeiras/.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81edWOK5aGL._SY425_.jpg",
+        nome:"Morrendo de Amor",
+        sinopse:"Callum Flannelly prefere a morte a ter que levar uma garota para jantar. O problema é que o tímido rapaz só poderá herdar a funerária da família sob uma condição: ele precisa se casar antes de seu próximo aniversário, quando completará 35 anos. Ao ficar sabendo do dilema de Callum, Lark Thompson — uma texana que se mudou para a vizinhança buscando recomeçar a vida após a morte do marido — se oferece para ajudá-lo a encontrar a mulher ideal. Mas Lark não esperava que, no processo, o sério e sarcástico rapaz começaria a derreter seu coração enlutado. E quanto mais alegria Lark traz para a vida cinzenta de Callum, menos ele consegue se imaginar deixando-a ir embora da Irlanda…" }
+    ]
+  },
+  {
+    nome:"J. Bree",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/715+osYd-eL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Broken Bonds",
+        sinopse:"Depois da morte de minha mãe e de seus Vínculos, fiquei aliviada ao encontrar os meus. Eu tinha certeza de que com eles tudo ficaria bem. Não ficou. O destino do nosso povo está em minhas mãos, e sei que vai ser melhor se eu ficasse sozinha. Depois de cinco anos fugindo, sou pega e arrastada de volta para encarar os homens de quem fugi. Achei que estava fazendo a coisa certa. Agora, nem tanto. North, Nox, Gryphon, Atlas e Gabe talvez nunca me perdoem, mas de uma coisa eu sei, nunca vou me perdoar." },
+
+      { url:"https://m.media-amazon.com/images/I/71ElryBLYeL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Savage Bonds",
+        sinopse:"Agora que meu dom está correndo pelas minhas veias, as coisas mudaram no Campus Draven. Deixei de ser a rejeitada Desfavorecida, não sou mais a garota que os outros alunos podem perseguir por ter ousado fugir de seus Vínculos. No entanto, tenho problemas maiores a caminho. Com o destino me atraindo para cada vez mais perto dos meus Vínculos, estou lutando com unhas e dentes contra a natureza para mantê-los distantes. Mas eles estão lutando ainda mais para me segurar em suas garras. Quando fica claro que a Resistência está mais perto do que pensávamos, não sei em quem posso confiar. Será que enfim vou poder controlar meu dom, ou será ele que vai me controlar?" },
+
+      { url:"https://m.media-amazon.com/images/I/71wl4hqNlnL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Blood Bonds",
+        sinopse:"Depois de fugir por três anos, estou de volta a um campo da Resistência, acorrentada a uma cadeira como se fosse um monstro permanente. Todos de quem fugi, todos os vilões do meu passado, estão aqui para arrancarem mais um pedaço de mim. Mas, desta vez, não estou sozinha. Com Vínculos desesperados tentando me encontrar e novas amizades que nunca imaginei que teria, começo a acreditar que talvez não me tornarei a arma que querem que eu seja. Talvez eu venha a ser meu próprio monstro. Quando lealdades são questionadas e Vínculos são postos à prova, tudo que achei que sabia vira de ponta-cabeça. Quem são meus amigos, e quem são meus inimigos? Será que os laços entre Vínculos são mais fortes que o sangue?" },
+
+      { url:"assets/images/continua.png",
+        colecao:"Coleção 1" }
     ]
   },
   {
