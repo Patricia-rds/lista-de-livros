@@ -2322,7 +2322,7 @@ export const autores = [
   },
   {
     nome:"Isadora Lacerda",
-    bandeira:"assets/images/bandeiras/.png",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81LcnihJjJL._SY425_.jpg",
         colecao:"Coleção 1",
@@ -2337,7 +2337,7 @@ export const autores = [
   },
   {
     nome:"Ivy Fairbanks",
-    bandeira:"assets/images/bandeiras/.png",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81edWOK5aGL._SY425_.jpg",
         nome:"Morrendo de Amor",
@@ -2376,6 +2376,16 @@ export const autores = [
         sinopse: "Um dos romances mais revolucionários do século XX, O apanhador no campo de centeio é a representação definitiva da juventude na literatura. Com mais de 70 milhões de cópias vendidas desde seu lançamento em 1951, o livro influenciou e marcou gerações de leitores com sua visão crua da adolescência, sua prosa ágil e desbocada e seu humor feroz e anárquico. Esta nova edição que chega agora ao leitor brasileiro tem tradução do premiado Caetano W. Galindo e, pela primeira vez, traz a capa original de seu lançamento. É Natal, e Holden Caulfield conseguiu ser expulso de mais uma escola. Com uns trocados da venda de uma máquina de escrever e portando seu indefectível boné vermelho de caçador, o jovem traça um plano incerto: tomar um trem para Nova York e vagar por três dias pela grande cidade, adiando a volta à casa dos pais até que eles recebam a notícia da expulsão por alguém da escola. Seus dias e noites serão marcados por encontros confusos, e ocasionalmente comoventes, com estranhos, brigas com os tipos mais desprezíveis, encontros com ex-namoradas, visitas à sua irmã Phoebe -- a única criatura neste mundo que parece entendê-lo -- e por dúvidas que irão consumi-lo durante sua estadia, entre elas uma questão recorrente: afinal, para onde vão os patos do Central Park no inverno? Acima de todos esses fatos, preocupações e pensamentos, paira a inimitável voz de Holden, o adolescente raivoso e idealista que quer desbancar o mundo dos 'fajutos', num turbilhão quase sem fim de ressentimento, humor, frases lapidares, insegurança, bravatas e rebelião juvenil." }
     ]
   },
+  {
+    nome:"J. Elle",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81IUKldCnjL._SY466_.jpg",
+        nome:"A Casa Marionne",
+        sinopse:"Rico é o sangue dos escolhidos. Quell Marionne, uma jovem de 17 anos, viveu toda a sua vida na estrada. Para esconder a magia que corre em suas veias, ela e sua mãe passam toda a sua vida viajando de cidade em cidade, sempre prontas para fugir ao mínimo sinal de perigo. Até que alguém descobre o seu segredo. Para se esconder do assassino que a caça e manter sua mãe fora de perigo, Quell, relutantemente, é admitida em uma sociedade de debutantes de elites mágicas chamada Ordem, que ela nunca soube que existia. Se ela conseguir passar nos três ritos de adesão, dominando sua própria magia, ela poderá se livrar de seu dom e ter uma vida normal. Mas se ela falhar em algum dos ritos, estará condenada à morte. Ainda assim, mais do que a própria Ordem, o seu maior medo é enfrentar o monstro que está dentro de si. A Casa Marionne é o primeiro volume da trilogia de J. Elle, que se tornou um hit instantâneo em seu lançamento, e narra uma história de amor proibido em cenários repletos de perigos e novos desafios, onde nada é o que parece, mesmo quando se trata de amor. Uma história perfeita para fãs de dark academia." }
+  ]
+},
+
   {
     nome: "J. Marquesi",
     bandeira:"assets/images/bandeiras/br.png",
@@ -2502,7 +2512,25 @@ export const autores = [
       { url:"https://m.media-amazon.com/images/I/81Td0DJpdrL._SY342_.jpg",
         colecao: "Coleção 1",
         nome: "Darkdawn: As Cinzas da República",
-        sinopse: "Nobre amigo, depois de um breve silêncio, podemos enfim voltar os olhos para a saga de nosso pequeno corvo. É certo que você deve estar curioso para saber o que aconteceu após os eventos sanguinários que abalaram as arenas de Godsgrave. Com o irmão caçula nos braços, Mia Corvere saboreia seu triunfo. Foi uma longa jornada até aqui. A menina assustada que presenciara o enforcamento do pai tornou-se a assassina mais temida de toda a República de Itreya. Passados oito anos desde que começou a planejar sua vingança, Mia finalmente instaurou o caos na Cidade das Pontes e dos Ossos ao ceifar a vida do grão-cardeal e do cônsul. No entanto, nem tudo é glória na vida da Faz-Rei. Os soldados luminatii e os servos da Igreja Vermelha estão à sua caça. Mercurio foi capturado e Mia deve salvá-lo antes que seu querido mentor pereça dentro dos muros da escola de assassinos. Entre sua fuga e o resgate do velho, ela precisa conquistar a confiança de Jonnen, seu irmão. Pois, neste momento, o que sobrou de sua família deseja vê-la morta. Além disso, há algo mais assombrando seu destino. Um enigma fúnebre que cresce sob Godsgrave à medida que a veratreva se aproxima: os muitos eram um e serão de novo. Quando a noite chegar, talvez em definitivo, Mia Corvere conseguirá sobreviver num mundo em que até a luz dos sóis pode morrer?" }
+        sinopse: "Nobre amigo, depois de um breve silêncio, podemos enfim voltar os olhos para a saga de nosso pequeno corvo. É certo que você deve estar curioso para saber o que aconteceu após os eventos sanguinários que abalaram as arenas de Godsgrave. Com o irmão caçula nos braços, Mia Corvere saboreia seu triunfo. Foi uma longa jornada até aqui. A menina assustada que presenciara o enforcamento do pai tornou-se a assassina mais temida de toda a República de Itreya. Passados oito anos desde que começou a planejar sua vingança, Mia finalmente instaurou o caos na Cidade das Pontes e dos Ossos ao ceifar a vida do grão-cardeal e do cônsul. No entanto, nem tudo é glória na vida da Faz-Rei. Os soldados luminatii e os servos da Igreja Vermelha estão à sua caça. Mercurio foi capturado e Mia deve salvá-lo antes que seu querido mentor pereça dentro dos muros da escola de assassinos. Entre sua fuga e o resgate do velho, ela precisa conquistar a confiança de Jonnen, seu irmão. Pois, neste momento, o que sobrou de sua família deseja vê-la morta. Além disso, há algo mais assombrando seu destino. Um enigma fúnebre que cresce sob Godsgrave à medida que a veratreva se aproxima: os muitos eram um e serão de novo. Quando a noite chegar, talvez em definitivo, Mia Corvere conseguirá sobreviver num mundo em que até a luz dos sóis pode morrer?" },
+
+      { url:"https://m.media-amazon.com/images/I/91e4dLNppyL._SY466_.jpg",
+         colecao:"Coleção 2",
+         nome:"Império do Vampiro",
+         sinopse:"Já se passaram 27 longos anos desde o último nascer do sol. Por quase três décadas, os vampiros travaram uma guerra contra a humanidade; construindo seu império eterno ao mesmo tempo em que destruíam o nosso. Agora, apenas algumas pequenas faíscas de luz perduram em um mar de escuridão. Gabriel de León, metade humano e metade monstro, é o último Santo de Prata – membro de uma sagrada irmandade dedicada a defender o reino das criaturas da noite –, e ele é também tudo o que resta entre o mundo e seu fim. Aprisionado pelos monstros que jurou destruir, Gabriel de Léon é forçado a contar a própria história. Uma história de batalhas lendárias e amor proibido, de fé perdida e amizades conquistadas, do Rei Eterno e da busca pela última esperança remanescente da humanidade: o Santo Graal. Império do vampiro é o primeiro volume da aguardada série de fantasia dark de Jay Kristoff. Ricamente ilustrada pela artista Bon Orthwick, esta história épica chega para marcar as narrativas do gênero para todo o sempre." },
+
+
+        { url:"https://m.media-amazon.com/images/I/91sLLontn2L._SY466_.jpg",
+          colecao:"Coleção 2",
+          nome:"Império dos malditos",
+          sinopse:"Gabriel de León conseguiu salvar o Santo Graal e, com isso, arruinou a chance de pôr fim à noite eterna. Depois de dar as costas de uma vez por todas aos demais santos de prata, Gabriel e o Graal partem para descobrir uma forma de acabar com a morte dos dias. Mas o perigo sempre espreita. Perseguido por terrores oriundos do Rei Eterno, enredado em conflitos centenários e cada vez mais atormentado pela crescente sede de sangue, Gabriel corre o risco de não sobreviver para conhecer a verdade sobre o Graal – uma verdade que pode ser muito pior do que todos imaginavam. A história de Gabriel de León continua a ser contada em Império dos malditos, segundo volume da celebrada série de fantasia dark Império do Vampiro, com ilustrações primorosas da artista Bon Orthwick." },
+
+
+        { url:"https://m.media-amazon.com/images/I/91Zs4Y1xd3L._SY466_.jpg",
+          colecao:"Coleção 2",
+          nome:"Não lançado no Brasil",
+          sinopse:"",
+          mostrarNome: true }
     ]
   },
   {
@@ -2566,7 +2594,35 @@ export const autores = [
       { url:"https://m.media-amazon.com/images/I/51wQYOjJGAL._SY445_SX342_.jpg",
         colecao: "Coleção 2",
         nome: "A cada último suspiro",
-        sinopse: "Cada escolha tem consequências e Layla enfrenta escolhas mais difíceis do que a maioria. Luz ou escuridão? Em qual lado confiar? Um Lilin, o mais mortal dos demônios, foi solto, causando estragos ao seu redor. Para proteger sua melhor amiga de um destino pior que a morte, Layla deve fazer um acordo com o inimigo enquanto salva sua cidade da destruição. Dividida entre dois mundos, ela não tem certezas, mas, às vezes, quando os segredos estão por toda parte e a verdade parece inacessível, você tem simplesmente que ouvir o seu coração, escolher um lado e lutar como um demônio." }
+        sinopse: "Cada escolha tem consequências e Layla enfrenta escolhas mais difíceis do que a maioria. Luz ou escuridão? Em qual lado confiar? Um Lilin, o mais mortal dos demônios, foi solto, causando estragos ao seu redor. Para proteger sua melhor amiga de um destino pior que a morte, Layla deve fazer um acordo com o inimigo enquanto salva sua cidade da destruição. Dividida entre dois mundos, ela não tem certezas, mas, às vezes, quando os segredos estão por toda parte e a verdade parece inacessível, você tem simplesmente que ouvir o seu coração, escolher um lado e lutar como um demônio." },
+
+      { url:"https://m.media-amazon.com/images/I/914Dfk1coUL._SY466_.jpg",
+         colecao:"Coleção 3",
+         nome:"Meio-sangue",
+         sinopse:"O Covenant é uma escola de treinamento para descendentes de deuses. Os puros, descendentes diretos, aprendem a aprimorar seus poderes, enquanto os meios — descendentes de segunda geração — são treinados para matar daímônes ou servir. Alex é uma meio-sangue que, aos dezessete anos, leva uma vida clandestina desde que sua mãe, puro-sangue, decidiu fugir da escola e se afastar de tudo ligado aos deuses. Alex nunca se adaptou à vida mundana, mas tudo piora terrivelmente quando sua mãe é morta por um daímôn. Perdida, só lhe resta uma opção: voltar ao Covenant e escolher entre se tornar uma serva para os puros ou ser treinada para enfrentar os assassinos de sua mãe. A segunda opção até poderia parecer mais fácil, se Aiden não fosse seu treinador. Além de gato, ele entende Alex como ninguém. Mas é claro que uma meio-sangue como ela jamais poderia namorar um puro como ele. Outros obstáculos surgem e, quando daímônes começam a ir atrás dela na escola, Alex precisa tentar se manter viva — enquanto carrega a culpa pela morte de sua mãe e de tantos outros. O primeiro volume da nova série de Jennifer Armentrout promete conquistar leitores de todas as idades." },
+
+
+       { url:"https://m.media-amazon.com/images/I/51a7RDuoKTL._SY445_SX342_QL70_ML2_.jpg",
+         colecao:"Coleção 3",
+         nome:"Puros",
+         sinopse:"Alex daria tudo para ser uma meio-sangue comum, mas não pode escapar de seu destino. Prestes a completar dezoito anos, ela será despertada para se tornar a segunda Apôlion, o que só aconteceu uma vez há muito tempo. E não acabou nada bem. Isso não seria tão ruim se o irritante Seth, sua outra metade, desgrudasse um pouco dela. Sua união garante algumas vantagens, mas não a protege dos ataques de daímônes, meios e puros. Como se lutar para sobreviver não fosse suficiente, ela também vive uma batalha contra um amor proibido por um puro-sangue, Aiden. Impedidos de se relacionar por uma lei estúpida, quanto mais tempo ficam separados, maior é o desejo de quebrar as regras. Quando até mesmo os deuses se envolvem, Alex se pergunta: quantas pessoas ainda terão que se machucar para que ela consiga sobreviver?" },
+     
+       { url:"https://m.media-amazon.com/images/I/918FmWW7IwL._SY466_.jpg",
+         colecao:"Coleção 3",
+         nome:"Divindade",
+         sinopse:"Alex não sabe se conseguirá sobreviver até se tornar o segundo Apôlion. Uma ordem fanática está na sua cola, e se o conselho descobrir o que ela fez em Catskills, será seu fim… E o de Aiden também. Como se isso não bastasse, as sessões de treinamento com Seth parecem uma desculpa para o garoto invadir seu espaço pessoal, e ela fica cada vez mais perto de despertar antes do planejado. Para completar, seu mundo é abalado por uma revelação avassaladora que a deixa entre o amor e o destino. Uma vez que os deuses se revelam, libertando sua fúria, vidas serão inevitavelmente alteradas… e destruídas. Aqueles que restarem terão que descobrir se o amor é mesmo maior que o destino." },
+
+
+       { url:"https://m.media-amazon.com/images/I/51XKUMW3MML._SY445_SX342_QL70_ML2_.jpg",
+         colecao:"Coleção 3",
+         nome:"Apôlion",
+         sinopse:"Alex está prestes a despertar e se perder para sempre, pois Seth domina cada vez mais sua mente e seus poderes. Tudo que ele quer é se tornar o todo-poderoso através da fusão dos dois, mas Aiden está determinado a impedir que isso aconteça. Ao mesmo tempo, a guerra entre mortais e deuses mata milhares de pessoas, e Alex se vê totalmente dividida entre os dois lados. Será que ela vai ser capaz de contornar a manipulação de Seth para detê-lo?" },
+
+
+       { url:"https://m.media-amazon.com/images/I/51Re4rBmQnL._SY445_SX342_QL70_ML2_.jpg",
+         colecao:"Coleção 3",
+         nome:"Sentinela",
+         sinopse:"É um belo dia para guerra. Enquanto o mundo mortal sucumbe aos poucos ao caos de origem divina, Alexandria Andros precisa superar a derrota gigantesca que a deixou duvidando de suas próprias habilidades de colocar fim a essa guerra. Em meio a tantos obstáculos entre ela e seu final feliz com Aiden, o casal deve confiar em um adversário mortal enquanto viaja ao Submundo para libertar um dos deuses mais perigosos de todos os tempos. Neste volume com ação, reviravoltas e um final apocalíptico, a saga Covenant chega ao seu clímax, e Alex deve enfrentar uma escolha terrível: a destruição de tudo e todos que ela ama ou o fim de sua própria vida." }
     ]
   },
   {
@@ -2591,6 +2647,77 @@ export const autores = [
     ]
   },
   {
+    nome:"Jessa Hastings",
+    bandeira:"assets/images/bandeiras/au.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/514OOjtJZRL._SY445_SX342_ML2_.jpg",
+        nome:"Magnolia Parks",
+        sinopse:"Ela é uma socialite lindíssima, rica e egocêntrica. Ele é o bad boy mais popular da Grã-Bretanha. Magnolia Parks e BJ Ballentine nasceram um para o outro, e todo mundo sabe disso. Só tem um problema: ele partiu o coração dela. Há anos, o ex-casal está preso em uma rotina: Magnolia namora outras pessoas para mantê-lo afastado, e BJ dorme com outras garotas para se vingar dela. No fim do dia, porém, mesmo com todo o esforço para superar um ao outro, eles sempre acabam juntos. Os dois podem até viver em um universo de luxos, jantares caros e noites intensas, mas sua relação conturbada talvez esteja chegando a um limite. Aos poucos, sentimentos se embaralham e segredos vêm à tona, revirando a vida de todos à volta deles e desgastando o mundo que construíram ― um mundo onde um nunca precisa se desvencilhar do outro completamente. Agora, Magnolia e BJ são forçados não apenas a lidar com as consequências dolorosas de suas decisões, mas a questionar o rumo de suas vidas. Será amor… ou obsessão?" }
+    ]
+  },
+  {
+    nome:"Jessica Goodman",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/714uQr1nxFL._SY466_.jpg",
+        nome:"A Mesa dos Jogadores",
+        sinopse:"É um milagre que alguém saia vivo do Ensino Médio... Tudo na vida de Jill Newman e de seus amigos parece perfeito. Brilhantes, intocáveis, destinados à grandeza, eles têm as melhores festas, as melhores notas e a admiração de toda a escola. Este vai ser o ano de sua vida. Ela tem certeza disso. Até que a memória de um evento trágico ameaça ressurgir... Três anos antes, a melhor amiga de Jill, Shaila, foi morta pelo namora - do, Graham. Ele confessou, o caso foi encerrado e Jill tentou seguir em frente. Mas quando começa a receber mensagens de texto anônimas proclamando a inocência de Graham, a perfeição do ano de Jill se desfaz. Se Graham não matou Shaila, quem o fez? Ela promete descobrir, mas tem alguém disposto a fazer o que for preciso para garantir que o passado permaneça enterrado..." }
+    ]
+  },
+  {
+    nome:"Jéssica Macedo",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/810Yt1CL0HL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Sacrificada",
+        sinopse:"Em um mundo corrompido e dominado pelos elementum, Arden de Haddan se tornou o imperador do Caos. O brutal líder da Nação do Fogo fez as cidades se ajoelharem diante da sua crueldade e tirania. Seu nome era temido e ele fazia questão de lembrar aos seus inimigos que não havia piedade para aqueles que o desafiassem. Mari era herdeira de um poderoso clã, mas foi rejeitada desde a infância, tratada como a escória. Ela não era nada e o destino se mostrou ainda mais cruel para a jovem inocente quando foi usada em benefício de sua família. Ao se ver cara a cara com um homem mais assombroso do que o próprio Diabo, ela saberá que o seu sacrifício é apenas o início. Em um jogo cruel de política e intrigas, Mari descobre mais sobre si mesma e a proximidade com Arden evolui de pavor e repulsa a uma paixão avassaladora. Entretanto, quando se há poder envolvido, o preço sempre pode ser alto demais." },
+
+      { url:"https://m.media-amazon.com/images/I/81fT+gbeIFL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Rendida",
+        sinopse:"Nos braços do Imperador do Caos, a jovem princesa da Nação da Água revelou poderes que desconhecia e o salvou de um final trágico. Mari, que por muito tempo foi tida como uma medíocre, descobriu em si uma força narrada apenas em lendas. Até controlar todo poder que existe dentro dela, precisará de muita dedicação, mas está disposta a dar tudo de si para se tornar mais forte e construir um lar onde finalmente se encontrou. Entretanto, ela não fazia ideia de que era apenas uma peça num plano maior do Senhor do Fogo. Arrasada pela verdade, Mari decidiu que não seria mais manipulada e lutaria para a sua liberdade. Não disposta a se tornar uma arma no jogo de poder entre as nações, vai precisar fugir e se esconder enquanto busca aliados nas outras nações dispostos a ensiná-la a controlar os demais elementos. Em sua busca pelo domínio do mundo, Arden não vai desistir facilmente de sua arma mais poderosa e escapar dele será um dos muitos desafios que Mari terá que enfrentar." },
+
+      { url:"https://m.media-amazon.com/images/I/91R+ZkGx9iL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Revelada",
+        sinopse:"Com o objetivo de dominar todos os elementos, Mari viajou pelas outras nações, fez aliados, inimigos e descobriu novos perseguidores que desejavam a mesma coisa dela: poder. Sabia que nunca estaria a salvo se não pudesse garantir a sua própria proteção. Embora já houvesse se tornado muito poderosa, ainda faltava um elemento, o Fogo. Para isso teria que retornar ao local das suas maiores dores e rever aquele que havia despedaçado o seu coração. Não há nada na Grande Nação do Fogo que o imperador não saiba e Mari tinha ciência disso, voltar para lá significava estar diante dele novamente. Ela estava disposta a aceitar a ajuda do imperador para dominar o Fogo, mas prometeu a si mesma que jamais confiaria em Arden novamente. Porém, o Grande Senhor do Fogo está longe de ser o seu único desafio, porque as outras nações descobriram sobre ela e não estão dispostas a deixar tamanho poder nas mãos do tirano. Logo Mari vai perceber que o jogo de poder é muito maior do que ela imaginava e que Arden não é o único que anseia usá-la como arma de guerra." }
+    ]
+  },
+  {
+    nome:"Jéssica Ribeiro",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/911OdWz8frL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Todos os Seus Pedaços",
+        sinopse:"Até onde você iria por um sonho? Do que seria capaz para conquistar o que deseja? Dustin Gale já foi capaz de quase tudo. Talvez, por isso, ele se arrependa amargamente por ter perdido tanto no passado. As circunstâncias desses acontecimentos o levaram a se mudar para Massachussetts com uma bagagem pesada de segredos. Mas ele não é o único a sustentar uma farsa. Emery Rose foi moldada para ser perfeita, a rosa mais bela de um jardim espinhoso. Contudo, após tantas pétalas arrancadas e o despudor dos desejos que começam a povoar a sua mente, essa fachada meticulosamente construída pode ruir camada por camada. Conheça uma mulher que está prestes a se encontrar. Um homem disposto a resistir ao seu pior desejo. E uma história que vem para mostrar o que ninguém conta: O que acontece depois do “Felizes para Sempre”. Seja muito bem-vindo ao Grand Village! O condomínio mais luxuoso de Boston, que está prestes a ser abalado por um escândalo. As verdades que essas paredes caras escondem são feias demais para serem mostradas, mas nenhuma mentira permanece no escuro e no silêncio por muito tempo. Cedo ou tarde, todos os segredos chegam à superfície. Todos os pedaços também." },
+
+      { url:"https://m.media-amazon.com/images/I/81hpeuhdRLL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Todos os Nossos Desejos",
+        sinopse:"O que você perdoaria por amor? Emery Rose ainda pode ouvir o tilintar frio de sua aliança contra o piso, o sinal de que, em breve, ela não carregará mais o sobrenome Anderson. Infelizmente, os pedaços do seu coração ecoam um som ainda mais agudo após a descoberta do segredo de outro homem. Por uma façanha do destino, Dustin perdeu a oportunidade de conhecer Emery há oito anos, antes que a vida lhe conduzisse por caminhos traiçoeiros. E, embora tenha recebido uma segunda chance, deixou-a escapar dos seus braços ao esconder o seu passado. Haveria uma terceira? Conheça uma mulher se reconstruindo. Um homem determinado a se redimir. E dois corações feridos, lutando arduamente por um final feliz. Seja muito bem-vindo ao segundo ato desse romance e as imprevisíveis descobertas escondidas a sete chaves em Nova York. Segredos são forjados para esconderem duras verdades, que inevitavelmente sempre chegam à tona e ferem pessoas. Mas até mesmo as histórias mais torpes possuem dois lados, provando que os corações mais fechados e misteriosos são os mais famintos por amor. Chegou a hora de revelar os segredos mais profundos. E, com sorte, também conquistar todos os desejos." }
+    ]
+  },
+  {
+    nome:"Jo Segura",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91S4HcMjuML._SY466_.jpg",
+        nome:"Os caçadores do coração perdido",
+        sinopse:"Corrie Mejía é uma arqueóloga famosa por sua capacidade de trabalho e seu temperamento forte, e ela tem um sonho: liderar uma expedição na selva mexicana em busca dos restos mortais do guerreiro asteca Chimalli, que ela acredita ser seu ancestral. Mas receber um convite para participar de uma escavação com esse objetivo, com todas as despesas pagas, parece bom demais para ser verdade — e é. Como a maior especialista do mundo em Chimalli, Corrie sabe que deveria liderar a expedição, e não se subordinar ao insuportável (e absurdamente sexy) Ford Matthews, seu ex-colega de faculdade e maior concorrente. Com a vida pessoal em frangalhos, no entanto, ele também não está nem um pouco animado em trabalhar com sua nêmesis. Quando a escavação começa, porém, fica claro que os dois terão que trabalhar juntos: há um ladrão por ali, e Corrie e Ford precisam manter em segredo suas descobertas — e a química inegável entre eles. Em meio a traficantes de artefatos, autoridades mexicanas e mentiras do passado, essa expedição só pode ter um final explosivo." }
+    ]
+  },
+  {
+    nome:"João Guimarães Rosa",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/51hgSTWoBHL._SY445_SX342_QL70_ML2_.jpg",
+        nome:"Grande sertão: veredas",
+        sinopse:"Publicado originalmente em 1956, Grande sertão: veredas é uma das obras mais apaixonantes da literatura brasileira. Ao narrar o mundo através dos olhos de Riobaldo, Guimarães Rosa constrói um romance fascinante, que mescla sofrimento, luta, alegria, violência, amor e morte em uma prosa extremamente inventiva. Neste clássico arrebatador, as paisagens percorridas pelos jagunços ganham uma dimensão universal e profundamente humana." }
+    ]
+  },
+  {
     nome: "Joe Abercrombie",
     bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
@@ -2612,14 +2739,20 @@ export const autores = [
   },
   {
     nome: "Joël Dicker",
+    bandeira:"assets/images/bandeiras/sç.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81JeE+h9U1L._SY342_.jpg",
         nome: "O desaparecimento de Stephanie Mailer",
-        sinopse: "Uma grande expectativa toma conta da badalada cidade de Orphea, nos Hamptons. A população aguarda ansiosamente a estreia de seu primeiro festival de teatro. Mas o prefeito está atrasado para a cerimônia. A poucos metros dali, Samuel Padalin percorre as ruas desertas em busca da esposa. Diante da casa do prefeito, um corpo é encontrado. E, no interior da residência, a cena é ainda pior: uma família inteira foi assassinada com extrema violência. Vinte anos após a resolução do homicídio, novos fatos mudarão para sempre a história de Orphea. A jornalista Stephanie Mailer confronta as autoridades e afirma que houve um gravíssimo erro na investigação. Então, ela desaparece. O que aconteceu com a jornalista? E o que de fato ocorreu em 30 de julho de 1994?" }
+        sinopse: "Uma grande expectativa toma conta da badalada cidade de Orphea, nos Hamptons. A população aguarda ansiosamente a estreia de seu primeiro festival de teatro. Mas o prefeito está atrasado para a cerimônia. A poucos metros dali, Samuel Padalin percorre as ruas desertas em busca da esposa. Diante da casa do prefeito, um corpo é encontrado. E, no interior da residência, a cena é ainda pior: uma família inteira foi assassinada com extrema violência. Vinte anos após a resolução do homicídio, novos fatos mudarão para sempre a história de Orphea. A jornalista Stephanie Mailer confronta as autoridades e afirma que houve um gravíssimo erro na investigação. Então, ela desaparece. O que aconteceu com a jornalista? E o que de fato ocorreu em 30 de julho de 1994?" },
+
+      { url:"https://m.media-amazon.com/images/I/81UkL8t2NRL._SY425_.jpg",
+        nome:"A verdade sobre o caso Harry Quebert",
+        sinopse:"Com apenas vinte e oito anos, publicou um livro que se tornou um best-seller e o alçou ao status de celebridade, com direito a um apartamento chique em Manhattan, um carrão, uma namorada estrela de TV e presenças constantes nos tapetes vermelhos, além de um contrato milionário para um novo romance. E então foi acometido pela doença dos escritores: a síndrome da página em branco. A poucos meses do prazo para a entrega do novo original, pressionado por seu editor e por seu agente, Marcus não consegue escrever nem uma linha sequer. Na tentativa de superar seu bloqueio criativo, Marcus recorre a seu amigo e ex-professor Harry Quebert, um dos escritores mais respeitados dos Estados Unidos, que vive numa bela casa à beira-mar na pequenina cidade de Aurora, em New Hampshire. Às voltas com sua dificuldade em escrever, Marcus é surpreendido pela descoberta do corpo de uma jovem de quinze anos, Nola Kellergan — que desaparecera sem deixar rastros em 1975 —, enterrado no jardim de Harry, junto com o original do romance que o consagrou. Harry admite ter tido um caso com a garota e ter escrito o livro para ela, mas alega inocência no caso do assassinato. Com a mídia inteira contra Harry, Marcus se lança numa investigação particular, seguindo uma trilha de pistas através dos livros de seu mentor, dos bosques, das praias e das áreas isoladas de New Hampshire em busca da história secreta dos cidadãos de Aurora e do homem que mais admira. Uma teia de segredos emerge, mas a verdade só virá à tona depois de uma longa e complexa jornada. Para salvar Harry, sua carreira literária e a própria pele, Marcus precisa responder a três perguntas, todas misteriosamente conectadas: quem matou Nola Kellergan? O que aconteceu no verão de 1975? E como escrever um romance verdadeiramente bem-sucedido?" }
     ]
   },
   {
     nome: "John Douglas e Mark Olshaker",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81+1p96170L._SY342_.jpg",
         nome: "Mindhunter: O primeiro caçador de serial killers americano",
@@ -2628,6 +2761,7 @@ export const autores = [
   },
   {
     nome: "John Fowles",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/611NCW7q+JL._SY342_.jpg",
         nome: "O Colecionador",
@@ -2636,14 +2770,20 @@ export const autores = [
   },
   {
     nome: "Jorge Amado",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/41egZIo3eYL._SY445_SX342_.jpg",
         nome: "Capitães da areia",
-        sinopse: "Capitães da Areia, a história crua e comovente de meninos pobres que moram num trapiche abandonado em Salvador, é talvez o romance mais influente de Jorge Amado. Clássico absoluto dos livros sobre a infância abandonada, assombrou e encantou várias gerações de leitores e permanece hoje tão atual quanto na época em que foi escrito. Desde o seu lançamento, em 1937, Capitães da Areia causou escândalo: inúmeros exemplares do livro foram queimados em praça pública, por determinação do Estado Novo. Ao longo de sete décadas a narrativa não perdeu viço nem atualidade, pelo contrário: a vida urbana dos meninos pobres e infratores ganhou contornos trágicos e urgentes. Várias gerações de brasileiros sofreram o impacto e a sedução desses meninos que moram num trapiche abandonado no areal do cais de Salvador, vivendo à margem das convenções sociais. Verdadeiro romance de formação, o livro nos torna íntimos de suas pequenas criaturas, cada uma delas com suas carências e suas ambições: do líder Pedro Bala ao religioso Pirulito, do ressentido e cruel Sem-Pernas ao aprendiz de cafetão Gato, do sensato Professor ao rústico sertanejo Volta Seca. Com a força envolvente da sua prosa, Jorge Amado nos aproxima desses garotos e nos contagia com seu intenso desejo de liberdade." }
+        sinopse: "Capitães da Areia, a história crua e comovente de meninos pobres que moram num trapiche abandonado em Salvador, é talvez o romance mais influente de Jorge Amado. Clássico absoluto dos livros sobre a infância abandonada, assombrou e encantou várias gerações de leitores e permanece hoje tão atual quanto na época em que foi escrito. Desde o seu lançamento, em 1937, Capitães da Areia causou escândalo: inúmeros exemplares do livro foram queimados em praça pública, por determinação do Estado Novo. Ao longo de sete décadas a narrativa não perdeu viço nem atualidade, pelo contrário: a vida urbana dos meninos pobres e infratores ganhou contornos trágicos e urgentes. Várias gerações de brasileiros sofreram o impacto e a sedução desses meninos que moram num trapiche abandonado no areal do cais de Salvador, vivendo à margem das convenções sociais. Verdadeiro romance de formação, o livro nos torna íntimos de suas pequenas criaturas, cada uma delas com suas carências e suas ambições: do líder Pedro Bala ao religioso Pirulito, do ressentido e cruel Sem-Pernas ao aprendiz de cafetão Gato, do sensato Professor ao rústico sertanejo Volta Seca. Com a força envolvente da sua prosa, Jorge Amado nos aproxima desses garotos e nos contagia com seu intenso desejo de liberdade." },
+
+      { url:"https://m.media-amazon.com/images/I/91oRFGuJPcL._SY466_.jpg",
+        nome:"Mar morto",
+        sinopse:"Nenhum outro livro sintetizou tão bem quanto Mar morto o mundo pulsante do cais de Salvador, com a rica mitologia em torno de Iemanjá, a rainha do mar. Personagens como o jovem mestre de saveiro Guma parecem prisioneiros de um destino traçado há muitas gerações: o dos homens que saem para o mar e que um dia serão levados por Iemanjá, deixando mulher e filhos a esperar, resignados. Mas nesse mundo aparentemente parado no tempo há forças transformadoras em gestação. O médico Rodrigo e a professora Dulce, não por acaso dois forasteiros, procuram despertar a consciência da gente do cais contra o marasmo e a opressão. Esse contraste entre o tempo do mito e o da história move Mar morto, envolvendo-nos desde a primeira página na escrita calorosa de Jorge Amado." }
     ]
   },
   {
     nome: "José de Alencar",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71xKT+UHFQL._SY342_.jpg",
         nome: "Senhora",
@@ -2656,6 +2796,7 @@ export const autores = [
   },
   {
     nome: "José Saramago",
+    bandeira:"assets/images/bandeiras/pt.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71OXPFgQdoL._SY342_.jpg",
         nome: "As intermitências da morte",
