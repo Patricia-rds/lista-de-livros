@@ -2800,11 +2800,31 @@ export const autores = [
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71OXPFgQdoL._SY342_.jpg",
         nome: "As intermitências da morte",
-        sinopse: "'Não há nada no mundo mais nu que um esqueleto', escreve José Saramago diante da representação tradicional da morte. Só mesmo um grande romancista para desnudar ainda mais a terrível figura. Apesar da fatalidade, a morte também tem seus caprichos. E foi nela que o primeiro escritor de língua portuguesa a receber o Prêmio Nobel da Literatura buscou o material para seu novo romance, As intermitências da morte. Cansada de ser detestada pela humanidade, a ossuda resolve suspender suas atividades. De repente, num certo país fabuloso, as pessoas simplesmente param de morrer. E o que no início provoca um verdadeiro clamor patriótico logo se revela um grave problema. Idosos e doentes agonizam em seus leitos sem poder 'passar desta para melhor'. Os empresários do serviço funerário se vêem 'brutalmente desprovidos da sua matéria-prima'. Hospitais e asilos geriátricos enfrentam uma superlotação crônica, que não para de aumentar. O negócio das companhias de seguros entra em crise. O primeiro-ministro não sabe o que fazer, enquanto o cardeal se desconsola, porque 'sem morte não há ressurreição, e sem ressurreição não há igreja'. Um por um, ficam expostos os vínculos que ligam o Estado, as religiões e o cotidiano à mortalidade comum de todos os cidadãos. Mas, na sua intermitência, a morte pode a qualquer momento retomar os afazeres de sempre. Então, o que vai ser da nação já habituada ao caos da vida eterna? Ao fim e ao cabo, a própria morte é o personagem principal desta 'ainda que certa, inverídica história sobre as intermitências da morte'." }
+        sinopse: "'Não há nada no mundo mais nu que um esqueleto', escreve José Saramago diante da representação tradicional da morte. Só mesmo um grande romancista para desnudar ainda mais a terrível figura. Apesar da fatalidade, a morte também tem seus caprichos. E foi nela que o primeiro escritor de língua portuguesa a receber o Prêmio Nobel da Literatura buscou o material para seu novo romance, As intermitências da morte. Cansada de ser detestada pela humanidade, a ossuda resolve suspender suas atividades. De repente, num certo país fabuloso, as pessoas simplesmente param de morrer. E o que no início provoca um verdadeiro clamor patriótico logo se revela um grave problema. Idosos e doentes agonizam em seus leitos sem poder 'passar desta para melhor'. Os empresários do serviço funerário se vêem 'brutalmente desprovidos da sua matéria-prima'. Hospitais e asilos geriátricos enfrentam uma superlotação crônica, que não para de aumentar. O negócio das companhias de seguros entra em crise. O primeiro-ministro não sabe o que fazer, enquanto o cardeal se desconsola, porque 'sem morte não há ressurreição, e sem ressurreição não há igreja'. Um por um, ficam expostos os vínculos que ligam o Estado, as religiões e o cotidiano à mortalidade comum de todos os cidadãos. Mas, na sua intermitência, a morte pode a qualquer momento retomar os afazeres de sempre. Então, o que vai ser da nação já habituada ao caos da vida eterna? Ao fim e ao cabo, a própria morte é o personagem principal desta 'ainda que certa, inverídica história sobre as intermitências da morte'." },
+
+      { url:"https://m.media-amazon.com/images/I/71Hr1-by3UL._SY466_.jpg",
+        nome:"Ensaio sobre a cegueira",
+        sinopse:"Um motorista parado no sinal se descobre subitamente cego. É o primeiro caso de uma treva branca que logo se espalha incontrolavelmente. Resguardados em quarentena, os cegos se perceberão reduzidos à essência humana, numa verdadeira viagem às trevas. O Ensaio sobre a cegueira é a fantasia de um autor que nos faz lembrar a responsabilidade de ter olhos quando os outros os perderam. José Saramago nos dá, aqui, uma imagem aterradora e comovente de tempos sombrios, à beira de um novo milênio, impondo-se à companhia dos maiores visionários modernos, como Franz Kafka e Elias Canetti.Cada leitor viverá uma experiência imaginativa única. Num ponto onde se cruzam literatura e sabedoria, José Saramago nos obriga a parar, fechar os olhos e ver. Recuperar a lucidez, resgatar o afeto: essas são as tarefas do escritor e de cada leitor, diante da pressão dos tempos e do que se perdeu: uma coisa que não tem nome, essa coisa é o que somos." },
+
+
+      { url:"https://m.media-amazon.com/images/I/91R9SpHDatL._SY466_.jpg",
+        nome:"O conto da ilha desconhecida",
+        sinopse:"Um homem vai ao rei e lhe pede um barco para viajar até uma ilha desconhecida. O rei lhe pergunta como pode saber que essa ilha existe, já que é desconhecida. O homem argumenta que assim são todas as ilhas até que alguém desembarque nelas. Este pequeno conto de José Saramago pode ser lido como uma parábola do sonho realizado, isto é, como um canto de otimismo em que a vontade ou a obstinação fazem a fantasia ancorar em porto seguro. Antes, entretanto, ela é submetida a uma série de embates com o status quo, com o estado consolidado das coisas, como se da resistência às adversidades viesse o mérito e do mérito nascesse o direito à concretização. Entre desejar um barco e tê-lo pronto para partir, o viajante vai de certo modo alterando a idéia que faz de uma ilha desconhecida e de como alcançá-la, e essa flexibilidade com certeza o torna mais apto a obter o que sonhou." },
+
+
+      { url:"https://m.media-amazon.com/images/I/71FJOLCNDVL._SY466_.jpg",
+        nome:"Memorial do Convento",
+        sinopse:"No epicentro desta história está a construção do Palácio Nacional de Mafra, também conhecido como Convento. O monarca absolutista D. João V, cumprindo uma promessa, ordenou que o edifício fosse erguido no início do século XVIII, em pleno processo colonial, à custa de uma imensa quantidade de ouro e diamantes vindos do Brasil, além do sangue de milhares de operários. Dentre eles, havia um certo Baltasar, da estirpe de Sete-Sóis, inválido da mão esquerda depois de uma guerra, apaixonado por Blimunda, uma jovem dotada de poderes extraordinários. Indivíduos habitualmente não observados pela dita história oficial, mas que no entanto constituem seu tecido mais delicado e essencial. Memorial do Convento - publicado pela primeira vez em 1982 - tornou o português José Saramago um nome internacionalmente aclamado da literatura contemporânea, graças à mistura entre narrativa histórica e história individual. Embora esteja firmemente assentado na tradição da melhor ficção de seu país, a obra cativaria leitores das mais diversas culturas. Como em História do cerco de Lisboa e A jangada de pedra , para citar apenas alguns dos celebrados romances do autor, a finíssima ironia na observação de fatos históricos e o elegante tecido ficcional estão a serviço de uma fabulação sempre brilhante, moderna e criticamente devastadora do ponto de vista social. O resultado é um romance sobre o embate entre a dureza do individualismo e a delicadeza dos sonhos coletivos. Com sua abordagem absolutamente inovadora do romance histórico - um gênero que já esteve a serviço dos heróis nacionais e suas poses engessadas -, este Memorial do Convento recupera as ilusões, fantasias e aspirações de um Portugal que se quis grande e eterno, ainda que frágil e delicado." },
+
+
+      { url:"https://m.media-amazon.com/images/I/71qDCQnj7TL._SY466_.jpg",
+        nome:"O homem duplicado",
+        sinopse:"O professor de história Tertuliano Máximo Afonso descobre, certo dia, que é um homem duplicado. Ao assistir a um vídeo, ele se reconhece em outro corpo, idêntico ao dele próprio: um dos atores do filme é seu sósia. Os desdobramentos dessa história são imprevisíveis. Mas este romance de José Saramago, esclareça-se logo, não tem nada a ver com clonagem ou outras experiências de laboratório. O que está em jogo é a perda de identidade numa sociedade que cultiva a individualidade e, paradoxalmente, estabelece padrões estreitos de conduta e de aparência. Os romances do escritor português retratam uma época de transformações que, para boa parte da humanidade, resultam mais em perdas que em ganhos. Em Ensaio sobre a cegueira , os personagens perdem a vista, sinal de um tempo em que todos parecem estar cegos. Em A caverna , artesãos perdem o emprego, incapazes de sobreviver à sociedade de consumo. Em O homem duplicado , José Saramago constrói uma ficção extraordinária, apoiada numa questão extremamente atual e inquietante: a perda de identidade no mundo globalizado." }
     ]
   },
   {
     nome: "Joseph Thomas Sheridan Le Fanu",
+    bandeira:"assets/images/bandeiras/ir.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/818WeIjqqcL._SY342_.jpg",
         nome: "Carmilla: A Vampira de Karnstein",
@@ -2813,6 +2833,7 @@ export const autores = [
   },
   {
     nome: "Josy Stoque",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/9156UFS0RxL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -2836,7 +2857,24 @@ export const autores = [
     ]
   },
   {
-    nome: "Júlio Verne",
+    nome:"Judy I. Lin",
+    bandeira:"assets/images/bandeiras/ca.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/81mblwzVp-L._SY425_.jpg",
+          colecao:"Coleção 1",
+          nome:"Uma magia destilada em veneno",
+          sinopse:"Filha de um médico e de uma mestre da arte Shénnóng, Ning estava conformada com o arranjo familiar em que seguiria os passos do pai enquanto a irmã, Shu, seguiria os da mãe. Mas quando um chá envenenado leva sua mãe à morte e adoece gravemente sua irmã, os desejos secretos do coração de Ning se misturam à busca pelo antídoto que salvará Shu. A jornada de Ning a leva até o palácio, onde será realizada uma competição para escolher o novo mestre Shénnóng da corte. O prêmio? Um pedido concedido pela própria princesa. Desesperada para salvar Shu, Ning vê na competição sua única alternativa e, mesmo não sendo a aprendiz da mãe, decide arriscar se passar pela irmã para competir. O que ela não imaginava é que as políticas da corte poderiam ser mais perigosas do que o chá envenenado que vem assolando todo o império de Dàxī. Agora, Ning está sozinha na capital e cheia de segredos que podem não só eliminá-la da competição como condenar sua família a um destino terrível. Além disso, ainda precisará provar suas habilidades no preparo de chás com propriedades lendárias enquanto se vê cada vez mais envolvida nas intrigas da corte, as provações cada vez mais perigosas da competição e os falsos aliados que podem pôr em risco seu objetivo de salvar Shu ― e a própria vida." },
+
+
+        { url:"https://m.media-amazon.com/images/I/91WdbssImXL._SY425_.jpg",
+          colecao:"Coleção 1",
+          nome:"Um veneno doce e sombrio",
+          sinopse:"A morte da mãe, o envenamento da irmã, a jornada até a capital, a competição. A sentença de morte, a descoberta do enigmático veneno, a cura de Shu, o ataque da serpente. Tudo revolve a mente de Ning enquanto a jovem se encontra presa em um lugar sombrio entre o sono e a vigília. O grande mal que espreitava Dàxī finalmente recaiu sobre o reino com a ascensão do Príncipe Exilado ao trono do dragão. E com o exílio da Princesa Zhen, a inquietação causada pelos chás envenenados que assolaram o reino aumenta cada dia mais. Banida, Zhen conta com Ning, Shu e Ruyi em sua busca por aliados no continente. Mas a serpente dourada continua assombrando os pesadelos de Ning com visões de guerra e derramamento de sangue. Agora que um mal ainda mais antigo despertou, os conflitos entre os homens se tornaram insignificantes, e talvez nem toda a magia do reino possa impedi-lo de consumir o mundo." }
+    ]
+  },
+  {
+    nome: "Jules Verne",
+    bandeira:"assets/images/bandeiras/fr.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91ENAXwOCrL._SY342_.jpg",
         nome: "A volta ao mundo em 80 dias",
@@ -2852,7 +2890,35 @@ export const autores = [
     ]
   },
   {
+    nome:"Júlia Claro ",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/81yBsXMg1RL._SY466_.jpg",
+          nome:"Amores",
+          sinopse:"Se você procura por um livro de romance onde o amor é fofo e inocente, esse não é o livro! O amor pode ser cruel, cego e até mesmo assassino. “Amores” reúne 6 contos sem finais felizes e com uma única ligação: o quão enganada sua mente pode chegar a estar por causa da palavra AMOR?" }
+    ]
+  },
+  {
+    nome:"Julia Heaberlin",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/91hTm-anAJL._SY466_.jpg",
+          nome:"Sono Eterno das Margaridas",
+          sinopse:"Aos 16 anos, Tessa Cartwright foi encontrada quase sem vida em um campo no Texas, com poucas lembranças de como chegou lá. A imprensa passou a se referir a ela como a única sobrevivente das Margaridas. O apelido se refere às black-eyed susans, um certo tipo de margarida que abre suas pétalas à noite, a mesma flor que cobria as covas de todas as vítimas do serial killer que tentou matar Tessa. O depoimento dela foi essencial para sentenciar um homem à pena de morte, e o caso foi encerrado. Menos para ela, é claro. Vinte anos após o ataque, Tessa continua vivendo num mundo de medos e lembranças nebulosas. Quando margaridas começam a brotar sob a janela, ela percebe que o verdadeiro assassino ainda está à solta ― e que um homem inocente permanece no corredor da morte por sua causa." }
+    ]
+  },
+  {
+    nome:"Júlia L. Privatti",
+    bandeira:"assets/images/bandeiras/br.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/81Xznl0qoGL._SY466_.jpg",
+          nome:"A Biblioteca das Tristezas Obscuras",
+          sinopse:"Novo nome. Nova identidade. Por anos Lysandra acreditou que isso seria o suficiente para poder seguir em frente com sua vida, deixando para trás os mistérios assombrosos sobre a queda da Biblioteca Mágica de Ghrays. Mas o passado não é algo que pode simplesmente se apagar. Doze anos depois da ruína da biblioteca, Lysandra terá que enfrentar o seu passado. O que ela não esperava era que, ao entrar na biblioteca, encontraria sua magia ainda viva e, pior, mortal. Com um mundo mágico recheado de mistérios à sua espera, a Biblioteca das Tristezas Obscuras é uma fantasia sombria ideal para quem busca casais de tirar o fôlego, reviravoltas e cenas emocionantes. Em um universo em que histórias ganham vida você definitivamente não vai querer se deparar com um “infelizes para sempre”." }
+    ]
+  },
+  {
     nome: "Julia Quinn",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Q6MBKKLpL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -2922,6 +2988,7 @@ export const autores = [
   },
   {
     nome: "Juliana Daglio",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/515g31DAVhL._SY445_SX342_.jpg",
         nome: "Lacrymosa",
@@ -2930,6 +2997,7 @@ export const autores = [
   },
   {
     nome: "Juliana Dantas",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/A1AuQ3hYiML._SY342_.jpg",
         colecao: "Coleção 1",
@@ -2948,7 +3016,34 @@ export const autores = [
     ]
   },
   {
+    nome:"Julie Berry",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/81JfLnzu8wL._SY466_.jpg",
+          nome:"Guerra, Adorável Guerra",
+          sinopse:"A trama se desenrola em 1917, quando o mundo está imerso no horror da Primeira Guerra. Hazel, uma tímida pianista, e James, um soldado que sonha em se tornar arquiteto, se conhecem em um baile em Londres. O vínculo que surge entre eles é instantâneo e profundo, mas a guerra os separa cruelmente quando James é enviado para a linha de frente. Ao mesmo tempo, somos apresentados a Aubrey Edwards, um talentoso músico de ragtime nascido no Harlem, e Colette Fournier, uma órfã belga com uma voz encantadora. Suas vidas se cruzam em meio ao cenário devastador da guerra, onde o amor parece improvável ― mas é justamente nesses momentos de adversidade que as histórias mais comoventes se desenrolam. Trinta anos após o destino dos casais se entrelaçar, a deusa grega Afrodite conta suas histórias ao marido, Hefesto, e ao amante, Ares, em um luxuoso quarto de hotel em Manhattan, no auge da Segunda Guerra. Na companhia desses e de outros deuses, como Apolo e Hades, ela busca responder à pergunta eterna: por que o amor e a guerra são eternamente atraídos um pelo outro?" }
+    ]
+  },
+  {
+    nome:"Julie Johnson",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/91XYkQ1-e+L._SY425_.jpg",
+          colecao:"Coleção 1",
+          nome:"Wind Weaver: A guardiã do vento",
+          sinopse:"Todos os habitantes de Anwyvn têm pavor de magia, e um ser mágico como a halfling Rhya Fleetwood é condenado à morte assim que é descoberto. Prestes a ser executada, Rhya é surpreendida por uma pessoa improvável: o misterioso e mercenário Comandante Scythe, um homem muito mais perigoso do que qualquer assassino de halflings. Nas mãos desse novo inimigo, Rhya precisa lutar pela própria vida nos terrenos áridos das Terras do Norte. No entanto, quanto mais se distancia de casa, mais ela percebe que nada é o que parece — nem seu terrível captor, nem a praga que destrói o reino, e muito menos ela mesma. Porém, Rhya descobre que não é uma halfling comum. A estranha marca de nascença que carrega no peito e o poder de invocar ventos só pode significar uma coisa: ela é uma Remanescente, uma das quatro almas espalhadas por Anwyvn, destinada a restaurar o equilíbrio da magia… ou morrer tentando. Além de estar preocupada em manter-se viva e com a missão de dominar seu poder, Rhya sente nascer uma paixão avassaladora pelo Comandante, um homem que, quando enfim sua  verdadeira identidade é revelada, ela não sabe se pode confiar e que age apenas em função dos próprios interesses. Em meio ao sentimento que queima de maneira tão intensa quanto a ventania que ruge dentro de si, ela precisará fazer uma escolha: apagar as chamas ou deixar que a consumam." },
+
+
+        { url:"https://m.media-amazon.com/images/I/81mZEvFrgoL._SY466_.jpg",
+          colecao:"Coleção 1",
+          nome:"Não lançado no Brasil",
+          sinopse:"",
+          mostrarNome: true }
+    ]
+  },
+  {
     nome: "Julie Mor",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71ak4sQq0JL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -2962,7 +3057,17 @@ export const autores = [
     ]
   },
   {
+    nome:"Julie Soto",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/81eTMo5X5zL._SY425_.jpg",
+          nome:"Não me esqueça",
+          sinopse:"Ama Torres adora organizar casamentos, mas não tem a mínima intenção de ficar noiva. Dona de um pequeno negócio, ela sabe como apresentar os clientes aos fornecedores perfeitos para o evento dos sonhos. Bem, quase perfeitos... Na maior parte do tempo, Elliot Bloom detesta ser florista. Quando o pai lhe deixou a loja, ele a encarou apenas como um problema, mas não conseguiu abandoná-la. Já Ama não pensou duas vezes antes de largá-lo, dois anos atrás. Eles colaboravam em eventos durante o dia e, à noite, ela traçava com os dedos as intrincadas tatuagens florais no corpo dele. Quando é contratada por uma celebridade e tem a chance de ser vista pelo país inteiro, Ama descobre que Elliot também vai trabalhar no casamento. As noivas não ajudam nem um pouco, pois notam a química entre os dois e ficam determinadas a juntá-los. À medida que o evento toma vida, Ama e Elliot percebem que algumas coisas talvez possam sobreviver a uma completa catástrofe. Inteligente e divertido, Não me esqueça é a história de duas pessoas que dão uma à outra – e ao amor – uma segunda chance." }
+    ]
+  },
+  {
     nome: "K. Ancrum",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71qrq3P2-WL._SY342_.jpg",
         nome: "O rei de palha",
@@ -2971,6 +3076,7 @@ export const autores = [
   },
   {
     nome: "Ka Hancock",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/817vFed1faL._SY342_.jpg",
         nome: "Dançando sobre cacos de vidro",
@@ -2978,7 +3084,17 @@ export const autores = [
     ]
   },
   {
+    nome:"Karen McQuestion",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/61+n4wATN7L._SY466_.jpg",
+          nome:"A menina no escuro",
+          sinopse:"Você sabe quem são os seus vizinhos? Só um eclipse lunar faria Sharon sair para o quintal de sua casa naquela noite fria. A lua estava linda, mas o que realmente chamou sua atenção foi a silhueta de uma garotinha lavando a louça na casa vizinha. Os Flemings não tinham filhos pequenos, mas a pergunta que se fazia era: por que alguém colocaria uma menina fazendo tarefas domésticas quase de madrugada? Intrigada, Sharon se aproxima para fotografá-la, e acaba presenciando uma cena ainda mais perturbadora. Ela tenta esquecer o que viu, mas sua mente cria várias teorias sobre o que teria acontecido naquela noite. Em meio a um turbilhão de pensamentos, os dias passam e Sharon recebe em sua casa a visita de uma jovem de um abrigo. Nikita, que cresceu em lares de acolhimento, logo se une às suspeitas de Sharon e juntas decidem investigar. Então elas descobrem alguns segredos dos Flemings que as colocam numa rota de perigos que não seriam capazes de imaginar." }
+    ]
+  },
+  {
     nome: "Karina Halle",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91Zc7e8qidL._SY342_.jpg",
         nome: "Se nada der certo até os 30, você se casa comigo?",
@@ -2987,6 +3103,7 @@ export const autores = [
   },
   {
     nome: "Karine Vidal",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/916ev+fOJyL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -3006,6 +3123,7 @@ export const autores = [
   },
   {
     nome: "Karla de Luna",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71YA6OneKvL._SY342_.jpg",
         nome: "Por um Instante",
@@ -3013,7 +3131,17 @@ export const autores = [
     ]
   },
   {
+    nome:"Kate Catenbary",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/51bVOc24xAL._SY425_.jpg",
+          nome:"Doce como você",
+          sinopse:"Quando a avó postiça de Shay Zucconi morreu, deixou para ela uma fazenda de tulipas, porém sob duas condições. A primeira delas: Shay precisaria se mudar para a pequena cidade de Amizade, em Rhode Island. A segunda e mais problemática (já que o noivo de Shay acabou de cancelar o casamento): ela teria que encontrar um novo marido em um ano. Casamento é a última coisa que Shay deseja neste momento, mas ela fará o que for preciso para salvar o único lar verdadeiro que já teve. Noah Barden, o charmoso fazendeiro do lugar, amava Shay Zucconi no colégio. Não que ele tenha contado a ela na época... Ele era muito tímido e deslocado, bem diferente dos caras “legais”, para ter coragem de convidar a garota linda e popular para sair. Quase uma vida inteira depois, Noah cria sozinho sua sobrinha e está muito ocupado administrando os negócios da família. Neste momento, essa velha paixão é mais uma coisa perdida em suas memórias... Até Shay retornar à cidade onde passou a adolescência e virar tudo de cabeça para baixo." }
+    ]
+  },
+  {
     nome: "Kate Eberlen",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61awFYaZF2L._SY342_.jpg",
         nome: "O primeiro dia do resto da nossa vida",
@@ -3022,6 +3150,7 @@ export const autores = [
   },
   {
     nome: "Kate Elizabeth Russell",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81qH2VHePkL._SY342_.jpg",
         nome: "Minha sombria Vanessa",
@@ -3030,6 +3159,7 @@ export const autores = [
   },
   {
     nome: "Kate Morton",
+    bandeira:"assets/images/bandeiras/au.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91-LjKJ7mJL._SY342_.jpg",
         nome: "A prisioneira do tempo",
@@ -3038,6 +3168,7 @@ export const autores = [
   },
   {
     nome: "Kate Schatz",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81+Q6dy6hGL._SY342_.jpg",
         nome: "Mulheres incríveis",
@@ -3045,7 +3176,17 @@ export const autores = [
     ]
   },
   {
+    nome:"Kathetine Center",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/81L+gOP5vRL._SY466_.jpg",
+          nome:"A guarda-costas",
+          sinopse:"Hannah Brooks parece mais uma professora de jardim de infância do que alguém que poderia te matar com um abridor de vinho. Ou com uma caneta esferográfica. Ou com um guardanapo de pano. Mas a verdade é que ela é uma Agente de Proteção Executiva (também conhecida como “guarda-costas”) contratada para proteger um astro de Hollywood que está sofrendo nas mãos de uma stalker de meia idade obcecada por ele (e por corgis). Jack Stapletonera um dos atores mais conhecidos do mundo, mas largou o estrelato depois de uma tragédia familiar e agora leva uma vida praticamente anônima. Mas quando sua mãe adoece e ele precisa visitá-la, Jack se vê obrigado a contratar uma guarda-costas pra não colocar sua família em risco. No entanto, ele tem um pedido peculiar... Para evitar que sua mãe se preocupe, ele quer que Hannah finja ser sua namorada. Apesar de ser uma mulher centrada e objetiva, Hannah começa a confundir o que é vida real e o que é fingimento. E é aí que está o grande problema. Porque, para ela, cuidar da segurança de Jack é fácil. Mas proteger seu próprio coração? Essa vai ser a tarefa mais difícil da sua vida." }
+    ]
+  },
+  {
     nome: "Kathleen Glasgow",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71D8a4F1HsL._SY342_.jpg",
         nome: "Garota em pedaços",
@@ -3053,7 +3194,24 @@ export const autores = [
     ]
   },
   {
+    nome:"Kathryn Purdie",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+        { url:"https://m.media-amazon.com/images/I/81-2EPj41iL._SY466_.jpg",
+          colecao:"Coleção 1",
+          nome:"Luar da Feiticeira de Ossos",
+          sinopse:"Apenas elas são capazes de manter os mortos longe do mundo dos vivos. Mas o poder para fazer a travessia dos espíritos, seja para os Céus Noturnos da deusa Elara ou para o Submundo do deus Tyrus, vem às custas de sacrifícios. Os deuses exigem um juramento de lealdade – e para completar o rito de passagem uma Feiticeira de Ossos precisa encontrar o seu amor verdadeiro, aquele que os deuses escolheram como a metade perfeita para ela, e então matá-lo dentro de um ano. Desde que nasceu, Ailesse foi treinada não só para ajudar a transportar os mortos, como também para ocupar o lugar de sua mãe e se tornar a matriarca das Feiticeiras de Ossos. Mas primeiro ela precisa completar seu rito de passagem e matar o garoto que é destinada a amar. Bastien viu seu pai ser morto por uma Feiticeira de Ossos e, desde então, ele busca por vingança. Mas sua vingança dá errado quando o ritual de Ailesse é iniciado e agora seus destinos – e suas almas – estão entrelaçados na vida e na morte. Sabine nunca quis ser uma Feiticeira de Ossos, porém quando sua melhor amiga é sequestrada por Bastien e seus amigos, ela irá fazer de tudo para salvá-la e garantir que Ailesse termine seu ritual antes que os dois morram." },
+
+
+        { url:"https://m.media-amazon.com/images/I/81HqPigVgNL._SY466_.jpg",
+          colecao:"Coleção 1",
+          nome:"Amanhecer da Feiticeira de Ossos",
+          sinopse:"As Feiticeiras de Ossos têm realizado a travessia dos mortos por séculos. E para assumir esse dever perigoso, elas precisam provar sua lealdade aos deuses ao matar seu amor verdadeiro. Mas Ailesse está apaixonada por Bastien ― a quem ela não está destinada a amar ―, enquanto divide um vínculo de alma com Casimir, um jovem doce que ela precisa matar, caso queira continuar viva. Ailesse nunca questionou as exigências divinas... até agora. Com a ajuda de Sabine, Bastien e seus amigos, ela quer reescrever as regras da vida após a morte ditadas pelos deuses e assumir as rédeas do próprio destino. No entanto, os deuses não serão os únicos no caminho deles. Quando a mãe de Ailesse consegue trazer alguém de volta dos mortos ao fazer um acordo com o deus do Submundo, seus segredos obscuros não colocam em risco apenas a fé das Feiticeiras de Ossos em seu dever, como também podem levar ao fim o Paraíso da deusa dos Céus Noturnos e tornar todas as almas livres em condenadas para o restante da eternidade." }
+    ]
+  },
+  {
     nome: "Keith Donohue",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81cpctZ62EL._SY342_.jpg",
         nome: "O menino que desenhava monstros",
@@ -3062,6 +3220,7 @@ export const autores = [
   },
   {
     nome: "Kendare Blake",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81wcoGTk8cL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -3090,7 +3249,78 @@ export const autores = [
     ]
   },
   {
+    nome:"Kennedy Raven",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81ZGWND+EqL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Gild",
+        sinopse:"Ouro. Pisos de ouro. Paredes de ouro. Móveis de ouro. Roupas de ouro. No castelo do Rei Midas, construído no alto das montanhas geladas, tudo é feito de ouro. Até mesmo eu. O Rei Midas me salvou. Ele me tirou da miséria e me colocou em um pedestal. Sou chamada de sua preciosa. Sua favorita. Sou a mulher que ele tocou de ouro para mostrar a todos que a ele pertenço. Para mostrar quão poderoso ele é. Midas me deu segurança, e eu dei a ele meu coração. E, mesmo que eu não possa deixar os limites do castelo, sei que estou segura. Até que a guerra começa no reino e um acordo é selado... De repente, minha confiança está quebrada. Meu amor é desafiado. E eu percebo que tudo o que eu pensei que sabia sobre Midas pode não ser verdade. Porque, por trás dessas grades em que estou presa, não importa quão douradas elas sejam, não passam de uma gaiola. Porém, os monstros do lado de fora podem me fazer desejar nunca ter saído dela." },
+
+
+      { url:"https://m.media-amazon.com/images/I/91QSNPCkIrL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Glint",
+        sinopse:"Aprisionada. Durante dez anos, vivi em uma gaiola dentro do castelo de ouro do Rei Midas. Mas uma noite mudou tudo. Posso estar solta, mas não estou livre, nem perto disso. No jogo de reis e exércitos, eu sou o peão de ouro. A pergunta é: sou capaz de manobrá-los? Volte a esse mundo sedutor de magia inspirado pela história do Rei Midas. Deixe-se conquistar pela terra de Orea, onde reis nem sempre são o que parecem, e segredos podem valer mais que ouro." },
+
+
+      { url:"https://m.media-amazon.com/images/I/81GTApm7jhL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Gleam",
+        sinopse:"REI MIDAS. Ele moldou quem sou hoje... Mas eu também o moldei. Escapei da minha gaiola dourada, e, se quero continuar livre, terei de fazer uma escolha. O problema é que essa escolha se tornou difícil demais. Slade Ravinger é uma complicação com a qual não consigo lidar agora, e o arrependimento e a vingança estão fervendo dentro de mim. E tudo irá explodir em breve e alguém irá se machucar. Mas, desta vez, não serei eu. Retorne para o mundo de Orea, onde reis são mentirosos e toda magia tem um preço. A série A prisioneira dourada está recheada de intriga e romance, em que o ouro irá mostrar o derradeiro valor da ganância." },
+
+
+      { url:"https://m.media-amazon.com/images/I/81cp9XY0GrL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Glow",
+        sinopse:"LIVRE. Finalmente escapei do controle de Midas, mas há consequências quando você se livra de um rei. E agora os outros reinos estão atrás de mim. Com Slade Ravinger ao meu lado, preciso aprender a controlar meu poder, porque enquanto eu viver neste mundo, não permitirei ser usada novamente." }
+    ]
+  },
+  {
+    nome:"Kennedy Ryan",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81iJgR0ncXL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Criadora de reis",
+        sinopse:"A mãe de Lennix faz parte da nação yavapai-apache e criou a filha seguindo os ritos e os costumes de seu povo. Foi uma ativista de destaque e liderou manifestações contra empresas de petróleo que queriam explorar as terras sagradas de seu povo. Lennix herdou da mãe o espírito combativo por justiça e, desde adolescente, tem sido uma voz importante na defesa dessas terras. Maxim é herdeiro de um dos barões do petróleo dos Estados Unidos, mas está determinado a trilhar um caminho diferente do de sua família, e, principalmente, do pai. Seu objetivo é ajudar a salvar o planeta, mas não se engane: a ambição corre em seu sangue, e ele tem um plano para se tornar uma potência por conta própria. Um primeiro encontro vai pôr a prova todos os planos e ambições de Lennix e Maxim: em meio ao caos de um protesto, a conexão entre os dois é inegável, e deixará marcas que se estenderão por uma década." },
+
+
+      { url:"https://m.media-amazon.com/images/I/81ApbRoAGnL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O rei indomável",
+        sinopse:"Maxim Cade deseja Lennix Hunter mais que tudo. Ele não só a quer ao seu lado, como pretende protegê-la vinte e quatro horas, seguindo todos os seus passos. Embora a forte atração entre os dois a deixe refém dessa paixão, Lennix tem outros compromissos — e preocupações — em sua vida além de Maxim. Dividida entre o trabalho e os encontros tórridos, Lennix não imagina que um psicopata está à sua procura. Em busca de esforços para proteger sua amada de uma tragédia, Maxim corre contra o tempo. Ele só não esperava que o perigo já tivesse os alcançado. Enquanto enfrentam um cenário político traiçoeiro na luta por justiça, Maxim e Lennix logo percebem que o poder é um jogo, onde nem tudo é o que parece. De uma hora para outra, os planos de Maxim mudam completamente, e ele se vê diante da possibilidade de realizar todas as suas ambições… mas e se o custo for abrir mão de Lennix para sempre?" }
+    ]
+  },
+  {
+    nome:"Kerri Maniscalco",
+    bandeira:"assets/images/bandeiras/us.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81WyjLkKK6L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Reino das Bruxas: Irmandade Mística",
+        sinopse:"Emilia e sua irmã gêmea Vittoria são bruxas que vivem secretamente entre os humanos. Uma noite, Vittoria perde o turno do jantar no renomado restaurante da família. Preocupada, Emilia vai atrás dela e encontra seu corpo totalmente profanado. Arrasada, ela parte em busca do assassino de Vittoria, desejando vingança a qualquer custo ― mesmo que isso signifique usar magia das trevas. Em sua investigação, Emilia conhece Ira, um dos príncipes do Inferno dos quais foi alertada a vida toda para ficar longe. Charmoso, sarcástico e astuto, o príncipe demoníaco afirma estar do lado de Emilia, incumbido de desmascarar o responsável pelos assassinatos de mulheres ― bruxas ― que estão acontecendo em Palermo. Mas, quando se trata dos Perversos, nada é o que parece… Queridos leitores apaixonados por sagas inebriantes de fantasia, romance e mistério, a Caveira ouviu os pedidos, súplicas e invocações de vocês e trouxe para a marca DarkLove o aguardado Reino das Bruxas: Irmandade Mística, primeiro volume da nova série da premiada autora Kerri Maniscalco." },
+
+
+      { url:"https://m.media-amazon.com/images/I/91XS-KHxz5L._SL1500_.jpg",
+        colecao:"Coleção 1",
+        nome:"Reino das Bruxas: Natureza Sombria",
+        sinopse:"Arriscando-se mais do que nunca, ela precisa enfrentar as tentações do Corredor dos Pecados e do próprio submundo; questionar seus vínculos com Ira, que parecem ainda mais intensos, e a falta de interesse de seu futuro marido; desvendar o significado das mensagens misteriosas que vem recebendo; e, sobretudo, se preparar para o Banquete do Lobo, evento do qual será convidada de honra." },
+
+
+      { url:"https://m.media-amazon.com/images/I/81HnrP49JdL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Reino das Bruxas: Poder Arcano",
+        sinopse:"Quando um membro proeminente da Casa Avareza é assassinado, todas as evidências apontam para Vittoria como a culpada. Emilia, em uma busca incansável pela verdade, embarca em uma jornada para limpar o nome da irmã que ela julgava conhecer. Em uma trama sinuosa e repleta de pecados, Emilia e Ira juntam forças para desvendar o assassinato e conter a discórdia crescente entre bruxas, demônios e seus inimigos mais traiçoeiros, os Temidos." },
+
+
+      { url:"assets/images/continua.png",
+        colecao:"Coleção 1" }
+    ]
+  },
+  {
     nome: "Khaled Hosseini",
+    bandeira:"assets/images/bandeiras/af.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/41EQvSGIBvL._SY445_SX342_.jpg",
         nome: "A cidade do sol",
@@ -3099,6 +3329,7 @@ export const autores = [
   },
   {
     nome: "Kiersten White",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/819ahvmRddL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -3118,6 +3349,7 @@ export const autores = [
   },
   {
     nome: "Kira Baptista",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81ZPjj6qtaL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -3167,6 +3399,7 @@ export const autores = [
   },
   {
     nome: "Kiran Millwood Hargrave",
+    bandeira:"assets/images/bandeiras/gb.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81yDi-CMmKL._SY342_.jpg",
         nome: "A Garota que Lia as Estrelas",
@@ -3175,6 +3408,7 @@ export const autores = [
   },
   {
     nome: "Kody Keplinger",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71K+vqKExkL._SY342_.jpg",
         nome: "Duff",
@@ -3183,6 +3417,7 @@ export const autores = [
   },
   {
     nome: "Kristen Ciccarelli",
+    bandeira:"assets/images/bandeiras/ca.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91Hj0iidacL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -3197,11 +3432,22 @@ export const autores = [
       { url:"https://m.media-amazon.com/images/I/41HPeZ8NaKL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
         nome: "A Tecelã do Céu",
-        sinopse: "O reino de Firgaard passou por tempos turbulentos desde que Dax assumiu a coroa ao lado de Roa, uma garota nascida em território inimigo. Agora, cabe a Safire, prima de Dax e comandante do Exército real, manter a ordem na cidade. Quando Eris, uma ladra capaz de se deslocar por mundos diferentes, invade o palácio e passa a cometer roubos impunemente, Safire vê diante de si um desafio quase impossível: capturar alguém que consegue desaparecer num piscar de olhos. O que nenhuma das duas esperava era compartilhar o mesmo objetivo: encontrar Asha, irmã de Dax e namsara do reino. A diferença é que Safire quer garantir sua segurança, enquanto Eris pretende entregá-la a seus inimigos. Em uma corrida contra o tempo, uma vai tentar derrotar a outra a qualquer custo — mas um sentimento surpreendente entre elas pode mudar tudo." }
+        sinopse: "O reino de Firgaard passou por tempos turbulentos desde que Dax assumiu a coroa ao lado de Roa, uma garota nascida em território inimigo. Agora, cabe a Safire, prima de Dax e comandante do Exército real, manter a ordem na cidade. Quando Eris, uma ladra capaz de se deslocar por mundos diferentes, invade o palácio e passa a cometer roubos impunemente, Safire vê diante de si um desafio quase impossível: capturar alguém que consegue desaparecer num piscar de olhos. O que nenhuma das duas esperava era compartilhar o mesmo objetivo: encontrar Asha, irmã de Dax e namsara do reino. A diferença é que Safire quer garantir sua segurança, enquanto Eris pretende entregá-la a seus inimigos. Em uma corrida contra o tempo, uma vai tentar derrotar a outra a qualquer custo — mas um sentimento surpreendente entre elas pode mudar tudo." },
+
+      { url:"https://m.media-amazon.com/images/I/819kt0LhQmL._SY425_.jpg",
+        colecao:"Coleção 2",
+        nome:"Caçador sem coração",
+        sinopse:"Na noite em que uma revolução derruba o Reinado das Bruxas, a vida de Rune Winters muda para sempre. Agora, com a Nova República no poder e bruxas sendo caçadas e executadas, a jovem precisa esconder quem realmente é. Durante o dia ela finge ser apenas uma socialite fútil, mas à noite se torna a Mariposa Escarlate, uma vingadora que salva suas companheiras de magia. Porém, quando um dos resgates dá errado, ela tem que arrumar um jeito de despistar os perseguidores e conseguir a informação de que precisa. A solução é flertar com o belo e impiedoso Gideon Sharpe, um dos mais famosos caçadores de bruxas. Gideon odeia todo o luxo que Rune representa, mas, quando descobre que a Mariposa Escarlate usa os navios mercantes da jovem para ajudar bruxas a fugirem, resolve se infiltrar em seus círculos sociais e cortejá-la. Logo percebe que, sob toda a beleza e frivolidade, ela é incrivelmente inteligente e sensível e parece seu par perfeito. Porém... e se ela for a inimiga que ele está há anos caçando?" },
+
+      { url:"https://m.media-amazon.com/images/I/51YpWdS3e4L._SY445_SX342_ML2_.jpg",
+        colecao:"Coleção 2",
+        nome:"Bruxa rebelde",
+        sinopse:"Rune Winters está em fuga. Desde que Gideon Sharpe a traiu e revelou seu disfarce, todos a querem morta. Para ter chance de sobreviver, ela precisa se unir a uma cruel e poderosa bruxa que planeja conquistar a República. Gideon não pode permitir que seu lar caia nas mãos das impiedosas mulheres. Para atingir seu objetivo, todas as bruxas devem morrer... inclusive Rune Winters. Porém, quando ela lhe faz uma proposta irrecusável, os dois se juntam para realizar um plano perigoso. E logo Gideon se dá conta de que seus sentimentos por Rune ainda estão bem vivos. Então ele se vê diante de uma escolha terrível: sacrificar a mulher que ama e impedir um monstro de ascender ao poder ou deixar Rune viva e ver o mundo pelo qual tanto lutou desmoronar. Nesta empolgante conclusão da série, o amor nunca foi tão mortal." }
     ]
   },
   {
     nome: "L. Black",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81mdbZAgg4L._SY425_.jpg",
         nome: "Ardente Tempestade",
@@ -3210,6 +3456,7 @@ export const autores = [
   },
   {
     nome: "L. C. Almeida",
+    bandeira:"assets/images/bandeiras/br.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71rYn47kC9L._SY342_.jpg",
         nome: "Ballet Para Dois",
@@ -3218,6 +3465,7 @@ export const autores = [
   },
   {
     nome: "L. Frank Baum",
+    bandeira:"assets/images/bandeiras/us.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91cUKFkOBsL._SY342_.jpg",
         nome: "O Mágico de Oz",
