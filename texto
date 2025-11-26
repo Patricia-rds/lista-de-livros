@@ -1,9 +1,8 @@
 {
-    nome:"",
+    nome: "",
     bandeira:"assets/images/bandeiras/.png",
     imagens: [
       { url:"",
-        nome:"",
-        sinopse:"" }
+        nome: "" }
     ]
   },
