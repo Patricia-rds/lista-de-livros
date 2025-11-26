@@ -4,7 +4,7 @@ export const autores = [
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71XkuUMEq5L._SY425_.jpg",
-        nome:"Para sempre seu"
+        nome:"Para sempre seu" }
     ]
   },
   {
@@ -56,7 +56,7 @@ export const autores = [
     bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Zp6MFxIDL._SY466_.jpg",
-        nome:"Assassinato no Expresso do Oriente"" },
+        nome:"Assassinato no Expresso do Oriente" },
 
       { url:"https://m.media-amazon.com/images/I/71I0J9T8zqL._SY466_.jpg",
         nome:"Punição para a inocência" }
@@ -1528,7 +1528,7 @@ export const autores = [
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91bffs4YfxL._SY342_.jpg",
-        nome: "Melhores amigas"" }
+        nome: "Melhores amigas" }
     ]
   },
   {
@@ -1583,7 +1583,7 @@ export const autores = [
   },
   {
     nome: "Erin Watt",
-    bandeira:"assets/images/bandeiras/us.png",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81tDuqWzw5L._SY342_.jpg",
         colecao: "Coleção 1",
@@ -2220,11 +2220,11 @@ export const autores = [
      
       { url:"https://m.media-amazon.com/images/I/918FmWW7IwL._SY466_.jpg",
         colecao:"Coleção 3",
-        nome:"Divindade",
+        nome:"Divindade" },
 
       { url:"https://m.media-amazon.com/images/I/51XKUMW3MML._SY445_SX342_QL70_ML2_.jpg",
         colecao:"Coleção 3",
-        nome:"Apôlion",
+        nome:"Apôlion" },
 
       { url:"https://m.media-amazon.com/images/I/51Re4rBmQnL._SY445_SX342_QL70_ML2_.jpg",
         colecao:"Coleção 3",
@@ -2236,7 +2236,7 @@ export const autores = [
     bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81rZ5sSjNjL._SY342_.jpg",
-        nome: "A pequena livraria dos sonhos"
+        nome: "A pequena livraria dos sonhos" },
 
       { url:"https://m.media-amazon.com/images/I/812reUrkljS._SY342_.jpg",
         nome: "Um novo capítulo para o amor" },
@@ -2675,7 +2675,7 @@ export const autores = [
     bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61awFYaZF2L._SY342_.jpg",
-        nome: "O primeiro dia do resto da nossa vida"" }
+        nome: "O primeiro dia do resto da nossa vida" }
     ]
   },
   {
@@ -2775,7 +2775,7 @@ export const autores = [
 
       { url:"https://m.media-amazon.com/images/I/91QSNPCkIrL._SY466_.jpg",
         colecao:"Coleção 1",
-        nome:"Glint",
+        nome:"Glint" },
 
 
       { url:"https://m.media-amazon.com/images/I/81GTApm7jhL._SY466_.jpg",
