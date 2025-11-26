@@ -2945,7 +2945,7 @@ export const autores = [
     ]
   },
   {
-    nome: "L. Frank Baum",
+    nome:"L. Frank Baum",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91cUKFkOBsL._SY342_.jpg",
@@ -2953,420 +2953,701 @@ export const autores = [
     ]
   },
   {
+    nome: "L. Júpiter",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71w83Js34NL._SY425_.jpg",
+        coleção:"Coleção 1",
+        nome:"Quando Nos Colidimos" },
+
+      { url:"https://m.media-amazon.com/images/I/41qUVIH2wdL._SY445_SX342_QL70_ML2_.jpg",
+        coleção:"Coleção 1",
+        nome:"Um Péssimo Negócio" },
+
+      { url:"https://m.media-amazon.com/images/I/714KRzZ47SL._SY425_.jpg",
+        coleção:"Coleção 1",
+        nome:"Apesar De Você" }
+    ]
+  },
+  {
+    nome:"Lana Ferguson",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/711vRFBApTL._SY466_.jpg",
+        nome:"Farejando o amor" }
+    ]
+  },
+  {
     nome: "Lang Leav",
+    bandeira:"assets/images/bandeiras/tailandia.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91P-vOkh2dL._SY342_.jpg",
-        nome: "Garotas tristes",
-        sinopse: "Poético e perturbador, Garotas tristes é um intrigante romance em que amor, segredos e tragédias colidem. Seu primeiro amor não é a primeira pessoa a quem você dá o coração: é a primeira que o quebra. O luto toma conta da cidade quando Ana tira a própria vida, mas é Audrey, uma colega de classe pouco próxima da garota, que o sente mais profundamente: uma mentira inventada por ela pode estar por trás do suicídio. Lucy e Candela, suas melhores amigas, ajudam-na a manter a história em segredo, sem saber que a trama toda foi inventada por ela. Após o ocorrido, a vida das garotas entra numa espiral decadente. Entre os ataques de pânico constantes de Audrey, a nova rotina obscura de Candela e a tentativa de mediação de Lucy, uma amizade até então estruturada começa a ruir. Um novo romance parece ser exatamente o que Audrey precisa, mas o misterioso Rad não pode ser o par ideal. Ou pode? Enquanto tenta equilibrar um romance inadequado, o começo de uma carreira e o próprio egoísmo, Audrey tem que lidar com as consequências de seus atos: a ansiedade constante e a forma como sua mentira afetou todos ao seu redor." }
+        nome: "Garotas tristes" }
+    ]
+  },
+  {
+    nome:"Lars Kepler",
+    bandeira:"assets/images/bandeiras/suecia.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61jqX1k7U3L._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"O Hipnotista" },
+
+      { url:"https://m.media-amazon.com/images/I/91kciB0KYML._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O homem de areia" },
+
+      { url:"https://m.media-amazon.com/images/I/81O4o-3MDzL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Stalker" },
+
+      { url:"https://m.media-amazon.com/images/I/41CDmjps+JL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"O Caçador" },
+
+      { url:"https://m.media-amazon.com/images/I/91fIOBsYluL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Lázaro" }
+    ]
+  },
+  {
+    nome:"Laura Amorim",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81F8bXAWIgL._SY425_.jpg",
+        nome:"Se não fosse por você" }
     ]
   },
   {
     nome: "Laura Gallego García",
+    bandeira:"assets/images/bandeiras/espanha.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/A1lMJgU+90L._SY342_.jpg",
-        nome: "Onde as Árvores Cantam",
-        sinopse: "Filha única do duque de Rocagris, Viana é noiva do jovem Róbian de Castelmar. Prometidos um ao outro desde a infância, eles se casarão na próxima primavera. Contudo, um alerta sobre a invasão bárbara frustra seus planos. Tanto Róbian como o duque de Rocagris partem a fim de defender o reino de Nórdia, mas fracassam. Da noite para o dia, o mundo de Viana desmorona. Sozinha, ela é obrigada a fugir para a Grande Floresta. Ali aprende a caçar, a lutar e a defender-se feito homem, renunciando, assim, à condição de donzela. Para salvar o reino, porém, ela terá de seguir a pista de antigas lendas sobre o lugar, no coração da mata, onde as árvores cantam..." }
+        nome: "Onde as Árvores Cantam" }
     ]
   },
   {
     nome: "Laura M. Castro",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71O-4OZKyVL._SY342_.jpg",
-        nome: "A Garota do Espelho de Prata",
-        sinopse: "Anne é uma jovem de apenas 16 anos com enormes problemas: primeiro o seu país está mergulhado em uma guerra civil entre o governo ditatorial de Nicolau Cortéz, o suposto Novo Regime, e os rebeldes Kingdom Fighters, que lutam pela volta da realeza à Ciwan. Segundo, por ter o Dom da magia. Anne terá que se esconder do ditador se não quiser ser recrutada. E, terceiro, ela não tem a menor ideia de quem é; já que acordou sozinha na floresta, com um enorme corte na testa e sem recordar sequer o próprio nome. Ao lado do melhor amigo, de uma jovem Médium e dos Litlle Kingdom Fighters, Anne terá que encarar a realidade da guerra, aprendendo a lidar com suas próprias perdas e seus próprios demônios, enquanto o intricado mistério que envolve a Garota do Espelho e sua antiga e desconhecida vida se desenrola." }
+        nome: "A Garota do Espelho de Prata" }
     ]
   },
   {
     nome: "Laura Purcell",
+    bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81kn+54SSUL._SY342_.jpg",
-        nome: "O Silêncio da Casa Fria",
-        sinopse: "Quando Elsie perdeu o marido apenas algumas semanas após o casamento, achou que já tinha sofrido o suficiente para uma vida inteira. Praticamente sozinha em uma casa enorme e isolada, ela jamais imaginou que os companheiros silencio¬sos ― painéis de madeira que imitavam pessoas em atividades cotidianas ―, um dia, seguiriam seus movimentos com os olhinhos pintados. Muito menos que eles apareceriam por conta própria em cômodos aleatórios… Acenda uma vela e nos acompanhe na escuridão. A DarkSide® Books pavorosamente apresenta O Silêncio da Casa Fria, o novo lançamento da linha DarkLove: uma história sombria, sinistra e gelada ― um verdadeiro tributo aos romances góticos clássicos que tanto amamos. Para escrever este livro, a autora Laura Purcell se inspirou em um costume euro¬peu popular nos séculos XVIII e XIX, especialmente entre os ingleses e holandeses. Nele, famílias aristocráticas pregavam peças com tábuas de madeira ricamente pintadas e esculpidas. Criados, soldados, plantas, animais… e, aqui, uma criança estranhamente familiar, com um sorriso travesso e uma rosa branca na mão. Com uma habilidade narrativa que transporta o leitor para a época vitoriana ― e suas densas neblinas, costumes peculiares, a tão presente discussão entre a ciência e o sobrenatural ―, Laura Purcell desenrola uma trama cheia de nuances enquanto Elsie vai abrindo as portas da casa para tentar desvendar o mistério dos companheiros ― e também do seu passado. O tempo, às vezes, demora a passar no silêncio da casa fria. Com a atmosfera lúgubre típica das histórias de fantasma vitorianas, O Silêncio da Casa Fria honra os melhores contos góticos. A história de uma mulher con¬frontada com um medo irracional, que coloca em xeque sua própria sanidade. Estaria Elsie vendo coisas como forma de dar sentido ao luto? Ou realmente havia algo sobrenatural morando sob o mesmo teto que ela? Algumas portas devem permanecer trancadas." }
+        nome: "O Silêncio da Casa Fria" }
     ]
   },
   {
     nome: "Laura Reggiani",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/717yVIuAJ+S._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Safira de Prata",
-        sinopse: "Tudo que Safira Erklare deseja é deixar seu passado em sua vila pacata para trás, mas a jovem acaba tendo seu mundo virado de ponta cabeça depois de uma noite que habitará seus pesadelos pelo resto da sua existência. Ela agora é uma licantropa: uma criatura com a capacidade de se transformar em um lobo, e precisa se adequar ao seu novo lar, uma alcateia cheia de feras territoriais e excludentes. No entanto, a garota aparentemente é uma loba submissa que não se transforma — agora Safira, que nunca tinha sido fraca, mansa ou vulnerável na vida, se tornará uma presa fácil para a matilha de bestas rivais caso não aprenda a cuidar de si mesma. Sua única opção é treinar com Howl Vowen, o capitão da guarda de sua alcateia, primogênito e herdeiro do alfa. O rapaz é rude, inexpressivo e tão caloroso quanto um pedaço de pedra, mas Safira se vê obrigada a colaborar com ele quando os dois descobrem que um lobo desleal vem passando informações cruciais sobre a alcateia para o inimigo. Enfrentando bruxas letais, antigos adversários, novos aliados e intrigas internas, eles precisarão se unir e lutar não apenas pela matilha ameçada, mas pela própria chance de construir um futuro juntos. Porém, quando se lida com lobos, presas que não sabem se cuidar terminam estraçalhadas no cair da noite." },
+        nome: "Safira de Prata" },
 
       { url:"https://m.media-amazon.com/images/I/61T1yEn6jRL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Diamante Dourado",
-        sinopse: "Depois dos eventos angustiantes que colocaram a vida de Howl e Safira em risco em Safira de Prata, a matilha inteira está em alerta devido aos potenciais conflitos que ameaçam a todos ali. A alcateia lupina parece estar mais audaciosa do que nunca, e o coven nortenho se prepara para uma investida na busca por Dalila. Mais cedo ou mais tarde, essa guerra terá um fim. Porém, antes mesmo que Safira possa se recuperar dos traumas, uma nova cadeia de acontecimentos se desenrola e põe todas as suas convicções à prova. Como Lunar e futura soberana da alcateia, a garota vai descobrir que agir de acordo com o que esperam dela não será fácil, muito menos agradável. Howl, por sua vez, está frustrado e preocupado. Ele não conseguiu proteger sua companheira quando mais precisou e ainda foi obrigado a deixar o lobo traidor escapar. Agora, o rapaz terá de aprender a conviver com as consequências dos seus atos e está determinado a fazer tudo pelo bem de Safira e da matilha, mesmo que isso signifique quebrar algumas regras, coisa que o Diamante nunca foi inclinado a fazer. No entanto, já está mais do que claro que a rixa com a matilha rival de lupinos clama por sangue e por um desfecho. Antes que a oportunidade seja perdida, cabe a Howl e Safira a decisão de terminar ou não essa batalha com as novas peças que foram adicionadas ao tabuleiro. A única pergunta a se fazer é: o jogo traiçoeiro entre as alcateias inimigas acabará numa possível trégua... Ou numa carnificina cruel?" }
+        nome: "Diamante Dourado" },
+
+      { url:"https://m.media-amazon.com/images/I/8123-0qa1yL._SY425_.jpg",
+        nome:"Belladona" }
     ]
   },
   {
     nome: "Laura Sebastian",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/A1YyMGwuXQL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Princesa das cinzas",
-        sinopse: "Theodosia era a herdeira do trono de Astrea quando seu reino foi invadido, deixando um rastro de destruição. Dez anos depois, a princesa, órfã, prisioneira e subjugada, percebe que não lhe resta mais nada, a não ser lutar pela própria liberdade. O passado, que por tanto tempo ficou enterrado, agora precisa vir à tona para mostrar a Theodosia os caminhos que poderão levá-la de volta ao trono. Mas Theo conseguirá ser a rainha de que seu povo precisa? Ou será que anos de humilhações transformaram a herdeira da Rainha do Fogo em meras cinzas?" },
+        nome: "Princesa das cinzas" },
 
       { url:"https://m.media-amazon.com/images/I/91i9FLeOr8L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Dama da névoa",
-        sinopse: "Quando Theodosia tinha apenas seis anos, sua mãe, a Rainha do Fogo, foi morta pelo kaiser. Ele tomou seu país e a manteve prisioneira, coroando-a como a Princesa das Cinzas e manipulando-a por dez anos. Porém, essa época terminou. O kaiser subestimou Theo, considerando-a fraca e indefesa. Ele não percebeu que uma mente arguta é a arma mais mortal. Agora, Theo não usa mais uma coroa de cinzas. Ela recuperou o título que lhe pertencia e fez um refém: o prinz Søren, filho do kaiser. Mas seu povo continua escravizado e ela está a milhares de quilômetros de distância. Para recuperar o trono, ela precisa de um exército. Segundo sua tia, a temível pirata Dragonsbane, a única maneira de obter um é se casando. Theo sabe que a liberdade tem um preço, mas ela está determinada a encontrar um jeito de salvar seu país sem precisar se perder no caminho." },
+        nome: "Dama da névoa" },
 
       { url:"https://m.media-amazon.com/images/I/917zUxxeCML._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Rainha das chamas",
-        sinopse: "A princesa Theodosia foi prisioneira em seu próprio país por mais de uma década, humilhada pelo kaiser e por sua corte. Porém, mesmo usando uma coroa de cinzas, o fogo nunca deixou seu sangue. Como herdeira legítima do trono de Astrea, Theo sabe que uma rainha não se acovarda jamais. Agora livre e com um exército rebelde sob seu comando, Theodosia tem que libertar o povo escravizado por uma inimiga ainda mais assustadora: Cress, a nova kaiserin. Munida de um tipo de magia nunca visto antes, a adversária está disposta a queimar todos que ficarem no caminho do seu império. Theo precisa abraçar seu novo poder como Rainha das Chamas se quiser derrotar Cress, a mulher a quem um dia chamou de irmã do coração." }
+        nome: "Rainha das chamas" }
+    ]
+  },
+  {
+    nome:"Laura Thalassa",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/814Az5EKboL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Encantada" },
+
+      { url:"https://m.media-amazon.com/images/I/81T8c-Esi1L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Enfeitiçada" },
+
+      { url:"https://m.media-amazon.com/images/I/91og9AKD9nL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"Pestilência" },
+
+      { url:"https://m.media-amazon.com/images/I/81CA0-rkj8L._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"Guerra" },
+
+      { url:"https://m.media-amazon.com/images/I/81nRpXYvUyL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"Fome" },
+
+      { url:"https://m.media-amazon.com/images/I/61iMlVDhqYL._SY425_.jpg",
+        colecao:"Coleção 2",
+        nome:"Morte" }
     ]
   },
   {
     nome: "Laura Vitelli",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71Fs3QD-2WL._SY342_.jpg",
-        nome: "Mesmo Compasso",
-        sinopse: "Sidney Jones odeia Gregory Malton. O petulante (e bonito) garoto é seu pior pesadelo desde a infância. Gregory parece persegui-la sempre que tem chance e aonde quer que ela vá. Seus pais são amigos, as famílias frequentam a mesma igreja, os dois estudaram na mesma escola e, para piorar, a melhor amiga de Sid namora o melhor amigo de Greg. O ódio que sentem um pelo outro é regado a peças, provocações e eventuais apostas. Nessa relação, os dois juram que nunca irão se gostar. Porém, quando um acontecimento fatídico abala a vida dos dois, Sid e Greg precisam buscar apoio um no outro, e descobrirão que na verdade, são mais parecidos do que imaginam." }
+        nome: "Mesmo Compasso" }
+    ]
+  },
+  {
+    nome:"Lauren Asher",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81M74XKybIL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Puro impulso" },
+      
+      { url:"https://m.media-amazon.com/images/I/818g3ivK6+L._SY342_.jpg",
+        colecao:"Coleção 1",
+        nome:"Puro impacto" },
+
+      { url:"https://m.media-amazon.com/images/I/91zmRApy3DL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"Amor nas entrelinhas" },
+
+      { url:"https://m.media-amazon.com/images/I/91KDPtKldJL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"Termos e condições para o amor" },
+
+      { url:"https://m.media-amazon.com/images/I/91UQrikCS3L._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"Oferta final para o amor" }
     ]
   },
   {
     nome: "Lauren Oliver",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71spU7tlkML._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Delírio",
-        sinopse: "MUITO TEMPO ATRÁS, não se sabia que o amor é a pior de todas as doenças. Uma vez instalado na corrente sanguínea, não há como contê-lo. Agora a realidade é outra. A ciência já é capaz de erradicá-lo, e o governo obriga que todos os cidadãos sejam curados ao completar dezoito anos. Lena Haloway está entre os jovens que esperam ansiosamente esse dia. Viver sem a doença é viver sem dor: sem arrebatamento, sem euforia, com tranquilidade e segurança. Depois de curada, ela será encaminhada pelo governo para uma faculdade e um marido lhe será designado. Ela nunca mais precisará se preocupar com o passado que assombra sua família. Lena tem plena confiança de que as imposições das autoridades, como a intervenção cirúrgica, o toque de recolher e as patrulhas-surpresa pela cidade, existem para proteger as pessoas. Faltando apenas algumas semanas para o tratamento, porém, o impensado acontece: Lena se apaixona. Os sintomas são bastante conhecidos, não há como se enganar — mas, depois de experimentá-los, ela ainda escolheria a cura?" },
+        nome: "Delírio" },
 
       { url:"https://m.media-amazon.com/images/I/71GPQGyvuFL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Pandemônio",
-        sinopse: "Duas realidades, duas Lenas, diferentes ameaças. Antes e agora. Dividida entre o passado — Alex, a luta pela sobrevivência na Selva — e o presente, no qual crescem as sementes de uma violenta revolução, Lena terá que lutar contra um sistema cada vez mais repressor, sem, porém, se transformar em um zumbi: modo como os Inválidos se referem aos curados. Não importa o quanto o governo tema as emoções: pouco a pouco a sociedade se incendeia pelas faíscas da revolta, vindas de todos os lugares... inclusive de dentro." },
+        nome: "Pandemônio" },
 
       { url:"https://m.media-amazon.com/images/I/81fOS462UiL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Réquiem",
-        sinopse: "No desfecho surpreendente e eletrizante da série Delírio, não se pode mais ignorar a revolução: ela tomou o país, suas cidades e sua população. Os Inválidos crescem a cada dia, e o conflito final se aproxima. Lena agora está do lado deles, mas não são apenas os ataques dos reguladores que ela precisa enfrentar. O retorno de Alex, que ela pensou que estivesse morto, e o reencontro com Hana, que foi pareada com o futuro prefeito e leva uma vida confortável, tumultuam ainda mais seus pensamentos. Em Réquiem, Lauren Oliver mostra que a revolução é um caminho sem volta, assim como a liberdade." }
+        nome: "Réquiem" }
+    ]
+  },
+  {
+    nome:"Lauren Roberts",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91Zc11LYzcL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Powerless" },
+
+      { url:"https://m.media-amazon.com/images/I/8105TfWWCOL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Powerful" },
+
+      { url:"https://m.media-amazon.com/images/I/81az4-rBcGL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Reckless" },
+
+      { url:"https://m.media-amazon.com/images/I/91pk1ybOAgL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Fearless" }
     ]
   },
   {
     nome: "Laurie Halse Anderson",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/813KWDyUbvL._SY342_.jpg",
-        nome: "Fale!",
-        sinopse: "'Fale sobre você... Queremos saber o que tem a dizer.' Desde o primeiro momento, quando começou a estudar no colégio Merryweather, Melinda sabia que isso não passava de uma mentira deslavada, uma típica farsa encenada para os calouros. Os poucos amigos que tinha, ela perdeu ou vai perder, acabou isolada e jogada para escanteio. O que não é de admirar, afinal, a garota ligou para a polícia, destruiu a tradicional festinha que os veteranos promovem para comemorar a chegada das férias e, de quebra, mandou vários colegas para a cadeia. E agora ninguém mais quer saber dela, nem ao menos lhe dirigem a palavra (insultos e deboches, sim) ou lhe dedicam alguns minutos de atenção, com duvidosas exceções. Com o passar dos dias, Melinda vai murchando como uma planta sem água e emudece. Está tão só e tão fragilizada que não tem mais forças para reagir. Finalmente encontra abrigo nas aulas de arte, e será por meio de seu projeto artístico que tentará retomar a vida e enfrentar seus demônios: o que, de fato, ocorreu naquela maldita festa?" }
+        nome: "Fale!" }
     ]
   },
   {
+    nome:"Leia Stone",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91z92c6URXL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O último rei Dragão" },
+
+      { url:"https://m.media-amazon.com/images/I/51uFCMkTPfL._SY445_SX342_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"O rei Elfo" },
+
+      { url:"https://m.media-amazon.com/images/I/912t8WP6VsL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O implacável rei das fadas" },
+
+      { url:"https://m.media-amazon.com/images/I/81OxXz1YdmL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O rei Lobo" },
+    ]
+  },
+
+  {
     nome: "Leigh Bardugo",
+    bandeira:"assets/images/bandeiras/israel.png",
     imagens: [
       { url:"https://img.skoob.com.br/S_zVIrKZmoE8YU112nKLUBCWvHs=/202x312/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/592031/SIX_OF_CROWS_SANGUE_E_MENTIRA_1614249880592031SK-V11614249882B.jpg",
         colecao: "Coleção 1",
-        nome: "Six of crows: Sangue e mentiras",
-        sinopse: "A OESTE DE RAVKA, ONDE GRISHAS SÃO ESCRAVIZADOS E ENVOLVIDOS EM JOGOS DE CONTRABANDISTAS E MERCADORES......fica Ketterdam, capital de Kerch, um lugar agitado onde tudo pode ser conseguido pelo preço certo. Nas ruas e nos becos que fervilham de traições, mercadorias ilegais e assuntos escusos entre gangues, ninguém é melhor negociador que Kaz Brekker, a trapaça em pessoa e o dono do Clube do Corvo.Por isso, Kaz é contratado para liderar um assalto improvável e evitar que uma terrível droga caia em mãos erradas, o que poderia instaurar um caos devastador. Apenas dois desfechos são possíveis para esse roubo: uma morte dolorosa ou uma fortuna muito maior que todos os seus sonhos de riqueza.Apostando a própria vida, o dono do Clube do Corvo monta a sua equipe de elite para a missão: a espiã conhecida como Espectro; um fugitivo perito em explosivos e com um misterioso passado de privilégios; um atirador viciado em jogos de azar; uma grisha sangradora que está muito longe de casa; e um prisioneiro que quer se vingar do amor de sua vida.O destino do mundo está nas mãos de seis foras da lei – isso se eles sobreviverem uns aos outros." },
+        nome: "Six of crows: Sangue e mentiras" },
 
       { url:"https://m.media-amazon.com/images/I/91bovCxz8JL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Crooked Kingdom: Vingança e Redenção",
-        sinopse: "“Confiar na pessoa errada pode custar a própria vida.”Após se safarem milagrosamente de um ousado e perigoso assalto na notória Corte do Gelo, Kaz Brekker e sua equipe se sentem invencíveis. Mas o destino está prestes a dar uma perigosa guinada e, em vez de dividir uma vultosa recompensa, os seis comparsas terão que se munir de forças, de armas e de seus talentos para lutar pelas próprias vidas. Traídos e devastados pelo sequestro de um valioso membro da equipe, o Clube do Corvo agora conta com poucos recursos e aliados, e quase nenhuma esperança. Enquanto isso, forças descomunalmente poderosas se abatem sobre Ketterdam para desenterrar os segredos mais sombrios da potente droga conhecida como jurda parem, ao passo que antigos rivais e novos inimigos surgem para desafiar a perspicácia de Kaz e testar a frágil lealdade de seus parceiros. Agora, todos terão de enfrentar seus próprios demônios, e será preciso muito mais do que sorte para sobreviver à guerra que está se armando nas ruas obscuras e tortuosas desse implacável submundo – uma batalha por vingança e redenção que decidirá o futuro do mundo Grisha." }
+        nome: "Crooked Kingdom: Vingança e Redenção" }
     ]
   },
   {
     nome: "Lemony Snicket",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91Q5llF8hoL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Mau começo",
-        sinopse: "Mau começo é o primeiro volume de uma série em que Lemony Snicket conta as desventuras dos irmãos Baudelaire. Violet, Klaus e Sunny são encantadores e inteligentes, mas ocupam o primeiro lugar na classificação das pessoas mais infelizes do mundo. De fato, a infelicidade segue os seus passos desde a primeira página, quando eles estão na praia e recebem uma trágica notícia. Esses ímãs que atraem desgraças terão de enfrentar, por exemplo, roupas que pinicam o corpo, um gosmento vilão dominado pela cobiça, um incêndio calamitoso e mingau frio no café da manhã. É por isso que, logo na quarta capa, Snicket avisa ao leitor: 'Não há nada que o impeça de fechar o livro imediatamente e sair para uma outra leitura sobre coisas felizes, se é isso que você prefere'." },
+        nome: "Mau começo" },
 
       { url:"https://m.media-amazon.com/images/I/81+z537Q+NL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A sala dos répteis",
-        sinopse: "Lemony Snicket é um autor que não pode ser acusado de falta de franqueza. Sabe que nem todo mundo suporta as tristezas que ele conta e por isso - para que depois ninguém reclame - faz questão de avisar: 'Se você esperava encontrar uma história tranqüila e alegre, lamento dizer que escolheu o livro errado. A história pode parecer animadora no início, quando os meninos Baudelaire passam o tempo em companhia de alguns répteis interessantes e de um tio alto-astral, mas não se deixem enganar...'. Os Baudelaire têm mesmo uma incrível má sorte, mas pode-se afirmar que a vida deles seria bem mais fácil se não tivessem de enfrentar o tempo todo as armadilhas de seu arquiinimigo: o conde Olaf, um homem revoltante, gosmento e pérfido. Em Mau começo ele deu uma pequena amostra do que é capaz de fazer para infernizar a vida de Violet, Klaus e Sunny Baudelaire - e aqui as coisas só pioram." },
+        nome: "A sala dos répteis" },
 
       { url:"https://m.media-amazon.com/images/I/91vUaQlxfqL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "O lago das sanguessugas",
-        sinopse: "O misterioso autor das Desventuras em Série não só alcançou a lista de best-sellers infanto-juvenis do New York Times, como conseguiu entrar em todas as outras principais referências de vendagem americanas. Com sua estranha franqueza, na contracapa deste livro ele manda um recado a seus possíveis leitores: Caro leitor,Se você ainda não leu nada sobre os órfãos Baudelaire, é preciso que antes mesmo de começar a primeira frase deste livro fique sabendo o seguinte: Violet, Klaus e Sunny são legais e superinteligentes, mas a vida deles, lamento dizer, está repleta de má sorte e infelicidade. Todas as histórias sobre essas três crianças são uma tristeza e uma verdadeira desgraça, e a que você tem nas mãos talvez seja a pior de todas. Se você não tem estômago para engolir uma história que inclui um furacão, uma invenção para sinalizar pedidos de socorro, sanguessugas famintas, caldo frio de pepinos, um horrendo vilão e uma boneca chamada Perfeita Fortuna, é provável que se desespere ao ler este livro. Continuarei a registrar essas histórias trágicas, pois é o que sei fazer. Cabe a você, no entanto, decidir se verdadeiramente será capaz de suportar esta história de horrores." },
+        nome: "O lago das sanguessugas" },
 
       { url:"https://m.media-amazon.com/images/I/91aWm3+0-zL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Serraria baixo-astral",
-        sinopse: "Alto-Astral é o nome da serraria que serve de cenário para as novas calamidades que Klaus, Violet e Sunny serão obrigados a viver. Trata-se de uma 'ironia do destino', pois ali, no meio daquelas árvores derrubadas, daquelas enormes toras de madeira, o que as três crianças vão encontrar é mais uma coleção de coisas horripilantes, tais como uma gigantesca pinça mecânica, bifes do tipo sola de sapato, uma hipnotizadora e um homem com uma nuvem de fumaça no lugar da cabeça. A vida dos Baudelaire é mesmo muito diferente da vida da maioria das pessoas, 'a diferença principal estando no grau de infelicidade, horror e desespero'...Diante desse quadro, algum leitor desavisado pode desconfiar: 'Como é que alguém vai se divertir com um livro desses, se as personagens não param de sofrer?!'. A pergunta faz sentido, mas é justamente aí que descobrimos um dos melhores segredos de Lemony Snicket, pseudônimo do americano Daniel Handler. Ele leva o exagero às raias do absurdo, faz o realismo perder feio para o mais deslavado faz-de-conta e o resultado não poderia ser outro: um jogo literário incessantemente bem-humorado." },
+        nome: "Serraria baixo-astral" },
 
       { url:"https://m.media-amazon.com/images/I/51ZFYoKyapS._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Inferno no colégio interno",
-        sinopse: "Nada de aventuras emocionantes com final feliz: Violet, Klaus e Sunny Baudelaire são legais e inteligentes, mas a vida deles está repleta de má sorte e infelicidade. Em Inferno no colégio interno, os três irmãos enfrentam caranguejos, provas hiper-rigorosas e os castigos de um internato.O colégio se transformou em mais um desastroso episódio de suas vidas horríveis. Desta vez, eles precisam escapar de fungos gotejantes e assistir a recitais de violinos, além de entender o complicado sistema métrico e suportar os exercícios de D.O.R.Violet, Klaus e Sunny têm o poder de atrair desgraças. Quem gosta de histórias alegres não deve nem abrir este livro, avisa o autor, pois as histórias dos Baudelaire são sempre uma desventura pior do que a outra." },
+        nome: "Inferno no colégio interno" },
 
       { url:"https://m.media-amazon.com/images/I/91fbZzRR2tL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "O elevador Ersatz",
-        sinopse: "Como nos episódios anteriores, o sexto livro de Desventuras em série está repleto de desgraça, desespero e mal-estar. Quando essa nova desilusão começa, os irmãos Baudelaire estão acompanhados do Sr. Poe, um executivo de banco que ficara encarregado das crianças depois da morte dos pais deles num horrível incêndio.Eles vão até à residência da família Squalor, os novos tutores dos Baudelaire. O Sr. Poe acredita que ali Violet, Klaus e Sunny estarão a salvo do ganancioso e traiçoeiro Conde Olaf, que foi o primeiro tutor dos três irmãos e que pretende, desde então, apropriar-se da fortuna herdada pelos Baudelaire. A última maldade cometida por Conde Olaf foi raptar os trigêmeos Quagmire, de quem os Baudelaire haviam ficado amigos no colégio interno.Jerome e Esmé Squalor moram num apartamento de cobertura na Avenida Sombria. Para o desânimo dos três irmãos, o elevador do prédio foi desligado e eles são obrigados a chegar ao último andar pelas escadas escuras e tenebrosas. Depois de muitos e muitos degraus, eles finalmente chegam à casa nova, um enorme apartamento com 71 quartos, e descobrem que seus novos pais os tinham adotado apenas porque ter órfãos estava na moda.Os irmãos parecem bem instalados, mas uma nova aparição do Conde Olaf vem trazer pavor aos Baudelaire. Eles agora têm de descobrir um jeito de se livrar dessa pérfida ameaça. A resposta pode estar no elevador ersatz, uma passagem secreta tão escura quanto 'uma pantera negra como azeviche, coberta de piche, comendo alcaçuz preto no ponto mais profundo da parte mais funda do Mar Negro'. E os perigos estão só começando. Dali em diante, uma montanha de horrores e desgostos ainda espera pelos desafortunados irmãos Baudelaire." },
+        nome: "O elevador Ersatz" },
 
       { url:"https://m.media-amazon.com/images/I/91d6QS9r8-L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A cidade sinistra dos corvos",
-        sinopse: "Os irmãos Baudelaire não conseguem acreditar no que lêem na primeira página do jornal. Uma reportagem informa que o pérfido Conde Olaf raptou não apenas os irmãos Duncan e Isadora Quagmire, mas também Esmé Squalor. O texto não poderia ser mais enganoso: Esmé tinha sido tutora das crianças recentemente, e os Baudelaire sabem muito bem que o Conde Olaf nunca a seqüestraria. Olaf e Esmé são na verdade aliados num plano maligno para se apropriar da fortuna das três crianças. Violet, catorze anos, é a mais velha dos irmãos Baudelaire, os órfãos mais desafortunados do mundo. Klaus, o irmão do meio, tem treze anos e já leu mais livros do que qualquer criança de sua idade. Sunny, a mais nova, é um bebê pouco maior do que uma melancia. Assim como os irmãos Duncan e Isadora, as crianças Baudelaire perderam os pais num incêndio, e a amizade com os Quagmire era praticamente o único acontecimento feliz que havia acontecido nas suas vidas desde que ficaram órfãos. Nessa nova desventura eles terão de se haver com mais uma providência desastrada do sr. Poe, um executivo de banco que tinha sido o primeiro tutor dos Baudelaire e ainda cuidava da fortuna dos irmãos. O sr. Poe decide inscrevê-los num programa de adoção de menores, em que toda uma cidade se responsabiliza por crianças que tenham perdido os pais. O programa tem um slogan amedrontador: 'É preciso uma cidade para educar uma criança'. Violet, Klaus e Sunny são mandados para a apavorante cidade de C.S.C. e assim tem início mais um lamentável episódio da tenebrosa existência dos Baudelaire." },
+        nome: "A cidade sinistra dos corvos" },
         
       { url:"https://m.media-amazon.com/images/I/51Tf4+ijP2L._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "O hospital hostil",
-        sinopse: "Um período especialmente infeliz se anuncia nas vidas aflitivas de Violet, Klaus e Sunny Baudelaire. Durante uma tenebrosa e exaustiva caminhada noturna, eles param diante do Armazém Geral Última Chance e decidem entrar para pedir ajuda. Eles não podem recorrer aos pais (pois os perderam num incêndio), nem à polícia (que estava entre seus perseguidores noturnos), tampouco a conhecidos (pois os irmãos têm conhecidos demais, o que é quase o mesmo que não ter nenhum). Depois da morte dos pais no incêndio, Violet, Klaus e Sunny se vêem sob os cuidados de inúmeros tutores, alguns deles cruéis, como o ganancioso e traiçoeiro Conde Olaf, o vilão que é o verdadeiro responsável por eles estarem ali, totalmente sozinhos no meio da noite, em frente ao Armazém. Violet, Klaus e Sunny resolvem passar um telegrama para o sr. Poe, um banqueiro que fora encarregado de cuidar dos órfãos. O sr. Poe nunca se mostrou especialmente eficaz, mas pelo menos ele não era cruel, não tinha sido assassinado nem era o Conde Olaf, e essas parecem ser razões suficientes para contatá-lo. Além de se safar de terríveis enrascadas, os Baudelaire ainda terão de suportar a estada no sinistro Hospital Heimlich e provar que não são cruéis assassinos. Esse é apenas o começo de páginas e páginas de situações desesperadoras, que contêm detalhes opressivos como um desconfiado dono de armazém, uma cirurgia desnecessária, um sistema de intercomunicadores, uma anestesia e balões em forma de coração." },
+        nome: "O hospital hostil" },
 
       { url:"https://m.media-amazon.com/images/I/51fLxsy+jEL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "O espetáculo carnívoro",
-        sinopse: "No princípio de mais um episódio funesto de suas penosas existências, Violet, Klaus e Sunny Baudelaire se encontram no porta-malas de um carro preto. Qualquer pessoa que não seja um pacote ou uma mala preferiria viajar confortavelmente instalado no banco do passageiro, mas os órfãos Baudelaire não têm escolha. Quando refugiaram-se no bagageiro desse carro sinistro, eles escapavam de uma situação ainda pior. As três crianças encontram-se na 'barriga da fera', o que vale dizer que estão numa enrascada. Ao volante do automóvel está o ganancioso Conde Olaf, um vilão traiçoeiro que, desde que os Baudelaire perderam os pais num incêndio, vem perseguindo os três com o objetivo de se apossar da fortuna herdada por eles. Até aqui, felizmente, ele foi mal-sucedido. Além de se safar dessa armadilha, em O espetáculo carnívoro Violet, Klaus e Sunny Baudelaire terão de escapar do Parque Caligari e enfrentar uma multidão indócil. Tudo isso para tentar localizar o dossiê Snicket e decifrar a sigla C.S.C., que pode confirmar se um dos pais das crianças realmente sobreviveu ao terrível incêndio. Pseudônimo do escritor Daniel Handler, Lemony Snicket se tornou um fenômeno editorial em todo o mundo. Snicket homenageia Edgar Allan Poe e Charles Baudelaire, pais da literatura de mistério e da poesia simbolista, subvertendo os padrões bem comportados da literatura infanto-juvenil para compor uma saga engraçada e arrepiante." },
+        nome: "O espetáculo carnívoro" },
 
       { url:"https://m.media-amazon.com/images/I/514He4qtVvS._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "O escorregador de gelo",
-        sinopse: "Por mais azarados que sejam, até agora os órfãos Baudelaire pelo menos sempre estiveram juntos. Pois neste livro décimo a tragédia é ainda maior: separados do bebê Sunny, Klaus e Violet são obrigados a descer uma montanha escorregadia, enquanto tentam salvar a irmã mais nova das garras do temível conde Olaf. Será que os Baudelaire finalmente descobrirão o significado da sigla C.S.C.? Será que, desta vez, o final será feliz? É provável que não. Como sempre, a história está repleta de mistérios e mensagens secretas, situações absurdas, desgraça e mal-estar para todos - menos para o leitor, é claro. Mas quem gosta de alegria não deve nem abrir este livro, avisa o autor, pois a vida dos Baudelaire é sempre uma desventura pior do que a outra." },
+        nome: "O escorregador de gelo" },
 
       { url:"https://m.media-amazon.com/images/I/51yUkc8mwsS._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A gruta Gorgônea",
-        sinopse: "O novo volume que dá seqüência à crônica da trágica e desgostosa vida dos irmãos Baudelaire está, como sempre, repleto de infortúnios. Aqueles que ignorarem a advertência de Lemony Snicket - que diz: 'Como autor dedicado que jurou registrar a deprimente história dos Baudelaire, preciso continuar me aprofundando profundamente nas profundezas cavernosas das vidas dos órfãos. Mas você pode se aprofundar na leitura de um livro mais alegre e evitar que seus olhos e seu humor se afoguem' - encontrarão Violet, Klaus e Sunny em um tobogã, descendo as águas cinzentas do Arroio Enamorado. A situação não é das melhores: depois de resgatar Sunny das garras do Conde Olaf, os Baudelaire se vêem separados do amigo Quigley, numa jornada rumo ao pé das Montanhas de Mão-Morta. A viagem só não é mais desagradável graças à aparição do submarino Queequeg, que resgata os três das águas violentas do Arroio. Capitaneado pelo excêntrico Andarré, o minúsculo Submarino Q e sua Tripulação de Dois ainda abriga Fiona, enteada do capitão, e Phil, que já havia ajudado os Baudelaire no infeliz episódio da Serraria Alto-Astral. Em busca de um misterioso açucareiro, os seis chegam à Gruta Gorgônea, onde cogumelos venenosos e a aparição de um certo conde podem precipitar desenlaces ainda mais tristes na vida da trinca desafortunada." },
+        nome: "A gruta Gorgônea" },
 
       { url:"https://m.media-amazon.com/images/I/915ce2gkfBL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "O penúltimo perigo",
-        sinopse: "Quem, em prantos, seguiu as Desventuras em Série publicadas pela Companhia das Letras, vai chorar ainda mais com o 12o. e último livro antes do último livro da terrível coleção de Lemony Snicket. Nele, os órfãos Baudelaire enfrentam o odioso Conde Olaf no Hotel Desenlace, onde os horrores se sucedem: uma vilã vestida de alface, gente furtiva perambulando no porão, um relógio sinistro, um açucareiro perdido, uma lavanderia com Cerramento Supravernacular Complexo, um tribunal vendado, pessoas nobres e pérfidas no mesmo barco e um final terrivelmente surpreendente. Porém, o que contém o açucareiro, e o que é C.S.C.? Só saberemos, talvez, num igualmente misterioso 13o. volume." },
+        nome: "O penúltimo perigo" },
 
       { url:"https://m.media-amazon.com/images/I/91Ql21YfUlL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "O fim",
-        sinopse: "Finalmente, o tão esperado 13o. volume que encerra a longa narrativa da terrível saga dos órfãos Sunny, Klaus e Violet. Mesmo que a vida dos três oferecesse mistério e martírio suficientes para preencher milhares de páginas, Lemony Snicket garante ter chegado à reta final da solene tarefa que lhe ocupou tantos anos de vida. Mas, como sempre, vale o alerta: aqueles que encontram prazer e alegria em outras coisas, que passem ao largo deste livro - pois é bem possível que O fim acabe com a vida do leitor mais suscetível. Mesmo quem enfrentou corajosamente os doze volumes anteriores não irá suportar tanta desgraça, como uma tempestade bravia, uma bebida suspeita, um bando de ovelhas selvagens, uma gaiola de passarinho gigante e ornamentada, e um segredo de fato assustador sobre os pais dos Baudelaire. Para completar, diferentemente dos outros livros da série, neste último o grande vilão, conde Olaf, está presente desde o início da narrativa. Ele e os Baudelaire começam juntos: estão todos no barco que os salvou no final de O penúltimo perigo. Atracam em uma ilha, que, perdida no meio do oceano, é povoada por náufragos e comandada por Ishmael, um homem barbudo que tem os pés feridos sempre cobertos de barro. Tudo muito suspeito... Será que todo o mistério finalmente será revelado? Afinal, quem são os pais dos órfãos Baudelaire, o que é C.S.C., e o que acontecerá com todos os personagens da série? Bem, talvez O fim não seja para qualquer um. Por isso é de fato muito recomendável que se faça um check-up cardíaco antes de ler o livro." }
+        nome: "O fim" }
     ]
   },
   {
     nome: "Leonardo da Silva Bertagnolli",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81BABSS4YrL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Ascensão do Caos - Abismo",
-        sinopse: "Ascensão do Caos: Abismo se passa no mundo de Lynora, um mundo fantástico onde magia e realidade se encontram. O livro conta a história de Gabriella, uma jovem humana resgatada das ruas de Porto Cinzento pelo misterioso Imediato do Ceifador, um navio pirata lendário entre os marinheiros. Dias após a introdução da jovem à tripulação do Ceifador, uma horda de criaturas abissais ataca Porto Cinzento e o Imediato é levado por uma divindade sombria conhecida como Louthren, a divindade do Abismo, que clama ser seu pai. Gabriella, juntamente de Edward, o Capitão do Ceifador, e de outros membros da tripulação, parte em busca de resgatar o tão respeitado e admirado Imediato. Em uma jornada louca e perigosa pela terra devastada do Abismo, a jovem Gabriella encontrará em seu caminho desafios inimagináveis. Do outro lado, o Imediato vivencia a vingança de seu antigo mentor Louthren na tentativa de levar seu poderoso pupilo ao seu eu verdadeiro, ao seu poder ancião. Em uma história sobre lealdade, família, orgulho e vingança, nossos protagonistas enfrentarão o desconhecido para descobrirem seus verdadeiros Eus e reaver aquilo que consideram ser suas famílias" },
+        nome: "Ascensão do Caos - Abismo" },
 
       { url:"https://m.media-amazon.com/images/I/810xElBgckL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Ascensão do Caos - Despertar",
-        sinopse: "Ascensão do Caos – Despertar se passa em Ayordan, um mundo onde magia, ciência e realidade se encontram. Despida de suas memórias e poderes, a protagonista se encontra acompanhada por um grupo confuso, mas gentil e fraternal. Lapsos de memória de uma guerra há muito passada irrompem seus sonhos, corrompendo-os em pesadelos. Seu nome, perdido no tempo, jaz com a certeza de que inimigos antigos escondem-se nas sombras. Longe dela, um curioso ser de cabelos cor de fogo surge em um vilarejo, encarcerado pela ditatorial Ordem dos Cavaleiros da Alvorada. Torturado por meses em um mundo desconhecido, tenta pacientemente encontrar uma maneira de escapar do cárcere e cumprir a missão para qual foi enviado. É quando uma interrogadora é colocada no caso e não apenas a possibilidade de soltura surge, mas também de novas conexões. Em uma jornada longa e árdua por Ayordan, os protagonistas enfrentarão terrores nunca antes vistos, encontrarão velhos e novos inimigos na busca por seus aliados, em um mundo completamente novo, onde família, romance, ação, ciência e magia se conectam para formar a missão mais importante de suas histórias." }
+        nome: "Ascensão do Caos - Despertar" }
     ]
   },
   {
     nome: "Leonor Carvalho",
+    bandeira:"assets/images/bandeiras/portugal.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/51csKBRwL-L._SY342_.jpg",
-        nome: "Modus Operandi",
-        sinopse: "Assustador. Dilacerante. Frio. Palavras que Harper Reese conhecia tão bem para definir o amor. Ela sempre acreditou que a sua vida era uma guerra e ela, o maior alvo. Seu coração andava protegido e a sua mente armada para atacar qualquer um que ousasse se aproximar dela. Logo após a morte de um paciente, Harper decidiu se afastar do hospital onde trabalhava e passar um tempo na cidade vizinha. Reese só não contava que estava em uma caça em que ela era a presa e o destino o melhor dos caçadores. Pois, quando se viu morando sob o mesmo teto que Andrew Denson, um militar que poderia ser tanto um pesadelo vivo quanto um sonho sombrio, ela sabia que teria que entrar em um jogo para o enfrentar. E o seu coração teria que estar em campo. Mas, sob hipótese alguma, poderia perder." }
+        nome: "Modus Operandi" }
+    ]
+  },
+  {
+    nome:"Leslie Vedder",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91xCFxxKS-L._SY425_.jpg",
+        nome:"A maldição do fuso" }
+    ]
+  },
+  {
+    nome:"Lexi Ryan",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81Hw--+ZVKL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Promessas vazias" },
+
+      { url:"https://m.media-amazon.com/images/I/81UeAHo5h4L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Laços Perversos" },
     ]
   },
   {
     nome: "Liane Moriarty",
+    bandeira:"assets/images/bandeiras/australia.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91o+w7AnjsL._SY342_.jpg",
-        nome: "Até que a culpa nos separe",
-        sinopse: "Amigas de infância, Erika e Clementine não poderiam ser mais diferentes. Erika é obsessivo-compulsiva. Ela e o marido são contadores e não têm filhos. Já a completamente desorganizada Clementine é violoncelista, casada e mãe de duas adoráveis meninas. Certo dia, as duas famílias são inesperadamente convidadas para um churrasco de domingo na casa dos vizinhos de Erika, que são ricos e extravagantes. Durante o que deveria ser uma tarde comum, com bebidas, comidas e uma animada conversa, um acontecimento assustador vai afetar profundamente a vida de todos, forçando-os a examinar de perto suas escolhas — não daquele dia, mas da vida inteira. Em Até que a culpa nos separe, Liane Moriarty mostra como a culpa é capaz de expor as fragilidades que existem mesmo nos relacionamentos estáveis, como as palavras podem ser mais poderosas que as ações e como dificilmente percebemos, antes que seja tarde demais, que nossa vida comum era, na realidade, extraordinária." }
+        nome: "Até que a culpa nos separe" }
     ]
   },
   {
     nome: "Laini Taylor",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81mvR9JOdCL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Feita de fumaça e osso",
-        sinopse: "Pelos quatro cantos da Terra, marcas de mãos negras aparecem nas portas das casas, gravadas a fogo por seres alados que surgem de uma fenda no céu. Em uma loja sombria e empoeirada, o estoque de dentes de um demônio está perigosamente baixo. E, nas tumultuadas ruas de Praga, uma jovem estudante de arte está prestes a se envolver em uma guerra de outro mundo. O NOME DELA É KAROU. Seus cadernos de desenho são repletos de monstros que podem ou não ser reais; ela desaparece e ressurge do nada, despachada em enigmáticas missões; fala diversas línguas, nem todas humanas, e seu cabelo azul nasce exatamente dessa cor. Quem ela é de verdade? A pergunta a persegue, e o caminho até a resposta começa no olhar abrasador de um completo estranho. Um romance moderno e arrebatador, em que batalhas épicas e um amor proibido unem-se na esperança de um mundo refeito." },
+        nome: "Feita de fumaça e osso" },
 
       { url:"https://m.media-amazon.com/images/I/51gwniLCbeL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Dias de sangue e estrelas",
-        sinopse: "Karou, uma estudante de artes plásticas e aprendiz de um monstro, por fim encontrou as respostas que sempre buscou. Agora ela sabe quem é — e o que é. Mas, com isso, também descobriu algo que, se fosse possível, ela faria de tudo para mudar: tempos atrás Karou se apaixonou pelo inimigo, que a traiu, e por sua culpa o mundo inteiro foi punido. Na deslumbrante sequência de Feita de fumaça e osso, ela terá que decidir até onde está disposta a ir para vingar seu povo. Dias de sangue e estrelas mostra Karou e Akiva em lados opostos de uma guerra ancestral. Enquanto os quimeras, com a ajuda da garota de cabelo azul, criam um exército de monstros em uma terra distante e desértica, Akiva trava outro tipo de batalha: uma batalha por redenção... por esperança. Mas restará alguma esperança no mundo destruído pelos dois?" },
+        nome: "Dias de sangue e estrelas" },
 
       { url:"https://m.media-amazon.com/images/I/511QkLQvRvL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Sonhos com deuses e monstros",
-        sinopse: "Dois mundos se equilibram na iminência de uma terrível guerra. Na Terra, os humanos recebem com êxtase os anjos e seu imperador, que pretendem angariar armas para um combate maligno. Karou assumiu o controle da rebelião quimera e, ao menos na batalha contra o inimigo em comum, está, finalmente, ao lado de Akiva. É uma versão distorcida do tão antigo sonho dos dois, uma esperança de futuro para seus povos. E, talvez, para o amor que eles sentem renascer. Assim como os volumes anteriores da trilogia, Sonhos com deuses e monstros é best-seller do The New York Times e foi nomeado pela Amazon um dos melhores livros do mês de seu lançamento." }
+        nome: "Sonhos com deuses e monstros" }
     ]
   },
   {
     nome: "Lily Graham",
+    bandeira:"assets/images/bandeiras/africadosul.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81YRa6jDvBL._SY342_.jpg",
-        nome: "O segredo da livraria de Paris",
-        sinopse: "Valerie tinha três anos de idade quando foi levada de Paris para Londres, durante a Segunda Guerra Mundial. Agora, aos vinte anos e sozinha no mundo, ela se candidata, com nome falso, a uma vaga de emprego na livraria do avô, Vincent Dupont. Ele é seu único parente vivo e a única pessoa que sabe o que realmente aconteceu com seus pais biológicos. À medida que passa a conhecer melhor o ranzinza e reservado Dupont, Valerie vai puxando o fio da própria história. Mas essa história não se completa: qual seria o segredo devastador que Vincent estava disposto a tudo para esconder? Esta é uma comovente história de amor, medo e coragem em tempos de guerra. O segredo da livraria de Paris vai levar você para essa icônica cidade dos anos 1940 e 1960. Você vai chorar de emoção, vai rir, se admirar e perder o fôlego em diversos momentos dessa leitura impossível de ser interrompida." }
+        nome: "O segredo da livraria de Paris" }
+    ]
+  },
+  {
+    nome:"Lily King",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/41--pb9vCQL._SY445_SX342_ML2_.jpg",
+        nome:"Escritores & Amantes" }
     ]
   },
   {
     nome: "Lima Barreto",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/911A6PNFOqL._SY342_.jpg",
-        nome: "Diário do hospício & O cemitério dos vivos",
-        sinopse: "O clássico testemunho da internação de Lima Barreto num hospício em nova edição com notas e imagens inéditas. Internado por duas vezes em instituições psiquiátricas por delírios alcóolicos, Lima Barreto documentou em Diário do hospício sua passagem pelo Hospício Nacional dos Alienados, no Rio de Janeiro, de maneira lúcida e contundente. No romance inacabado O cemitério dos vivos, o autor transpôs para a chave ficcional a mesma vivência. Os dois textos foram publicados em conjunto postumamente, em 1953 e em 2010, receberam nova e cuidadosa edição organizada por Augusto Massi e Murilo Marcondes de Moura e prefaciada por Alfredo Bosi. Relançada agora pela Companhia das Letras, esta edição conta com notas e imagens inéditas, que oferecem nova contextualização do ambiente manicomial, além de incluir ao final uma nova reportagem de Raymundo Magalhães datada de 1920." },
+        nome: "Diário do hospício & O cemitério dos vivos" },
 
       { url:"https://m.media-amazon.com/images/I/71SL01dqwwL._SY342_.jpg",
-        nome: "Triste fim de Policarpo Quaresma",
-        sinopse: "Policarpo Quaresma ama o Brasil. Ama porque é a terra mais fértil do mundo, porque tem a fauna e a flora mais lindas e exuberantes, porque é a cultura mais rica, a melhor comida, em variedade e sabores, porque possui as mulheres mais belas e, segundo ele, até mesmo... os melhores governantes. Funcionário público, fluente em tupi, estudioso da cultura indígena e grande apreciador das modinhas de violão ― para ele, o único estilo de música verdadeiramente nacional ―, Policarpo, como Dom Quixote de La Mancha, enfrenta moinhos de vento para provar a todos o seu ponto de vista, bradar ao mundo o amor por sua musa, não a Srta. Dulcineia de Toboso, mas a mui amada pátria brasileira. Mas, afinal, que fim poderia ter a aventura de Policarpo? Repleto de personagens fortes e carismáticos, o romance de Lima Barreto é, ao mesmo tempo, um ensaio sobre o idealismo, uma crítica profunda, mas permeada de comicidade, da realidade brasileira do fim do século XIX e início do XX e um retrato das mudanças pelas quais o Brasil passava naquele momento, como o despertar do feminismo. Lindo, inteligente, comovente! Um clássico da literatura nacional." }
+        nome: "Triste fim de Policarpo Quaresma" }
     ]
   },
   {
     nome: "Linda Holmes",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91StZb4D2aL._SY342_.jpg",
-        nome: "Não é errado ser feliz",
-        sinopse: "Em uma cidadezinha costeira do estado americano do Maine, Evvie Drake raramente sai de sua casa enorme e vazia, mesmo um ano após a morte do marido. Todos na cidade, inclusive Andy, seu melhor amigo, acreditam que ela fica trancada ali porque ainda está em processo de luto — e Evvie certamente não faz nada para mudar essa impressão. Já em Nova York, Dean, ex-arremessador profissional e amigo de infância de Andy, vive o pior pesadelo de um atleta em sua posição: não consegue mais arremessar e, o pior de tudo, não faz ideia do motivo. Enquanto a imprensa trata de cobrir seu fracasso com uma insistência voraz, o convite de Andy para que passe um tempo no Maine parece a oportunidade perfeita para recomeçar. Quando Dean se muda para o apartamento anexo à casa de Evvie, os dois fazem um acordo: ele não fará perguntas sobre o ex-marido dela, e ela não vai perguntar sobre a carreira dele no beisebol. Mas na vida, como no esporte, tudo pode mudar, até o último segundo. E assim tem início uma inesperada amizade... com potencial de se tornar algo mais." }
+        nome: "Não é errado ser feliz" }
+    ]
+  },
+  {
+    nome:"Linette Douglas",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/617Sov0VQJL._SY466_.jpg",
+        nome:"Um Grão de Maldade" }
     ]
   },
   {
     nome: "Lionel Shriver",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/919g-oJ1tZL._SY342_.jpg",
-        nome: "Precisamos falar sobre o Kevin",
-        sinopse: "Lionel Shriver realiza uma espécie de genealogia do assassínio ao criar na ficção uma chacina similar a tantas provocadas por jovens em escolas americanas. Aos 15 anos, o personagem Kevin mata 11 pessoas, entre colegas no colégio e familiares. Enquanto ele cumpre pena, a mãe Eva amarga a monstruosidade do filho. Entre culpa e solidão, ela apenas sobrevive. A vida normal se esvai no escândalo, no pagamento dos advogados, nos olhares sociais tortos. Transposto o primeiro estágio da perplexidade, um ano e oito meses depois, ela dá início a uma correspondência com o marido, único interlocutor capaz de entender a tragédia, apesar de ausente. Cada carta é uma ode e uma desconstrução do amor. Não sobra uma só emoção inaudita no relato da mulher de ascendência armênia, até então uma bem-sucedida autora de guias de viagem. Cada interstício do histórico familiar é flagrado: o casal se apaixona; ele quer filhos, ela não. Kevin é um menino entediado e cruel empenhado em aterrorizar babás e vizinhos. Eva tenta cumprir mecanicamente os ritos maternos, até que nasce uma filha realmente querida. A essa altura, as relações familiares já estão viciadas. Contudo, é à mãe que resta a tarefa de visitar o 'sociopata inatingível' que ela gerou, numa casa de correção para menores. Orgulhoso da fama de bandido notório, ele não a recebe bem de início, mas ela insiste nos encontros quinzenais. Por meio de Eva, Lionel Shriver quebra o silêncio que costuma se impor após esse tipo de drama e expõe o indizível sobre as frágeis nuances das relações entre pais e filhos num romance irretocável." }
+        nome: "Precisamos falar sobre o Kevin" }
+    ]
+  },
+  {
+    nome:"Lisa Gardner",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/41m9nt86d0L._SY445_SX342_QL70_ML2_.jpg",
+        nome:"Sangue na neve" }
     ]
   },
   {
     nome: "Lisa Kleypas",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/919kwH--gGL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um sedutor sem coração",
-        sinopse: "Devon Ravenel, o libertino mais maliciosamente charmoso de Londres, acabou de herdar um condado. Só que a nova posição de poder traz muitas responsabilidades indesejadas – e algumas surpresas. A propriedade está afundada em dívidas e as três inocentes irmãs mais novas do antigo conde ainda estão ocupando a casa. Junto com elas vive Kathleen, a bela e jovem viúva, dona de uma inteligência e uma determinação que só se comparam às do próprio Devon. Assim que o conhece, Kathleen percebe que não deve confiar em um cafajeste como ele. Mas a ardente atração que logo nasce entre os dois é impossível de negar. Ao perceber que está sucumbindo à sedução habilmente orquestrada por Devon, ela se vê diante de um dilema: será que deve entregar o coração ao homem mais perigoso que já conheceu?" },
+        nome: "Um sedutor sem coração" },
 
       { url:"https://m.media-amazon.com/images/I/915Mr7XdIOL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma noiva para Winterborne",
-        sinopse: "Rhys Winterborne conquistou uma fortuna incalculável graças a sua ambição ferrenha. Filho de comerciante, ele se acostumou a conseguir exatamente o que quer – nos negócios e em tudo o mais. No momento em que conhece a tímida aristocrata lady Helen Ravenel, decide que ela será sua. Se for preciso macular a honra dela para garantir que se case com ele, melhor ainda. Apesar da inocência de Helen, a sedução perseverante de Rhys desperta nela uma intensa e recíproca paixão. Só que Rhys tem muitos inimigos que conspiram contra os dois. Além disso, Helen guarda um segredo sombrio que poderá separá-los para sempre. Os riscos ao amor deles são inimagináveis, mas a recompensa é uma vida inteira de felicidade." },
+        nome: "Uma noiva para Winterborne" },
 
       { url:"https://m.media-amazon.com/images/I/81Vy2EiSd6L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um acordo pecaminoso",
-        sinopse: "Lady Pandora Ravenel é muito diferente das debutantes de sua idade. Enquanto a maioria delas não perde uma festa da temporada londrina e sonha encontrar um marido, Pandora prefere ficar em casa idealizando jogos de tabuleiro e planejando se tornar uma mulher independente. Mas certa noite, num baile deslumbrante, ela é flagrada numa situação muito comprometedora com um malicioso e lindo estranho. Gabriel, o lorde St. Vincent, passou anos conseguindo evitar o casamento, até ser conquistado por uma garota rebelde que não quer nada com ele. Só que ele acha Pandora irresistível e fará o que for preciso para possuí-la. Para alcançar seus objetivos, os dois fazem um acordo curioso e entram em uma batalha de vontades divertida e sensual, como só Lisa Kleypas é capaz de criar." },
+        nome: "Um acordo pecaminoso" },
 
       { url:"https://m.media-amazon.com/images/I/51WlojiPeaL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um estranho irresistível",
-        sinopse: "Uma mulher que desafia seu tempo Dr. Garret Gibson, a única médica mulher na Inglaterra, é tão ousada e independente quanto qualquer homem – por que não lidar com os próprios desejos como se fosse um? No entanto, ela nunca ficou tentada a se envolver com alguém, até agora. Ethan Ransom, um ex-detetive da Scotland Yard, é tão galante quanto secreto, e sua lealdade é um verdadeiro mistério. Em uma noite emocionante, eles cedem a uma poderosa atração mútua antes de se tornarem estranhos novamente. Um homem que quebra todas as regras Ethan tem pouco interesse pela alta sociedade, mas é cativado pela preciosa e bela Garrett. Apesar da promessa de resistir um ao outro depois daquela noite sublime, ela logo será atraída para sua tarefa mais perigosa. Quando a missão dá errado, Garret usa toda a sua habilidade e coragem para se salvar. À medida que enfrentam a ameaça de uma traição do governo, Ethan fica disposto a assumir qualquer risco pelo amor da mulher mais extraordinária que já conheceu." },
+        nome: "Um estranho irresistível" },
 
       { url:"https://m.media-amazon.com/images/I/51pz0MqjflL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma herdeira apaixonada",
-        sinopse: "Viúva ainda jovem, Phoebe já viveu um grande amor e não cultiva mais ilusões românticas. Agora, ela precisa ser prática – e cuidar dos dois filhos pequenos e da propriedade da família. Mas quando vai passar alguns dias no Priorado Eversby, a bela dama se surpreende ao conhecer um cavalheiro incrivelmente charmoso. Seu encanto se desfaz no momento em que ele se apresenta como ninguém menos que West Ravenel: o homem que tornou a vida de seu falecido marido um tormento. E ela jurou nunca perdoá-lo por isso. West sabe que é um homem com um passado manchado e que não está à altura de uma mulher como Phoebe, mas, ao conhecê-la, é consumido por um desejo irresistível e um sentimento inteiramente novo. Sem terras nem fortuna, tudo que ele pode lhe oferecer é prazer. O que West não imagina é que, apesar da aparente ingenuidade, Phoebe está decidida a tomar as rédeas da própria vida. Será que essa paixão esmagadora será suficiente para superar os obstáculos do passado?" },
+        nome: "Uma herdeira apaixonada" },
 
       { url:"https://m.media-amazon.com/images/I/81p3awBgA6L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Pelo amor de Cassandra",
-        sinopse: "Tom Severin, o magnata das ferrovias, tem dinheiro e poder suficientes para realizar todos os seus desejos. Por isso, quando resolve que está na hora de se casar, acha que deve ser fácil encontrar a esposa perfeita. Assim que ele pousa os olhos em lady Cassandra Ravenel pela primeira vez, decide que ela é essa mulher. O problema é que a bela e perspicaz Cassandra é tão determinada quanto ele, e faz questão de se casar por amor – a única coisa que Tom não pode oferecer. Além disso, ela não tem o menor interesse em viver no mundo frenético de alguém que só joga para vencer. No entanto, mesmo com o coração de gelo, ele é o homem mais charmoso que Cassandra já conheceu. E quando um inimigo recém-descoberto quase destrói a reputação dela, Tom aproveita a oportunidade que estava esperando para conquistá-la. Ao contrário do que pensa, porém, ele ainda não conseguiu o que queria. Porque a busca pela mão de Cassandra pode até ter chegado ao fim, mas a batalha por seu coração está apenas começando." },
+        nome: "Pelo amor de Cassandra" },
 
       { url:"https://m.media-amazon.com/images/I/81D1t7gFu7L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma tentação perigosa",
-        sinopse: "Lady Merritt Sterling, uma jovem viúva que dirige a empresa de navegação do falecido marido, sabe que tudo que a sociedade londrina quer é flagrá-la em um escândalo. Até agora, ela foi inteligente o suficiente para não lhe dar essa satisfação. Mas ao conhecer Keir MacRae, um destilador de uísque escocês rude e lindo de morrer, todos os seus planos sensatos podem virar fumaça. Embora sejam de mundos totalmente diferentes, a atração que surge entre os dois é poderosa e irresistível. Quando Keir chega a Londres, tem os seguintes objetivos: não se apaixonar pela deslumbrante lady Merritt e evitar ser assassinado. Até agora, nenhum dos dois está indo muito bem. Seu mundo está de cabeça para baixo e a única pessoa em quem ele confia é ela. Conforme o perigo se aproxima, Merritt fará o que for preciso para salvar o escocês, enquanto ele precisa descobrir se é capaz de oferecer a única coisa que ela deseja mais que a segurança dele: seu amor." }
+        nome: "Uma tentação perigosa" }
     ]
   },
   {
     nome: "Lisa Maxwell",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81TUayaX4PS._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "O último dos magos",
-        sinopse: "Na Nova York dos dias atuais, a magia antiga e natural está quase extinta. Os poucos que ainda têm afinidade com ela – os Mageus – vivem nas sombras, escondendo o que são. Além disso, qualquer Mageus que adentre Manhattan é capturado por uma armadilha: a Beira, uma barreira invisível que os deixa permanentemente presos à ilha. Atravessar a fronteira estabelecida pela Beira significa perder os poderes – e, frequentemente, a própria vida. A jovem Esta é uma ladra talentosa e cresceu sendo treinada para roubar artefatos mágicos da Ordem, organização misteriosa criadora da Beira. Esta também tem uma habilidade inata: manipular o tempo. A jovem é capaz de furtar objetos do passado, coletando-os antes mesmo que a Ordem perceba que ela está lá. Mas todo o treinamento de Esta tem sido para uma tarefa maior: viajar até o ano de 1902 para roubar um livro antigo. Acredita-se que o Livro contém todos os segredos da Ordem – e da Beira. A missão de Esta é furtá-lo antes que o Mago o destrua, garantindo assim um futuro melhor a todos os que têm afinidade com magia. Mas a Nova York do início do século XX em que Esta deve mergulhar é perigosa e sem leis, comandada por gangues e sociedades secretas. Um lugar em que é possível sentir magia até no ar que se respira. Nada é o que parece, nem mesmo o Mago. E, para salvar o próprio futuro, Esta deve trair a todos no passado – sem exceção." },
+        nome: "O último dos magos" },
 
       { url:"https://m.media-amazon.com/images/I/91v7ExKS43L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A ladra do demônio",
-        sinopse: "Os pais de Esta foram assassinados. Sua vida, roubada. E tudo que ela sabia a respeito da magia era mentira. Ela acreditara que o Ars Arcana, o Livro que contém a origem da magia, guardaria a chave para libertar os Mageus do domínio da Ordem. Mas o perigo contido em suas páginas é muito maior do que imaginara. Agora, o imensurável poder do Livro está em Harte. E se ele não for capaz de controlá-lo, a força do Ars Arcana destruirá o mundo para vingar-se, utilizando-se de Esta para tal. A fim de sintetizar o poder, Esta e Harte precisam localizar quatro pedras elementais espalhadas pelo continente. Porém, o mundo fora da cidade não é bem como eles esperam. Há Mageus além da Beira nem um pouco dispostos a viver nas sombras – e a Ordem não está sozinha em sua missão de destruí-los. Na extravagante Feira Mundial de Saint Louis está escondida a primeira pedra. E um velho inimigo está à espreita enquanto emerge um novo. Em Nova York, no limiar do caos, Viola e Jianyu devem enfrentar um traidor. Neste segundo volume da série best-seller 'O Último dos Magos', passado e futuro colidem. Reinventar a História é uma batalha contra as horas – até mesmo para uma ladra viajante do tempo." }
+        nome: "A ladra do demônio" }
+    ]
+  },
+  {
+    nome:"Lívia Aviani",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81cQzKdwnrL._SY522_.jpg",
+        colecao:"Coleção 1",
+        nome:"Você me daria uma chance?" },
+
+      { url:"https://m.media-amazon.com/images/I/81fcStSKWSL._SY522_.jpg",
+        colecao:"Coleção 1",
+        nome:"Você? Sem chance" }
+    ]
+  },
+  {
+    nome:"Lola Salgado",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71-ly+aj2gL._SY385_.jpg",
+        nome:"O beijo do bandido" }
+    ]
+  },
+  {
+    nome:"Lore Nelson Spielman",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81A2-WPUMbL._SY466_.jpg",
+        nome:"A lista de Brett" }
+    ]
+  },
+  {
+    nome:"Lorraine Heath",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91swNpIZTML._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Pactos ousados" },
+
+      { url:"https://m.media-amazon.com/images/I/51BVU0dfEUL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Proteções duvidosas" },
     ]
   },
   {
     nome: "Luana Oliveira",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71TnO7tr8YL._SY342_.jpg",
-        nome: "Beije-me na Quadra",
-        sinopse: "Apesar de ser jogador do time de basquete da Hellaware University, uma das melhores universidades do estado da Carolina do Sul, e andar cercado por seus companheiros de time, Declan Coffey não é tão popular quanto eles, tão pouco se enquadra no esteriótipo de atleta que todos parecem conhecer. O garoto não bebe com muita frequência, não tem uma garota enfeitando sua cama todas as noites, não há boatos frequentes com seu nome pelo campus e muito menos precisa de ajuda com as matérias do seu curso. Na verdade, Coffey é um atleta portador de armações grossas na ponta do nariz, completamente fanático por histórias em quadrinhos de super-heróis e gostos peculiares quando se trata de filmes. Em uma noite, quando decide mudar um pouco da sua rotina amena, Declan acaba tomando um porre em uma festa de fraternidade e ficando com Georgina Sinclair, a garota de cabelos loiros e olhos verdes-escuros que é conhecida por pegar e não se apegar e ser super cobiçada por todos da cidade. Para o azar de ambos, o beijo não tem encaixe e tudo se transforma em um borrão de vergonha, os dois se evitando ao máximo logo depois do pequeno desastre embaraçoso. E, se os dois juraram nunca mais repetir aquele beijo, o destino faz questão de mostrar que quem dá a cartada final é ele, afinal, um acordo está chegando para juntar Declan Coffey e Georgina Sinclair de uma vez por todas." }
+        nome: "Beije-me na Quadra" }
     ]
   },
   {
     nome: "Lucas Rocha",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91N-T2KjwOL._SY342_.jpg",
-        nome: "Você tem a vida inteira",
-        sinopse: "O que fazer quando você recebe um diagnóstico que vai mudar toda sua vida? Você tem a vida inteira é sensível e honesto sobre um assunto que ainda é um grande tabu. Repaginado, de cara nova e com conteúdos exclusivos, o livro que conquistou as prateleiras internacionais chega agora a sua segunda edição. As vidas de Ian, Victor e Henrique são entrecortadas pelo diagnóstico do HIV. Victor fica inseguro ao descobrir que Henrique, com quem está começando uma relação, é soropositivo e resolve fazer um teste, mesmo que os dois só tenham transado com camisinha. Logo depois de um resultado negativo, ele conhece Ian, um universitário como ele que acabou de receber uma notícia que pode mudar sua vida. No impulso de ajudar o garoto, Henrique entrelaça os destinos dos três. Lucas Rocha narra, a partir das três perspectivas, os medos, as esperanças e o preconceito sofrido por quem vive com HIV, mas, principalmente, conta uma história que não é sobre culpa ou sobre estar doente, mas, sim, sobre como podemos formar nossas próprias famílias e sobre nunca esquecer que ainda temos a vida inteira." }
+        nome: "Você tem a vida inteira" }
     ]
   },
   {
     nome: "Luciana Klanovicz",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/716Wb0wd3QL._SY342_.jpg",
-        nome: "1943",
-        sinopse: "O que você faria se um grande amor surgisse em meio a uma guerra infernal? 1943 é uma ficção histórica que se passa durante a Segunda Guerra Mundial. Como um romance de guerra, narra a trajetória de Maria, uma brasileira que é filha de diplomatas e que, de repente, está envolvida numa trama de amor e espionagem na França ocupada pelos nazistas. Maria tornou-se cantora, uma das poucas alternativas para permanecer viva no meio do conflito. No bar em que canta, conhece um matemático inglês, Phillip, sem saber que ele era espião. O relacionamento de ambos é vigiado pela inteligência nazista, que busca espiões. Quando o bar é invadido, Phillip foge enquanto Maria torna-se prisioneira de guerra, transferida para o sul da Alemanha. A beleza, a voz e a força de Maria são motivos para que um oficial do exército alemão se apaixone profundamente por ela. A partir daí a história é repleta de reviravoltas, enquanto Maria tenta sobreviver a uma guerra que parece não ter fim." }
+        nome: "1943" }
     ]
   },
   {
     nome: "Lucy Diamond",
+    bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Wumz7DUrL._SY342_.jpg",
-        nome: "A casa dos novos começos",
-        sinopse: "Uma terrível descoberta leva Rosa a largar uma carreira de sucesso em Londres e, num impulso, recomeçar a vida como sous-chef em Brighton. O trabalho é árduo e estressante, mas a distrai. Bem, pelo menos até ela conhecer a adolescente emburrada que mora no apartamento ao lado, que a faz questionar suas escolhas. Georgie se muda para o Sul com o namorado, Simon, atrás de uma incrível oportunidade... para a carreira dele. Mas ela está determinada a ser bem-sucedida como jornalista e faz de tudo para trabalhar para uma revista local. A princípio, a cidade parece recebê-la de braços abertos, mas não vai demorar muito até ela se meter em várias enrascadas. Após uma grande tragédia, Charlotte passa as noites isolada em seu apartamento. Porém, Margot, uma senhorinha estilosa que mora no último andar, tem outros planos para ela. Querendo ou não, Charlotte vai precisar encarar o mundo real... e todas as suas possibilidades. Quando as três se conhecem, a esperança renasce, a amizade floresce e um novo capítulo se inicia na vida dessas mulheres." },
+        nome: "A casa dos novos começos" },
 
       { url:"https://m.media-amazon.com/images/I/816xJFYwmQL._SY342_.jpg",
-        nome: "O café da praia",
-        sinopse: "Evie sempre foi a ovelha negra da família: sonhadora e impulsiva, o oposto das irmãs mais velhas bem-sucedidas. Tentou fazer carreira como atriz, fotógrafa e cantora, mas nada deu muito certo. Às vezes, ao pular de um trabalho para outro, ela tem a sensação de que lhe falta um propósito. Quando sua tia preferida morre em um acidente de carro, Evie recebe uma herança inesperada, um café na beira da praia na Cornualha. Empolgada com a oportunidade de mudar de vida, ela decide se mudar para lá, mas logo descobre que nem tudo são flores: os funcionários não são dos melhores e o local está caindo aos pedaços. Tudo bem diferente dos tempos em que passava as férias de verão com a tia. Apesar das dificuldades, pela primeira vez Evie está determinada a ter sucesso. Ao lutar pelo café, ela busca secretamente dar um novo rumo à sua vida e, assim, pode acabar conquistando bem mais do que esperava no trabalho... e também no amor." }
+        nome: "O café da praia" }
     ]
   },
   {
     nome: "Lucy Foster",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/8139KMEF7KS._SY342_.jpg",
-        nome: "Surrender: A Rendição do CEO",
-        sinopse: "Heitor Costa tem o mundo aos seus pés. Considerado o jovem empresário mais bem-sucedido da cidade de São Paulo, aos quarenta anos ele não mede esforços para conseguir o que quer, quando quer. O fim justifica os meios, é o seu lema. Sócio e cabeça pensante por trás da Surrender, uma casa noturna de luxo que agita as noites na capital, divide seu tempo entre ela; o restaurante cinco estrelas que conquistou prestígio internacional; e a menina dos seus olhos, o clube secreto The Zone. Com o ramo de entretenimento adulto sendo perseguido por um político corrupto, Heitor precisa ter cuidado redobrado e prestar muita atenção naqueles em quem confia. Luna Ribeiro quer reconstruir o seu mundo. Jornalista recém-formada e em busca de uma oportunidade, recebe uma proposta para investigar a casa noturna Surrender. Ela sabe que isso pode ser uma chance ímpar de não só arrumar uma vaga na maior emissora do país, mas também entender o mistério que envolve a morte de seu pai. Um equívoco a obriga a se passar por uma garota de programa, ao se aproximar do diretor-executivo da Surrender. Entre mistérios, mentiras e erotismo, um sentimento inesperado os une. E é também o que pode pôr tudo a perder." }
+        nome: "Surrender: A Rendição do CEO" }
+    ]
+  },
+  {
+    nome:"Lucy Score",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71P+E5nEliL._SY425_.jpg",
+        nome:"As Coisas que Nunca Superamos" }
     ]
   },
   {
     nome: "Lucy Vargas",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81JNOEN4gqL._SY342_.jpg",
-        nome: "Um acordo de cavalheiros",
-        sinopse: "Um romance sensual e arrebatador, repleto de intrigas, morte e desejo. Tristan Thorne, o Conde de Wintry, não é um homem para brincadeiras. Com uma vida de segredos, amado e odiado na sociedade, ele não é o parceiro ideal para uma dama. Dorothy Miller não sabe o que há por trás de suas motivações, apenas que ele é bastante intenso. Os jornais dizem que ele bebe demais, joga muito e ama escandalosamente. E até mata. Como uma dama determinada a ser dona do próprio destino como Dorothy Miller acaba em um acordo com um homem como Lorde Wintry? Você teria coragem de guardar um segredo com o maior terror dos salões londrinos? Nunca faça acordos com ele, pois o conde sempre volta para cobrar." }
+        nome: "Um acordo de cavalheiros" }
     ]
   },
   {
     nome: "Luisa Geisler",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91WvDuYE-+L._SY342_.jpg",
-        nome: "Enfim, capivaras",
-        sinopse: "A cidade no interior de Minas Gerais para onde Vanessa se mudou é o tipo de lugar onde anunciam os horários do cinema e os obituários com o mesmo carro de som. Nada de muito interessante acontece por lá, a não ser para Binho, que, segundo ele mesmo, tem várias namoradas e conhece um monte de cantores sertanejos famosos. A verdade é que Binho é um mentiroso contumaz e agora passou dos limites: inventou que tem uma capivara de estimação. Cansados das histórias cada vez mais mirabolantes do garoto, Vanessa se junta aos amigos — Léo, Nick e Zé Luís — para desmascará-lo. E eles estão decididos a ir até as últimas consequências. Narrado durante as doze horas de uma noite regada a álcool, salgadinhos, segredos e romances mal resolvidos, Enfim, capivaras explora, através de diferentes pontos de vista, os relacionamentos entre um grupo de adolescentes em busca de uma capivara — ou muito mais do que isso." }
+        nome: "Enfim, capivaras" }
     ]
   },
   {
     nome: "Luíza Araújo",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81qOCQNidGL._SY342_.jpg",
-        nome: "Sixteen",
-        sinopse: "'Determinação, amor e companheirismo': este é o lema dos Sixteen, os dezesseis jovens deuses que, vivendo uma paixão proibida, fogem do destino que seus pais lhes reservaram e embarcam em uma jornada repleta de aventuras e descobertas. Nesta história encantadora, o leitor descobre junto aos amigos como a determinação, a generosidade e o trabalho em grupo são o caminho para a felicidade, não só individual, mas também dos que estão ao nosso redor. Com boa vontade e um bocado de amor, podemos criar o mundo com o qual sonhamos!" }
+        nome: "Sixteen" }
     ]
   },
   {
     nome: "Luiza Trigo",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81YlW2W3tCL._SY342_.jpg",
-        nome: "As Valentinas (Meus 15 anos)",
-        sinopse: "Bia é uma menina de catorze anos que detesta o dia dos namorados. Ela implica com a data, diz que é apenas um dia comercial, sem nenhuma razão histórica para existir, uma desculpa para se comprar presentes. Porém, Bia, no fundo, não gosta desse dia apenas porque nunca teve um namorado para comemorar a data. Ela e suas amigas são as nerds da escola e acham que nunca irão namorar. No dia dos namorados ela acorda de mau humor e TPM, mas ainda assim decide fazer uma surpresa romântica para seus pais: preparar, com a ajuda da melhor amiga, uma jantar para os dois, com direito à decoração romântica. Na ida para o colégio ela é surpreendida por seu melhor amigo, Bruno, que a entrega uma rosa de presente. Ela fica irritada com a provocação e eles discutem sobre a irritação dela. Bia explica por que gosta do Dia de São Valentim e conta a história do santo. Ela não vê sentido em comemorar o dia dos namorados, mas gosta do Dia de São Valentim. Na escola, Bia e suas melhores amigas – Amanda, Priscila, Carol e Roberta – decidem afogar as mágoas do dia dos namorados fazendo uma 'noite das solteiras'. Ou seja, passar a noite juntas jogando jogos, comendo muitos doces e conversando. As meninas se reúnem, se divertem, falam de garotos e acabam conversando sobre a festa de 15 anos de Bia, que será realizada dentro de um mês. Todas querem saber os detalhes da grande festa, mas Bia mantém segredo e vai dormir feliz e de bom humor por ter a amizade de suas 'valentinas'." }
+        nome: "As Valentinas (Meus 15 anos)" }
+    ]
+  },
+  {
+    nome:"Lyla Sage",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/A18RCcJ3CCL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Feita pra mim" },
+
+      { url:"https://m.media-amazon.com/images/I/51r2ytVb2gL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Toda pra mim" },
+
+      { url:"https://m.media-amazon.com/images/I/51pNgsMp8ML._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Só pra mim" }
+    ]
+  },
+  {
+    nome:"Lynn Painter",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/719vl9K5kPL._SY466_.jpg",
+        nome:"Amor por engano" },
+
+      { url:"https://m.media-amazon.com/images/I/71qW9OdPhKL._SY466_.jpg",
+        nome:"Melhor do que nos filmes" },
+
+      { url:"https://m.media-amazon.com/images/I/71mn-+MWeKL._SY466_.jpg",
+        nome:"Mil vezes amor" },
+
+      { url:"https://m.media-amazon.com/images/I/71ETbLYNB4L._SY466_.jpg",
+        nome:"Apostando no amor" }
+    ]
+  },
+  {
+    nome:"Lyssa Kay Adams",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81uW3uVe3rL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Clube do livro dos homens" },
+
+      { url:"https://m.media-amazon.com/images/I/81rSLFKipSL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Missão Romance" },
+
+      { url:"https://m.media-amazon.com/images/I/51ywP-fCjVL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Estupidamente apaixonados" },
+
+      { url:"https://m.media-amazon.com/images/I/81iAvGTC9-L._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Absolutamente romântico" },
+
+      { url:"https://m.media-amazon.com/images/I/818iL+ylsIL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Três chances para o amor" }
     ]
   },
   {
     nome: "Machado de Assis",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71VYNtgNivL._SY342_.jpg",
-        nome: "Dom Casmurro",
-        sinopse: "Em Dom Casmurro, o narrador Bento Santiago retoma a infância que passou na Rua de Matacavalos e conta a história do amor e das desventuras que viveu com Capitu, umas das personagens mais enigmáticas e intrigantes da literatura brasileira. Nas páginas desse romance, encontra-se a versão de um homem perturbado pelo ciúme, que revela aos poucos sua psicologia complexa e enreda o leitor em sua narrativa ambígua acerca do acontecimento ou não do adultério da mulher com olhos de ressaca. Ao narrar a relação entre Bento, Escobar e Capitu, Machado de Assis cria uma das maiores polêmicas da literatura brasileira." },
+        nome: "Dom Casmurro" },
 
       { url:"https://m.media-amazon.com/images/I/91p8TY1j8WL._SY342_.jpg",
-        nome: "Memórias póstumas de Brás Cubas",
-        sinopse: "Brás Cubas – autodenominado “defunto-autor” – narra de maneira irônica, espirituosa e pessimista toda a sua existência. Tendo como ponto de partida seu próprio funeral, ele revisita, em tom de conversa com o leitor, os episódios mais significativos de sua vida, incluindo: seus poucos amores, Marcela, Eugênia e Virgília; seu reencontro com o amigo de infância, Quincas Borba, um dos personagens machadianos mais conhecidos; e sua ideia obsessiva pela criação de um emplasto para tratar pessoas hipocondríacas, que fora um fracasso, embora ele não o admita. “Não alcancei a celebridade do emplasto, não fui ministro, não fui califa, não conheci o casamento. Verdade é que, ao lado dessas faltas, coube-me a boa fortuna de não comprar o pão com o suor do meu rosto.” Por meio das memórias de Brás Cubas, o genial Machado de Assis nos guia pelas reminiscências de um dos personagens mais icônicos da literatura brasileira, e que, ao chegar ao outro lado, ainda descobre que não está quite com a vida, pois, segundo suas próprias palavras: “Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria.”" }
+        nome: "Memórias póstumas de Brás Cubas" }
     ]
   },
   {
     nome: "Malu Simões",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/41ZIex7z2bL._SY445_SX342_.jpg",
-        nome: "Nos Acordes da Sedução",
-        sinopse: "Rebeca é uma veterinária dedicada, com um passado trágico que a deixou temerosa em relação ao amor. Enquanto Beca mantém seu coração resguardado, Melissa, sua melhor amiga, uma dentre várias amigas que são verdadeiras irmãs, só pensa em viver a vida e aproveitar a fama na internet como digital influencer. Em uma noite casual, Rebeca conhece o charmoso e irritante Igor, guitarrista de uma banda de rock. O encontro entre eles se revela intenso e cheio de provocações. A partir de então, não conseguem deixar de pensar um no outro. Enquanto isso, Melissa vive uma perigosa conexão com um fã que se mostra um perigoso stalker em vez de um simples admirador. Agora as amigas dispõem de poucas opções: enfrentam seus medos ou arriscam perder o futuro mais perfeito que a vida lhes proporcionou." }
+        nome: "Nos Acordes da Sedução" }
     ]
   },
   {
