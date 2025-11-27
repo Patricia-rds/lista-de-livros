@@ -3619,7 +3619,7 @@ export const autores = [
         nome:"Missão Romance" },
 
       { url:"https://m.media-amazon.com/images/I/51ywP-fCjVL._SY445_SX342_QL70_ML2_.jpg",
-        colecao:"Coleção 1",
+  [      colecao:"Coleção 1",
         nome:"Estupidamente apaixonados" },
 
       { url:"https://m.media-amazon.com/images/I/81iAvGTC9-L._SY425_.jpg",
@@ -3652,79 +3652,72 @@ export const autores = [
   },
   {
     nome: "Manuel Antônio de Almeida",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71MebPfNmQL._SY342_.jpg",
-        nome: "Memórias de um sargento de milícias",
-        sinopse: "Memórias de um sargento de milícias apresenta uma galeria de personagens dos mais diferentes tipos: o menino malandro, a alcoviteira, o barbeiro, o compadre, a comadre, o mestre de cerimônias, a cigana... O protagonista da história é o malandro Leonardo, filho de Leonardo-Pataca e Maria-da-Hortaliça, que vive livremente praticando travessuras. As malandragens de Leonardo são o centro da narrativa e isso só tem fim quando ele é escolhido pelo chefe de polícia para ocupar o cargo de sargento de milícias." }
+        nome: "Memórias de um sargento de milícias" }
     ]
   },
   {
     nome: "Manuh Costa",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81UFdhKUB7L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Poderosa Obsessão",
-        sinopse: "Uma Noite... Um Homem Misterioso... Uma Obsessão. Ao sair de férias com duas amigas, depois de uma noite alucinante, Maria acorda sozinha na cama de um desconhecido. Ele é um homem misterioso, cheio de segredos e, para que ela possa saber um pouco mais sobre Jack Carsson, Maria terá que cumprir com algumas exigências. Será ela capaz de aceitar se encontrar vendada com o homem com quem dormiu e não se lembra do rosto, apenas para conhece-lo?" },
+        nome: "Poderosa Obsessão" },
 
       { url:"https://m.media-amazon.com/images/I/41ARsdKVO5L._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Poderosa Loucura",
-        sinopse: "Maria Eduarda agora tem novos desafios, desafios bem maiores que todos os problemas que o casamento com o bilionário Jack Carsson, lhe trouxe depois de uma noite de amor em Las Vegas. Ela terá que lidar com um passado sombrio de Jack, uma doença obsessiva, e uma centena de novidades que vão mudar sua vida para sempre. Seria ela capaz de tudo por esse amor? Será que Maria conseguirá lidar com todos os segredos que cercam todo o clã dos Carsson? Jack lhe permite um mundo excitante, de prazeres desconhecidos, de amores intensos, mas será que ele seria ele capaz de se entregar verdadeiramente a ela? Longe do escuro, sem máscaras, sem segredos e truques para que juntos possam lidar com essa poderosa loucura." },
+        nome: "Poderosa Loucura" },
 
       { url:"https://m.media-amazon.com/images/I/41zxSqpvWiL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Poderoso Amor (parte 1)",
-        sinopse: "O Amor era tudo o que eles tinham! Casar-se com Jack Carsson, foi à coisa mais fácil que Maria Eduarda fizera na vida, mas também a coisa mais difícil. Agora, ela terá um grande desafio pela frente: Fazer com que o seu casamento dê certo. Tudo por causa da personalidade de Jack. Ela é sempre incerta e sua doença o torna um homem inseguro e bipolar, como seria para ela ter que conviver com isso sem destruir todo o amor que sente por ele? No terceiro volume da saga Poderosa Obsessão, Maria descobrirá muito mais sobre seu atual marido, até mesmo, sobre ela mesma, novos desafios, novas rivais, atormentam o casal, é um grande medo toma conta de Maria: Será que poderia ela conviver com o grande amor de sua vida, sem que seus próprios problemas e defeitos atrapalhassem esse casamento? Sua família?" },
+        nome: "Poderoso Amor (parte 1)" },
 
       { url:"https://m.media-amazon.com/images/I/81DMcypzEIL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Poderoso Amor (parte 2)",
-        sinopse: "O Amor era tudo o que eles tinham! Casar-se com Jack Carsson, foi à coisa mais fácil que Maria Eduarda fizera na vida, mas também a coisa mais difícil. Agora, ela terá um grande desafio pela frente: Fazer com que o seu casamento dê certo. Tudo por causa da personalidade de Jack. Ela é sempre incerta e sua doença o torna um homem inseguro e bipolar, como seria para ela ter que conviver com isso sem destruir todo o amor que sente por ele? No terceiro volume da saga Poderosa Obsessão, Maria descobrirá muito mais sobre seu atual marido, até mesmo, sobre ela mesma, novos desafios, novas rivais, atormentam o casal, é um grande medo toma conta de Maria: Será que poderia ela conviver com o grande amor de sua vida, sem que seus próprios problemas e defeitos atrapalhassem esse casamento? Sua família?" },
+        nome: "Poderoso Amor (parte 2)" },
 
       { url:"https://m.media-amazon.com/images/I/41o7WSgInnL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Contos Obsessivos",
-        sinopse: "Histórias do Poderosa Obsessão. O livro trás contos dos personagens com desfechos quentes, sensuais e conflituantes entre Sarah e Alejandro, Phellipe e Gil, Jonas e Patrícia, Soraya e Will, bem como alguns contos dos Herdeiros Carsson, Lottie, Tom e Nando. Bem Vindas a Uma nova Experiência poderosa e Obsessiva." },
+        nome: "Contos Obsessivos" },
 
       { url:"https://m.media-amazon.com/images/I/71v5DIivKEL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Atraído (parte I)",
-        sinopse: "Ele a Queria, Ele a Teria! Jack Carsson sempre foi um homem solitário e dentro de seu mundo vazio e estranho, com muitos segredos, um passado ou vários Passados... Um homem Ansioso e impaciente... BIPOLAR! Até que um dia uma mulher atravessa a sua vida literalmente, Maria! Maria Eduarda é uma mulher completamente fora de órbita, ela é diferente de tudo o que ele já conheceu em toda a sua vida ou não? Mas seria ela capaz de aceitar suas limitações para que Jack enfim pudesse lhe mostrar o quão prazeroso essa Atração poderia ser? ele poderia abrir seu coração? deveria? um laço misterioso os une e nem mesmo a perspicácia dela poderá romper, quanto mais ela o evita mais ele se sente terrivelmente atraído por ela... No entanto poderia ele, abrir mão de sua doença e limitações por ela?" },
+        nome: "Atraído (parte I)" },
 
       { url:"https://m.media-amazon.com/images/I/41-A7M3lGLL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Atraído (parte II)",
-        sinopse: "Ele a Queria, Ele a Teria! Jack Carsson sempre foi um homem solitário e dentro de seu mundo vazio e estranho, com muitos segredos, um passado ou vários Passados... Um homem Ansioso e impaciente... BIPOLAR! Até que um dia uma mulher atravessa a sua vida literalmente, Maria! Maria Eduarda é uma mulher completamente fora de órbita, ela é diferente de tudo o que ele já conheceu em toda a sua vida ou não? Mas seria ela capaz de aceitar suas limitações para que Jack enfim pudesse lhe mostrar o quão prazeroso essa Atração poderia ser? ele poderia abrir seu coração? deveria? um laço misterioso os une e nem mesmo a perspicácia dela poderá romper, quanto mais ela o evita mais ele se sente terrivelmente atraído por ela... No entanto poderia ele, abrir mão de sua doença e limitações por ela? Delicie-se com a segunda parte desta incrível e fascinante história de amor e desejo, mistério e muito hot." }
+        nome: "Atraído (parte II)" }
     ]
   },
   {
     nome: "Marcelo A. Galvão",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81sgJJbP4DL._SY342_.jpg",
-        nome: "Saltimbanco",
-        sinopse: "Novo conto de Marcelo A. Galvão, autor de 'Vida e morte do último astro pornô na Terra'. Ao fazer um pedido especial aos deuses, um jovem artista descobre que até mesmo as divindades têm um senso de humor peculiar." }
+        nome: "Saltimbanco" }
     ]
   },
   {
     nome: "Mariana Pereira",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81nLSF+KpHL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Ao meu ídolo, com amor",
-        sinopse: "'Ao meu ídolo, com amor' é o romance de estreia de Mariana Pereira, um verdadeiro sucesso de vendas que promete envolver os leitores em uma trama irresistível. Neste livro intrigante, somos apresentados à história da investigação de um assassino em série que escolhe suas vítimas entre as namoradas do aclamado ator Bernardo Monteiro, um jovem cuja vida aparentemente perfeita o torna o queridinho de todas as meninas do país. A protagonista é a destemida investigadora de polícia Ana Maria Paviani, conhecida por solucionar casos praticamente impossíveis. Agora, ela enfrenta o desafio de desvendar esse enigma que parece não ter solução. Os assassinatos em série não apenas testam suas habilidades profissionais, mas também despertam uma irritação incomum, especialmente devido à proximidade forçada entre ela e Bernardo. Embora seja um eufemismo dizer que os dois não se gostam, o destino os coloca juntos após um plano da equipe tática. Com poucas opções, eles são obrigados a conviver mais do que jamais desejaram. No entanto, à medida que a história se desenrola, os personagens descobrem que há muito mais do que antipatia entre eles. Sentimentos inesperados começam a surgir, abalando as estruturas de suas vidas de uma maneira que nenhum deles poderia prever." },
+        nome: "Ao meu ídolo, com amor" },
 
       { url:"https://m.media-amazon.com/images/I/41pH+cqlpjL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Aos meus pais, com amor",
-        sinopse: "'Aos meus pais, com amor' marca o aguardado retorno da destemida investigadora Ana Maria Paviani, em mais um capítulo repleto de suspense romântico que irá cativar os leitores. Após sobreviver aos desafios mortais envolvendo o caso das namoradas assassinadas do famoso ator Bernardo Monteiro, Ana Maria retorna à delegacia pronta para enfrentar novos desafios. Dessa vez, além dos casos complexos da Polícia Civil e dos protestos que abalam a cidade, ela se depara com um investigador de comportamento suspeito, desencadeando uma sequência de eventos imprevisíveis. Enquanto desvenda intrigas e se envolve em uma rede de mentiras, Ana Maria se vê confrontada com uma figura do passado, alguém que mudou o curso de sua vida de forma irrevogável. Carregando o peso dessa conexão inesperada, a investigadora mergulha em sessões de terapia, buscando desvendar os sentimentos que até então desconhecia. Em meio à tensão dos casos e à necessidade de autoconhecimento, ela se vê em um jogo perigoso, onde os limites entre a razão e a paixão se tornam borrados." }
+        nome: "Aos meus pais, com amor" }
     ]
   },
   {
     nome: "Mariana Vitória",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81CLm44nQiL._SY342_.jpg",
-        nome: "Sob a capa vermelha",
-        sinopse: "Norina sempre temeu os Indomados, mesmo nunca tendo visto um deles. Criada em um casebre por toda sua vida, a garota os imaginava como monstros, tomados por sua besta interior e abandonados pelos Doze Deuses. Até o dia que sua mãe adotiva, Ros, conta a menina que ela é um deles. Desde então, as cinzas das Domas, rituais onde os Indomados são queimados, são um lembrete constante do perigo que ela e sua mãe correm. A garota precisa continuar escondida. Viira, a Rainha imortal e filha dos Doze Deuses, tem outros planos para Norina e a envolve em uma trama para conquistar Gizamyr, reino dos homens-lobo. Com a mãe em uma masmorra, Norina não tem outra escolha a não ser embarcar para o país inimigo, com a capa vermelha da falecida princesa Mirah, esperando que o plano elaborado pela Rainha funcione. A garota então precisa atravessar um mundo que ela achou que nunca veria, onde aqueles como ela são odiados e mortos todos os dias. Entre ser tratada como escória pelos cavaleiros de Viira e interpretar uma princesa em um delicado jogo diplomático, Norina vai descobrir que abraçar a si mesma pode não ser a escolha mais fácil, mas algumas vezes é a única possível." }
+        nome: "Sob a capa vermelha" }
     ]
   },
   {
