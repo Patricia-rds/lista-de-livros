@@ -3742,7 +3742,7 @@ export const autores = [
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81beklZXWVL._SY466_.jpg",
         colecao:"Coleção 1",
-        nome:"A ladra amaldiçoada" }
+        nome:"A ladra amaldiçoada" },
 
       { url:"https://m.media-amazon.com/images/I/513gEwph05L._SY445_SX342_QL70_ML2_.jpg",
         colecao:"Coleção 1",
@@ -3976,24 +3976,33 @@ export const autores = [
     nome:"Meghan Quinn",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/61crce1NexL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Um encontro nada romântico" },
+
+      { url:"https://m.media-amazon.com/images/I/61eQgZbXe6L._SY425_.jpg",
+       colecao:"Coleção 1",
+        nome:"Feitos um para o outro (ou não)" },
+
+      { url:"https://m.media-amazon.com/images/I/61KnUYwYdiL._SY425_.jpg",
+       colecao:"Coleção 1",
+        nome:"Um romance nada inesperado" }
     ]
   },
   {
     nome:"Mhairi McFarlane",
     bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/719Rz7-iH9L._SY466_.jpg",
+        nome:"Ontem à noite" }
     ]
   },
   {
     nome:"Mia Sheridan",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/61Jc1i1H-pL._SY425_.jpg",
+        nome:"A voz de Archer" }
     ]
   },
   {
