@@ -4038,8 +4038,8 @@ export const autores = [
     nome:"Michelle Quach",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/71CJL24PJgL._SY522_.jpg",
+        nome:"Não nasci para agradar" }
     ]
   },
   {
@@ -4047,10 +4047,13 @@ export const autores = [
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71YTITYdjiL._SY342_.jpg",
-        nome: "Boys" }
+        nome: "Boys" },
 
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/815OAO4OuuL._SY425_.jpg",
+        nome:"Acidentalmente Apaixonado" },
+
+      { url:"https://m.media-amazon.com/images/I/8189CENynhL._SY425_.jpg",
+        nome:"Acidentalmente Amor" }
     ]
   },
   {
@@ -4065,16 +4068,21 @@ export const autores = [
     nome:"Mirla Muniz",
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/71JpIljp3FL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Minha doce ragazza" },
+
+      { url:"https://m.media-amazon.com/images/I/41uUEatdNBL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Minha principessa devassa" }
     ]
   },
   {
     nome:"Monica Dombroski",
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/51llo4VVZrL._SY425_.jpg",
+        nome:"O Clube das Bonecas" }
     ]
   },
   {
