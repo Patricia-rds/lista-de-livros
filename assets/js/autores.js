@@ -3619,7 +3619,7 @@ export const autores = [
         nome:"Missão Romance" },
 
       { url:"https://m.media-amazon.com/images/I/51ywP-fCjVL._SY445_SX342_QL70_ML2_.jpg",
-  [      colecao:"Coleção 1",
+        colecao:"Coleção 1",
         nome:"Estupidamente apaixonados" },
 
       { url:"https://m.media-amazon.com/images/I/81iAvGTC9-L._SY425_.jpg",
@@ -3643,11 +3643,48 @@ export const autores = [
     ]
   },
   {
+    nome:"Madeline Miller",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81dRTULOvtL._SY466_.jpg",
+        nome:"A Canção de Aquiles" }
+    ]
+  },
+  {
+    nome:"Madison Brooks",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/31ro3PjjLgL._SY445_SX342_QL70_ML2_.jpg",
+        nome:"Aos Seus Pés" }
+    ]
+  },
+  {
+    nome:"Mai Corland",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91-X9GuooqL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Cinco lâminas partidas" },
+
+      { url:"https://m.media-amazon.com/images/I/51RUlT5DBmL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Quatro reinos corrompidos" }
+    ]
+  },
+  {
     nome: "Malu Simões",
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/41ZIex7z2bL._SY445_SX342_.jpg",
         nome: "Nos Acordes da Sedução" }
+    ]
+  },
+  {
+    nome:"Manoel de Barros",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"",
+        nome:"" }
     ]
   },
   {
@@ -3700,6 +3737,14 @@ export const autores = [
     ]
   },
   {
+    nome:"Margaret Owen",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"",
+        nome:"" }
+    ]
+  },
+  {
     nome: "Mariana Pereira",
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
@@ -3721,202 +3766,236 @@ export const autores = [
     ]
   },
   {
+    nome:"Mariana Zapata",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"",
+        nome:"" }
+    ]
+  },
+  {
     nome: "Marie Lu",
+    bandeira:"assets/images/bandeiras/china.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/A13bJYSllML._SY342_.jpg",
         colecao: "Coleção 1 ",
-        nome: "Legend",
-        sinopse: "Outrora conhecida como a Costa Oeste dos Estados Unidos, a República é hoje uma nação em constante guerra com seus vizinhos, as Colônias. Nascida em uma família de elite em um dos bairros mais prósperos da República, June, de quinze anos, é um prodígio militar. Obediente, entusiasmada e comprometida com seus pais, ela está sendo preparada para o sucesso nos círculos mais elevados da sociedade. Nascido nas favelas do setor Lake da República, Day, de quinze anos, é o criminoso mais procurado do país. Mas suas ações talvez não sejam tão mal-intencionadas quanto dizem. Originários de mundos completamente diferentes, os caminhos de June e Day poderiam jamais ter se cruzado. Porém, quando o irmão de June é assassinado e Day se torna o principal suspeito, os dois se veem encurralados em um jogo de gato e rato. Day tenta desesperadamente garantir a sobrevivência de sua família, enquanto June quer vingar a morte do irmão a qualquer preço. No entanto, numa reviravolta incrível, os dois descobrem a verdade sobre o que realmente os uniu e sobre as medidas extremas às quais o país recorre para proteger seus segredos. Pleno de ação, suspense e romance, este primeiro e instigante livro da aclamada trilogia Legend é emocionante da primeira à última página." },
+        nome: "Legend" },
 
       { url:"https://m.media-amazon.com/images/I/61JP706Sw2L._SY445_SX342_.jpg",
         colecao: "Coleção 1 ",
-        nome: "Prodigy",
-        sinopse: "Depois de escapar dos militares da República, em Los Angeles, June e Day chegam a Las Vegas no momento em que algo inesperado acontece: o Primeiro Eleitor morre, e o filho dele, Anden, assume o comando da nação. Com a República da América à beira de um colapso, os dois se unem ao grupo de rebeldes conhecidos como Patriotas. Dispostos a ajudar Day a encontrar Éden, seu irmão caçula, e a levá-los em segurança até as Colônias, os Patriotas têm apenas uma condição: June e Day devem assassinar o novo Eleitor. A eles é dada a chance de mudar a nação, de finalmente dar voz ao povo, que viveu tempo demais em silêncio. No entanto, quando June descobre que o atual Eleitor não é o ditador que o pai dele fora, ela se vê atormentada por suas escolhas. E se Anden significar um novo começo para todos? E se uma revolução for mais do que simplesmente vingança, fúria e sangue? E se os Patriotas estiverem errados? No aguardado segundo livro da trilogia Legend, considerada por público e crítica internacional uma das melhores distopias já publicadas, Marie Lu presenteia o leitor com um thriller magistral. A intensidade que impõe a seus personagens é de tirar o fôlego. Prepare-se para muita ação e fortes emoções do começo ao fim." },
+        nome: "Prodigy" },
 
       { url:"https://m.media-amazon.com/images/I/91M7PJdTcdL._SY342_.jpg",
         colecao: "Coleção 1 ",
-        nome: "Champion",
-        sinopse: "June e Day abriram mão de muita coisa pelo povo da República, sem falar no quanto sacrificaram um pelo outro. Agora o país está vivendo um novo momento. June voltou a ser a celebrada menina-prodígio da República, ocupando uma posição privilegiada dentro do governo como Primeira Cidadã, enquanto Day passou de criminoso mais procurado do país a herói nacional e garoto-propaganda do governo de Anden. Nenhum dos dois, no entanto, poderia ser capaz de prever as circunstâncias que os reuniriam novamente. No momento em que a paz parece iminente, um vírus mortal começa a espalhar o pânico nas Colônias, e a ameaça de guerra volta a rondar as cidades fronteiriças da República. A nova praga é a mais mortal de todas, e June é a única que tem a chave para a defesa do país. Mas salvar a vida de milhares de pessoas significa pedir ao seu amor que abra mão de tudo o que lhe restou. Marie Lu constrói um final primoroso, digno da trilogia que arrebatou público e crítica ao redor do mundo. Com esmero e sensibilidade, a autora eterniza no coração de seus leitores a inesquecível história dos amantes desafortunados, June e Day." },
+        nome: "Champion" },
 
       { url:"https://m.media-amazon.com/images/I/91Mfuqcwo4L._SY342_.jpg",
         colecao: "Coleção 1 ",
-        nome: "Rebel",
-        sinopse: "ÉDEN WING vive à sombra de seu irmão há anos. Mesmo sendo um dos melhores alunos da universidade em Ross City, Antártida, e um inventor brilhante, a maioria das pessoas só o conhece como o irmão caçula de Daniel Wing. Uma década atrás, Daniel era conhecido como Day, o garoto das ruas que liderou uma revolução que salvou a República da América. Mas Day não é mais o jovem que uma vez fora o herói da nação. Agora ele prefere se esconder do mundo e deixar o passado para trás. Tudo o que importa para Daniel é manter Éden seguro, mesmo que isso signifique desistir de June, o grande amor da vida dele. Enquanto os dois irmãos se esforçam para descobrir quem se tornaram desde aquele tempo na República, um novo perigo espreita na distância que cresceu entre eles. Éden logo se vê imerso no lado sombrio de Ross City e nem seu irmão poderá salvá-lo. Pelo menos não sozinho..." },
+        nome: "Rebel" },
 
       { url:"https://m.media-amazon.com/images/I/51r7qgN900L._SY445_SX342_.jpg",
         colecao: "Coleção 1 ",
-        nome: "A vida depois de Legend",
-        sinopse: "Day e seu irmão, Éden, deixaram a República da América em busca de tranquilidade após acontecimentos conturbados que marcaram suas vidas para sempre. Day luta contra as memórias confusas de um tempo sombrio e não se lembra da pessoa que ele mais amou. Dez anos depois, o destino coloca Day e June frente a frente novamente. Conheça o ponto de vista de Day do encontro que marcou os fãs da série Legend neste capítulo bônus – exclusivo em e-book!" }
+        nome: "A vida depois de Legend" }
+    ]
+  },
+  {
+    nome:"Marina Dutra",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"",
+        nome:"" }
     ]
   },
   {
     nome: "Marina Machado",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81otWgH0XDL._SY342_.jpg",
-        nome: "Uma janela para o céu",
-        sinopse: "Julyana Barocci é o perfeito retrato da mulher contemporânea: ela é determinada, bem-sucedida e tem o emprego dos sonhos. Agora, aos 35 anos, percebe que conquistou tudo o que queria. Bem, quase tudo. Quando o assunto é relacionamentos, o retrato não é tão fiel assim. Em Uma janela para o céu, Julyana narra com bom humor suas aventuras e inseguranças na busca por seu par ideal. Com o súbito aparecimento de seu pai desconhecido, ela descobre os fatos que a fizeram se separar do único namorado a quem amou de verdade – e de quem ficou separada por vinte anos. Essa visitinha do passado veio para esclarecer questões mal-resolvidas ou para complicar a vida de Julyana de vez?" }
+        nome: "Uma janela para o céu" }
     ]
   },
   {
     nome: "Mario de Andrade",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71kADstk2gL._SY342_.jpg",
-        nome: "Macunaíma",
-        sinopse: "Obra-prima do Modernismo brasileiro, Macunaíma foi escrito por Mário de Andrade em 1928 e ainda hoje é um livro fundamental para compreendermos nossa diversidade cultural. Nasceu a partir de uma vasta pesquisa linguística do autor e reflete, por meio da mistura de lendas, mitos e histórias populares, a busca de uma identidade nacional afastada pela colonização. 'Brasileiros, chegou a hora de realizar o Brasil'. dizia o criador do anti - herói nascido na selva amazônica e transformado em um dos personagens mais estudados de todos os tempos no país." }
+        nome: "Macunaíma" }
+    ]
+  },
+  {
+    nome:"Marissa Meyer",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"",
+        nome:"" }
     ]
   },
   {
     nome: "Mark Lawrence",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91SFR9L6WaL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Prince of Thorns",
-        sinopse: "Ainda criança, o príncipe Honório Jorg Ancrath testemunhou o brutal assassinato da Rainha mãe e de seu irmão caçula, William. Jorg não conseguiu defender sua família nem fugir do horror. Jogado à própria sorte num arbusto de roseira-brava, ele permaneceu imobilizado pelos espinhos que rasgavam profundamente sua pele, e sua alma. O príncipe dos espinhos se vê, então, obrigado a amadurecer para saciar o seu desejo de vingança e poder. Vagando pelas estradas do Império Destruído, Jorg Ancrath lidera uma irmandade de assassinos, e sua única intenção é vencer o jogo. O jogo que os espinhos lhe ensinaram." },
+        nome: "Prince of Thorns" },
 
       { url:"https://m.media-amazon.com/images/I/910iz5H4i3L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "King of Thorns",
-        sinopse: "As apostas são altas e as reviravoltas, perfeitas. Depois de assassinar seu tio e garantir um pequeno reino nas montanhas, o jovem Jorg agora encara um inimigo carismático e poderoso - o Princípe de Arrow -, que parece destinado a reunir o Império Destruído. A ação salta entre o presente e o passado, e nos mostra como Jorg viajou pelo império e conseguiu reunir recursos e forças para enfrentar uma batalha aparentemente impossível de ser vencida. Acompanhamos também a história pelo ponto de vista de Katherine, a mulher que Jorg deseja mais do que ninguém, e que ele está destinado a não conquistar jamais. Apesar de Jorg continuar a ser o mais maquiavélico dos protagonistas, sem hesitação para matar, mutilar ou destruir, caso isso o ajude a alcançar seus objetivos, passamos a compreendê-lo melhor neste livro, e é impossível não torcer por ele. Ele consegue renovar e dar uma reviravolta brutal, explodindo com todas as armadilhas românticas da grande fantasia - lealdade, honra, o bem contra mal e a fé em um causa maior. Às vezes, quando você vê aquele cavaleiro branco em seu cavalo, com uma armadura reluzente e um sorriso brilhante, só quer atirá-lo no chão e dar-lhe um murro na cara dele por ser tão perfeito. Se você já teve essa sensação algum vez, Jorg é o cara. [...]" },
+        nome: "King of Thorns" },
 
       { url:"https://m.media-amazon.com/images/I/51UqoOs3FzL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Emperor of Thorns",
-        sinopse: "A aclamada Trilogia dos Espinhos chega ao seu grande final, depois de termos acompanhado a dolorosa e supreendente infância e adolescência de Jorg Ancrath em Prince of Thorns e King of Thorns, com todo o brilhantismo, charme, violência extrema e total crueldade deste egomaníaco romântico. Conforme Jorg cresce, seu caráter muda e ele parece encontrar algum equilíbrio em suas tendências sociopatas. Em Emperor of Thorns, vamos novamente tomando contato com as atribulações de Jorg e sua fixação em conquistar o Império Destruído com saltos entre o presente e o passado, assim como Mark Lawrence já havia feito no volume anterior. Com isso, vamos descobrindo, desvendando e nos surpreendendo com o mundo onde a história se passa e com as saídas e escolhas nada tradicionais ou lógicas que Jorg se vê obrigado a tomar em seu caminho ao trono." }
+        nome: "Emperor of Thorns" }
     ]
   },
   {
     nome: "Marta Breen e Jenny Jordahl",
+    bandeira:"assets/images/bandeiras/noruega.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/9164p4-iXIL._SY342_.jpg",
-        nome: "Mulheres na luta: 150 anos em busca de liberdade, igualdade e sororidade",
-        sinopse: "O movimento feminista em quadrinhos, para jovens e adultos. Há 150 anos, a vida das mulheres era muito diferente: elas não podiam tomar decisões sobre seu corpo, votar ou ganhar o próprio dinheiro. Quando nasciam, os pais estavam no comando; depois, os maridos. O cenário só começou a mudar quando elas passaram a se organizar e a lutar por liberdade e igualdade. Neste livro, Marta Breen e Jenny Jordahl destacam batalhas históricas das mulheres — pelo direito à educação, pela participação na política, pelo uso de contraceptivos, por igualdade no mercado de trabalho, entre várias outras —, relacionando-as a diversos movimentos sociais. O resultado é um rico panorama da luta feminista, que mostra o avanço que já foi feito — e tudo o que ainda precisamos conquistar." }
+        nome: "Mulheres na luta: 150 anos em busca de liberdade, igualdade e sororidade" }
     ]
   },
   {
     nome: "Mary Balogh",
+    bandeira:"assets/images/bandeiras/canada.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91dG+jtwMZL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma proposta e nada mais",
-        sinopse: "Após ter tido sua cota de sofrimentos na vida, a jovem viúva Gwendoline, lady Muir, estava mais que satisfeita com sua rotina tranquila, e sempre resistiu a se casar novamente. Agora, porém, passou a se sentir solitária e inquieta, e considera a ideia de arranjar um marido calmo, refinado e que não espere muito dela. Ao conhecer Hugo Emes, o lorde Trentham, logo vê que ele não é nada disso. Grosseirão e carrancudo, Hugo é um cavalheiro apenas no nome: ganhou seu título em reconhecimento a feitos na guerra. Após a morte do pai, um rico negociante, ele se vê responsável pelo bem-estar da madrasta e da meia-irmã, e decide arranjar uma esposa para tornar essa nova fase menos penosa. Hugo a princípio não quer cortejar Gwen, pois a julga uma típica aristocrata mimada. Mas logo se torna incapaz de resistir a seu jeito inocente e sincero, sua risada contagiante, seu rosto adorável. Ela, por sua vez, começa a experimentar com ele sensações que jamais imaginava sentir novamente. E a cada beijo e cada carícia, Hugo a conquista mais – com seu desejo, seu amor e a promessa de fazê-la feliz para sempre." },
+        nome: "Uma proposta e nada mais" },
 
       { url:"https://m.media-amazon.com/images/I/81fbOPGmJ7L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um acordo e nada mais",
-        sinopse: "Embora Vincent, o visconde Darleigh, tenha ficado cego no campo de batalha, está farto da interferência da mãe e das irmãs em sua vida. Por isso, quando elas o pressionam a se casar e, sem consultá-lo, lhe arranjam uma candidata a noiva, ele se sente vítima de uma emboscada e foge para o campo com a ajuda de seu criado. No entanto, logo se vê vítima de outra armadilha conjugal. Por sorte, é salvo por uma jovem desconhecida. Quando a Srta. Sophia Fry intervém em nome dele e é expulsa de casa pelos tios sem um tostão para viver, Vincent é obrigado a agir. Ele pode estar cego, mas consegue ver uma solução para os dois problemas: casamento. Aos poucos, a amizade e o companheirismo dos dois dão lugar a uma doce sedução, e o que era apenas um acordo frio se transforma em um fogo capaz de consumi-los." },
+        nome: "Um acordo e nada mais" },
 
       { url:"https://m.media-amazon.com/images/I/41EIRbmZuaL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma loucura e nada mais",
-        sinopse: "Depois de sobreviver às guerras napoleônicas, Sir Benedict Harper está lutando para seguir em frente e retomar as rédeas de sua vida. O que ele nunca imaginou era que essa esperança viesse na forma de uma bela mulher, que também já teve sua parcela de sofrimento. Após a morte do marido, Samantha McKay está à mercê dos sogros opressores, até que planeja uma fuga para o distante País de Gales para reivindicar uma casa que herdou. Como o cavalheiro que é, Ben insiste em acompanhá-la em sua jornada. Ben deseja Samantha tanto quanto ela o deseja, mas tenta ser prudente. Afinal, o que uma alma ferida pode oferecer a uma mulher? Já Samantha está disposta a ir aonde o destino a levar, a deixar para trás o convívio com a alta sociedade e até mesmo a propriedade que é sua por direito, por esse belo e honrado soldado. Mas será que, além de seu corpo, ela terá coragem de lhe oferecer também seu coração ferido? As respostas a todas as perguntas talvez estejam em um lugar improvável: nos braços um do outro." },
+        nome: "Uma loucura e nada mais" },
 
       { url:"https://m.media-amazon.com/images/I/41EP8EQ2JlL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma paixão e nada mais",
-        sinopse: "Ao voltar para casa depois das Guerras Napoleônicas, Flavian, o visconde de Ponsonby, ficou arrasado ao ser abandonado pela noiva. Agora a mulher que partiu seu coração ressurgiu, e todos estão ansiosos para que eles reatem o noivado. Exceto o próprio Flavian, que, em pânico, corre para os braços de uma jovem sensível e encantadora. Apesar de ter sido casada por quase cinco anos, a viúva Agnes Keeping nunca se apaixonou nem quer se apaixonar. Aos 26 anos, ela prefere manter o controle de suas emoções e de sua vida. Porém, ao conhecer o carismático Flavian, fica tão arrebatada que acaba aceitando seu impetuoso pedido de casamento. Quando descobre que Flavian se casou apenas para se vingar da antiga paixão, Agnes decide fugir. Mas o novo marido não tem a menor intenção de deixá-la partir, ainda mais após descobrir que, para sua própria surpresa, está completamente apaixonado por ela." },
+        nome: "Uma paixão e nada mais" },
 
       { url:"https://m.media-amazon.com/images/I/41qVr1CqCJL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma promessa e nada mais",
-        sinopse: "Ralph Stockwood sempre se orgulhou de ser um líder nato. Mas, quando convenceu os amigos a lutarem com ele nas Guerras Napoleônicas, nunca imaginou que seria o único sobrevivente. Mesmo atormentado pela culpa, Ralph precisa seguir em frente, arranjar uma esposa e garantir um herdeiro para seu título e sua fortuna. Desde que a participação de Chloe Muirhead na temporada de Londres terminou de forma desastrosa, ela aceitou a possibilidade de ser, para sempre, uma solteirona. Para escapar da própria família, a moça se refugia na casa da madrinha de sua mãe. Lá, conhece Ralph. Ele precisa de uma esposa. Ela não acharia ruim encontrar um marido. Então Chloe sugere que os dois se casem, por conveniência. A condição é uma só: Ralph precisa prometer que nunca a levará de volta a Londres. Mas, de uma hora para outra, as circunstâncias mudam. E logo fica claro que, para Ralph, o acordo foi apenas uma promessa e nada mais..." },
+        nome: "Uma promessa e nada mais" },
 
       { url:"https://m.media-amazon.com/images/I/41EjLSfLMbL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um beijo e nada mais",
-        sinopse: "Desde que testemunhou a morte do marido durante as Guerras Napoleônicas, Imogen, lady Barclay, se isolou em Hardford Hall, na Cornualha. O novo dono da propriedade ainda não apareceu para reivindicá-la, e ela torce desesperadamente para que ele nunca venha acabar com sua frágil paz. Percival Hayes, o novo conde de Hardford, não tem nenhum interesse na região distante da Cornualha, tanto que, desde que recebeu o título, nunca quis conhecer o lugar. Mas em seu aniversário de 30 anos ele está tão entediado que decide impulsivamente fazer uma visita às suas terras. Ao chegar lá, fica chocado ao descobrir que Hardford não é o monte de ruínas que imaginou. Fica perplexo também ao constatar que a viúva do filho de seu predecessor é a mulher mais linda que já viu. Em pouco tempo, Imogen desperta em Percy uma paixão que ele jamais pensou ser capaz de sentir. Mas será que ele conseguirá resgatá-la da infelicidade e convencê-la a voltar à vida?" },
+        nome: "Um beijo e nada mais" },
 
       { url:"https://m.media-amazon.com/images/I/51-Uz0XBpBS._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um amor e nada mais",
-        sinopse: "Pela primeira vez desde a morte da esposa, George Crabbe, o duque de Stanbrook, está cogitando se casar de novo. Quando pensa no assunto, tudo que lhe vem à mente é uma mulher que conheceu um ano antes e nunca mais viu. Dora Debbins perdeu toda a esperança de se casar quando um escândalo na família a afastou dos salões da sociedade e a obrigou a se dedicar à irmã mais nova. Aos 39 anos, está resignada à rotina de professora de música em um vilarejo até que o inesperado pedido de casamento do duque vem mudar tudo o que planejou para seu futuro. O que Dora não sabe é que aquele conto de fadas oculta um segredo terrível. Será que esse amor recém-descoberto sobreviverá aos erros do passado?" }
+        nome: "Um amor e nada mais" }
     ]
   },
   {
     nome: "Mary E. Pearson",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91YHz1oa67L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "The Kiss of Deception",
-        sinopse: "Tudo parecia perfeito, um verdadeiro conto de fadas – menos para a protagonista dessa história. Morrighan é um reino imerso em tradições, histórias e deveres, e a Primeira Filha da Casa Real, uma garota de 17 anos chamada Lia, decidiu fugir de um casamento arranjado que supostamente selaria a paz entre dois reinos através de uma aliança política. O jovem príncipe escolhido se vê então obrigado a atravessar o continente para encontrá-la a qualquer custo. Mas essa se torna também a missão de um temido assassino. Quem a encontrará primeiro? Quando se vê refugiada em um pequeno vilarejo distante – o lugar perfeito para recomeçar – ela procura ser uma pessoa comum, se estabelecendo como garçonete, e escondendo sua vida de realeza. O que Lia não sabe, ao conhecer dois misteriosos rapazes recém-chegados ao vilarejo, é que um deles é o príncipe que fora abandonado e está desesperadamente à sua procura, e o outro, um assassino frio e sedutor enviado para dar um fim à sua breve vida. Lia se encontrará perante traições e segredos que vão desvendar um novo mundo ao seu redor." },
+        nome: "The Kiss of Deception" },
 
       { url:"https://m.media-amazon.com/images/I/51G6NfMxXKL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "The Heart of Betrayal",
-        sinopse: "Em The Heart of Betrayal, Lia e Rafe estão presos no reino barbárico de Venda e têm poucas chances de escapar. Desesperado para salvar a vida da princesa, Kaden revelou ao Vendan Komizar que Lia tem um dom poderoso, fazendo crescer o interesse do Komizar por ela. Enquanto isso, as linhas de amor e ódio vão se definindo. Todos mentiram. Rafe, Kaden e Lia esconderam segredos, mas a bondade ainda habita o coração até dos personagens mais sombrios. E os Vendans, que Lia sempre pensou serem selvagens, desconstroem os preconceitos da princesa, que agora cria uma aliança inesperada com eles. Lutando com sua alta educação, seu dom e sua percepção sobre si mesma, Lia precisa fazer escolhas poderosas que vão afetar profundamente sua família... e seu próprio destino." },
+        nome: "The Heart of Betrayal" },
 
       { url:"https://m.media-amazon.com/images/I/51WkoV2Es-L._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "The Beauty of Darkness",
-        sinopse: "A trilogia Crônicas de Amor e Ódio chega ao fim de maneira arrasadora. A história de Lia inspirou muitos leitores a embarcarem em uma jornada extraordinária repleta de ação, romance, mistérios e autoconhecimento, em um universo deslumbrante criado pela premiada escritora Mary E. Pearson, onde o poder feminino é a força motriz capaz de mudar e fazer toda a diferença no novo mundo em construção. Lia sobreviveu a Venda, mas não foi a única. Um grande mal pretende destruir o reino de Morrighan, e somente ela pode impedi-lo. Com a guerra no horizonte, Lia não tem escolha a não ser assumir seu papel de Primeira Filha, como uma verdadeira guerreira — e líder. Enquanto luta para chegar a Morrighan a tempo de salvar seu povo, ela precisa cuidar do seu coração e seus sentimentos conflituosos em relação a Rafe e as suspeitas contra Kaden, que a tem perseguido. Nesta conclusão de tirar o fôlego, os traidores devem ser aniquilados, sacrifícios precisam ser feitos e conflitos que pareciam insolúveis terão que ser superados enquanto o futuro de todos os reinos está por um fio e nas mãos dessa determinada e inigualável mulher." }
+        nome: "The Beauty of Darkness" }
+    ]
+  },
+  {
+    nome:"Mary Lynn Bracht",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"",
+        nome:"" }
     ]
   },
   {
     nome: "Maya Motayne",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/A1yfpYh1zUL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Nocturna",
-        sinopse: "Depois de se libertar da dominação dos inglésios, o reino de Castallan não esperava passar por mais nenhuma crise. Mas Dez, o herdeiro, foi assassinado, e agora nobres e plebeus precisam aceitar que o destino do reino está nas mãos do príncipe Alfie, que passou meses fugindo de suas obrigações enquanto bebia tequila em alto-mar.De volta a Castallan, Alfie não consegue acreditar que seu irmão morreu e, tentando provar o contrário, se depara com Finn Voy. Graças a sua habilidade de assumir a aparência de qualquer pessoa, Finn está sempre usando um disfarce para se proteger dos traumas de seu passado e de qualquer um que se meter em seu caminho.Quando os destinos de Alfie e Finn se cruzam, eles acidentalmente libertam uma magia poderosa e antiga que, se não for detida, vai mergulhar o mundo em escuridão. Com o futuro de Castallan em suas mãos, o príncipe e a ladra terão de aprisionar essa magia obscura a qualquer custo, mesmo que, no caminho, precisem confrontar seus segredos mais sombrios." },
+        nome: "Nocturna" },
         
       { url:"https://m.media-amazon.com/images/I/A1v4a5kwLiL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Oculta",
-        sinopse: "Alfie e Finn terão de unir forças mais uma vez para firmar uma aliança de paz com um reino inimigo ― e impedir que um grupo rebelde se estabeleça em Castallan. Depois de trabalharem juntos para salvar o reino de Castallan de uma magia maligna, os caminhos de Alfie e Finn tomam rumos diferentes e eles ficam meses sem notícias um do outro. Enquanto Alfie se prepara para assumir a coroa como rei e cuida de uma importante aliança política para o reino, Finn parte numa viagem, aproveitando a liberdade recém-adquirida de Ignacio, o homem que a controlou de forma cruel durante anos. O problema é que Alfie enfrenta desafios diante das questões políticas do reino, principalmente com Iglésia, um reino rival que escravizou Castallan por anos e continua escravizando o próprio povo. Mesmo tentando fugir do passado, Finn se vê de volta a Castallan, só que dessa vez muito mais poderosa: de uma simples ladra, ela se torna uma das senhoras do crime da cidade. Em meio a ataques violentos de assassinos mascarados, o destino volta a unir Alfie e Finn, que precisarão trabalhar juntos para evitar uma guerra, enquanto lidam com os próprios fantasmas." }
+        nome: "Oculta" }
     ]
   },
   {
     nome: "Meg Cabot",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/31LmL3BKz4L._SY300_.jpg",
         colecao: "Coleção 1",
-        nome: "A terra das sombras",
-        sinopse: "Falar com um fantasma pode ser assustador. Ter a habilidade de se comunicar com todos, então, é de arrepiar qualquer um. O primeiro volume da série best-seller de Meg Cabot. Suzannah é uma adolescente igual a todas as outras – ou quase. Há apenas um pequeno detalhe: ela consegue ver fantasmas. Sua missão é ajudar as almas penadas a descansarem em paz. Mas como explicar à mãe ou aos professores que suas travessuras noturnas foram provocadas por... assombrações? Quando sua mãe se casa pela segunda vez e elas precisam se mudar para a ensolarada Califórnia, Suze passa a acreditar que as coisas vão melhorar. Mas ao chegar lá, Suzannah percebe que a nova família mora em uma casa muito antiga. E, é claro, assombrada. Só que por um fantasma bonitão, que nada faz para assustá-la, muito pelo contrário." },
+        nome: "A terra das sombras" },
 
       { url:"https://m.media-amazon.com/images/I/61dgYkNl3ML._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Arcano nove",
-        sinopse: "Suzannah continua apaixonada por um sujeito de outro mundo. Literalmente. O fantasma do bonitão Jesse, que vive aparecendo em seu quarto, mexe com o coração da adolescente. Mas Tad Beaumont, o garoto mais descolado e rico da cidade, também entra no páreo. E com uma vantagem inegável: ele está vivo. O rapaz convida Suzannah para uma festa, onde ela pode ganhar seu primeiro beijo. Se pelo menos os dois não tivessem resolvido que o jardim de urtigas era o melhor lugar para o acontecimento." },
+        nome: "Arcano nove" },
 
       { url:"https://m.media-amazon.com/images/I/51mF8GbjUhL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Reunião",
-        sinopse: "Suzannah ainda sofre com sua paixão platônica por Jesse. Nada demais para uma adolescente. Só que o rapaz morreu há quase dois séculos e ‘vive’ assombrando o quarto de Suzannah, em sua nova casa, na costa oeste americana. Entre a juventude platinada local, no melhor estilo de OC, a menina tenta se adaptar ao novo colégio e à nova família, herdada com o casamento da mãe. Entre as recentes amizades e agitos naturais da idade, ela resolve pendências do mundo espiritual." },
+        nome: "Reunião" },
 
       { url:"https://m.media-amazon.com/images/I/41QJR6KE9+L._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Hora mais sombria",
-        sinopse: "Suzannah sofre com sua paixão por Jesse – o fantasma “muito gato e com abdome de tanquinho”, que “vive” assombrando seu quarto. Entre a juventude platinada local, no melhor estilo de OC, a menina tenta se adaptar ao novo colégio e à nova família formada com o segundo casamento da mãe. Entre as recentes amizades e agitos naturais da idade, a menina resolve as pendências do mundo espiritual." },
+        nome: "Hora mais sombria" },
 
       { url:"https://m.media-amazon.com/images/I/41eEDYiNclL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Assombrado",
-        sinopse: "Suzannah passou o último verão no Pebble Beach Hotel and Golf Resort. Não, ela não estava hospedada com os ricaços. Em vez disso, tomava conta dos filhos deles. Foi assim que ela conheceu Paul Slater. Suzannah era a babá do irmãozinho dele, Jack, e Paul se encantou por ela. Mas é claro que quando um garoto bonitão se interessa por ela as coisas não podem simplesmente dar certo." },
+        nome: "Assombrado" },
 
       { url:"https://m.media-amazon.com/images/I/61HCuQ5LHWL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Crepúsculo",
-        sinopse: "Suzannah Simons, uma adolescente nova-iorquina que poderia ser tachada de comum se não tivesse o dom – ou seria a sina? – de falar com os mortos, terá que tomar uma difícil decisão. Suzannah já se acostumou com os fantasmas em sua vida. Eles a acordam no meio da noite, reviram seu armário e aprontam coisas ainda mais sinistras. Como mediadora, pode não somente ver fantasmas, como também interagir com eles. E foi assim que se apaixonou por Jesse, um gato do século XIX. Mas, suas questões vão muito além de assuntos do coração: sua função é entender as mágoas dos mortos e ajudá-los a resolver os problemas com os vivos. Quando ela e Paul Slater – mediador de força inegável e intenções dúbias – descobrem que seus poderes vão muito além de ajudar fantasmas a resolver seus problemas terrenos, Suze pira de vez. É muito aterrorizante ter o destino dos fantasmas em mãos, podendo alterar o curso da história, principalmente porque Paul também sabe como fazer isso. E ele adoraria evitar o assassinato de Jesse, impedindo-o de virar fantasma e lhe garantindo uma vida tranqüila, finalmente... mas no século XIX. Isso significaria que Jesse e Suzannah jamais se conheceriam." },
+        nome: "Crepúsculo" },
 
       { url:"https://m.media-amazon.com/images/I/71Qzv515KlL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Lembrança",
-        sinopse: "Meg Cabot retorna com uma divertida e sexy continuação da saga de Suzannah Simon, a menina que via fantasmas... e os ajudava a passar para a luz Agora, mais velha e experiente, tudo que Suze quer é causar uma boa impressão no primeiro emprego desde sua formatura ― e desde o noivado com o Dr. Jesse de Silva, ex-espírito e sua alma gêmea. Como se não bastasse, um fantasma de seu passado resolve aparecer. E esse não é um espectro que ela possa mediar. Afinal, Paul Slater está bem vivo, milionário e, ainda por cima, é o novo proprietário da antiga casa de Suzannah. Aquela na qual conheceu Jesse. Isso não seria um problema se ela não tivesse acabado de descobrir que uma antiga maldição poderá transformar seu amado num demônio, caso seu antigo local de descanso seja demolido, como Paul pretende. Agora ela precisa dar um jeito em Paul, que a está chantageando sexualmente ― isso mesmo... ou ela dorme com ele, ou perde Jesse ―, enquanto tenta ajudar uma caloura assombrada por uma menininha muito poderosa..." }
+        nome: "Lembrança" }
     ]
   },
   {
     nome: "Megan Shepherd",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91UCHClL5dL._SY342_.jpg",
-        nome: "A filha do louco",
-        sinopse: "'Após o escândalo vir a público e meu pai desaparecer, eu e minha mãe passamos a ser ignoradas pelas companhias que chamávamos de amigos. Até mesmo a igreja fechou suas portas para nós. O governo confiscou nossa casa e o patrimônio da família, alegando que meu pai era um criminoso.' Juliet Moreau construiu a vida tentando se esquecer do escândalo que arruinou sua família. Afinal, ninguém conseguiu provar que seu pai, o Dr. Moreau, foi realmente o autor das sinistras experiências envolvendo seres humanos e animais. Mas ela acaba descobrindo que seu pai está vivo, em uma remota ilha tropical, e continua envolvido com os experimentos. Em busca da verdade, Juliet vai ao seu encontro, para descobrir até onde são verdadeiras as acusações que apontam para sua família." }
+        nome: "A filha do louco" }
+    ]
+  },
+  {
+    nome:"Meghan Quinn",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"",
+        nome:"" }
+    ]
+  },
+  {
+    nome:"Mhairi McFarlane",
+    bandeira:"assets/images/bandeiras/reinounido.png",
+    imagens: [
+      { url:"",
+        nome:"" }
+    ]
+  },
+  {
+    nome:"Mia Sheridan",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"",
+        nome:"" }
     ]
   },
   {
     nome: "Michelle Falkoff",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/51hCYhcD9OL._SY445_SX342_.jpg",
-        nome: "A playlist de Hayden",
-        sinopse: "Por meio de letras de música do universo pop, a autora retrata o universo adolescente com todos os seus problemas. Depois da morte de seu amigo, Sam parece um fantasma vagando pelos corredores da escola o que não é muito diferente de antes. Ele sabe que tem que aceitar o que Hayden fez, mas se culpa pelo que aconteceu e não consegue mudar o que sente. Enquanto ouve música por música da lista deixada por Hayden, Sam tenta descobrir o que exatamente aconteceu naquela noite. E, quanto mais ele ouve e reflete sobre o passado, mais segredos descobre sobre seu amigo e sobre a vida que ele levava." }
+        nome: "A playlist de Hayden" }
     ]
   },
   {
@@ -3924,23 +4003,19 @@ export const autores = [
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81XDr6vXogL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A desconstrução de Mara Dyer",
-        sinopse: "Um grupo de amigos, uma tábua ouija e um presságio de morte. Mara Dyer não estava interessada em mensagens do Além. Mas, para não estragar a diversão da melhor amiga justo em seu aniversário, ela decide embarcar na brincadeira. Apenas para receber um recado de sangue. Parecia uma simples piada de mau gosto, até que todos os presentes, com exceção de Mara, morrem no desabamento de um velho sanatório abandonado. O que o grupo estaria fazendo em um prédio condenado? A resposta parece estar perdida na mentepertubada de Mara. Mas, depois de sobreviver à traumática experiência, é natural que a menina se proteja com uma amnésia seletiva. Afinal, ela perdeu a melhor amiga, o namorado e a irmã do rapaz. Para ajudá-la a superar o trauma, sua família decide se mudar para uma nova cidade. Todos estão empenhados em esquecer, mas Mara só quer lembrar. Ainda mais com as alucinações – ou seriam premonições? – Os corpos e o véu entre realidade, pesadelo e sanidade se esgarçando dia a dia. Ela precisa entender o que houve para ter uma chance de impedir a loucura de tomá-la." },
+        nome: "A desconstrução de Mara Dyer" },
 
       { url:"https://m.media-amazon.com/images/I/51iYbVK3DQL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A evolução de Mara Dyer",
-        sinopse: "Segundo volume da trilogia best-seller do New York Times. As misteriosas e perigosas habilidades de Mara continuam a evoluir. Ela sabe que não está louca e agora precisa se prender desesperadamente à sanidade. Mara sabe que é tudo real: pode matar com um simples pensamento, assim como Noah pode curar com apenas um toque e que Jude, o ex-namorado morto por ela, está realmente de volta. Mas para descobrir suas intenções, deve evitar uma internação em um hospital psiquiátrico. Confusa com as paredes se fechando e ruindo ao seu redor, ela deve aprender a usar seu poder." },
+        nome: "A evolução de Mara Dyer" },
 
       { url:"https://m.media-amazon.com/images/I/51zL2YqM0ML._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A vingança de Mara Dyer",
-        sinopse: "A série mescla paranormalidade, conspiração e romance para contar a história de uma adolescente com poderes especiais. Elogiada pelas autoras das séries Divergente e Instrumentos Mortais, Michelle Hodkin cria aqui uma trama surpreendente, onde nada é o que parece. Depois de descobrir que consegue matar apenas com o pensamento, assim como seu namorado é capaz de curar com a mesma facilidade, Mara Dyer é capturada por uma inescrupulosa médica, que a faz passar por uma série de testes e experimentos. Mas Mara não está sozinha. Outros jovens com poderes igualmente extraordinários são usados como cobaia. Com a ajuda deles, e de um velho inimigo, ela consegue fugir e parte em busca de vingança." },
+        nome: "A vingança de Mara Dyer" },
 
       { url:"https://m.media-amazon.com/images/I/91I4mr427PL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A construção de Noah Shaw",
-        sinopse: "Primeiro livro de Confissões de Noah Shaw, nova série do mesmo universo da série best-seller do New York TimesMara Dyer. Neste volume, velhos esqueletos são descobertos e novas promessas se mostram mortíferas. É o que acontece depois do 'felizes para sempre'. Noah Shaw enfrentou as forças do destino e o próprio pai para ficar com Mara. As mais absurdas provas se interpuseram no caminho do casal. De ter de escolher entre matar a amada ou seu irmão até lidar com uma médica psicopata, Noah precisou de toda a inteligência e perspicácia para viver seu amor. Agora, os dois finalmente estão juntos e em paz. Mas algo está à espreita. Vários Agraciados morrem, aparentemente por suicídio. A habilidade de Noah de sentir o que eles sentem, no entanto, coloca em xeque essa versão: eles não queriam morrer. Então, por que se mataram? Stella, uma das companheiras de Mara no Horizontes, afirma que a garota é a responsável. Noah se recusa a acreditar. Mara é uma força incontestável, mas ela não sente prazer em matar. Ou ele estaria equivocado? À medida que mais Agraciados morrem, ele precisa decidir se confia em seu coração ou nas evidências. E precisa decidir se seria capaz de viver seu amor, mesmo banhado em sangue." }
+        nome: "A construção de Noah Shaw" }
     ]
   },
   {
@@ -4080,16 +4155,7 @@ export const autores = [
     bandeira:"assets/images/bandeiras/.png",
     imagens: [
       { url:"",
-        nome:"",
-        sinopse:"" }
-    ]
-  },{
-    nome:"",
-    bandeira:"assets/images/bandeiras/.png",
-    imagens: [
-      { url:"",
-        nome:"",
-        sinopse:"" }
+        nome:"" }
     ]
   },
   {
@@ -4097,8 +4163,15 @@ export const autores = [
     bandeira:"assets/images/bandeiras/.png",
     imagens: [
       { url:"",
-        nome:"",
-        sinopse:"" }
+        nome:"" }
+    ]
+  },
+  {
+    nome:"",
+    bandeira:"assets/images/bandeiras/.png",
+    imagens: [
+      { url:"",
+        nome:"" }
     ]
   },
   {
