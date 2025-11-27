@@ -3683,8 +3683,8 @@ export const autores = [
     nome:"Manoel de Barros",
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/91gugbA603L._SY466_.jpg",
+        nome:"O meu quintal é maior do que o mundo" }
     ]
   },
   {
@@ -3740,8 +3740,13 @@ export const autores = [
     nome:"Margaret Owen",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/81beklZXWVL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A ladra amaldiçoada" }
+
+      { url:"https://m.media-amazon.com/images/I/513gEwph05L._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"A deusa impiedosa" }
     ]
   },
   {
@@ -3769,8 +3774,8 @@ export const autores = [
     nome:"Mariana Zapata",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/512zfQ2peTL._SY445_SX342_ML2_.jpg",
+        nome:"De Lukov, Com Amor" }
     ]
   },
   {
@@ -3802,8 +3807,8 @@ export const autores = [
     nome:"Marina Dutra",
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/41Q3gpaakZL._SY445_SX342_ML2_.jpg",
+        nome:"Sonho e Pesadelo" }
     ]
   },
   {
@@ -3826,8 +3831,8 @@ export const autores = [
     nome:"Marissa Meyer",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/71NA0oOygkL._SY425_.jpg",
+        nome:"Sem coração" }
     ]
   },
   {
@@ -3909,8 +3914,8 @@ export const autores = [
     nome:"Mary Lynn Bracht",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/51wse7D7QbL._SY445_SX342_ML2_.jpg",
+        nome:"Herdeiras do mar" }
     ]
   },
   {
@@ -3993,6 +3998,7 @@ export const autores = [
   },
   {
     nome: "Michelle Falkoff",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/51hCYhcD9OL._SY445_SX342_.jpg",
         nome: "A playlist de Hayden" }
@@ -4000,6 +4006,7 @@ export const autores = [
   },
   {
     nome: "Michelle Hodkin",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81XDr6vXogL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -4019,53 +4026,75 @@ export const autores = [
     ]
   },
   {
+    nome:"Michelle Quach",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"",
+        nome:"" }
+    ]
+  },
+  {
     nome: "Milena Seyfild",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71YTITYdjiL._SY342_.jpg",
-        nome: "Boys",
-        sinopse: "Conheci o rebelde Maxwell Davies em uma festa. Thomas é meu melhor amigo desde a infância e é um nerd de carteirinha. Edward, o filho insuportável do meu chefe, apareceu por aqui durante as férias da faculdade. E Clarke, ah, Clarke… Nos conhecemos em uma viagem que fiz durante o verão. Cada um deles tinha uma particularidade e posso dizer isso com propriedade. Estive com os quatro, mais de uma vez. Vivemos bons momentos juntos até eu precisar sair da cidade. Mas agora estou de volta e as coisas estão diferentes por aqui. Todos eles sabem um sobre o outro e eu mal posso esperar para encontrá-los novamente." }
+        nome: "Boys" }
+
+      { url:"",
+        nome:"" }
     ]
   },
   {
     nome: "Mindy Mcginnis",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/816s9GDXqBL._SY342_.jpg",
-        nome: "A (r)evolução das mulheres",
-        sinopse: "Três anos se passaram depois do assassinato da irmã mais velha de Alex Craft. Mas, como é de costume, a culpa sempre recai sobre a vítima e o assassino segue em liberdade. Alex é uma menina forte e quer vingar sua irmã, por isso decide atacar qualquer predador sexual que cruzar seu caminho. Ela resolve colocar a boca no mundo, usando a linguagem que melhor domina, a linguagem da violência; além de responder ao seu instinto feminino: o de proteger o próprio útero. Mas o que aconteceu na noite do assassinato chama a atenção de Jack Fisher, o cara invejado por todos: atleta perfeito, que desfila de braço dado com a garota mais cobiçada. Ele deseja conhecer Alex profundamente. E, numa cidade pequena, onde todo mundo se conhece, esse repentino interesse vai desencadear uma série de crimes bárbaros. Uma narrativa vibrante com cenas de grande impacto, A (r)evolução das mulheres é uma dura reflexão sobre os abusos e estereótipos que tiram a humanidade das mulheres. Mindy McGinnis nos mostra que as agressões perseguem a vida não só das vítimas, mas também daqueles que estão próximos a elas." }
+        nome: "A (r)evolução das mulheres" }
+    ]
+  },
+  {
+    nome:"Mirla Muniz",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"",
+        nome:"" }
+    ]
+  },
+  {
+    nome:"Monica Dombroski",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"",
+        nome:"" }
     ]
   },
   {
     nome: "Morgan Rhodes",
+    bandeira:"assets/images/bandeiras/canada.pnf",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91BhTx2rjLL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A queda dos reinos",
-        sinopse: "Nos três reinos de Mítica, a magia estava esquecida desde tempos imemoriais. Depois de séculos de uma paz mantida a muito custo, certa agitação começa a emergir. Enquanto os governantes lutam cegamente pelo poder, seus súditos têm suas vidas brutalmente transformadas com a eclosão repentina da guerra. É assim que o destino de quatro jovens - três herdeiros e um rebelde - acabam interligados para sempre. Cleo, Jonas, Lucia e Magnus vão ter de lutar, cada um à sua maneira, em um mundo revirado pela guerra, onde imperam traições inesperadas, assassinatos brutais, alianças secretas e paixões arrebatadoras." },
+        nome: "A queda dos reinos" },
 
       { url:"https://m.media-amazon.com/images/I/51Pk7NW+KdL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A primavera rebelde",
-        sinopse: "Depois que o rei Gaius de Limeros conquistou as terras de Auranos e subjugou o povo sofrido de Paelsia, passou a dominar toda a Mítica com seu punho de ferro. A rica população de Auranos parece não se importar com o novo governante, desde que seus privilégios sejam mantidos; os paelsianos, como sempre, aceitam seu destino de exploração. Mas a tranquilidade é só aparente: grupos rebeldes começam a surgir nos reinos dominados, questionando as mentiras e os métodos sangrentos do novo rei. Enquanto isso, Gaius obedece à sua mais nova conselheira e dá início à construção de uma estrada passando pelas temidas Montanhas Proibidas. Mas essa via não servirá apenas para interligar os três reinos: ela faz parte de uma busca pela magia elementar, perdida há mil anos, que conferirá ao tirano um poder supremo. O que ninguém esperava era que essa obra desencadearia uma série de eventos catastróficos, que mudarão aquelas terras para sempre e forçarão Cleo, Magnus, Lucia e Jonas a tomar decisões até então inimagináveis." },
+        nome: "A primavera rebelde" },
 
       { url:"https://m.media-amazon.com/images/I/51+OtFMvCAL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A ascensão das trevas",
-        sinopse: "Depois de conquistar Mítica inteira, o rei Gaius ainda não está satisfeito: sua nova missão é encontrar a Tétrade, quatro cristais mágicos perdidos, capazes de conferir poderes indescritíveis a quem os reunir. Para isso, ele conta com os conselhos de Melenia, uma imortal que o visita em seus sonhos e que o instruiu a criar uma estrada ligando todos os reinos. Gaius acredita que está no caminho certo e que Lucia, sua filha adotiva, será a chave para localizar e despertar os cristais. Mas o Rei Sanguinário não é o único que cobiça essa magia milenar: vindos de Kraeshia, um império vizinho muito influente, o príncipe Ashur e a princesa Amara conhecem as lendas de Mítica e desconfiam de que a Tétrade não seja apenas um mito. Logo eles entram na disputa e buscam seus próprios aliados nessa corrida pelo poder. Um período de trevas se abate sobre Mítica, e nesses tempos sombrios Jonas, Cleo, Magnus e Lucia precisam descobrir o quanto antes em quem podem confiar." },
+        nome: "A ascensão das trevas" },
 
       { url:"https://m.media-amazon.com/images/I/51A4Bd201kL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Maré congelada",
-        sinopse: "As disputas pela Tétrade, quatro cristais mágicos capazes de conferir poderes inimagináveis a quem os encontrar, continua. Amara roubou o cristal da água, Jonas conseguiu o da terra, Felix enganou os rebeldes para ficar com o cristal do ar, e Lucia está com o do fogo. Mas nem todos sabem como ativar a magia da Tétrade, e apenas a princesa feiticeira conquistou poder até agora, aliando-se ao deus do fogo que libertou de seu cristal. Gaius, o Rei Sanguinário, também não desistiu de encontrar os cristais. Ele está mais sedento por poder do que nunca, especialmente agora que não conta mais com a ajuda da imortal Melenia nem com o apoio de Magnus, o herdeiro que o traiu para poupar a vida da princesa Cleo. Para conquistar todo o mundo conhecido, Gaius resolve atravessar o mar gelado até Kraeshia, e tentar um acordo com o imperador perverso de lá. No caminho, o rei vai encontrar muitas dificuldades e inimigos, como Amara, princesa de Kraeshia, que tem seus próprios planos para conquistar o poder." },
+        nome: "Maré congelada" },
 
       { url:"https://m.media-amazon.com/images/I/91mvrysksdL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Tempestade de cristal",
-        sinopse: "Amara, a implacável imperatriz de Kraeshia, assumiu o trono de Mítica, e um sentimento de incerteza paira sobre Paelsia, Limeros e Auranos. Então Magnus e Cleo procuram um jeito de retomar o poder. Assim, acabam seguindo Gaius até a casa de Selia, sua mãe exilada. A avó de Magnus é uma bruxa poderosa que pode ajudar a liberar a magia dos cristais da Tétrade e recuperar Mítica. Mas, para concretizar seus planos, a família Damora deverá se juntar ao rebelde Jonas e o grupo formado por Nic, Felix e o misterioso Ashur ressuscitado. Enquanto isso, grávida de um Vigilante e temida por todos, Lucia foge do deus do fogo e viaja em busca de Gaius e Magnus. Mas o tempo está acabando. A tempestade iminente indica que a profecia sombria de que o Vigilante Timotheus falou está se aproximando. O destino da feiticeira está traçado, e inclui ninguém menos que o rebelde Jonas." },
+        nome: "Tempestade de cristal" },
 
       { url:"https://m.media-amazon.com/images/I/91oGU6j8jbL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Reinado imortal",
-        sinopse: "Os cristais da Tétrade foram reunidos e os deuses elementares que estavam aprisionados neles foram libertados, mas seu poder e magia não podem ser contidos por ninguém. Saindo do controle de humanos e imortais, os deuses se uniram e planejam destruir todos os reinos, começando por Mítica. Enquanto Jonas continua ignorando o destino que o liga a Lucia, a feiticeira está preocupada em encontrar maneiras de proteger sua filha — mesmo que isso signifique enfrentar sozinha Kyan, o deus do fogo. Amara também está disposta a encarar os deuses elementares. Apesar de ter voltado para o Império Kraeshiano, não desistiu de se tornar a mais poderosa dos reinos. Ao lado da avó, pretende conquistar Mítica só para si. Magnus e Cleo terão seus sentimentos testados mais uma vez. Com os inimigos se aproximando e uma magia maligna tomando conta dos territórios de Mítica, eles precisam descobrir se o amor que sentem é o suficiente para vencer as forças que querem destruí-los — e a toda a nação." }
+        nome: "Reinado imortal" }
     ]
   },
   {
