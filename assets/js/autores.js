@@ -4087,7 +4087,7 @@ export const autores = [
   },
   {
     nome: "Morgan Rhodes",
-    bandeira:"assets/images/bandeiras/canada.pnf",
+    bandeira:"assets/images/bandeiras/canada.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91BhTx2rjLL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -4115,131 +4115,238 @@ export const autores = [
     ]
   },
   {
+    nome:"Nàna Páuvoli",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81rWW9QtG-L._SY425_.jpg",
+        nome:"Balthazar: Seduzido pela Ira" }
+    ]
+  },
+  {
     nome: "Naomi Novik",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91gXI2sN61L._SY342_.jpg",
-        nome: "Enraizados",
-        sinopse: "Naomi Novik introduz um mundo novo e ousado, com raízes fincadas no folclore eslavo, tão cativante e encantador quanto uma fábula dos irmãos Grimm. Agnieszka ama seu lar no vale, sua vila tranquila, as florestas e o rio cintilante. Mas a Floresta corrompida fica à espreita na fronteira, cheia de um poder maligno desconhecido. Seu povo depende de um mago frio e ambicioso conhecido apenas como Dragão para apaziguar a ira da Floresta e impedi-la de avançar sobre o vilarejo. Mas ele exige um preço em troca da proteção: a cada dez anos, uma jovem é entregue para servi-lo; um destino quase tão indesejado quanto cair nas garras da Floresta. A próxima escolha está se aproximando rapidamente, e Agnieszka está com medo. Ela sabe — todo mundo sabe — que o Dragão vai levar Kasia: a bela, graciosa e corajosa Kasia, sua melhor amiga no mundo. E não há como salvá-la. Mas Agnieszka teme as coisas erradas. Porque, quando o Dragão chegar, não é Kasia que ele vai escolher." }
+        nome: "Enraizados" }
     ]
   },
   {
     nome: "Natália Dias e Victoria Gomes",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71DZY80p0WL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Príncipe da Mentira",
-        sinopse: "Stephen Thompson está acostumado a uma vida sem grandes emoções. Filho do meio da família real de Delway, não precisa se preparar para assumir o trono como seu irmão mais velho e nem se preocupar em comandar o exército como o caçula. Aos trinta anos, ocupa seus dias com trabalhos em instituições de caridade. Então, quando seus pais o avisam que precisa honrar um acordo e se casar com a herdeira de um país aliado, ele não acha que tem nada a perder. Louise Alton se sente uma farsa. Criada para ser doce e casta, entregue para ser a mãe dos herdeiros de um completo desconhecido, ela sabe que precisa manter seu novo marido longe dos seus segredos e do seu coração machucado. Mas a princesa não demora a descobrir que não é a única a ter um passado que pode dar um rumo diferente ao seu casamento. Stephen não imaginou que teria seu primeiro herdeiro dessa forma e não esperava se ver preso em uma rede de mentiras que colocam o país em risco. Agora, precisa se tornar o príncipe da mentira para proteger a sua família." },
+        nome: "Príncipe da Mentira" },
 
       { url:"https://m.media-amazon.com/images/I/718-HOHC1UL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Príncipe do Gelo",
-        sinopse: "Richard Thompson teve seu destino traçado. Aos trinta e cinco anos, o primogênito da família real sabe que o trono o espera, assim como um casamento político como mandam as tradições. Político e responsável, sempre coloca suas obrigações acima de qualquer outra coisa. Até que uma noite muda tudo. Heather Stafford sonha em desbravar o mundo em cima de um rinque de patinação no gelo. A patinadora é apaixonada pelo que faz, mesmo que suas apresentações não sejam o suficiente para garantir uma vida de luxo. Quando tem a oportunidade de se apresentar para a família real, sabe que sua vida inteira pode mudar, mas não imaginava que seria porque despertou a atenção do futuro rei. É um amor proibido e que não pode ter futuro, mas não há ninguém melhor do que uma patinadora para derreter o coração do príncipe do gelo. E quando suas obrigações são colocadas em xeque, o futuro rei precisa escolher entre a mulher que ama, uma plebeia doce, virgem e meiga, e o país que tem obrigação de servir." },
+        nome: "Príncipe do Gelo" },
 
       { url:"https://m.media-amazon.com/images/I/41t8J7sWEcL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Príncipe da Honra",
-        sinopse: "Theodore Thompson nunca recusa um desafio. General do exército de Delway, o mais novo dos príncipes dedica sua vida à proteção da sua família. E se mantê-los seguros significa que ele vai precisar se casar com uma mulher que não conhece para firmar alianças militares, está pronto para cumprir sua obrigação. Mas isso não significa que confie nela, nem que está disposto a fazer concessões quando descobre que sua futura esposa tem outros planos. Madelaine Denver não está disposta a aceitar esse acordo pacificamente. Se o general quer levá-la com ele para longe do seu país e da sua coroa, terá que fazer isso à força. E se precisar fazer da vida dele um verdadeiro inferno no processo, assim será. Entre desconfianças e uma disputa acalorada por poder, Madelaine vai começar uma guerra se precisar, e guerra é a especialidade de Theodore. Mas quando o fogo que existe entre os dois deixa o campo de batalha, o príncipe da honra descobre que precisa lidar com um inimigo muito mais perigoso e sedutor dessa vez. Um que não joga pelas mesmas regras que ele." }
+        nome: "Príncipe da Honra" }
+    ]
+  },
+  {
+    nome:"Nathalia Santos",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81AtcMy54tL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Peculiar" },
+
+      { url:"https://m.media-amazon.com/images/I/81I-Ijfi3AS._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Intenso" },
+
+      { url:"https://m.media-amazon.com/images/I/81FXfvrcGBL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Fatal" },
+
+      { url:"https://m.media-amazon.com/images/I/81ScTTHt+NL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Adrenalina" }
+    ]
+  },
+  {
+    nome:"Nathany Teixeira",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/A17Wp8SlD1S._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"Sob a proteção do Lobo" },
+
+      { url:"https://m.media-amazon.com/images/I/51Tl-82CcEL._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Na sombra do Fantasma" },
+
+      { url:"https://m.media-amazon.com/images/I/51hPVpBbW2L._SY445_SX342_QL70_ML2_.jpg",
+        colecao:"Coleção 1",
+        nome:"Nos olhos do Snake" },
+
+      { url:"https://m.media-amazon.com/images/I/914HN5A-9EL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome:"No coração de Cristal" }
     ]
   },
   {
     nome: "Nicholas Sparks",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91GAqOrctzL._SY342_.jpg",
-        nome: "O casamento",
-        sinopse: "Após quase 30 anos de casamento, Wilson Lewis é obrigado a encarar uma dolorosa verdade: sua esposa, Jane, parece ter deixado de amá-lo, e ele é o único culpado disso. Viciado em trabalho, Wilson costumava passar mais tempo no escritório do que com a família. Além disso, nunca conseguiu ser romântico como o sogro era com a própria mulher. A história de amor dos pais de Jane, contada em Diário de uma paixão, sempre foi um exemplo para os filhos de como um casamento deveria ser. Diante da incapacidade do marido de expressar suas emoções, Jane começa a duvidar de que tenha feito a escolha certa ao se casar com ele. Wilson, porém, sente que seu amor pela esposa só cresceu ao longo dos anos. Agora que seu relacionamento está ameaçado, ele vai fazer o que for necessário para se tornar o homem que Jane sempre desejou que ele fosse." },
+        nome: "O casamento" },
 
       { url:"https://m.media-amazon.com/images/I/81AFSfIDhtL._SY342_.jpg",
-        nome: "O guardião",
-        sinopse: "Aos 25 anos, a doce Julie Barenson perdeu seu grande amor para uma doença impiedosa. Porém, ao partir, o marido lhe deixou dois presentes inesperados: um filhote de cão dinamarquês chamado Singer e a promessa de que cuidaria dela para sempre, onde quer que estivesse. Quatro anos depois, Julie enfim está pronta para tentar amar de novo e se vê dividida entre Richard Franklin, um belo e sofisticado engenheiro que a trata como uma rainha, e Mike Harris, um mecânico gentil que – junto com Singer – tem sido seu melhor amigo desde que ficou sozinha. Ela tem que tomar uma decisão. Só não pode imaginar que, em vez de lhe trazer felicidade, essa escolha transformará sua vida num pesadelo causado por um ciúme tão doentio que está a um passo de se tornar criminoso." },
+        nome: "O guardião" },
 
       { url:"https://m.media-amazon.com/images/I/41okTaf21rL._SY445_SX342_.jpg",
-        nome: "Noites de tormenta",
-        sinopse: "Há três anos, Adrienne Willis perdeu as esperanças no amor quando o marido a trocou por uma mulher mais jovem. Tendo que cuidar sozinha dos três filhos adolescentes e do pai doente, ela acha que nunca será capaz de recuperar a autoestima e a vontade de viver. Por isso, quando sua amiga Jean precisa fazer uma pequena viagem e lhe pede que tome conta de sua pousada, ela vê uma oportunidade para mudar de rotina. A previsão de tempestade iminente, no entanto, faz com que os próximos dias não pareçam muito promissores. Pelo menos até a chegada de Paul Flanner, o único hóspede com reserva para o fim de semana prolongado. Aos 54 anos, Paul é um cirurgião bem-sucedido que enfrenta fantasmas parecidos com os de Adrienne. Nos últimos seis meses, a esposa pediu o divórcio e ele rompeu relações com o filho. Ao ver sua vida perder o rumo, Paul decidiu vender a clínica e a casa e ir à pequena cidade de Rodanthe para encerrar um doloroso capítulo de seu passado. Logo Paul e Adrienne começam a descobrir suas afinidades e a se aproximar cada vez mais. Ao longo do fim de semana, a tempestade que toma conta de Rodanthe finalmente chega ao fim, mas o que nasce entre eles ressoará pelo resto de suas vidas, entrelaçando passado e futuro e dando um novo significado às palavras amor e perda." }
+        nome: "Noites de tormenta" }
+    ]
+  },
+  {
+    nome:"Nicole Szczerbowski",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91zos5Z1emL._SY425_.jpg",
+        nome:"Os Cavaleiros de Fogo: A Maldição do Cálice" }
+    ]
+  },
+  {
+    nome:"Nikki St. Crowe",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91azxa1ZbTL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O rei da Terra do Nunca" },
+
+      { url:"https://m.media-amazon.com/images/I/81SR22dkj7L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A sombra da Terra do Nunca" },
+
+      { url:"https://m.media-amazon.com/images/I/91U2eqbzNKL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A rainha da Terra do Nunca" },
+
+      { url:"https://m.media-amazon.com/images/I/91TeN9lsfpL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Os príncipes da Terra do Nunca" }
+    ]
+  },
+  {
+    nome:"Nisha J. Tuli",
+    bandeira:"assets/images/bandeiras/canada.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91XzOl3CmlL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"A Rainha Sol" },
+
+      { url:"https://m.media-amazon.com/images/I/91UAqamRm+L._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O Rei Aurora" },
+
+      { url:"https://m.media-amazon.com/images/I/91umHqCD8DL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"O Rei Sol" }
     ]
   },
   {
     nome: "Nora Roberts",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81QfA7mTuUL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Álbum de casamento",
-        sinopse: "Quando crianças, as amigas Parker, Emma, Laurel e Mac adoravam fazer casamentos de mentirinha no jardim. E elas pensavam em todos os detalhes. Depois de anos dessa brincadeira, não é de surpreender que tenham fundado a Votos, uma empresa de organização de casamentos bem-sucedida. Mas, apesar de planejar e tornar real o dia perfeito para tantos casais, nenhuma delas teve no amor a mesma sorte que tem nos negócios. Até agora. Com várias capas de revistas de noivas no currículo, a fotógrafa Mac é especialista em captar os momentos de pura felicidade, mesmo que nunca os tenha experimentado em sua vida. Por causa da separação dos pais e de seu difícil relacionamento com eles, Mac não leva muita fé no amor. Por isso não entende o frio na barriga que sente ao reencontrar Carter Maguire, um colega de escola com o qual nunca falara direito. Carter definitivamente não é o seu tipo. Professor de inglês apaixonado pelo que faz, ele cita Shakespeare e usa paletó de tweed. Por causa de uma antiga quedinha por Mac, fica atrapalhado na frente dela, sem saber bem como agir e o que falar. E mesmo assim ela não consegue resistir ao seu charme. Agora Carter está disposto a ganhar o coração de Mac e convencê-la de que ela é capaz de criar suas próprias lembranças felizes." },
+        nome: "Álbum de casamento" },
 
       { url:"https://m.media-amazon.com/images/I/41q6AB6WXjL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Mar de rosas",
-        sinopse: "Emma Grant é a decoradora da Votos, empresa de organização de casamentos que fundou com suas três melhores amigas de infância – Mac, Parker e Laurel. Ela passa os dias cercada de flores, imersa em seu aroma, criando e montando arranjos e buquês. Criada em uma família tradicional e muito unida, Emma cresceu ouvindo a história de amor dos pais. Não é de espantar que tenha se tornado uma romântica inveterada, cultivando um sonho desde menina: dançar no jardim, sob a luz do luar, com seu verdadeiro amor. Os pais de Jack se separaram quando ele era garoto, e isso lhe causou um trauma muito profundo. Ele se tornou um homem bonito e popular entre as mulheres, porém incapaz de assumir um compromisso. Quando Emma e suas três amigas fundaram a Votos, foi Jack, o melhor amigo do irmão de Parker, quem cuidou de toda a reforma para transformar a propriedade no melhor espaço para casamentos do estado. Os seis são praticamente uma família. E justamente por isso Emma e Jack nunca revelaram a atração que sentiam um pelo outro. Mas há coisas que não podem ficar escondidas para sempre." },
+        nome: "Mar de rosas" },
 
       { url:"https://m.media-amazon.com/images/I/71vdZ68oMnL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Bem-casados",
-        sinopse: "A chef confeiteira Laurel McBane pre­cisou batalhar muito para realizar sua maior aspiração profissional — ser uma doceira premiada. Agora seus bolos de casamento são a própria perfeição, obras de arte surpreendentes que complementam as belas fotografias de Mac e os arranjos de flores de Emma. Após ter conseguido superar um histórico familiar complicado, ela tem o cuidado de não deixar que nada fique no caminho de seu trabalho. Por isso se irrita tanto quan­do Del, o irmão de Parker, tenta opinar em seus assuntos. Como cultiva um amor secreto por ele há muito tempo, Laurel acha ainda mais difícil aceitar que Del a trate apenas como uma amiga. Mas certa noite uma discussão acalorada e um beijo ardente mudam tudo. Laurel constata que a realidade é ainda melhor que seus sonhos e Del percebe a mulher incrível que sua visão de irmão mais velho não o deixava enxergar. Quando a amizade se transforma em algo mais, os dois precisam ter muito cuidado para não estragar o que tinham antes e, ao mesmo tempo, aproveitar a oportunidade que lhes foi dada: ser os protagonistas de uma grande história de amor." },
+        nome: "Bem-casados" },
 
       { url:"https://m.media-amazon.com/images/I/41iTtxJrFIL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Felizes para sempre",
-        sinopse: "Parker Brown sabe que subir ao altar é um dos momentos mais extraordinários na vida de um casal. Por isso ela administra a Votos – a bem-sucedida empresa de organização de casamentos que fundou com suas três melhores amigas – com pulso firme e muita dedicação. Seu dia de trabalho começa cedo – às vezes de madrugada, quando alguma noiva ansiosa lhe telefona aos prantos. Mas ela não se importa. Cada vez que ajuda uma mulher a escolher o vestido perfeito para o grande dia ou vê o sorriso nervoso e feliz de um noivo no altar, ela sente que está dando sua contribuição para uma história igual à de seus pais. Porém a rica, linda e inteligente Parker também quer ser feliz no amor. Só que, em vez do intelectual sensível que sempre esteve em seus planos, parece que o destino lhe reservou uma surpresa. Malcolm Kavanaugh é um mecânico de automóveis e ex-dublê de filmes de ação. Amigo do irmão de Parker, ele não tem vergonha de elogiar as belas pernas da moça e, com suas mãos ásperas, faz com que a empresária certinha e controladora simplesmente perca o chão. Agora eles vão descobrir que, mesmo com suas diferenças, podem completar um ao outro. E quem disse que o príncipe encantado não pode chegar numa Harley-Davidson?" },
+        nome: "Felizes para sempre" },
 
       { url:"https://m.media-amazon.com/images/I/517IzyHoYYL._SY445_SX342_.jpg",
         colecao: "Coleção 2",
-        nome: "Ano um",
-        sinopse: "Tudo começa na noite de Ano-Novo. Uma doença se alastra rapidamente. Em questão de semanas, a rede elétrica para de funcionar, as leis e o sistema de governo entram em colapso e mais da metade da população mundial é dizimada. Enquanto a ciência e a tecnologia perdem influência, a magia cresce. Por toda parte, pessoas descobrem em si poderes que jamais imaginaram. Alguns procuram fazer o bem, como Lana e o namorado, Max, mas a súbita onda de poder também deturpa mesmo aqueles que pareciam incorruptíveis. Fugindo das autoridades que patrulham as ruas devastadas, Lana e Max resolvem deixar Nova York e rumar para um lugar seguro. Outros viajantes também seguem esperançosos: Chuck, um gênio da tecnologia que mantém o bom humor em um mundo off-line; Arlys, uma jornalista que insiste em buscar e registrar a verdade; Fredinha, uma jovem com habilidades florescentes; Rachel e Jonah, uma médica e um paramédico determinados a proteger uma mãe e seus três bebês recém-nascidos. Em um mundo em que cada estranho no caminho pode representar a morte ou a salvação, uma profecia ancestral é capaz de transformar a vida de todos os sobreviventes. O fim chegou. O início é o que vem agora." },
+        nome: "Ano um" },
 
       { url:"https://m.media-amazon.com/images/I/51wzvJG0a8L._SY445_SX342_.jpg",
         colecao: "Coleção 2",
-        nome: "De sangue e ossos",
-        sinopse: "Fallon Swift pouco conhece do mundo que existiu antes da Catástrofe. As cidades estão destruídas, gangues de criminosos e de fanáticos religiosos cruzam as estradas à procura de sua próxima vítima e aqueles que têm poderes mágicos como ela continuam sendo caçados. Prestes a completar 13 anos, Fallon sabe que se aproxima o dia em que sua verdadeira natureza, sua identidade como A Escolhida, será revelada. No meio da floresta, ela começará seu treinamento sob a orientação do feiticeiro Mallick, que vem apurando as próprias habilidades ao longo de séculos. A menina aprenderá métodos antigos de cura e técnicas de luta, conviverá com fadas, elfos e metamorfos e precisará descobrir dentro de si um poder que nunca imaginou possuir. Quando o momento certo chegar, Fallon vai empunhar a espada e o escudo e partir para cumprir sua missão. Até que ela cresça o suficiente para se tornar a mulher que está destinada a ser, o mundo continuará em perigo. Fallon Swift é A Escolhida, e só ela poderá salvar a humanidade." },
+        nome: "De sangue e ossos" },
 
       { url:"https://m.media-amazon.com/images/I/51FtnthEwlL._SY445_SX342_.jpg",
         colecao: "Coleção 2",
-        nome: "A ascensão da magia",
-        sinopse: "Depois que a Catástrofe destruiu a civilização como conhecíamos, a magia se tornou comum. Fallon Swift passou sua juventude aprendendo a usar seu poder. Mas ela não pode viver em paz enquanto não libertar aqueles que são perseguidos pelo governo ou pelos fanáticos. Os que são mágicos como ela continuam sendo caçados, trancados em laboratórios e torturados por anos a fio. Fallon está determinada a resgatar todos, até mesmo aqueles que foram cúmplices desse mal por medo ou fraqueza. Além do poder da magia, ela conta com a força do amor de sua família e de Duncan, seu companheiro, com quem tem um vínculo ancestral. Enquanto enfrenta um velho inimigo, Fallon elabora o plano definitivo para salvar o mundo: formar um exército para restaurar o escudo místico que já protegeu a todos. Em A ascensão da magia, Nora Roberts conclui sua trilogia distópica, criando um fim que ficará marcado na mente dos leitores." }
+        nome: "A ascensão da magia" }
     ]
   },
   {
-    nome:"",
-    bandeira:"assets/images/bandeiras/.png",
+    nome:"Nora Sakavic",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/71Dx9tdvtjL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome:"A toca das raposas" },
+
+      { url:"https://m.media-amazon.com/images/I/71qg3xEutlL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome:"O rei corvo" },
+
+      { url:"https://m.media-amazon.com/images/I/71Sa0F7Oi5L._SY425_.jpg",
+        colecao: "Coleção 1",
+        nome:"Os homens do rei" },
+
+      { url:"https://m.media-amazon.com/images/I/619x7ElVCcL._SY425_.jpg",
+        colecao: "Coleção 1",
+        nome:"A quadra Raio de Sol" }
     ]
   },
   {
-    nome:"",
-    bandeira:"assets/images/bandeiras/.png",
+    nome:"Oilivia Rose Darling",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/81qXy1IgeZL._SY425_.jpg",
+        nome:"A fúria das chamas" }
     ]
   },
   {
-    nome:"",
-    bandeira:"assets/images/bandeiras/.png",
+    nome:"Olivie Blake",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/71JIoctAugL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome:"A sociedade de Atlas" },
+      
+      { url:"https://m.media-amazon.com/images/I/51AGJ0QYoVL._SY445_SX342_QL70_ML2_.jpg",
+        colecao: "Coleção 1",
+        nome:"O paradoxo de Atlas" },
+
+      { url:"https://m.media-amazon.com/images/I/81Tyv6sEWeL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome:"O complexo de Atlas" }
     ]
   },
   {
     nome: "Paloma Bernardino Braga",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Hb6mFdZ0L._SY342_.jpg",
-        nome: "Noiva entre Túmulo",
-        sinopse: "Ela sofrerá as consequências de ter uma alma aventureira na década errada. Amélia tem um espírito livre, mas, como muitas moças brasileiras do final da década de 40, encontra-se sufocada pelas obrigações de mulher – está prestes a se casar contra a vontade e é uma vítima da agressividade dos irmãos. Tudo muda quando ela se apaixona pelo jornalista Vicente, que a confunde com a loura fantasma do cemitério do Bonfim, dando início a uma história que irá abalar a cidade de Belo Horizonte. Amélia conseguirá se libertar da teia de intrigas, mistério e sedução que ameaça transformá-la em uma fantasma de verdade?" }
+        nome: "Noiva entre Túmulo" }
     ]
   },
   {
     nome: "Pam Gonçalves",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91mIi8Grt3L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Boa noite",
-        sinopse: "Alina quer deixar seu passado para trás. Boa aluna, boa filha, boa menina. Não que tudo isso seja ruim, mas também não faz dela a mais popular da escola. Agora, na universidade, ela quer finalmente ser legal, pertencer, começar de novo. O curso de Engenharia da Computação — em uma turma repleta de garotos que não acreditam que mulheres podem entender de números —, a vida em uma república e novos amigos parecem oferecer tudo que Alina quer. Ela só não sabia que os desafios estariam muito além de sua vida social. Quando decide deixar de vez o rótulo de nerd esquisitona para trás, tudo se complica. Além de festas, bebida e paquera, uma página de fofocas é criada na internet, e mensagens sobre abusos e drogas começam a aparecer. Alina não tinha como prever que seria tragada para o meio de tudo aquilo nem que teria a chance de fazer alguma diferença. De uma hora para outra, parece que o que ela mais quer é voltar para casa." },
+        nome: "Boa noite" },
 
       { url:"https://m.media-amazon.com/images/I/81eK9DNyEoL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Bom ano",
-        sinopse: "Um ano e meio depois dos acontecimentos de Boanoite e tudo o que Manu quer é reunir os amigos e ter uma noite de Ano-Novo divertida e inesquecível. Agora que todos estão se formando na faculdade, a vida parece um verdadeiro tsunami. E o mais inquietante é que todos parecem saber muito bem como lidar com a vida adulta. Todos, exceto Manu. Com Dani se recusando a conversar e os amigos ocupados com seus próprios dilemas, a garota investe toda a atenção na festa de Ano-Novo. Organiza comida, bebida, lugar... mas acaba querendo controlar um pouco mais que isso. Bom ano discute o papel dos amigos e amores em momentos cruciais da vida, com o tom sempre bem-humorado e sensível de Pam Gonçalves." }
+        nome: "Bom ano" }
     ]
   },
   {
