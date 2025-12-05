@@ -4351,27 +4351,27 @@ export const autores = [
   },
   {
     nome: "Paola Peretti",
+    bandeira:"assets/images/bandeiras/italia.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81sSqbbrqpL._SY342_.jpg",
-        nome: "A distância até a cerejeira",
-        sinopse: "Todas as crianças têm medo de escuro. O escuro é um quarto sem portas nem janelas, com monstros que nos prendem e nos devoram em silêncio. Eu tenho medo só do meu escuro, aquele que tenho dentro dos olhos. Para Mafalda, de nove anos, o escuro é a sua única certeza e o seu destino: em algum momento nos próximos seis meses ela perderá a visão. Diante de um futuro assustador e desconhecido, Mafalda – com a ajuda de sua família e seus amigos – precisará descobrir o que realmente importa conforme sua visão começa a falhar." }
+        nome: "A distância até a cerejeira" }
     ]
   },
   {
     nome: "Patrice Lawrence",
+    bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81-66M0DhrL._SY342_.jpg",
-        nome: "Cores Vivas",
-        sinopse: "Marlon prometeu. Ele não se meteria em problemas. Não como seu irmão, Andre, líder de uma gangue que pagou um preço alto pelo caminho que escolheu. Sempre foi mais fácil ficar na dele, no quarto, ouvindo os antigos discos do Earth, Wind & Fire de seu pai e assistindo a filmes de ficção científica. Até que ele conhece Sonya. Uma garota linda da escola que, contra todas as probabilidades, lhe dá uma chance. Mas o primeiro encontro dos dois termina em tragédia e, de uma hora para outra, Marlon se torna suspeito e não entende o porquê. Com seu pai morto e o irmão incapaz de ajudá-lo, ele não tem escolha a não ser entrar no mundo de Andre ― um mundo violento, cruel e desumano ― para descobrir a verdade e proteger as pessoas que ama. O livro que você está prestes a conhecer é uma leitura poderosa e emocionante ― e extremamente necessária nos dias atuais." }
+        nome: "Cores Vivas" }
     ]
   },
   {
     nome: "Patrick Rothfuss",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81tbaCrD--L._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "O nome do vento",
-        sinopse: "Ninguém sabe ao certo quem é o herói ou o vilão desse fascinante universo criado por Patrick Rothfuss. Na realidade, essas duas figuras se concentram em Kote, um homem enigmático que se esconde sob a identidade de proprietário da hospedaria Marco do Percurso. Da infância numa trupe de artistas itinerantes, passando pelos anos vividos numa cidade hostil e pelo esforço para ingressar na escola de magia, O nome do vento acompanha a trajetória de Kote e as duas forças que movem sua vida: o desejo de aprender o mistério por trás da arte de nomear as coisas e a necessidade de reunir informações sobre o Chandriano – os lendários demônios que assassinaram sua família no passado. Quando esses seres do mal reaparecem na cidade, um cronista suspeita de que o misterioso Kote seja o personagem principal de diversas histórias que rondam a região e decide aproximar-se dele para descobrir a verdade. Pouco a pouco, a história de Kote vai sendo revelada, assim como sua multifacetada personalidade – notório mago, esmerado ladrão, amante viril, herói salvador, músico magistral, assassino infame. Nessa provocante narrativa, o leitor é transportado para um mundo fantástico, repleto de mitos e seres fabulosos, heróis e vilões, ladrões e trovadores, amor e ódio, paixão e vingança." },
+        nome: "O nome do vento" },
 
       { url:"https://m.media-amazon.com/images/I/51FLFO-T+sL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
