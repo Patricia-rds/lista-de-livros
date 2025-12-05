@@ -4375,129 +4375,98 @@ export const autores = [
 
       { url:"https://m.media-amazon.com/images/I/51FLFO-T+sL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "O Temor do sábio",
-        sinopse: "O temor do sábio dá continuidade à impressionante história de Kvothe, o Arcano, o Sem-Sangue, o Matador do Rei. Quando é aconselhado a abandonar seus estudos na Universidade por um período, por causa de sua rivalidade com um membro da nobreza local, Kvothe é obrigado a tentar a vida em outras paragens. Em busca de um patrocinador para sua música, viaja mais de mil quilômetros até Vintas. Lá, é rapidamente envolvido na política da corte. Enquanto tenta cair nas graças de um nobre poderoso, Kvothe usa sua habilidade de arcanista para impedir que ele seja envenenado e lidera um grupo de mercenários pela floresta, a fim de combater um bando de ladrões perigosos. Ao longo do caminho, tem um encontro fantástico com Feluriana, uma criatura encantada à qual nenhum homem jamais pôde resistir ou sobreviver – até agora. Kvothe também conhece um guerreiro ademriano que o leva a sua terra, um lugar de costumes muito diferentes, onde vai aprender a lutar como poucos. Enquanto persiste em sua busca de respostas sobre o Chandriano, o grupo de criaturas demoníacas responsável pela morte de seus pais, Kvothe percebe como a vida pode ser difícil quando um homem se torna uma lenda de seu próprio tempo." },
+        nome: "O Temor do sábio" },
 
       { url:"https://m.media-amazon.com/images/I/51pEWtqUccL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A música do silêncio",
-        sinopse: "Debaixo da Universidade, bem lá no fundo, há um lugar escuro. Poucas pessoas sabem de sua existência, uma rede descontínua de antigas passagens e cômodos abandonados. Ali, bem no meio desse local esquecido, situado no coração dos Subterrâneos, vive uma jovem. Seu nome é Auri, e ela é cheia de mistérios. A música do silêncio é um recorte breve e agridoce de sua vida, uma pequena aventura só dela. Ao mesmo tempo alegre e inquietante, esta história nos oferece a oportunidade de enxergar o mundo pelos olhos de Auri. E nos dá a chance de conhecer algumas coisas que só ela sabe... Nesse livro, Patrick Rothfuss nos leva ao mundo de uma das personagens mais enigmáticas da série A Crônica do Matador do Rei. Repleto de segredos e mistérios, A música do silêncio é uma narrativa sobre uma jovem ferida em um mundo devastado." },
+        nome: "A música do silêncio" },
 
       { url:"https://m.media-amazon.com/images/I/5120tnV3dzL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "O estreito caminho entre desejos",
-        sinopse: "Bast é um Encantado, vindo do reino das fadas, e uma de suas maiores habilidades é fazer acordos. Vê-lo negociar é como observar um artista em ação. Embora não se importe com as leis dos homens, ele é obrigado a seguir leis mais antigas e profundas e acaba caindo numa armadilha. Apesar de sua inteligência e cautela, Bast se vê forçado a escolher entre dois caminhos: trair a confiança de seu mestre ou ajudar um inimigo detestável. Neste livro, vamos acompanhar o mais charmoso dos Encantados ao longo de um único dia enquanto ele faz tramoias pela pequena cidade de Nalgures, fugindo com destreza dos problemas, seguindo seu coração mesmo quando isso vai contra o bom senso. Afinal, de que adianta cautela se ela o mantém longe do perigo e da emoção?" }
+        nome: "O estreito caminho entre desejos" }
     ]
   },
   {
     nome: "Paula Barros",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71-ApNmmlbL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um mistério entre nós",
-        sinopse: "Luísa guarda um mistério que ocorreu em seu passado que não pode ser revelado a ninguém. Mas ele a persegue como um pesadelo. O que pode fazer para resolvê-lo e poder viver a sua vida normalmente? Ela vai tentar resolver este problema, só que precisa ser sozinha, sem envolver ninguém nesta situação, principalmente o amor de sua vida." },
+        nome: "Um mistério entre nós" },
 
       { url:"https://m.media-amazon.com/images/I/41e85ECTFAL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "O mistério final",
-        sinopse: "Último livro da série. Acompanhe mais suspenses e mistérios dos nossos amados amigos e conheçam mais alguns muito interessantes, com novas tramas e surpresas! Desta vez, conhecendo melhor a história e a personalidade de Douglas, nosso detetive preferido, alguns problemas sociais de nosso país e também sobre o poder da união e do perdão." },
+        nome: "O mistério final" },
 
       { url:"https://m.media-amazon.com/images/I/41sDIk5BTYL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A volta do mistério",
-        sinopse: "Tudo parecia bem com Luísa e Gustavo quando algo inesperado acontece para dar uma reviravolta no mistério dos cupcakes. Muitas surpresas e revelações acontecem neste segundo livro da série 'Mistérios', com novos personagens envolvidos! Será que o nosso casal preferido vai superar mais este mistério entre eles?" }
+        nome: "A volta do mistério" }
     ]
   },
   {
     nome: "Pauline G",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71y-rfYBTSL._SY342_.jpg",
-        nome: "Borboletas Imperfeitas",
-        sinopse: "Angelina é uma dedicada estudante de terceiro ano, questionadora e perspicaz, que cultiva o sonho de ser jornalista. Por meio do blog escolar, pratica sua escrita e troca mensagens com outros alunos. Entre eles, um garoto inseguro que prefere se manter no anonimato. Victor é um bad boy misterioso, novato na escola, atraindo olhares com seu jeito enigmático, suas roupas escuras e seu corpo tatuado. Com uma reputação a zelar, sustenta uma fachada de confiança e indiferença, mas desabafa pela internet com Lina, escondido por trás de um pseudônimo. Quando as vidas dos dois se cruzam fora dos computadores, surge uma história tocante, repleta de surpresas e emoções. “Cansadas de rastejar, as lagartas criaram asas para voar.”" }
+        nome: "Borboletas Imperfeitas" }
     ]
   },
   {
     nome: "Penelope Douglas",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81XTUIDHP+L._SY342_.jpg",
-        nome: "Credence",
-        sinopse: "Tiernan de Haas não liga para mais nada. Filha única de um produtor de cinema e sua esposa estrela, ela cresceu com riquezas e privilégio, mas sem amor ou orientação. Enviada para colégios internos desde cedo, era impossível escapar da solidão e criar uma vida para si própria. A sombra da fama de seus pais a segue por todo lugar. E quando eles morrem de repente, ela sabia que deveria estar devastada. Mas alguma coisa realmente mudou? Ela sempre esteve sozinha, não esteve? Jake Van der Berg, meio-irmão de seu pai e seu único parente vivo, assume a guarda de Tiernan, que tem mais dois meses até os dezoito anos. Indo morar com ele e seus dois filhos, Noah e Kaleb, nas montanhas do Colorado, ela logo aprende que esses homens agora têm opinião sobre o que ela escolhe se importar ou não. Com os três a colocando debaixo de suas asas, ensinando a trabalhar e sobreviver nas florestas remotas, distantes do resto do mundo, ela lentamente descobre seu lugar entre eles. E como parte deles. Ela também percebe que as linhas ficam borradas e que regras se tornam fáceis de serem quebradas quando ninguém está olhando." },
-
-      { url:"https://m.media-amazon.com/images/I/91EEn1ZVw+L._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Corrupt",
-        sinopse: "Erika Sempre me disseram que os sonhos eram os desejos do nosso coração. Meus pesadelos, no entanto, acabaram se tornando minha obsessão. O nome dele é Michael Crist. O irmão mais velho do meu namorado se parece com aquele tipo de filme de terror, onde você cobre o rosto com as mãos, mas espia por entre os dedos. Ele é lindo, forte, e totalmente assustador. Sendo uma estrela do basquete profissional, assim como foi no time da faculdade, ele estava mais preocupado com a sujeira em sua sola de sapato do que comigo. Mas eu o notei. Eu o vi e ouvi. Todas as coisas que fez, as façanhas... Por anos, apenas roí minhas unhas, incapaz de afastar o meu olhar. Agora estava recém-formada no ensino médio e a caminho da faculdade, mas nem assim deixei de observar Michael. Ele é mau, e toda as coisas ruins que vi já não podem permanecer apenas em minha mente. Porque ele finalmente percebeu minha existência. Michael O nome dela é Erika Fane, mas todos a chamam de Rika. A namorada do meu irmão sempre frequentou minha casa, desde criança, e sua presença era constante à mesa do jantar. Todas as vezes que eu entrava na sala, ela abaixava o olhar, e mantinha-se imóvel quando eu me aproximava. Sempre pude detectar o medo que a rodeava, e mesmo que nunca tenha possuído seu corpo, eu sabia que possuía sua mente. E aquilo era tudo o que eu queria, de qualquer forma. Até que meu irmão se alistou no serviço militar, deixando Rika sozinha na universidade. Na minha cidade. Desprotegida. A oportunidade era boa demais para ser verdade, assim como o momento. Porque, sabe... três anos atrás ela colocou alguns dos meus amigos do colégio na cadeia, e agora eles estavam em liberdade. Nós esperamos. Fomos pacientes. E agora... cada um de seus pesadelos se tornaria realidade." },
-
-      { url:"https://m.media-amazon.com/images/I/41ogTFog3LL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Hideaway",
-        sinopse: "BANKS: Imerso nas sombras da cidade, há um hotel chamado The Pope. Decadente, deserto e sombrio, encontra-se abandonado e rodeado por um mistério há muito esquecido. Mas você acha que é verdadeira, não é, Kai Mori? A história a respeito do décimo segundo andar. O mistério que cerca o hóspede sombrio que nunca se registrou para entrar ou sair. Você acha que vou ajudá-lo a encontrar o refúgio secreto para chegar até ele, não é? Você e seus amigos podem até tentar me assustar. Podem tentar me pressionar. Porque mesmo que eu lute para disfarçar o que sinto quando você olha pra mim — desde adolescente —, acredito que talvez o que está procurando esteja mais perto do que imagina. Eu nunca vou traí-lo. Então se prepare. Na Devil’s Night, você será a caça. KAI: Você não faz a menor ideia do que estou procurando, pequena. Você não sabe o que tive que fazer para sobreviver aos três anos na prisão, quando fui condenado por um crime que cometeria outra vez com o maior prazer. Ninguém pode saber o que me tornei. Eu quero aquele hotel, quero encontrá-lo e acabar logo com isso. Quero minha vida de volta. Mas quanto mais tempo passo ao seu lado, mais percebo que este novo eu é exatamente quem sempre fui destinado a ser. Então pode vir, garotinha. Não se acovarde. Minha casa fica na colina. Existem muitas maneiras de entrar, mas apenas com sorte você conseguirá sair. Eu vi o seu refúgio. Está na hora de você ver o meu." },
-
-      { url:"https://m.media-amazon.com/images/I/81WYivChzJS._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Kill Switch",
-        sinopse: "WINTER: Mandá-lo para a cadeia foi a pior coisa que já fiz. Não importava se ele havia cometido o crime ou que eu desejava que ele estivesse morto. Talvez eu tenha pensado que teria tempo suficiente para desaparecer antes que ele fosse solto, ou então que ele teria tomado jeito e se tornado alguém melhor. Mas estava errada. Três anos se passaram rápido demais, e agora ele parecia pior do que nunca. A prisão apenas serviu para que ele tivesse tempo para elaborar um plano. E por mais que eu tenha previsto sua vingança, não esperava por isso. Ele não queria só me machucar. Ele queria acabar com tudo. DAMON: Em primeiro lugar, eu acabaria com o pai dela. Foi ele quem afirmou a todos que eu a obriguei. Ele disse que sua garotinha havia sido uma vítima, mas eu era um garoto também, e ela quis tanto quanto eu. Segundo... acabar com qualquer possibilidade de fuga para ela, sua irmã e sua mãe. As mulheres Ashby estavam sozinhas agora, e desesperadas por um cavaleiro em uma armadura brilhante. Mas não era isso que elas encontrariam. Não, já era hora de dar ouvidos ao meu pai e assumir o controle do meu futuro. Era hora de mostrar a todos eles – minha família, a dela, aos meus amigos –, que eu nunca mudaria e que minha única ambição era me tornar o pesadelo de suas vidas. Começando com ela. Ela ficaria tão apavorada, que nem mesmo sua mente seria um lugar seguro quando eu a destruísse. E a melhor parte de tudo é que eu não precisaria invadir sua residência para fazer isso. Como o novo homem da casa, agora teria livre acesso a ela." },
-
-      { url:"https://m.media-amazon.com/images/I/71QbHTPna7L._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Nightfall",
-        sinopse: "EMORY: Eles a chamam de Blackchurch. Uma mansão isolada em uma localização desconhecida e remota, onde os ricos e poderosos enviam seus filhos desajustados para que esfriem a cabeça longe dos olhares indiscretos. Will Grayson sempre agiu como um animal. Irresponsável, selvagem e alguém que nunca se apegou a regras, fazendo sempre o que ele queria. De forma alguma, seu avô se arriscaria à humilhação de ver o nome da família na lama outra vez. Mesmo que a última vez não tenha sido inteiramente sua culpa. Ele pode até ter gostado muito de me encurralar nos cantos dos corredores da escola quando ninguém estava olhando, para que ninguém percebesse que o Sr. Popular, na verdade, queria colocar a mão na pequena e pacata nerd que ele amava perturbar, mas... Ele também podia ser cordial. E cruel em uma tentativa de me proteger. A verdade é que... Ele tem todo o direito de me odiar. Aquilo tudo é minha culpa. Tudo. A Noite do Diabo. Os vídeos. As prisões. Eu sou culpada por tudo isto. E não me arrependo nem um pouco. WILL: Eu nunca me importei em estar preso. Aprendi há muito tempo que ser tratado como um animal te dá permissão para agir como um. Ninguém nunca olhou para mim de outra forma. O único erro deles é achar que qualquer coisa que eu faça, é por acidente. Posso ficar aqui nesta casa sem Internet, televisão, bebidas ou garotas, mas sairei daqui com algo muito mais assustador para aqueles que são meus inimigos. Um plano. E uma nova matilha de lobos. Eu só não esperava que meus inimigos viessem até mim. Não faço ideia de quem a enfiou aqui dentro ou se realmente a intenção era deixá-la à minha mercê, mas posso farejá-la se escondendo pela casa. Ela está aqui. E quando a equipe de segurança vai embora depois de deixar os suprimentos, os portões se fecham e a porta da minha jaula é aberta, dando-me livre acesso à mansão e ao terreno da propriedade, por mais um mês sem supervisão alguma... Um sorriso se espalha pelo meu rosto quando me lembro... Blackchurch abriga cinco prisioneiros. Eu sou apenas um de seus problemas." }
+        nome: "Credence" }
     ]
   },
   {
     nome: "Peter V. Brett",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71EXMwurQDL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "O Protegido",
-        sinopse: "Em 'O Protegido', a humanidade cedeu a noite aos corelings e são poucos que ainda conseguem se esconder atrás das proteções mágicas, rezando para que elas os conduzam para mais um dia. Conforme os anos passam, as distâncias entre as pequenas vilas se aprofundam. Parece que nada pode deter os demônios ou aproximar a humanidade novamente. Arlen, Leesha e Rojer, crianças nascidas nesses pequenos vilarejos hoje isolados, não se conformam com essa situação. Um Mensageiro ensina ao jovem Arlen que o medo, mais que os demônios, tem paralisado a humanidade. Leesha vê a sua vida perfeita ser destruída por uma simples mentira e se torna uma coletora de ervas para uma velha mulher, mais temida que os demônios da noite. E a vida de Rojer muda para sempre quando um menestrel viajante chega à sua cidade e toca seu violino. Mas estes três jovens carregam algo em comum. São todos teimosos, que não se rendem à realidade imposta a eles e sabem que há muitos segredos e mistérios no mundo além do que lhes contaram. Para descobrir isso, eles terão que se arriscar, abandonar suas proteções seguras e encarar os demônios de frente. Juntos, os três podem oferecer à humanidade uma última, e fugaz, chance de sobrevivência." },
+        nome: "O Protegido" },
 
       { url:"https://m.media-amazon.com/images/I/513q6uTM8fL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A Lança do Deserto",
-        sinopse: "O Sol põe-se sobre a Humanidade. A noite pertence agora a demónios vorazes que se materializam com a escuridão e que caçam, sem tréguas, uma população quase extinta, forçada a acobardar-se atrás da segurança de guardas de poder semi-esquecidas. Mas estas guardas apenas servem para manter os demónios à distância e as lendas falam de um Libertador; um general, alguns chamar-lhe-iam profeta, que em tempos uniu a Humanidade e derrotou os demónios. No entanto esses tempos, se alguma vez existiram, pertencem a um passado distante. Os demónios estão de volta e o Libertador é apenas um mito... Ou será que não?" },
+        nome: "A Lança do Deserto" },
 
       { url:"https://img.skoob.com.br/ESMpCdPvaCpgIMZQtpYfEq3ab_8=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/693953/A_GUERRA_DA_LUZ_1500401231693953SK1500401231B.jpg",
         colecao: "Coleção 1",
-        nome: "A Guerra da Luz",
-        sinopse: "Na noite de lua nova, os demônios aumentam seu vigor e sua força, buscando a morte de dois homens que têm o potencial de se tornar o lendário Salvador, cuja profecia sugeria ser o único capaz de reunir os homens remanescentes para uma batalha final a fim de destruir os demônios terraítas de uma vez por todas.Arlen Fardos, outrora um menino comum, agora se tornou algo mais ― o Protegido, tatuado com runas que o tornam poderoso a ponto de combater e derrotar qualquer demônio. Arlen nega que seja o Salvador, porém, quanto mais tenta levar uma vida comum, mais o fervor e a crença em seus poderes crescem entre os demais humanos.O caminho que escolheu, no entanto, ameaça conduzi-lo a um lugar sombrio que somente ele pode seguir, e de onde talvez não possa ser possível voltar atrás. A única esperança de manter Arlen no mundo dos homens reside em Renna Tanner, uma jovem feroz que corre o risco de se entregar ao poder das trevas.Ahmann Jardir forjou as tribos guerreiras do deserto de Krasia em um exército assassino de demônios e proclamou-se Shar’Dama Ka, o Salvador. Ele carrega armas ancestrais ― uma lança e uma coroa ― que dão credibilidade à sua reivindicação, e vastas partes das terras verdes já se encontram sob seu controle.Mas Jardir não chegou ao poder sozinho. Sua ascensão foi projetada por sua Primeira Esposa, Inevera, uma sacerdotisa astuta e poderosa, cujos poderes lhe permitem vislumbrar o futuro. As motivações e o passado de Inevera estão envoltos em mistério, e mesmo seu marido não confia inteiramente nela. Outrora amigos tão íntimos quanto irmãos, Arlen e Jardir agora são rivais amargurados. À medida que os inimigos da humanidade se levantam, os únicos homens capazes de vencê-los estão divididos entre si pelos mais mortais de todos os demônios ― aqueles que espreitam o coração humano." }
+        nome: "A Guerra da Luz" }
     ]
   },
   {
     nome: "Phaedra Patrick",
+    bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81kXze861YL._SY342_.jpg",
-        nome: "O bracelete misterioso de Arthur Pepper",
-        sinopse: "Arthur Pepper é um homem comum, um serralheiro que sempre viveu modestamente com a mulher, Miriam Pepper, e os dois filhos. Depois da morte de Miriam, Arthur ficou ainda mais apegado aos seus hábitos, saindo pouco de casa sem interagir com quase ninguém. Por levarem uma vida sem luxos e exageros, Arthur tomou um susto quando encontrou, ao arrumar as coisas da mulher, um bracelete de ouro com 8 pingentes. Aquela parecia uma extravagância à qual eles não teriam cedido. E, curioso, resolve investigar a origem daquele objeto tão enigmático. As pistas seguidas por Arthur o levam a uma viagem jamais pensada por ele. Índia, Paris, Grã-Bretanha. Quem poderia imaginar que Miriam escondia dele alguns segredos? E por que ela não havia dividido essas experiências com o marido? Arthur descobre que Miriam trabalhou como babá na Índia, namorou um pintor (para quem chegou a posar nua), um escritor, e teve uma vida muito mais agitada e interessante do que poderia supor o marido. Ele se sente traído, desinteressante, e tenta entender por que Miriam o escolheu, afinal, para se casar. Nessa aventura para descobrir o passado da esposa, mas também para conhecer a si mesmo, Arthur tem a companhia da vizinha Bernadette, uma viúva cuja principal ocupação é cuidar de pessoas que perderam entes queridos. A improvável dupla e o desfecho da viagem evidenciam o que muitas vezes nos recusamos a admitir: a vida é um sopro imprevisível e nada importa mais do que as pessoas com quem temos verdadeiros laços de amor e ternura." }
+        nome: "O bracelete misterioso de Arthur Pepper" }
     ]
   },
   {
     nome: "Philip Pullman",
+    bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81SreumnhQL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A bússola de ouro",
-        sinopse: "Lyra Belacqua e seu daemon, Pantalaimon, vivem felizes e soltos entre os catedráticos da Faculdade Jordan, em Oxford. Até que rumores invadem a cidade – são boatos sobre os Papões, sequestradores de crianças que estão espalhando o medo pelo país. Quando seu melhor amigo, Roger, desaparece, Lyra entra em uma perigosa jornada para reencontrá-lo. O que ela não desconfia é que muitas outras forças influenciam seu destino e que sua aventura a levará às terras congeladas do Norte, onde feiticeiras e ursos de armadura se preparam para uma guerra. Embora tenha a ajuda do aletiômetro – um poderoso instrumento que responde a qualquer pergunta –, nada a prepara para os mistérios e a crueldade que encontra durante a viagem. E, mesmo que ainda não saiba, Lyra tem uma profecia a cumprir, e as consequências afetarão muitos mundos além do dela." },
+        nome: "A bússola de ouro" },
 
       { url:"https://m.media-amazon.com/images/I/51qsZ7r3TZL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A faca sutil",
-        sinopse: "Perdida em um mundo novo, Lyra Belacqua encontra Will Parry — um fugitivo que logo se torna um aliado mais que necessário. Pois este novo mundo é povoado por Espectros sugadores de alma, e no céu as feiticeiras disputam espaço com anjos. Will procura pelo pai, um explorador desaparecido há anos, e Lyra busca a origem do Pó. No entanto, o que os dois encontram é um segredo mortal e uma arma de poder absoluto, capaz de decidir o resultado na guerra que se forma ao redor deles. O que nenhum dos dois suspeita é do quanto suas vidas, seus objetivos e seus destinos estão conectados... até que precisam se separar. A faca sutil é a viciante sequência de A bússola de ouro, um clássico da fantasia considerado pela Entertainment Weekly 'o melhor livro de todos os tempos'. A fantástica aventura de Lyra continua, levando o leitor a novos mundos, rumo a uma descoberta devastadora." },
+        nome: "A faca sutil" },
 
       { url:"https://m.media-amazon.com/images/I/51nA2Vqn1dL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "A luneta âmbar",
-        sinopse: "Em todos os universos, forças se reúnem para tomar um lado na audaciosa rebelião de lorde Asriel contra a Autoridade. Cada soldado tem um papel a desempenhar – e um sacrifício a fazer. Feiticeiras, anjos, espiões, assassinos e mentirosos: ninguém sairá ileso. Lyra e Will têm a tarefa mais perigosa de todas. Com a ajuda de Iorek Byrnison, o urso de armadura, e de dois minúsculos espiões galivespianos, eles devem alcançar um mundo de sombras, onde nenhuma alma viva jamais pisou e de onde não há saída. Enquanto a guerra é travada e o Pó desaparece nos céus, o destino dos vivos – e dos mortos – recai sobre os ombros dos dois. Will e Lyra precisam fazer uma escolha simples, e a mais difícil de todas, com consequências brutais. A luneta âmbar é o último livro da trilogia Fronteiras do Universo, que teve início com A bússola de ouro e A faca sutil. Uma conclusão emocionante, que leva o leitor a novos e fantásticos universos." },
+        nome: "A luneta âmbar" },
 
       { url:"https://m.media-amazon.com/images/I/91u8sz9UtfL._SY342_.jpg",
         colecao: "Coleção 2",
-        nome: "La Belle Sauvage",
-        sinopse: "Phillip Pullman volta ao mundo da trilogia Fronteiras do Universo, para outra aventura eletrizante envolvendo daemons, aletiômetros, o Magisterium e, claro, o Pó. La Belle Sauvage é o primeiro volume de uma nova trilogia chamada O Livro da Sombras, e se passa dez anos antes dos acontecimentos de A Bússola de Ouro, se centrando em Lyra e Pantalaimon, ainda bebês. Apesar de ser uma história diferente, os fãs de Fronteiras do Universo vão reconhecer muito do mundo e dos personagens que povoam La Belle Sauvage. Enquanto o protagonista, Malcolm, se envolve em uma assustadora aventura para tentar salvar a pequena Lyra das garras do Magisterium, outros mistérios e vilões surgem para complementar a trama que já conhecemos tão bem." },
+        nome: "La Belle Sauvage"" },
 
       { url:"https://m.media-amazon.com/images/I/812UccU6DpL._SY342_.jpg",
         colecao: "Coleção 2",
-        nome: "A comunidade secreta",
-        sinopse: "Vinte anos se passaram desde os eventos de La Belle Sauvage, a primeira parte da trilogia O Livro das Sombras, quando Lyra Belacqua era apenas um bebê em grave perigo. E faz sete anos desde que os leitores deixaram Lyra e o amor de sua vida, Will Parry, sentados em um banco nos jardins de Oxford, ao fim do extraordinário último volume da trilogia Fronteiras do Universo. Agora, em A comunidade secreta, conhecemos Lyra da Língua Mágica, e ela não é mais uma criança... Nesse segundo volume, Lyra tem vinte anos, lembranças dolorosas, nenhuma certeza e uma relação cada vez mais difícil com seu daemon, Pantalaimon. Mais uma vez, os dois são obrigados a deixar o santuário de Oxford e se aventurar em um mundo cheio de perigos e criaturas estranhas. Acompanhando-os nessa jornada está Malcolm, agora um homem com um forte senso de dever e justiça. A comunidade secreta não poderia ser um livro mais atual; uma aventura incrível com visões críticas sobre o que é compreender a si mesmo, crescer e enxergar o mundo ao redor. Uma história emocionante de um dos maiores escritores dos nossos tempos." }
+        nome: "A comunidade secreta" }
     ]
   },
   {
