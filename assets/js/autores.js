@@ -4350,6 +4350,17 @@ export const autores = [
     ]
   },
   {
+    nome: "Paola Aleksandra",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/51YLHttn7kL._SY445_SX342_ML2_.jpg",
+        nome: "Amor às causas perdidas" },
+      
+      { url:"https://m.media-amazon.com/images/I/81ydv2QlPIL._SY466_.jpg",
+        nome: "O roubo em três atos" }
+    ]
+  },
+  {
     nome: "Paola Peretti",
     bandeira:"assets/images/bandeiras/italia.png",
     imagens: [
@@ -4408,7 +4419,18 @@ export const autores = [
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71y-rfYBTSL._SY342_.jpg",
-        nome: "Borboletas Imperfeitas" }
+        nome: "Borboletas Imperfeitas" },
+      
+      { url:"https://m.media-amazon.com/images/I/81iuWz5rMcL._SY425_.jpg",
+        nome: "Uma Porta Para o Amor" }
+    ]
+  },
+  {
+    nome: "Paulo Coelho",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81IhKtjc-6L._SY466_.jpg",
+        nome: "O Alquimista" }
     ]
   },
   {
@@ -4417,6 +4439,19 @@ export const autores = [
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81XTUIDHP+L._SY342_.jpg",
         nome: "Credence" }
+    ]
+  },
+  {
+    nome: "Penn Cole",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/8160XsjSJoL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome: "Despertar da Chama Eterna" },
+      
+      { url:"https://m.media-amazon.com/images/I/81QwD0pIkCL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome: "Brilho da Chama Eterna" }
     ]
   },
   {
