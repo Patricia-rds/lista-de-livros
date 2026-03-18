@@ -4513,11 +4513,31 @@ export const autores = [
     ]
   },
   {
-    nome: "Rachael Lippincott",
+    nome: "R.F. Kuang",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Hv3wRgZpL._SY342_.jpg",
         nome: "A cinco passos de você" }
+    ]
+  },
+  {
+    nome: "Rachael Lippincott",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61-X3shO2vL._SY466_.jpg",
+        nome: "Impostora: Yellowface" }
+      
+      { url:"https://drive.google.com/file/d/1mB3fGLJ1XfpGtrrfJRxqXPZMivfb1rW4/view?usp=drive_link",
+        colecao: "Coleção 1",
+        nome: "A guerra da papoula" },
+
+      { url:"https://m.media-amazon.com/images/I/818fnagZbWL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome: "A república do dragão" }
+
+      { url:"https://m.media-amazon.com/images/I/81KrxNEQelL._SY342_.jpg",
+        colecao: "Coleção 1",
+        nome: "Sua Alteza Real" }
     ]
   },
   {
