@@ -4516,16 +4516,8 @@ export const autores = [
     nome: "R.F. Kuang",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"https://m.media-amazon.com/images/I/81Hv3wRgZpL._SY342_.jpg",
-        nome: "A cinco passos de você" }
-    ]
-  },
-  {
-    nome: "Rachael Lippincott",
-    bandeira:"assets/images/bandeiras/estadosunidos.png",
-    imagens: [
       { url:"https://m.media-amazon.com/images/I/61-X3shO2vL._SY466_.jpg",
-        nome: "Impostora: Yellowface" }
+        nome: "Impostora: Yellowface" },
       
       { url:"https://drive.google.com/file/d/1mB3fGLJ1XfpGtrrfJRxqXPZMivfb1rW4/view?usp=drive_link",
         colecao: "Coleção 1",
@@ -4533,11 +4525,19 @@ export const autores = [
 
       { url:"https://m.media-amazon.com/images/I/818fnagZbWL._SY466_.jpg",
         colecao: "Coleção 1",
-        nome: "A república do dragão" }
+        nome: "A república do dragão" },
 
-      { url:"https://m.media-amazon.com/images/I/81KrxNEQelL._SY342_.jpg",
+      { url:"https://m.media-amazon.com/images/I/71UzFfznYqL._SY466_.jpg",
         colecao: "Coleção 1",
-        nome: "Sua Alteza Real" }
+        nome: "A deusa em chamas" }
+    ]
+  },
+  {
+    nome: "Rachael Lippincott",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81Hv3wRgZpL._SY342_.jpg",
+        nome: "A cinco passos de você" }
     ]
   },
   {
