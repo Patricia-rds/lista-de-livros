@@ -4519,7 +4519,7 @@ export const autores = [
       { url:"https://m.media-amazon.com/images/I/61-X3shO2vL._SY466_.jpg",
         nome: "Impostora: Yellowface" },
       
-      { url:"https://drive.google.com/file/d/1mB3fGLJ1XfpGtrrfJRxqXPZMivfb1rW4/view?usp=drive_link",
+      { url:"https://m.media-amazon.com/images/I/819EvvPFoHL._SY466_.jpg",
         colecao: "Coleção 1",
         nome: "A guerra da papoula" },
 
@@ -4538,6 +4538,22 @@ export const autores = [
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Hv3wRgZpL._SY342_.jpg",
         nome: "A cinco passos de você" }
+    ]
+  },
+  {
+    nome: "Rachel Gillig",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81UUGTUvPKL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome: "Uma janela sombria" },
+
+      { url:"https://m.media-amazon.com/images/I/91I5pEHHpNL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome: "Duas coroas retorcidas" },
+
+      { url:"https://m.media-amazon.com/images/I/91nl6R0wBfL._SY466_.jpg",
+        nome: "O cavaleiro e a mariposa" }
     ]
   },
   {
