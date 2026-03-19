@@ -4518,6 +4518,9 @@ export const autores = [
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61-X3shO2vL._SY466_.jpg",
         nome: "Impostora: Yellowface" },
+
+      { url:"https://m.media-amazon.com/images/I/91kvhiLWxNL._SY425_.jpg",
+        nome: "Babel" },
       
       { url:"https://m.media-amazon.com/images/I/819EvvPFoHL._SY466_.jpg",
         colecao: "Coleção 1",
@@ -4570,6 +4573,31 @@ export const autores = [
     ]
   },
   {
+    nome: "Rachel Smythe",
+    bandeira:"assets/images/bandeiras/novazelandia.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71hrYylde8L._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 1" },
+
+      { url:"https://m.media-amazon.com/images/I/810-F9kRtJL._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 2" },
+
+      { url:"https://m.media-amazon.com/images/I/81HMraDm+uL._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 3" },
+
+      { url:"https://m.media-amazon.com/images/I/81zZKmTH-AL._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 4" },
+
+      { url:"https://m.media-amazon.com/images/I/61tDWEbbwuL._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 5" }
+    ]
+  },
+  {
     nome: "Raiza Varella",
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
@@ -4607,7 +4635,52 @@ export const autores = [
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71CJbVsSjyL._SY342_.jpg",
-        nome: "Fahrenheit 451" }
+        nome:"Fahrenheit 451" }
+    ]
+  },
+  {
+    nome: "Rebecca Jenshak",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61acQ6OrOsL._SY425_.jpg",
+        nome:"Fim de carreira" }
+    ]
+  },
+  {
+    nome: "Rebecca Ross",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/810NKENMWoL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Divinos rivais" },
+
+      { url:"https://m.media-amazon.com/images/I/81ldnvmlicL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Promessas cruéis" },
+
+      { url:"https://m.media-amazon.com/images/I/91YzxohUFGL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"A melodia da água" },
+
+      { url:"https://m.media-amazon.com/images/I/81jl5C+HLOL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"O fogo eterno" }
+    ]
+  },
+  {
+    nome: "Rebecca Serle",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81HMaSuewuL._SY466_.jpg",
+        nome:"Prazos de validade" }
+    ]
+  },
+  {
+    nome: "Rebecca Yarros",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/8148ztBU3BL._SY425_.jpg",
+        nome:"Tudo que deixamos inacabado" }
     ]
   },
   {
@@ -4615,7 +4688,15 @@ export const autores = [
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81AHLvfNizL._SY342_.jpg",
-        nome: "Contra todas as probabilidades do amor" }
+        nome:"Contra todas as probabilidades do amor" }
+    ]
+  },
+  {
+    nome: "Renan Bittencourt",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81cW-67JERL._SY466_.jpg",
+        nome:"Complicado e perfeitinho" }
     ]
   },
   {
@@ -4623,28 +4704,36 @@ export const autores = [
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81+LfV7LwqL._SY342_.jpg",
-        nome: "Redenção: Um bebê para o milionário playboy" }
+        nome:"Redenção: Um bebê para o milionário playboy" }
     ]
   },
   {
-    nome: "Richelle Mead",
+    nome:"Renato Ritto",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61pGN-Wxx+L._SY466_.jpg",
+        nome:"Marketing do amor" }
+    ]
+  },
+  {
+    nome:"Richelle Mead",
     bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/819ZnearrDL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Laços de sangue" },
+        colecao:"Coleção 1",
+        nome:"Laços de sangue" },
 
       { url:"https://m.media-amazon.com/images/I/91d3ym6KsgL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O lírio dourado" },
+        colecao:"Coleção 1",
+        nome:"O lírio dourado" },
 
       { url:"https://m.media-amazon.com/images/I/81CbCd0zyWL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O feitiço azul" },
+        colecao:"Coleção 1",
+        nome:"O feitiço azul" },
 
       { url:"https://m.media-amazon.com/images/I/51OSwespybL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Coração ardente" },
+        colecao:"Coleção 1",
+        nome:"Coração ardente" },
 
       { url:"https://m.media-amazon.com/images/I/915rzbauAZL._SY342_.jpg",
         colecao: "Coleção 1",
@@ -4680,11 +4769,19 @@ export const autores = [
     ]
   },
   {
-    nome: "Rô Mierling",
+    nome:"",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"",
+        nome:"" }
+    ]
+  },
+  {
+    nome:"Rô Mierling",
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61sdxYhKgDL._SY342_.jpg",
-        nome: "Diário de Uma Escrava" }
+        nome:"Diário de Uma Escrava" }
     ]
   },
   {
