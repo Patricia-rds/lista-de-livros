@@ -4462,7 +4462,7 @@ export const autores = [
 
       { url:"https://m.media-amazon.com/images/I/91u8sz9UtfL._SY342_.jpg",
         colecao: "Coleção 2",
-        nome: "La Belle Sauvage"" },
+        nome: "La Belle Sauvage" },
 
       { url:"https://m.media-amazon.com/images/I/812UccU6DpL._SY342_.jpg",
         colecao: "Coleção 2",
@@ -4473,16 +4473,14 @@ export const autores = [
     nome: "Philippe Pozzo di Borgo",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81K7FnnCi4L._SY342_.jpg",
-        nome: "O segundo suspiro",
-        sinopse: "Philippe Pozzo di Borgo era um executivo de sucesso e herdeiro de duas tradicionais famílias francesas. Porém em 1993 sua vida sofre uma reviravolta dramática quando, após um acidente de parapente, ele fica tetraplégico. Na mesma época, sua mulher, Béatrice, enfrenta uma doença terminal. Em meio à dor, Pozzo di Borgo isola-se em sua luxuosa casa em Paris e passa a ter como acompanhante o argelino Abdel, genioso e desinibido com as mulheres — mas que, por trás de sua fachada temperamental, também sofre da solidão e da sensação de deslocamento. Entre o aristocrata e seu “diabo guardião”, surge uma inesperada camaradagem que transforma suas vidas. Abdel introduz em seu cotidiano a aventura e o imprevisível, e Pozzo di Borgo descobre que, mesmo nas mais adversas das condições, é possível cultivar um intenso apetite pela vida, voltar a amar e ser amado. Irônico e brutalmente honesto, o depoimento de Pozzo di Borgo inspirou o filme Intocáveis, de Olivier Nakache e Éric Toledano. Lançada em novembro de 2011, a comédia dramática se transformou em um verdadeiro fenômeno de bilheteria." }
+        nome: "O segundo suspiro" }
     ]
   },
   {
     nome: "Rachael Lippincott",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Hv3wRgZpL._SY342_.jpg",
-        nome: "A cinco passos de você",
-        sinopse: "Stella Grant gosta de controle. Ela parece uma adolescente típica, mas em sua rotina há listas de tarefas e inúmeros remédios que deve tomar para controlar a fibrose cística, doença crônica que impede que seus pulmões funcionem como deveriam. Para conseguir um transplante, ela precisa seguir seu tratamento e eliminar qualquer chance de infecção, o que significa ficar a pelo menos seis passos de outros pacientes com a doença – sem exceção. Will Newman não dá a mínima para o novo tratamento experimental para o qual foi selecionado. Prestes a completar dezoito anos, ele mal pode esperar para finalmente se livrar das máquinas e hospitais, usando o pouco de vida que ainda lhe resta para conhecer o mundo. Stella e Will são muito diferentes. Ao mesmo tempo, sua doença não é a única coisa que os une. Eles não podem se aproximar, mas, conforme sua conexão aumenta, os seis passos entre eles passam a ser insuportáveis. E se pudessem quebrar as regras? Cinco passos são tão perigosos quanto perder um grande amor?" }
+        nome: "A cinco passos de você" }
     ]
   },
   {
