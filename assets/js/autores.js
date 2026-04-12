@@ -4350,6 +4350,17 @@ export const autores = [
     ]
   },
   {
+    nome: "Paola Aleksandra",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/51YLHttn7kL._SY445_SX342_ML2_.jpg",
+        nome: "Amor às causas perdidas" },
+      
+      { url:"https://m.media-amazon.com/images/I/81ydv2QlPIL._SY466_.jpg",
+        nome: "O roubo em três atos" }
+    ]
+  },
+  {
     nome: "Paola Peretti",
     bandeira:"assets/images/bandeiras/italia.png",
     imagens: [
@@ -4408,7 +4419,18 @@ export const autores = [
     bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71y-rfYBTSL._SY342_.jpg",
-        nome: "Borboletas Imperfeitas" }
+        nome: "Borboletas Imperfeitas" },
+      
+      { url:"https://m.media-amazon.com/images/I/81iuWz5rMcL._SY425_.jpg",
+        nome: "Uma Porta Para o Amor" }
+    ]
+  },
+  {
+    nome: "Paulo Coelho",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81IhKtjc-6L._SY466_.jpg",
+        nome: "O Alquimista" }
     ]
   },
   {
@@ -4417,6 +4439,19 @@ export const autores = [
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81XTUIDHP+L._SY342_.jpg",
         nome: "Credence" }
+    ]
+  },
+  {
+    nome: "Penn Cole",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/8160XsjSJoL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome: "Despertar da Chama Eterna" },
+      
+      { url:"https://m.media-amazon.com/images/I/81QwD0pIkCL._SY425_.jpg",
+        colecao:"Coleção 1",
+        nome: "Brilho da Chama Eterna" }
     ]
   },
   {
@@ -4471,225 +4506,339 @@ export const autores = [
   },
   {
     nome: "Philippe Pozzo di Borgo",
+    bandeira:"assets/images/bandeiras/franca.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81K7FnnCi4L._SY342_.jpg",
         nome: "O segundo suspiro" }
     ]
   },
   {
+    nome: "R.F. Kuang",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61-X3shO2vL._SY466_.jpg",
+        nome: "Impostora: Yellowface" },
+
+      { url:"https://m.media-amazon.com/images/I/91kvhiLWxNL._SY425_.jpg",
+        nome: "Babel" },
+      
+      { url:"https://m.media-amazon.com/images/I/819EvvPFoHL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome: "A guerra da papoula" },
+
+      { url:"https://m.media-amazon.com/images/I/818fnagZbWL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome: "A república do dragão" },
+
+      { url:"https://m.media-amazon.com/images/I/71UzFfznYqL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome: "A deusa em chamas" }
+    ]
+  },
+  {
     nome: "Rachael Lippincott",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81Hv3wRgZpL._SY342_.jpg",
         nome: "A cinco passos de você" }
     ]
   },
   {
+    nome: "Rachel Gillig",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81UUGTUvPKL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome: "Uma janela sombria" },
+
+      { url:"https://m.media-amazon.com/images/I/91I5pEHHpNL._SY466_.jpg",
+        colecao: "Coleção 1",
+        nome: "Duas coroas retorcidas" },
+
+      { url:"https://m.media-amazon.com/images/I/91nl6R0wBfL._SY466_.jpg",
+        nome: "O cavaleiro e a mariposa" }
+    ]
+  },
+  {
     nome: "Rachel Hawkins",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81UfOhH8raL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Como sobreviver à realeza",
-        sinopse: "Já imaginou sua irmã noiva... de um PRÍNCIPE? Como sobreviver à realeza é o primeiro livro da duologia Royals, que precede o aguardadíssimo Her Royal Highness. Perfeito para fãs de Jane Austen, O diário da princesa e com um toque de Gossip Girl, o livro conta a história de Daisy Winters, uma adolescente americana de cabelos vermelhos que trabalha em uma loja de conveniência e é completamente comum. Exceto pelo fato de que sua irmã mais velha (e perfeita), Ellie, está noiva do herdeiro da Coroa escocesa. Apesar do esforço de se manter longe da nova vida de sua irmã e dos holofotes, Daisy acaba indo parar nas manchetes dos tabloides e é convidada — ou melhor, intimada — pelo palácio a passar suas férias na Escócia. Para se adaptar à nova realidade, o charmoso Miles é escalado para ensiná-la tudo sobre o mundo da família real. A Coroa fará de tudo para transformar Daisy em uma dama... mas ela pode acabar reescrevendo o livro de regras seculares da realeza." },
+        nome: "Como sobreviver à realeza" },
 
       { url:"https://m.media-amazon.com/images/I/81KrxNEQelL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Sua Alteza Real",
-        sinopse: "O tão aguardado segundo livro da autora de Como sobreviver à realeza. Millie Quint fica arrasada quando descobre que sua meio-que-melhor-amiga/meio-que-namorada tem beijado outra pessoa. De coração partido e pronta para uma mudança de vida, ela decide levar adiante o sonho de estudar em terras escocesas. Quando consegue uma bolsa em um dos colégios mais exclusivos do mundo, Millie mal consegue acreditar. Apaixonada por tudo o que é relacionado a geologia, ela vê na rochosa Escócia o lugar perfeito para começar uma nova fase de sua vida." }
+        nome: "Sua Alteza Real" }
+    ]
+  },
+  {
+    nome: "Rachel Smythe",
+    bandeira:"assets/images/bandeiras/novazelandia.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/71hrYylde8L._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 1" },
+
+      { url:"https://m.media-amazon.com/images/I/810-F9kRtJL._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 2" },
+
+      { url:"https://m.media-amazon.com/images/I/81HMraDm+uL._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 3" },
+
+      { url:"https://m.media-amazon.com/images/I/81zZKmTH-AL._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 4" },
+
+      { url:"https://m.media-amazon.com/images/I/61tDWEbbwuL._SY385_.jpg",
+        colecao: "Coleção 1",
+        nome: "Lore Olympus vol. 5" }
     ]
   },
   {
     nome: "Raiza Varella",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81tG34lXSnL._SY342_.jpg",
-        nome: "Caçadora de estrelas",
-        sinopse: "Após flagrar o namorado com outro cara (e ele ainda tem um gosto para homens melhor que o seu!), Eva se arrepende de ter abandonado a família, o gato, o emprego, os amigos e até o país para segui-lo. Com um mau humor feroz de quem acaba de ser traída e sem um tostão no bolso, ela decide que é hora de voltar para casa. Embora a vida em casa esteja bem diferente do que ela se lembrava, Eva é obrigada a seguir em frente e lidar com a situação como uma mulher adulta. Mas o destino lhe prepara uma nova surpresa: um amor proibido. Será Eva corajosa o suficiente para lidar com mais um coração partido, mesmo que seja pela estrela mais brilhante do céu?" }
+        nome: "Caçadora de estrelas" }
     ]
   },
   {
     nome: "Raphael Montes",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91biwYR90GS._SY342_.jpg",
-        nome: "Uma mulher no escuro",
-        sinopse: "Victoria Bravo tinha quatro anos quando um homem invadiu sua casa e matou sua família a facadas, pichando seus rostos com tinta preta. Única sobrevivente, ela agora é uma jovem solitária e tímida, com pesadelos frequentes e sérias dificuldades para se relacionar. Seu refúgio é ficar em casa e observar a vida alheia pelas janelas do apartamento onde mora, na Lapa, Rio de Janeiro. Mas o passado bate à sua porta, e ela não sabe mais em quem pode confiar. Obrigada a enfrentar sua própria tragédia, Victoria embarca em uma jornada de amadurecimento e descoberta que a levará a zonas obscuras, mas também revelará as possibilidades do amor. Um psiquiatra, um amigo feito pela internet e um possível namorado — qual dos três homens está usando tudo o que sabe para aterrorizar a vida de Vic? E o que afinal ele quer com ela? Na literatura nacional, Raphael Montes é unanimidade quando se trata de livros de suspense. Uma mulher no escuro traz sua primeira protagonista feminina e confirma o autor como um dos mais originais da atualidade — além de deixar o leitor intrigado do começo ao fim." },
+        nome: "Uma mulher no escuro" },
 
       { url:"https://m.media-amazon.com/images/I/81XyujoDRZL._SY342_.jpg",
-        nome: "Uma família feliz",
-        sinopse: "Eva tem a vida perfeita. Seu marido é um jovem advogado em ascensão. Suas filhas gêmeas são lindas, inteligentes e saudáveis. Seu trabalho, a arte reborn, é um sucesso na internet. À sua volta, tudo está à mão: o Blue Paradise, condomínio fechado de classe média-alta na Barra da Tijuca, oferece todo tipo de serviço para que ela não precise sair do conforto de seu lar. Eva tem a vida perfeita — até descobrir que está grávida e seu mundo virar de cabeça para baixo. Conhecido por seus suspenses de tirar o fôlego, com mais de 500 mil exemplares vendidos, Raphael Montes inova ao começar este thriller psicológico pelo último capítulo. Assim, como uma bomba-relógio prestes a detonar, acompanhamos os caminhos surpreendentes e as tensões que levam essa família feliz a um final avassalador. Uma história original de Raphael Montes deu origem ao livro e ao longa-metragem Uma família feliz, com Grazi Massafera e Reynaldo Gianecchini e direção de José Eduardo Belmonte." },
+        nome: "Uma família feliz" },
 
       { url:"https://m.media-amazon.com/images/I/91W4HHeswRL._SY342_.jpg",
-        nome: "Dias perfeitos",
-        sinopse: "O protagonista do livro é Téo, um jovem e solitário estudante de medicina que divide seu tempo entre cuidar da mãe paraplégica e dissecar cadáveres nas aulas de anatomia. Num churrasco a que vai com a mãe contrariado, Téo conhece Clarice, uma jovem de espírito livre que sonha tornar-se roteirista de cinema. Clarice está escrevendo um road movie de nome 'Dias perfeitos'. O texto ainda está cru, mas ela já sabe a história que quer contar: as desventuras de três amigas que viajam de carro pelo país em busca de experiências amorosas. Téo fica viciado em Clarice: quer desvendar aquela menina diferente de todas que conheceu. Começa, então, a se aproximar de forma insistente. Diante das seguidas negativas, opta por uma atitude extrema: desfere um golpe na cabeça dela e, ato contínuo, sequestra a garota. Elabora então um plano para conquistá-la: coloca-a sedada no banco carona de seu carro e inicia uma viagem pelas estradas do Rio de Janeiro - a mesma viagem feita pelas personagens do roteiro de Clarice. Passando por cenários oníricos, entre os quais um chalé em Teresópolis administrado por anões e uma praia deserta e paradisíaca em Ilha Grande, o casal estabelece uma rotina insólita: Téo a obriga a escrever a seu lado e está pronto para sedá-la ou prendê-la à menor tentativa de resistência. Clarice oscila entre momentos de desespero e resignação, nos quais corresponde aos delírios conjugais de seu sequestrador. O efeito é tão mais perturbador quanto maior a naturalidade de Téo. Ele fala com calma, planeja os atos com frieza e justifica suas decisões com lógica impecável. A capacidade do autor de explorar uma psique doentia é impressionante - e o mergulho psicológico não impede que o livro siga um ritmo eletrizante, digno dos melhores thrillers da atualidade." },
+        nome: "Dias perfeitos" },
 
       { url:"https://m.media-amazon.com/images/I/91AwP2ljndL._SY342_.jpg",
-        nome: "Suicidas",
-        sinopse: "Antes que o mundo pudesse sonhar com o terrível jogo da baleia azul, que leva jovens a tirar a própria vida, ou que a série de televisão Thirteen Reasons Why fosse lançada e se tornasse o sucesso que é hoje, Raphael Montes, então com 22 anos, já tratava do tema do suicídio entre jovens, com a ousadia que virou sua marca registrada. Em seu primeiro livro, que a Companhia das Letras agora relança acrescido de um novo capítulo, conhecemos a história de Alê e seus colegas, jovens da elite carioca encontrados mortos no porão do sítio de um deles em condições misteriosas que indicam que os nove amigos participaram de um perigoso e fatídico jogo de roleta russa. Aos que ficaram, resta tentar descobrir o que teria levado aqueles adolescentes, aparentemente felizes e privilegiados, a tirar a própria vida." }
+        nome: "Suicidas" }
     ]
   },
   {
     nome: "Raul Dias",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81xaIfF2qkL._SY342_.jpg",
-        nome: "Colmeia de Sangue",
-        sinopse: "Dizem que o sangue que nos une é o mesmo que nos separa. Pelas trilhas tortuosas e desconhecidas, o rubro também traz trevas e maldições, embora a humanidade ainda desconheça tais mistérios, guardados pelo seio materno da mãe noite em seu manto sepulcral de estrelas mortas. Os ancestrais ainda falam sobre as criaturas mortas, rejeitadas por Deus e o diabo, que apodreceram em suas maldiçoes no esquecimento eterno, mas nem tudo que morre está predestinado á fenecer para sempre. Na década de 90, quando a desgraça e o medo banharam o Rio de Janeiro com a chegada do eclipse de sangue, o sumiço dos moradores foi o primeiro sinal do mal á espreita. Uma tumba sagrada, descoberta na misteriosa Pedra da Gávea revelou muito mais que apenas joias e relíquias centenárias. Carcaças e cadáveres exumados de crianças e adultos constituíam o santuário proibido, mais tarde nomeado de “Colmeia de Sangue”, atraindo a mídia e visitantes curiosos de toda parte dispostos à darem as próprias vidas para desvendarem os mistérios ali enterrados. As versões do desfecho dessa trama são inúmeras. Poucos registros restaram para narrar a veracidade e a existência dos filhos das sombras, os Allu, seres noturnos de prezas e unhas afiadas, e todo o horror que trouxeram consigo." }
+        nome: "Colmeia de Sangue" }
     ]
   },
   {
     nome: "Ray Bradbury",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/71CJbVsSjyL._SY342_.jpg",
-        nome: "Fahrenheit 451",
-        sinopse: "Guy Montag é um bombeiro. Sua profissão é atear fogo nos livros. Em um mundo onde as pessoas vivem em função das telas e a literatura está ameaçada de extinção, os livros são objetos proibidos, e seus portadores são considerados criminosos. Montag nunca questionou seu trabalho; vive uma vida comum, cumpre o expediente e retorna ao final do dia para sua esposa e para a rotina do lar. Até que conhece Clarisse, uma jovem de comportamento suspeito, cheia de imaginação e boas histórias. Quando sua esposa entra em colapso mental e Clarisse desaparece, a vida de Montag não poderá mais ser a mesma." }
+        nome:"Fahrenheit 451" }
+    ]
+  },
+  {
+    nome: "Rebecca Jenshak",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61acQ6OrOsL._SY425_.jpg",
+        nome:"Fim de carreira" }
+    ]
+  },
+  {
+    nome: "Rebecca Ross",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/810NKENMWoL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Divinos rivais" },
+
+      { url:"https://m.media-amazon.com/images/I/81ldnvmlicL._SY466_.jpg",
+        colecao:"Coleção 1",
+        nome:"Promessas cruéis" },
+
+      { url:"https://m.media-amazon.com/images/I/91YzxohUFGL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"A melodia da água" },
+
+      { url:"https://m.media-amazon.com/images/I/81jl5C+HLOL._SY466_.jpg",
+        colecao:"Coleção 2",
+        nome:"O fogo eterno" }
+    ]
+  },
+  {
+    nome: "Rebecca Serle",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81HMaSuewuL._SY466_.jpg",
+        nome:"Prazos de validade" }
+    ]
+  },
+  {
+    nome: "Rebecca Yarros",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/8148ztBU3BL._SY425_.jpg",
+        nome:"Tudo que deixamos inacabado" }
     ]
   },
   {
     nome: "Rebekah Crane",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81AHLvfNizL._SY342_.jpg",
-        nome: "Contra todas as probabilidades do amor",
-        sinopse: "Sejam bem-vindos ao acampamento Pádua. Um retiro de verão para adolescentes problemáticos. Mas não se tratam de problemas comuns, como não querer estudar, mentir ou colar na prova. Não! Estamos falando de problemas reais. Alguns deles tão grandes, tão sérios, que até um adulto desmoronaria sob o peso deles. No acampamento, Zander, uma garota enviada pelos pais contra a sua vontade, encontra uma série de adolescentes na mesma situação, e com três deles ela estabelece uma relação de amizade — Grover, Alex e Cassie. Todos os quatro são tão diferentes quanto as pessoas podem ser, mas têm algo em comum — eles estão quebrados por dentro. Em meio às sessões de grupo e, à medida em que o verão dá as caras, os quatro revelam seus trágicos segredos. Zander encontra-se atraída pelos encantos de Grover, e então começa a se perguntar, depois de muito tempo, se pode apostar em ser feliz novamente. Mas, antes, ela precisa lidar abertamente com seus problemas, para poder juntar seus pedaços e reconstruir sua vida Você pode pensar que se trata de uma história triste. E há partes duras sim, mas, Rebekah Crane consegue mostrar como na dificuldade podemos encontrar uma saída. Isso é uma das coisas que faz o livro completamente encantador, divertido e doce, capaz de deixar em você um grande sorriso no rosto." }
+        nome:"Contra todas as probabilidades do amor" }
+    ]
+  },
+  {
+    nome: "Renan Bittencourt",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/81cW-67JERL._SY466_.jpg",
+        nome:"Complicado e perfeitinho" }
     ]
   },
   {
     nome: "Renata R. Corrêa",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81+LfV7LwqL._SY342_.jpg",
-        nome: "Redenção: Um bebê para o milionário playboy",
-        sinopse: "Marcelo Nóbile é um jovem médico, milionário, herdeiro e um dos CEOs da operadora de saúde da sua família, a Vida Nóbile. Solteiro convicto, ele se fechou para o amor, após acompanhar de perto o sofrimento do irmão mais velho, que perdeu a esposa em um trágico acidente. Passou então a levar uma vida de playboy com o lema de pegar sem se apegar. Érika Dias é uma jovem enfermeira batalhadora. Sonhava em viver um grande amor e acabou em um relacionamento tóxico. Quando, enfim, conseguiu se libertar, perdeu a fé nos homens e no amor, ficando determinada, a partir de então, a apenas curtir sem se envolver outra vez. Os dois se conhecem porque ela é a melhor amiga da noiva do irmão dele, inclusive se beijaram no jantar de noivado. Quando Marcelo a salva de uma situação embaraçosa com o ex, os dois se entregam novamente ao desejo e embarcam em uma amizade colorida. Só não imaginavam que o relacionamento casual resultaria em uma gravidez que jamais teriam planejado. Com um bebê a caminho e a proximidade crescente, os dois conseguirão se manter imunes ao amor? Como lidarão com tantas mudanças e com sentimentos e situações inesperados? Descubra, lendo esse romance quente, envolvente e emocionante." }
+        nome:"Redenção: Um bebê para o milionário playboy" }
     ]
   },
   {
-    nome: "Richelle Mead",
+    nome:"Renato Ritto",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/61pGN-Wxx+L._SY466_.jpg",
+        nome:"Marketing do amor" }
+    ]
+  },
+  {
+    nome:"Richelle Mead",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/819ZnearrDL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Laços de sangue",
-        sinopse: "O trabalho de Sydney Sage não é nada fácil: ela e seus colegas alquimistas são os únicos no mundo todo que sabem que vampiros existem para além das telas de cinema - e são uma ameaça real à humanidade. Para manter a ordem, eles devem impedir, a qualquer custo, que esse segredo vaze e que os reles mortais se aproximem desses seres perigosíssimos. Mas agora a paz que os alquimistas vêm garantindo há tempos está prestes a desabar, e Sydney, para o bem de todos os humanos, terá de passar a proteger vinte e quatro horas por dia a princesa vampira Jill Dragomir, ou uma guerra pelo trono eclodirá no mundo dos vampiros, trazendo consequências avassaladoras para os homens. E defender alguém que até então era alvo de seu desprezo será mais difícil do que Sydney imaginava..." },
+        colecao:"Coleção 1",
+        nome:"Laços de sangue" },
 
       { url:"https://m.media-amazon.com/images/I/91d3ym6KsgL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O lírio dourado",
-        sinopse: "Sydney Sage adoraria ir para a faculdade como qualquer garota comum, mas ela faz parte do grupo dos alquimistas — os responsáveis por esconder a existência dos vampiros do resto da humanidade —, então isso não tem a menor chance de acontecer. Ainda mais depois que ela é convocada para uma missão superimportante: passar uma temporada num colégio interno na Califórnia para ajudar a esconder a princesa vampira Jill Dragomir. Após enfrentar vários desafios, Sydney sente que alcançou certa tranquilidade em sua empreitada — tanto que encontra tempo até para arrumar um namorado. Brayden é um garoto inteligente que combina com ela em todos os sentidos. Mas por mais perfeito que esse relacionamento pareça, Sydney acaba se sentindo atraída por outra pessoa: alguém proibido para ela e que coloca em xeque todos os seus valores. Mais do que nunca, a lealdade de Sydney será testada, e ela precisará decidir entre suas crenças e seu coração." },
+        colecao:"Coleção 1",
+        nome:"O lírio dourado" },
 
       { url:"https://m.media-amazon.com/images/I/81CbCd0zyWL._SY342_.jpg",
-        colecao: "Coleção 1",
-        nome: "O feitiço azul",
-        sinopse: "A atual missão da alquimista Sydney Sage fez com que ela revisse seus conceitos não só sobre os vampiros, mas também sobre a própria organização à qual pertence, responsável por esconder a existência dessas criaturas do resto da humanidade. Sydney acabou descobrindo um grupo dissidente que tinha muito em comum com os alquimistas, mas objetivos bem mais radicais. Certa de que seus superiores estão guardando segredos sobre essa facção paralela, ela contará com a ajuda do misterioso ex-alquimista Marcus Finch para tentar desvendá-los. Mas isso só será possível se ela conseguir escapar de uma ameaça ainda mais urgente: uma feiticeira cruel que suga a alma de jovens usuárias de magia. Enquanto isso, a garota luta contra os sentimentos cada vez mais fortes pelo rebelde vampiro Adrian Ivashkov. Há tabus e preconceitos milenares arraigados entre as duas raças, que representam um obstáculo enorme para esse relacionamento. Mas Adrian é persistente e é o único em quem ela confia para enfrentar as ameaças que se aproximam. Será que Sydney conseguirá se libertar do seu modo de vida e se render a esse romance?" },
+        colecao:"Coleção 1",
+        nome:"O feitiço azul" },
 
       { url:"https://m.media-amazon.com/images/I/51OSwespybL._SY445_SX342_.jpg",
-        colecao: "Coleção 1",
-        nome: "Coração ardente",
-        sinopse: "A alquimista Sydney Sage não é mais a mesma. Criada desde criança para desprezar os vampiros, ela acabou vencendo seus preconceitos em sua última missão. Aos poucos, a garota não só criou laços de amizade com esses seres como acabou se apaixonando por um deles - o irresistível Adrian Ivashkov - e, surpreendendo até a si mesma, decidiu levar o relacionamento proibido adiante, em segredo. Tudo se complica quando Zoe, sua irmã, se junta à missão. Apesar de querer resgatar a amizade entre elas, Sydney precisa guardar seu segredo enquanto tenta fazer com que a caçula perceba como as crenças alquimistas estão equivocadas. Enquanto isso, Adrian sofre com os fortes efeitos do espírito - um elemento mágico que, ao mesmo tempo em que lhe confere poderes, como curar as pessoas, pode levá-lo à loucura, através de alucinações e mudanças de humor extremas. Sydney é seu maior incentivo para abrir mão desses poderes e buscar uma saúde mental equilibrada, mas Adrian nem consegue imaginar como seria vê-la machucada e não poder fazer nada. Neste quarto volume da série Bloodlines, ele precisa escolher entre sua sanidade e a capacidade de ajudar a todos - especialmente aqueles que ama." },
+        colecao:"Coleção 1",
+        nome:"Coração ardente" },
 
       { url:"https://m.media-amazon.com/images/I/915rzbauAZL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Sombras prateadas",
-        sinopse: "No penúltimo volume da série Bloodlines, Sydney é levada à força para longe de Adrian, colocando à prova o romance proibido de uma humana com um vampiro. Sydney Sage arriscou tudo. Ainda infiltrada na organização, trabalhava contra os alquimistas e vivia um romance secreto com o vampiro Adrian Ivashkov. Qualquer deslize poderia trazer tudo por água abaixo, e foi exatamente o que aconteceu: sua própria irmã descobriu seu relacionamento proibido e a denunciou, fazendo com que Sydney fosse capturada pelos seus pares e mandada para a terrível reeducação. Lá, as condições de higiene e de conforto eram mínimas. Nos poucos momentos em que ela ficava acordada, uma voz metálica tentava convencê-la a 'confessar seus pecados'. Cercada de inimigos e sem saber onde estava ou como sairia dali, Sydney luta para manter sua identidade, sua capacidade de pensar por si mesma e, principalmente, a esperança de que encontrará Adrian novamente. Enquanto isso, o vampiro tenta diferentes estratégias para descobrir o paradeiro da garota. Mas quando suas alternativas fracassam uma a uma, sua vida começa a sair do controle e ser tomada pelas garras do espírito - o elemento mágico que lhe confere poderes mas o afunda cada vez mais na depressão. Para suportar tudo isso, Adrian se entrega a uma vida desregrada, deixando que velhos hábitos voltem à tona para esquecer toda a impotência que sente. Será que o amor dos dois será forte o bastante para sobreviver a essa provação?" },
+        nome: "Sombras prateadas" },
 
       { url:"https://m.media-amazon.com/images/I/81phgM6cwUL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "O círculo rubi",
-        sinopse: "Depois que Sydney Sage escapou das garras dos alquimistas, que a torturaram por viver um romance proibido com Adrian Ivashkov, o casal se exilou na Corte Moroi. Hostilizada por todos ao seu redor por ser uma humana casada com um vampiro, a garota quase não sai de casa e perde a noção do tempo, trocando o dia pela noite. Mas logo Sydney se vê obrigada a abandonar seu refúgio, já que seu coração continua apertado desde que Jill Dragomir desapareceu. O sumiço da jovem princesa vampira coloca em risco toda a estabilidade política dos Moroi… Agora Sydney precisa descobrir quem está por trás desse sequestro para dar um jeito de trazer a amiga de volta - e ao mesmo tempo alcançar sua própria liberdade." },
+        nome: "O círculo rubi" },
 
       { url:"https://m.media-amazon.com/images/I/71OToWH+EwL._SY342_.jpg",
         colecao: "Coleção 2",
-        nome: "O beijo das sombras",
-        sinopse: "Rose Hathaway é uma dampira, guarda-costas de sua melhor amiga Lissa, uma princesa vampira Moroi. Há dois anos elas estão fugindo, mas agora foram capturadas e estão sendo levadas à força para a São Vladimir ― justamente o lugar onde elas mais estão em perigo." },
+        nome: "O beijo das sombras" },
 
       { url:"https://m.media-amazon.com/images/I/81HNOTC0IrL._SY342_.jpg",
         colecao: "Coleção 2",
-        nome: "Aura negra",
-        sinopse: "No tumultuado mundo dos vampiros, todo cuidado é pouco, e o menor dos deslizes pode ser fatal. Rose Hathaway sabe disso, mas mesmo assim sempre consegue se meter em apuros. Depois das surpresas e reviravoltas de O beijo das sombras, ela terá que tomar decisões difíceis para salvar aqueles que ama, custe o que custar.Contra todas as expectativas, os Strigoi se organizaram e declararam guerra aos vampiros conhecidos como Moroi, caçando-os em suas próprias casas e alimentando-se de seu sangue para obter a imortalidade — tudo graças à ajuda dos humanos. Os guardiões, então, fazem uma grande mobilização para cumprir seu trabalho de proteger os Moroi, e vêm do mundo todo para a Escola São Vladimir para discutir possíveis estratégias de combate.Entre os que se reúnem ali, surge a própria mãe de Rose. O encontro da mãe com a filha, abandonada quando criança, traz antigos ressentimentos à tona. E, para complicar ainda mais as coisas, Dimitri, o instrutor e antigo amor de Rose, pode estar comprometido com outra pessoa. Não bastasse tudo isso, três de seus amigos deixam para trás a proteção dos guardiões para se aventurar num plano de vingança suicida contra os Strigoi. E Rose precisa salvá-los, principalmente porque é tudo culpa sua." },
+        nome: "Aura negra" },
 
       { url:"https://m.media-amazon.com/images/I/81wErBoOGmL._SY342_.jpg",
         colecao: "Coleção 2",
-        nome: "Tocada pelas sombras",
-        sinopse: "Rose Hathaway sabe que é um erro se apaixonar por um de seus professores. Lissa, sua melhor amiga e última princesa do clã dos Dragomir, deve vir sempre em primeiro lugar. Como sua futura guardiã, Rose precisa protegê-la. Mas, infelizmente, quando se trata de Dimitri Belikov, algumas regras parecem existir apenas para serem quebradas...Neste terceiro volume da série Academia de Vampiros, as emoções estão à flor da pele. Justamente quando Lissa e Rose reencontram seu pior inimigo, Victor Dashkov, a um passo de sair de trás das grades, visões perturbadoras invadem a mente de Rose na figura de um velho amigo, prenunciando algo terrível à espreita da Escola São Vladimir.A tensão ronda o mundo dos vampiros mais do que nunca. Os Moroi estão divididos entre participar das batalhas com as próprias mãos ou deixar seus guardiões à própria sorte. Já os Strigoi desejam vingança pelas mortes causadas por Rose em Spokane. Numa sequência de tirar o fôlego, ela viverá seus piores pesadelos ao ter de escolher entre o amor de sua vida e sua melhor amiga.Será que essa escolha significa que apenas um deles sobreviverá?" },
+        nome: "Tocada pelas sombras" },
 
       { url:"https://m.media-amazon.com/images/I/81NuNBXsGvL._SY342_.jpg",
         colecao: "Coleção 2",
-        nome: "Promessa de sangue",
-        sinopse: "A vida de Rose Hathaway nunca mais será a mesma. Seu mundo desmoronou após o ataque dos temidos vampiros Strigoi à Escola São Vladimir e a transformação de seu amado Dimitri em um desses monstros.Ciente de que deve cumprir a promessa feita a ele, a jovem guardiã parte rumo à Rússia para salvar Dimitri de seu sinistro destino. Neste quarto livro da série Academia de Vampiros, ela conhece Sydney, membro de um misterioso grupo de alquimistas, e juntas acabam chegando à casa dos Belikov — a família de Dimitri.Com esse aparente golpe de sorte, a viagem de Rose parece não estar longe de seu desfecho. Contudo, uma série de revelações e imprevistos passa a enredá-la cada vez mais. A dampira percebe que não será tão simples assim completar sua missão e descobre que Lissa, sua melhor amiga, novamente corre perigo.A quilômetros de distância da São Vladimir, será que Rose encontrará forças para destruir Dimitri? Ou vai se sacrificar para ter a chance de um amor imortal?Em Promessa de sangue, Richelle Mead descortina um novo mundo e novos personagens diante de seus leitores, sem se afastar por completo do ambiente da Escola. Ainda mais intricada, a saga de Rose Hathaway e Lissa Dragomir se aprimora e ganha aqui um capítulo de tirar o fôlego." },
+        nome: "Promessa de sangue" },
 
       { url:"https://m.media-amazon.com/images/I/51NauW3oV4L._SY445_SX342_.jpg",
         colecao: "Coleção 2",
-        nome: "Laços do espírito",
-        sinopse: "Depois de uma longa e dolorosa viagem à Sibéria, terra natal de seu amado Dimitri, Rose Hathaway finalmente voltou à escola e reencontrou sua melhor amiga, Lissa. A formatura se aproxima, e elas mal podem esperar pela vida que vão ter além dos portões da São Vladimir.No entanto, o coração de Rose dói cada vez que se lembra do que passou na Rússia - o fracasso em salvar Dimitri - e do que ainda precisará enfrentar. Sua jornada inclui libertar o perigoso Victor Dashkov da prisão de segurança máxima e encontrar Robert Doru, o único que possui informações para resgatar Belikov das terríveis profundezas de sua condição de Strigoi.A dampira acredita existir apenas uma chance em um milhão, até porque Dimitri continua sua perseguição para matá-la. Sentenças de morte e declarações de amor se confundem, e ela precisa correr contra o mais implacável dos inimigos: o tempo.E, dessa vez, Rose prometeu a Lissa que a levaria junto. Será que a princesa Moroi terá forças quando souber o que a espera?" },
+        nome: "Laços do espírito" },
 
       { url:"https://m.media-amazon.com/images/I/51pGI494VKL._SY445_SX342_.jpg",
         colecao: "Coleção 2",
-        nome: "Último sacrifício",
-        sinopse: "Todos os caminhos levaram até aqui. Todos os desafios foram apenas preparações para a derradeira neblina tingida de sangue que se aproxima no horizonte.Envolta num mundo de paixão e morte, Rose aguarda a sua sentença após o assassinato de Tatiana, pelo qual foi injustamente acusada. Como se não bastasse, ela deve ferrenhamente tentar concluir a última missão deixada pela rainha: uma informação valiosa, uma peça a qual ela deve buscar a fim de mudar os rumos da história entre os Strigoi e os Moroi.Embora tenha o amparo de queridos aliados, Rose deve enfrentar aqueles que clamam pelo seu sangue, ajudar Lissa em sua saga para assumir o trono e continuar a incessante caça ao verdadeiro autor do crime pelo qual foi responsabilizada.Para isso, escolhas difíceis deverão ser feitas e dilemas precisarão ser rapidamente superados, principalmente os referentes ao seu coração. Nessa cruel encruzilhada, apenas um último sacrifício será capaz de resgatar a liberdade e garantir a sobrevivência de seus amigos." }
+        nome: "Último sacrifício" }
     ]
   },
   {
-    nome: "Rô Mierling",
+    nome:"",
+    bandeira:"assets/images/bandeiras/brasil.png",
+    imagens: [
+      { url:"",
+        nome:"" }
+    ]
+  },
+  {
+    nome:"Rô Mierling",
+    bandeira:"assets/images/bandeiras/brasil.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/61sdxYhKgDL._SY342_.jpg",
-        nome: "Diário de Uma Escrava",
-        sinopse: "Laura é uma menina sequestrada e jogada no fundo de um buraco por alguém que todos imaginavam ser um bom homem. Ela vê sua vida mudar da noite para o dia, e passa a descrever com detalhes sinistros e íntimos cada dia, cada ato, cada dor que o sequestro e o aprisionamento lhe fazem passar. Estevão é homem casado, trabalhador, pai de família, mas que guarda em seu íntimo uma personalidade psicopata. Ele percorre ruas e cidades se apossando da vida de meninas ainda muito jovens, pois dentro de si uma voz afirma que é dele que elas precisam. Mergulhando fundo nessa fantasia, ele destrói vidas, famílias e sonhos, deixando atrás de si um rastro de dor e morte.Narrado em parte em forma de diário, o livro acompanha mais de quatro anos da vida de Laura em um buraco embaixo da terra, período em que algo dentro dela também se modifica de uma forma inimaginável em busca da única maneira para sobreviver. Publicado originalmente na plataforma digital Wattpad, onde já teve mais de um milhão e meio de leituras, DIÁRIO DE UMA ESCRAVA apresenta um retrato duro, cruel, abominável, mas infelizmente corriqueiro no Brasil e em todo o mundo.Através de Laura, raptada ainda adolescente por um homem que ela chama de “Ogro”, a autora denuncia os diversos tipos de violência que muitas mulheres são obrigadas a suportar em silêncio e nas sombras da sociedade. O “Ogro”, um homem aparentemente comum, honesto e “acima de qualquer suspeita”, mantém Laura presa em uma casa afastada, onde abusa dela sexual e mentalmente, alegando ser ela o seu verdadeiro amor. Laura, compreensivelmente, só pensa em escapar dali. Mas agora ele parece estar mudando. Será que é o melhor momento mesmo para fugir?... Bem, isso você vai ter que ler para descobrir." }
+        nome:"Diário de Uma Escrava" }
     ]
   },
   {
     nome: "Robert Louis Stevenson",
+    bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81bnGwlgF1L._SY342_.jpg",
-        nome: "O médico e o monstro",
-        sinopse: "Gabriel John Utterson é um advogado que investiga um caso estranho envolvendo Henry Jekyll e Edward Hyde, repentino beneficiário do testamento de Henry. O advogado descobre acontecimentos que resultam na reclusão repentina de Jekyll. O romance que envolve ficção científica, transtornos psicológicos e terror é um grande clássico do gênero." }
+        nome: "O médico e o monstro" }
     ]
   },
   {
     nome: "Rupi Kaur",
+    bandeira:"assets/images/bandeiras/canada.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81ovfY7pHOL._SY342_.jpg",
-        nome: "Meu corpo minha casa",
-        sinopse: "Da autora #1 do The New York Times , a terceira coletânea de poesias de rupi kaur, maior fenômeno da poesia mundial nos últimos anos um dos temas mais frequentes na obra de rupi kaur é a importância que há em crescer e estar sempre em movimento. Em meu corpo minha casa, ela leva leitoras e leitores a uma jornada de reflexão através da intimidade e dos sentimentos mais fortes, visitando o passado, o presente e o potencial que existe em nós. Os poemas dessa coletânea, ilustrada pela autora, inspiram uma conversa interna em cada uma, em cada um, lembrando que precisamos nos preencher de amor, de aceitação e de confiança em nossas relações familiares e de comunidade. e, sempre, que precisamos estar de braços abertos para as mudanças em nossas vidas." },
+        nome: "Meu corpo minha casa" },
 
       { url:"https://m.media-amazon.com/images/I/41ciRAG5W5L._SY445_SX342_.jpg",
-        nome: "Outros Jeitos de Usar a Boca",
-        sinopse: "Outros jeitos de usar a boca é um livro de poemas sobre a sobrevivência. Sobre a experiência de violência, o abuso, o amor, a perda e a feminilidade. O volume – publicado nos EUA como 'milk and honey' – é dividido em quatro partes, e cada uma delas serve a um propósito diferente. Lida com um tipo diferente de dor. Cura uma mágoa diferente. Outros jeitos de usar a boca transporta o leitor por uma jornada pelos momentos mais amargos da vida e encontra uma maneira de tirar delicadeza deles. Publicado inicialmente de forma independente por Rupi Kaur, poeta, artista plástica e performer canadense nascida na Índia – e que também assina as ilustrações presentes neste volume –, o livro se tornou o maior fenômeno do gênero nos últimos anos nos Estados Unidos, com mais de 1 milhão de exemplares vendidos." }
+        nome: "Outros Jeitos de Usar a Boca" }
     ]
   },
   {
     nome: "S. A. Chakraborty",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/91JQ7RcYcrL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "A Cidade de Bronze",
-        sinopse: "Nahri nunca acreditou em magia. Golpista de talento inigualável, sabe que a leitura de mãos, zars e curas são apenas truques, habilidades aprendidas para entreter nobres Otomanos e sobreviver nas ruas do Cairo. Mas quando acidentalmente convoca Dara, um poderoso guerreiro djinn, durante um de seus esquemas, precisa lidar com um mundo mágico que acreditava existir apenas em histórias: para além das areias quentes e rios repletos de criaturas de fogo e água, de ruínas de uma magnífica civilização e de montanhas onde os falcões não são o que parecem, esconde-se a lendária Cidade de Bronze, à qual Nahri está misteriosamente ligada. Atrás de seus muros imponentes e dos seis portões das tribos djinns, fervilham ressentimentos antigos. E quando Nahri decide adentrar este mundo, sua chegada ameaça recomeçar uma antiga guerra. Ignorando advertências sobre pessoas traiçoeiras que a cercam, Nahri embarca em uma amizade hesitante com Alizayd, um príncipe idealista que sonha em revolucionar o regime corrupto de seu pai. Cedo demais, ela aprende que o verdadeiro poder é feroz e brutal, que nem a magia poderá protegê-la da perigosa teia de intrigas da corte e que mesmo os esquemas mais inteligentes podem ter consequências mortais." },
+        nome: "A Cidade de Bronze" },
 
       { url:"https://m.media-amazon.com/images/I/51XOURoyEoL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "O Reino de Cobre",
-        sinopse: "A vida de Nahri se transformou para sempre quando acidentalmente invocou Dara, um guerreiro djinn dividido entre um dever violento do qual nunca poderá escapar e uma paz que teme nunca merecer. Retirada de sua casa no Cairo e inserida na deslumbrante e traiçoeira corte de Daevabad, ela precisou de seus instintos mais primitivos para sobreviver. Agora, com a cidade impregnada com as consequências de uma devastadora batalha, Nahri deve aceitar os próprios poderes e a herança milenar que jamais sonhou possuir. Enquanto isso, Ali foi exilado por ousar desafiar seu pai. Caçado por assassinos e à deriva nas implacáveis areias de cobre de sua terra ancestral, ele é forçado a confiar em suas novas habilidades. Mas, ao fazer isso, ameaça descobrir um terrível segredo que sua família há muito mantém enterrado. Uma nova era se aproxima. Os djinns se reúnem dentro das paredes de bronze de Daevabad para comemorar, mas um poder invisível do desolado norte trará uma tempestade de fogo direto para os portões da cidade. Conseguirão sobreviver a esta ameaça sem precedentes?" },
+        nome: "O Reino de Cobre" },
 
       { url:"https://m.media-amazon.com/images/I/51au1GrT09L._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "O Império de Ouro",
-        sinopse: "Após a tomada brutal que drenou a cidade de toda sua magia, Banu Manizheh, líder dos Nahid, e seu comandante ressurgido, Dara, precisam tentar reparar sua aliança desgastada e estabilizar um povo rebelde e em conflito. Mas o sangrento massacre e a perda de Nahri desencadearam os piores fantasmas do passado obscuro de Dara. Para vencê-los, ele precisa encarar verdades difíceis sobre sua própria história e se colocar à mercê daqueles que considerava inimigos. Tendo escapado por pouco de suas famílias assassinas e das políticas mortais de Daevabad, Nahri e Ali, agora seguros no Cairo, devem lidar com as suas escolhas. Nahri encontra paz nos velhos ritmos de sua casa humana, mas é assombrada pela ideia de que aqueles que abandonou estão à mercê de um novo tirano. Ali também não consegue evitar olhar para trás e o início de uma nova jornada pode ameaçar não só sua relação com Nahri, mas sua própria fé. À medida que a paz se torna cada vez mais ilusória e velhos conhecidos ressurgem, o capítulo final dessa jornada se aproxima. Para reconstruir o mundo, talvez seja necessário lutar contra aqueles que um dia você amou… e defender a todo custo aqueles que você feriu." }
+        nome: "O Império de Ouro" }
     ]
   },
   {
     nome: "Sabaa Tahir",
+    bandeira:"assets/images/bandeiras/reinounido.png",
     imagens: [
       { url:"https://m.media-amazon.com/images/I/81PmnSgOxfL._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma chama entre as cinzas",
-        sinopse: "Uma história épica e eletrizante sobre liberdade, coragem e esperança Laia é uma escrava. Elias é um soldado. Nenhum dos dois é livre. No Império Marcial, a resposta para o desacato é a morte. Aqueles que não dão o próprio sangue pelo imperador arriscam perder as pessoas que amam e tudo que lhes é mais caro. É neste mundo brutal que Laia vive com os avós e o irmão mais velho. Eles não desafiam o Império, pois já viram o que acontece com quem se atreve a isso. Mas, quando o irmão de Laia é preso acusado de traição, ela é forçada a tomar uma atitude. Em troca da ajuda de rebeldes que prometem resgatar seu irmão, ela vai arriscar a própria vida para agir como espiã dentro da academia militar do Império. Ali, Laia conhece Elias, o melhor soldado da academia — e, secretamente, o mais relutante. O que Elias mais quer é se libertar da tirania que vem sendo treinado para aplicar. Logo ele e Laia percebem que a vida de ambos está interligada — e que suas escolhas podem mudar para sempre o destino do próprio Império." },
+        nome: "Uma chama entre as cinzas" },
 
       { url:"https://m.media-amazon.com/images/I/51Pff04vPHL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Uma tocha na escuridão",
-        sinopse: "Laia e Elias estão em fuga, lutando pela vida. Após os eventos da quarta Eliminatória, os soldados marciais saem à caça dos dois enquanto eles escapam de Serra e partem em uma arriscada jornada pelo coração do Império. Laia está determinada a invadir Kauf, a prisão mais segura e perigosa do Império, para salvar seu irmão. E Elias está determinado a ficar ao lado dela — mesmo que isso signifique abrir mão da própria liberdade. Eles terão de lutar a cada passo do caminho se quiserem derrotar seus inimigos: o sanguinário imperador Marcus, a cruel comandante, o sádico diretor de Kauf e, o mais doloroso de todos, Helene — a ex-melhor amiga de Elias e nova Águia de Sangue do Império. A missão de Helene é terrível, porém clara: encontrar Elias Veturius e a escrava erudita que o ajudou a escapar... E acabar com os dois. Mas como matar alguém que você ama desesperadamente?" },
+        nome: "Uma tocha na escuridão" },
 
       { url:"https://m.media-amazon.com/images/I/51zTo6vNEdL._SY445_SX342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um assassino nos portões",
-        sinopse: "Dentro e fora do Império Marcial, a ameaça de guerra é cada vez maior... Helene Aquilla, a Águia de Sangue, está sendo atacada de todos os lados. Enquanto procura uma maneira de conter a escuridão que se aproxima, a vida de sua irmã — assim como a de todos os cidadãos — corre risco. Assombrado pelo passado, o imperador Marcus se torna cada vez mais instável e violento, e a comandante Keris Veturia aproveita a loucura dele para aumentar o próprio poder, deixando uma carnificina em seu caminho. Longe do Império, Laia de Serra sabe que o destino do mundo não depende das conspirações da corte marcial, e sim de alguém que consiga deter o Portador da Noite. Mas, enquanto procura um jeito de derrubá-lo, Laia enfrenta ameaças inesperadas e é atraída para uma batalha que nunca imaginou que precisaria lutar. Enquanto isso, na terra entre os vivos e os mortos, Elias Veturius abriu mão da liberdade para servir como Apanhador de Almas. Mas, ao fazer isso, se entregou a um poder ancestral disposto a qualquer coisa para garantir sua devoção — mesmo que isso signifique abandonar a mulher que ele ama. Um assassino nos portões vai deixar os leitores implorando pelo desfecho desta série ágil e cheia de reviravoltas arrepiantes." },
+        nome: "Um assassino nos portões" },
 
       { url:"https://m.media-amazon.com/images/I/81VFvywpUqS._SY342_.jpg",
         colecao: "Coleção 1",
-        nome: "Um céu além da tempestade",
-        sinopse: "Em Um céu além da tempestade, após ficarem mil anos aprisionados, os djinns partem para o ataque, dizimando vilarejos e cidades. Mas, para o Portador da Noite, a vingança contra os humanos é apenas o começo. Ao seu lado, Keris Veturia se declara imperatriz e ameaça de morte todos aqueles que a desafiarem. No topo da lista estão a Águia de Sangue e o que resta de sua família. Laia de Serra, agora aliada da Águia de Sangue, luta para se recuperar da perda das duas pessoas mais importantes de sua vida. Determinada a impedir o apocalipse que se aproxima, ela se lança à destruição do Portador da Noite. No processo, desperta um poder ancestral que pode levá-la à vitória — ou a uma tragédia inimaginável. E, nas profundezas do Lugar de Espera, o Apanhador de Almas busca apenas esquecer a vida — e o amor — que deixou para trás. No entanto, fazer isso significa ignorar a trilha de assassinatos deixada pelo Portador da Noite e seus djinns. Para manter seu juramento e proteger o mundo humano do sobrenatural, o Apanhador de Almas deve olhar para além das fronteiras de sua terra. E assumir uma missão que pode salvar — ou destruir — tudo o que ele conhece." }
+        nome: "Um céu além da tempestade" }
     ]
   },
   {
