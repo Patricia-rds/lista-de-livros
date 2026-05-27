@@ -4769,11 +4769,11 @@ export const autores = [
     ]
   },
   {
-    nome:"",
-    bandeira:"assets/images/bandeiras/brasil.png",
+    nome:"Riley Sager",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
     imagens: [
-      { url:"",
-        nome:"" }
+      { url:"https://m.media-amazon.com/images/I/815bfY-u6-L._SY466_.jpg",
+        nome:"O massacre da família Hope" }
     ]
   },
   {
@@ -4818,6 +4818,19 @@ export const autores = [
       { url:"https://m.media-amazon.com/images/I/51au1GrT09L._SY445_SX342_.jpg",
         colecao: "Coleção 1",
         nome: "O Império de Ouro" }
+    ]
+  },
+  {
+    nome: "S. F. Williamson",
+    bandeira:"assets/images/bandeiras/estadosunidos.png",
+    imagens: [
+      { url:"https://m.media-amazon.com/images/I/91TB5uovlJL._SY425_.jpg",
+        colecao: "Coleção 1",
+        nome: "A linguagem dos dragões" },
+
+      { url:"https://m.media-amazon.com/images/I/91o-9tYj7XL._SY425_.jpg",
+        colecao: "Coleção 1",
+        nome: "A guerra dos dragões" }
     ]
   },
   {
